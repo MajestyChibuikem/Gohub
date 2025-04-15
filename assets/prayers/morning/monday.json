@@ -1,0 +1,94 @@
+{
+    "title": "Monday Morning Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "And of the Son and of the Holy Spirit- Amen.",
+      "leader2": "Come, O Holy Spirit, fill the hearts of the faithful",
+      "all2": "And ekendle in them the fire of the lord..",
+      "leader3": "Holy Spirit",
+      "all3": "enlighten and sanctify us.",
+      "leader4": "Let us place ourselves in the presence of God and humblyadore him,",
+      "all4": "Most holy and adorable Trinity, One God in Three Divine persons, I believe that you are here present. I adore you with the deepest humility, and with all my heart offer you the homage due to your sovereign majesty. Amen."
+    },
+    "hymn": "Hymn",
+    "antiphon": "In the morning, Lord, you fill us with your Love.",
+    "psalms": [
+      {
+        "title": "PSALM 52-10, 12",
+        "verses": [
+          "To my, words give ear, O Lord, Give heed to my groaning",
+          "Attend to the sound of my cries, My King and my God",
+          "It is you whom I invoke, O Lord In the morning you hear me;",
+          "In the morning I offer you my prayer. Watching and waiting.",
+          "You are no God who loves evil; No sinner is your guest.",
+          "The boastful shall not stand their ground Before your face.",
+          "You hate all who do evil; You destroy all who lie.",
+          "The deceitful and bloodthirsty man The Lord detests.",
+          "But I through the greatness of your love Have access to your house.",
+          "I bow down before your holy temple, Filled with awe.",
+          "Lead me, Lord, in your justice, Because of those who lie in wait; Make clear your way before me.",
+          "No truth can be found in their mouths, Their heart is all mischief,",
+          "Their throat a wide-open grave. All honey their speech.",
+          "All those you protect shall be glad And ring out their joy.",
+          "You shelter them; in you they rejoice. Those who love your name.",
+          "It is you who bless the just man, Lord; You surround him with favour as with a shield."
+        ]
+      },
+      {
+        "title": "PSALM 28(29)",
+        "verses": [
+          "O give the Lord you sons of God, give the Lord glory and power;",
+          "give the Lord the glory of his name. Adore the Lord in his holy court.",
+          "The Lord's voice resounding on the waters, the Lord on the immensity of waters;",
+          "the voice of the Lord, full of power, the voice of the Lord, full of splendor.",
+          "The Lord's voice shattering the cedars, the Lord shatters the cedars of Lebanon;",
+          "he makes Lebanon leap like a calf and sirion like a young wild-ox.",
+          "The Lord's voice shaking the wilderness, the Lord shakes the wilderness of Kadesh;",
+          "the Lord's voice rending the oak tree and stripping the forest bare.",
+          "The God of glory thunders. In his temple they all cry: 'Glory!",
+          "The Lord sat enthroned over the flood; the Lord sits as king for ever.",
+          "The Lord will give strength to his people, The Lord will bless his people with peace."
+        ]
+      }
+    ],
+    "reading": "The reading of the day",
+    "intercessions": [
+      {
+        "text": "Christ has given us all a share in his priesthood. We offer our prayers and ourselves in union with him.",
+        "response": "LORD ACCEPT OUR LOVE AND SERVICE"
+      },
+      {
+        "text": "Jesus Christ, you are the eternal priest; make this mornings offering acceptable to the Father.",
+        "response": "LORD ACCEPT OUR LOVE AND SERVICE"
+      },
+      {
+        "text": "Lord, you are love itself, grant that we may love you.",
+        "response": "LORD ACCEPT OUR LOVE AND SERVICE"
+      },
+      {
+        "text": "Give us today the fruits of the Holy Spirit; make us patient, kind and gentle.",
+        "response": "LORD ACCEPT OUR LOVE AND SERVICE"
+      },
+      {
+        "text": "Give us the discermment to know the needs of our neighbours, and give us the courage to love them as brothers and sisters.",
+        "response": "LORD ACCEPT OUR LOVE AND SERVICE"
+      }
+    ],
+    "concluding_prayer": "Lord, be the beginning and end of all that we do and say. Prompt our actions with your grace, and complete them with your all powerful help. We make our prayer through Christ our Lord.",
+    "closing": {
+      "leader": "Let us thank God for his gifts and offer ourselves to Him.",
+      "all": "Omy God, I most humbly thank you.",
+      "leader2": "Let us resolve to do good.",
+      "all2": "Adorable Jesus, Divine Model of the perfection to which we should aspire.",
+      "leader3": "Our Father...",
+      "all3": "Who art in heaven…..",
+      "leader4": "Hail Mary",
+      "all4": "Full of grace.",
+      "leader5": "I believe in God,",
+      "all5": "The Father Almighty, Creator of heaven and earth....",
+      "leader6": "O Angel of God...",
+      "all6": "My guardian dear….",
+      "all7": "St. Joseph, Holy Apostles, and all our Patron Saints, be our safeguard. Pray for us that we may serve God faithfully in this life and glorify him forever with you in heaven. Amen.",
+      "all8": "Merciful Father, we entrust to your loving care our parents, brothers and sisters, our guardians, friends and teachers; our cooks, typists, cleaners and all. Defend our community from all harm and graciously, protect from the snares of the evil one those who here present themselves before you through Christ our Lord. Amen."
+    }
+  }

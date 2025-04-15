@@ -1,0 +1,126 @@
+{
+    "title": "Sunday Evening Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "and of the Son and of the Holy Spirit --Amen.",
+      "leader2": "O God come to our aid",
+      "all2": "O Lord make haste to help us. Dear brothers and sisters in Christ, as the day draws to an end we come into the presence of the Lord to thank Him for the good things that He has given us this day. At the same time we know only too well that we have sinned against God. Let us recall our sins and beg Him for pardon and strength to do His will.",
+      "confession": {
+        "leader": "I confess to Almighty God",
+        "all": "And to you my brothers and sisters, That I have greatly sinned, In my thoughts and in my words In what I have done and in what I have failed to do. (And, strike their breast saying)Through my fault, through my fault, through my most grievous fault; Therefore I ask blessed Mary ever-virgin, all the Angel and saints, and you, my brothers and sisters, to pray for me to the lord our God.",
+        "absolution": "May Almighty God have mercy on us, forgive us our sins and bring us to life everlasting."
+      }
+    },
+    "antiphon": "The Lord is full of merciful love; he makes us remember his wonders.",
+    "psalms": [
+      {
+        "title": "Psalm 110(111)",
+        "verses": [
+          "I will thank the Lord with all my heart",
+          "In the meeting of the just and their assembly.",
+          "Great are the works of the Lord;",
+          "To be pondered by all who love them.",
+          "Majestic and glorious his works,",
+          "His justice stands firm forever.",
+          "He makes us remember his wonders.",
+          "The Lord is compassion and love.",
+          "He gives food to those who fear him;",
+          "Keeps his covenant ever in mind.",
+          "He has shown his might to his people",
+          "By giving them the lands of the nations",
+          "His works are justice and truth:",
+          "His precepts are all of them sure,",
+          "Standing firm forever and ever:",
+          "They are made in uprightness and truth.",
+          "He has sent deliverance to his people",
+          "And established his covenant for ever",
+          "Holy his name to be feared.",
+          "To fear the Lord is the first stage of wisdom;",
+          "All who do so prove themselves wise.",
+          "His praise shall last forever."
+        ]
+      },
+      {
+        "title": "Psalm 44(45)",
+        "verses": [
+          "My heart overflows with noble words.",
+          "To the king I must speak the song I have made;",
+          "my tongue as nimble as the pen of a scribe.",
+          "You are the fairest of the children of men.",
+          "and graciousness is poured upon your lips;",
+          "because God has blessed you for evermore.",
+          "O mighty one, gird your sword upon your thigh.",
+          "in splendor and state, ride on in triumph",
+          "for the cause of truth and goodness and right.",
+          "Take aim with your bow in your dread right hand;",
+          "Your arrows are sharp: people fall beneath you.",
+          "The foes of the king fall down and lose heart.",
+          "Your throne, O God, shall endure for ever.",
+          "A scepter of justice is the scepter of your kingdom.",
+          "Your love is for justice; your hatred for evil.",
+          "Therefore God, your God, has anointed you.",
+          "With the oil of gladness above other kings:",
+          "Your robes are fragrant with aloes and myrrh.",
+          "From the ivory palace you are greeted with music.",
+          "The daughters of kings are among your loved ones.",
+          "On your right stands the queen in gold of Ophir."
+        ]
+      }
+    ],
+    "reading": "The reading of the day follows.",
+    "lords_prayer": "Our Father",
+    "intercessions": [
+      {
+        "text": "Christ our lord is mindful of all who need him, and does great things for love of them. Let us not be afraid to ask him for all our needs.",
+        "response": "SHOW US YOUR LOVING KINDNESS"
+      },
+      {
+        "text": "Lord, we know that the good things we have received today have come as a gift from you; may we receive them with thankfulness and learn how to give.",
+        "response": "SHOW US YOUR LOVING KINDNESS"
+      },
+      {
+        "text": "Saviour and light of all people, keep missionaries in your special care; may the light of your spirit burn strongly in them.",
+        "response": "SHOW US YOUR LOVING KINDNESS"
+      },
+      {
+        "text": "Grant that the world may be filled with the knowledge of your truth; help us to carry out all you have called us to do.",
+        "response": "SHOW US YOUR LOVING KINDNESS"
+      },
+      {
+        "text": "You healed the sickness and pain of your brothers; bring healing and comfort to the spirit of man.",
+        "response": "SHOW US YOUR LOVING KINDNESS"
+      },
+      {
+        "text": "Through the resurrection of your Son, the world is filled with light; through the gift of your spirit, the disciples remembered all that Jesus taught them; pour out your Spirit on the Church that she may be faithful to that teaching.",
+        "response": "SHOW US YOUR LOVING KINDNESS"
+      },
+      {
+        "text": "Light of all the nations, look upon those who live in darkness; open their hearts to accept you as the one true God.",
+        "response": "SHOW US YOUR LOVING KINDNESS"
+      },
+      {
+        "text": "Give rest to the faithful departed; and bring them to praise you in eternity.",
+        "response": "SHOW US YOUR LOVING KINDNESS"
+      }
+    ],
+    "concluding_prayer": {
+      "text": "Look with compassion upon your children and grant us strength of mind and purity of purpose, that we may live together in unity and work together in peace and concord so that the well-being of all may be promoted and your name, O Lord, will be glorified in all the earth. We ask this through Jesus Christ your Son who lives and reigns with you and the Holy Spirit, God for ever and ever.",
+      "additional_prayers": [
+        "Give O Lord your blessing to our relations, benefactors, friends and all people. Protect all those whom you have given us as guides, both spiritual and temporal. Succour the poor and the afflicted, widows and widowers, orphans and friendless, prisoners and travelers, the sick and the dying, bring back all who have left the Church, enlighten the non-Christians and assist all departed souls. Amen.",
+        "Be with us O Lord throughout this night so that by your strength we may rise at day-break refreshed to serve you. Drive far away from our community all the snares of the enemy. May your Holy Angels be here to guard us. And may your love and blessings be always upon us through Christ our Lord."
+      ],
+      "closing": {
+        "leader": [
+          "Most Sacred Heart of Jesus",
+          "Immaculate Heart of Mary",
+          "All the Angels and Saints"
+        ],
+        "all": [
+          "Have mercy on us",
+          "Pray for us",
+          "Pray for us"
+        ]
+      },
+      "final_prayer": "We fly to your patronage, O Holy Mother of God; despise not our prayers in our necessities: But deliver us from all dangers O ever glorious and Blessed Virgin Mary. Amen"
+    }
+  }

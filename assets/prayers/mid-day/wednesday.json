@@ -1,0 +1,148 @@
+{
+    "title": "Wednesday Midday Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "And of the Son and of the Holy Spirit Amen.",
+      "leader2": "O God come to our aid",
+      "all2": "O Lord make haste to help us.",
+      "leader3": "Glory be to the Father and to the Son and to the Holy Spirit",
+      "all3": "as it was in the beginning, is now, and ever shall be, world without end Amen."
+    },
+    "hymn": {
+      "title": "ETERNAL FATHER, LOVING GOD",
+      "verses": [
+        "Eternal Father, loving God,",
+        "Who made us from the dust of earth,",
+        "Transform us by the Spirit's grace,",
+        "Give value to our little worth.",
+        "Prepare us for that day of days",
+        "When Christ from heaven will come with might",
+        "To call us out of dust again,",
+        "Our bodies glorified in light.",
+        "O Godhead, here untouched, unseen,",
+        "All things created bear your trace;",
+        "The seed of glory sown in man",
+        "Will flower when we see your face."
+      ]
+    },
+    "antiphon": "Blessed are you, O Lord: teach me your commands",
+    "psalms": [
+      {
+        "title": "Psalm 118 (119)",
+        "verses": [
+          "How shall the young remain sinless?",
+          "By obeying your word.",
+          "I have sought you with all my heart:",
+          "let me not stray from your commands.",
+          "I treasure your promise in my heart",
+          "lest I sin against you.",
+          "Blessed are you, O Lord;",
+          "teach me your commands.",
+          "With my tongue I have recounted",
+          "the decrees of your lips.",
+          "I rejoiced to do your will",
+          "as though all riches were mine.",
+          "I will ponder all your precepts",
+          "and consider your paths.",
+          "I take delight in your commands;",
+          "I will not forget your word."
+        ]
+      },
+      {
+        "title": "Psalm 53(54)",
+        "subtitle": "Cry for God's help",
+        "verses": [
+          "O God, save me by your namne;",
+          "By your power, uphold my cause,",
+          "O God hear my prayer,",
+          "Listen to the words of my mouth",
+          "For proud men have risen against me,",
+          "Ruthless men seek my life.",
+          "They have no regard for God.",
+          "But God is my helper.",
+          "The Lord is my defender",
+          "May God use their own evil",
+          "to punish my enemies",
+          "He will destroy them because he is faithful.",
+          "I will gladly offer you a sacrifice, O Lord;",
+          "I will give you thanks because you are good",
+          "You have rescued me from all my trouble,",
+          "and I have seen my enemies defeated."
+        ]
+      }
+    ],
+    "reading": "The Reading of the Day",
+    "intercessions": [
+      {
+        "text": "Father, we praise you for your Son, our Lord Jesus Christ; through the Holy Spirit he offered himself in sacrifice to you that we might be delivered from death and selfishness and be free to live in your peace.",
+        "response": "FATHER, IN YOUR WILL IS OUR PEACE"
+      },
+      {
+        "text": "We accept this new day as your gift; Lord grant that we may live in newness of life.",
+        "response": "FATHER, IN YOUR WILL IS OUR PEACE"
+      },
+      {
+        "text": "You made all thing, and keep all things in being; give us the insight to see your hand at work in them all.",
+        "response": "FATHER, IN YOUR WILL IS OUR PEACE"
+      },
+      {
+        "text": "Your Son sealed the new and everlasting covenant in his blood; help us to live by his covenant and honour it",
+        "response": "FATHER, IN YOUR WILL IS OUR PEACE"
+      },
+      {
+        "text": "As Jesus died on the cross, blood and water flowed from his side; as we share in the Eucharist, pour out your spirit upon us.",
+        "response": "FATHER, IN YOUR WILL IS OUR PEACE"
+      },
+      {
+        "text": "Christ comforted the widow who had lost her only son; let us pray to him, who will come at the Last to wipe away every tear from our eyes.",
+        "response": "FATHER, IN YOUR WILL IS OUR PEACE"
+      },
+      {
+        "text": "Lord Jesus, you consoled especially the poor and troubled; look with mercy on those in any kind of need.",
+        "response": "FATHER, IN YOUR WILL IS OUR PEACE"
+      },
+      {
+        "text": "Let all exiles know your care for them; may they find their homelands once more, and come one day in joy to the Father's house.",
+        "response": "FATHER, IN YOUR WILL IS OUR PEACE"
+      },
+      {
+        "text": "Look in love on all whose sins have separated them from you; reconcile them to yourself and to your Church.",
+        "response": "FATHER, IN YOUR WILL IS OUR PEACE"
+      },
+      {
+        "text": "The angel brought you the Father's comfort on the eve of your passion; we pray that your comfort may strengthen those who are dying.",
+        "response": "FATHER, IN YOUR WILL IS OUR PEACE"
+      }
+    ],
+    "special_prayers": [
+      {
+        "title": "Prayer for Nigeria in Distress",
+        "content": [
+          "All powerful and merciful father, you are the God of justice, love and peace, you rule over all the nations of the earth. Power and might are in your hands and no one can withstand you. We present our country Nigeria before you. We praise and thank you for you are the source of all we have and are. We are sorry for all the sins we have committed and for the good deeds we have failed to do. In your loving forgiveness, keep us safe from the punishment we deserve.",
+          "Lord, we are weighed down not only by uncertainties, but also by moral, economic and political problems. Listen to the cries of your people who confidently turn to you. God of infinite goodness, our strength in adversity, our health in weakness, our comfort in sorrow, be merciful to us your people. Spare this nation Nigeria from chaos, anarchy and doom.",
+          "Bless us with your kingdom of justice, love and peace. We ask this through Jesus Christ our Lord. Amen."
+        ]
+      },
+      {
+        "title": "Godfrey Okoye University Prayer",
+        "content": [
+          "God our Father, all knowledege, wisdom and truth come from you. you are the Creator of the entire universe with all its beauty and richness. Out of your infinite love you created human beings and endowed them with unfathomable ability to explore, discover, care for the earth, glorify your name and expand your kingdom of justice, love and peace. We your beloved children praise and thank you!",
+          "In your wisdom you established Go University to shine in the world as God's own university. It is a precious gift from you to the Church in Enugu Diocese, existing to serve humanity and the universal Church. We your beloved children praise and thank you!",
+          "Lord Jesus christ, you called us members of the Go University Family to share and promote your mission of salvation of the world; to be a reincarnation of intellectual vitality; to champion love and friendship; to excel in intercultural thinking and remain sound in moral and religious dialogue. We your beloved children praise and thank you!",
+          "Lord, lead us to remain ever committed to the unity of knowledge and always ask: Where is the evidence? You established Go university to be an instiution with footprints of a great achiever, the heartbeat of excellence and lavishly endowed in science and arts. We your beloved Children praise and thank you!",
+          "Holy Spirit, guide and direct the management and members of staff to be steadfast in the pursuit of the set goals and values of the university. Ebable them, by your powerful protection, to discharge thier duties with honesty, dedication and love. Instill in the students the Zeal to excel in the quest for knowledge animated by truth. Holy spirit, strengthen and establish in our university a culture od sound teaching, research, peace, service, and love. We make our prayer through Christ Our Lord Amen!"
+        ]
+      }
+    ],
+    "concluding_prayer": {
+      "text": "Father, Look with love on your people and pour out upon us the gift of your spirit. May they constantly grow in the love of truth. May they study and work together for perfect unity among Christians. We make our prayer through Christ our Lord.",
+      "closing": {
+        "all": "Protect O Lord all those whom you have given us as guides, both spiritual and temporal. Enlighten our minds and inspire us to learn well for your greater glory and honor and may your love and blessings be always upon us through Christ our Lord. Amen",
+        "all2": "In the name of the Father and of the Son and of the Holy Spirit. Amen"
+      }
+    },
+    "attendance_button": {
+      "text": "Attendance",
+      "link": "../attendance.php"
+    }
+  }

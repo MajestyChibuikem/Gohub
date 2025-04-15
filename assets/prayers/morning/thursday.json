@@ -1,0 +1,83 @@
+{
+    "title": "Thursday Morning Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "And of the Son and of the Holy Spirit- Amen.",
+      "leader2": "Come, O Holy Spirit.",
+      "leader3": "Let us place ourselves in the presence of God and humbly adore him,",
+      "all3": "Most holy and adorable Trinity, One God in Three Divine persons, I believe that you are here present. I adore you with the deepest humility, and with all my heart offer you the homage due to your sovereign majesty. Amen."
+    },
+    "antiphon": "The Lord has done marvelous things, let them be madeknown to the whole world.",
+    "psalms": [
+      {
+        "title": "PSALM 146(147)",
+        "verses": [
+          "Praise the Lord for he is good; Sing to our God for he is loving: To him our praise is due.",
+          "The Lord builds up Jerusalem And brings back Israel's exiles,",
+          "He heals the broken-hearted, He binds up all their wounds.",
+          "He fixes the number of the stars; He calls each one by its name.",
+          "Our Lord is great and almighty; His wisdom can never be measured.",
+          "The Lord raises the lowly; He humbles the wicked to the dust.",
+          "O sing to the Lord, giving thanks; Sing psalms to our God with the harp.",
+          "He coverS the heavens with clouds; He prepares the rain for the earth,",
+          "Making mountains sprout with grass And with plants to serve man's needs.",
+          "He provides the beasts with their food And young ravens that call upon him.",
+          "His delight is not in horses Nor his pleasure in warriors strength.",
+          "The Lord delights in those who revere him, In those who wait for his love."
+        ]
+      },
+      {
+        "title": "PSALM 56(57)",
+        "subtitle": "This psalm celebrates the passion of Christ (St Augustine)",
+        "verses": [
+          "Have mercy on me, God, have mercy for in my soul has taken refuge.",
+          "In the shadow of your wings I take refuge till the storms of destruction pass by.",
+          "I call to God the Most High, to God who has always been my help.",
+          "May he send from heaven and save and shame those who assail me.",
+          "May God send his truth and his love",
+          "My soul lies down among lions, who would devour the sons of men.",
+          "Their teeth are spears and arrows, their tongue a sharpened Sword.",
+          "O God, arise above the heavens; May your glory shine on earth!",
+          "They laid a snare for my steps, my soul was bowed down.",
+          "They dug a pit in my path but fell in it themselves.",
+          "My heart is ready, O God, My heart is ready. I will sing, I will sing your praise.",
+          "Awake my soul, awake lyre and harp, I will awake the dawn.",
+          "I will thank you Lord among the people, among the nations I will praise you",
+          "for your love reaches to the heavens and your truth to the skies.",
+          "O God, arise above the heavens; May your glory shine on earth!"
+        ]
+      }
+    ],
+    "reading": "Reading",
+    "intercessions": [
+      {
+        "text": "Let us begin this new day with Christ, thanking him for all he has brought to us, and asking him to bless us.",
+        "response": "LORD, ACCEPT AND BLESS OUR WORK TODAY."
+      },
+      {
+        "text": "You offered yourself to the father on our behalf; join our offering with yours.",
+        "response": "LORD, ACCEPT AND BLESS OUR WORK TODAY."
+      },
+      {
+        "text": "You are gentle and humble of heart; teach us to receive others as you did.",
+        "response": "LORD, ACCEPT AND BLESS OUR WORK TODAY."
+      },
+      {
+        "text": "As each day begins, may your light rise in our hearts; may it shine forth in charity to the world.",
+        "response": "LORD, ACCEPT AND BLESS OUR WORK TODAY."
+      },
+      {
+        "text": "Show your mercy to those who are sick; may each new day increase their trust in you.",
+        "response": "LORD, ACCEPT AND BLESS OUR WORK TODAY."
+      }
+    ],
+    "concluding_prayer": "Almighty ever-living God, we make our prayer to you at morning, noon and evening: dispel from our hearts the darkness of sin, and bring us to the true light, Christ your Son, who lives and reigns with you and the Holy Spirit, God, for ever and ever.",
+    "closing": {
+      "leader": "Let us thank God for his gifts and offer ourselves to Him.",
+      "all": "O my God, I most humbly thank you for all the favours",
+      "leader2": "Let us resolve to do good.",
+      "all2": "Adorable Jesus, Divine Model of the perfection.",
+      "leader3": "O Angel of God…. St. Joseph, Holy Apostles, and all our Patron Saints, be our safeguard. Pray for us that we may serve God faithfully in this life and glorify him forever with you in heaven. Amen.",
+      "all3": "Merciful Father, we finally entrust to your loving care our parents, brothers and sisters, our guardians, friends and teachers; our cooks, typists, cleaners and all. Defend our community from all harm and graciously protect from the snares of the evil one those who here present themselves before you through Christ our Lord. Amen."
+    }
+  }

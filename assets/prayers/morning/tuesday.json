@@ -1,0 +1,84 @@
+{
+    "title": "Tuesday Morning Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "And of the Son and of the Holy Spirit Amen.",
+      "leader2": "Come, O Holy Spirit, fill the hearts of the faithful, ……",
+      "leader3": "Holy Spirit",
+      "all3": "enlighten and sanctify us.",
+      "leader4": "Let us place ourselves in the presence of God and humbly adore him,",
+      "all4": "Most holy and adorable Trinity, One God in Three Divine persons, I believe that you are here present. I adore you with the deepest humility, and with all my heart offer you the homage due to your sovereign majesty. Amen."
+    },
+    "hymn": "Hymn",
+    "antiphon": "Lord, come to our help all the days of our life.",
+    "psalms": [
+      {
+        "title": "DAN. 3:3, 4, 6, 11-18",
+        "verses": [
+          "Blessed are you, O Lord, God of our Fathers, And worthy of praise,",
+          "And your name is glorified forever.",
+          "You are just In all that you have done to us,",
+          "For we have sinned And lawlessly departed from you, And have sinned in all things.",
+          "Do not withdraw your mercy from us, For the sake of Abraham your beloved,",
+          "And for the sake of Isaac your servant And Israel your holy one, to whom you promised",
+          "To make their descendants as many as the stars of heaven And as the sand on the shore of the sea.",
+          "For we, O Lord, have become fewer than any nation,",
+          "And are brought low this day in the entire world Because of our sins:",
+          "And at this time there is no prince or prophet, or leader,",
+          "No burnt offering, or sacrifice, or oblatjon or incense,",
+          "No place to make an offering before you or to find mercy.",
+          "Yet with a contrite heart and a humble spirit May we be accepted,",
+          "As though it were with burnt offerings of rams and bulls And with tens of thousands of fat lambs.",
+          "Such may our sacrifice be in your sight this day, And may we wholly follow you,",
+          "For there will be no shame For those who trust in you.",
+          "And now with all our heart we follow you, We fear you and seek your face."
+        ]
+      },
+      {
+        "title": "Psalm 92(93)",
+        "subtitle": "Praise of God, King of the World",
+        "verses": [
+          "The Lord is Killing, with majesty enrobed; the Lord has robed himself with might,",
+          "he as girded himself with power.",
+          "The world you made firm, not to be moved; Your throne has stood firm from of old",
+          "From all eternity, O Lord, you are.",
+          "The water have lifted up, O Lord, the waters have lifted up their voice,",
+          "the waters have lifted up their thunder.",
+          "Greater than the roar of mighty waters, more glorious than the surgings of the sea,",
+          "the Lord is glorious on high.",
+          "Truly all of your decrees are to be trusted. Holiness is fitting to your house.",
+          "O Lord, until the end of time."
+        ]
+      }
+    ],
+    "reading": "The reading of the day",
+    "intercessions": [
+      {
+        "text": "As Christians called to share the life of God, let us praise the Lord Jesus, the high priest of our faith.",
+        "response": "YOU ARE OUR SAVIOUR AND OUR GOD"
+      },
+      {
+        "text": "Almighty King, you have baptized us , and made us a royal priesthood; may we offer you a constant sacrifice of praise.",
+        "response": "YOU ARE OUR SAVIOUR AND OUR GOD"
+      },
+      {
+        "text": "Help us to keep your commandments; so that through your Holy Spirit we may dwell in you, and you in us.",
+        "response": "YOU ARE OUR SAVIOUR AND OUR GOD"
+      },
+      {
+        "text": "Everlasting wisdom, come to us; dwell with us and work in us.",
+        "response": "YOU ARE OUR SAVIOUR AND OUR GOD"
+      },
+      {
+        "text": "Help us to be considerate and kind; grant that we may bring joy, not pain, to those we meet.",
+        "response": "YOU ARE OUR SAVIOUR AND OUR GOD"
+      }
+    ],
+    "concluding_prayer": "God our Father, you bring many nations together to unite in praising your name. Make us able to do what you ask. May the people you call to your kingdom be one in faith and love. We ask this through our Lord Jesus Christ, your Son, who lives and reigns with you and the Holy Spirit, One God, for ever and ever.",
+    "closing": {
+      "leader": "Let us thank God for his gifts and offer ourselves to Him.",
+      "all": "O my God, I most humbly thank you for all the favors",
+      "leader2": "Let us resolve to do good.",
+      "all2": "Adorable Jesus, Divine Model of the perfection..."
+    }
+  }

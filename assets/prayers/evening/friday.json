@@ -1,0 +1,112 @@
+{
+    "title": "Friday Evening Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "and of the Son and of the Holy Spirit Amen.",
+      "leader2": "O God come to our aid",
+      "all2": "O Lord make haste to help us.",
+      "leader3": "Dear brothers and sisters in Christ, as the day draws to an end we come into the presence of the Lord to thank Him for the good things that He has given us this day. At the same time we know only too well that we have sinned against God. Let us recall our sins and beg Him for pardon and strenght to do His will.",
+      "confession": {
+        "leader": "I confess to Almighty God",
+        "all": "And to you my brothers and sisters,.",
+        "absolution": "May Almighty God have mercy on us, forgive us our sins and bring us to life everlasting."
+      }
+    },
+    "hymn": "Hymn",
+    "antiphon": "Lord, keep my soul from death, my feet from stumbling",
+    "psalms": [
+      {
+        "title": "Psalm 115(116)",
+        "verses": [
+          "I love the Lord for he has heard*",
+          "The cry of my appeal;",
+          "For he turned his ear to me*",
+          "In the day when I called him.",
+          "They surround me, the snares of death,",
+          "With the anguish of the tomb;*",
+          "They caught me, sorrow and distress,",
+          "I called on the Lord's name.*",
+          "O Lord nmy God deliver me!",
+          "How gracious is the Lord, and just;*",
+          "Our God has compassion.",
+          "The Lord, protects the simple hearts;",
+          "I was helpless so he saved me.",
+          "Turn back, my soul, to your rest*",
+          "For the Lord has been good",
+          "He has kept my soul, from death,",
+          "My eyes from tears*",
+          "And my feet from stumbling.",
+          "will walk in the presence of the Lord*",
+          "In the land of the living."
+        ]
+      },
+      {
+        "title": "Psalm 150(151)",
+        "subtitle": "Final Summons to Praise",
+        "verses": [
+          "Alleluia",
+          "Praise God in his holy place,",
+          "Praise him in his mighty heavens",
+          "Praise him for his powerful deeds,",
+          "Praise his surpassing greatness.",
+          "O Praise him with sound of trumpet,",
+          "Praise him with flute and harp.",
+          "Praise him with timbrel and dance,",
+          "Praise him with strings and pipes.",
+          "O Praise him with resounding cymbals,",
+          "Praise him with clashing of cymbals.",
+          "Let everything that lives and that breathes",
+          "give praise to the Lord. Alleluia!"
+        ]
+      }
+    ],
+    "reading": "The Reading of the Day",
+    "intercessions": [
+      {
+        "text": "We have a high priest who is able to sympathize with us in our weakness, one who, because of His likeness to us, has been tempted in every way, but did not sin. Let us pray to him.",
+        "response": "SHOW US YOUR MERCY AND COMPASSION"
+      },
+      {
+        "text": "Lord, for the joy which lay in the future, you willingly went to the cross; make us share Your death, that we may also share your joy.",
+        "response": "SHOW US YOUR MERCY AND COMPASSION"
+      },
+      {
+        "text": "Lord, you said \"Let any man who thirsts come to me and drink; give your Spirit now to those who thirst for you.",
+        "response": "SHOW US YOUR MERCY AND COMPASSION"
+      },
+      {
+        "text": "You sent your disciples to preach the gospel to every nation; bless those men and women who devoted their lives to preaching the gospel today.",
+        "response": "SHOW US YOUR MERCY AND COMPASSION"
+      },
+      {
+        "text": "Help those in pain to know that the father cares for them; for he loves them as he loves his own son.",
+        "response": "SHOW US YOUR MERCY AND COMPASSION"
+      },
+      {
+        "text": "Help us to hear the cry, 'T thirst\"; help us to see your Son, even in the least of his brothers.",
+        "response": "SHOW US YOUR MERCY AND COMPASSION"
+      },
+      {
+        "text": "To the man dying with him, Jesus said, \"Truly I Say to yu, this day will be with me in Paradise'; Father, 1let these words be heard again by those who die tonight.",
+        "response": "SHOW US YOUR MERCY AND COMPASSION"
+      },
+      {
+        "text": "We pray for those who have gone before us, signed with the sign of the cros; may they rise with Christ in power when his voice resounds again hrough the universe it is consummated.",
+        "response": "SHOW US YOUR MERCY AND COMPASSION"
+      }
+    ],
+    "lords_prayer": "Our Father",
+    "concluding_prayer": {
+      "text": "Father, In your mysterious providence, vour Church must share in the sufferings of Christ your Son. Give the irit of patience and love to those who are persecuted for their for in you that they may always be true and faithful withnesses to your promise of eternal life. We ask this through our Lord Jesus Christ, your Son, who lives and reigns with you and the Holy Spirit, one God, for ever and ever.",
+      "closing": {
+        "all": [
+          "Give O Lord your blessing to our relations...",
+          "Be with us O Lord throughout this night so that by your strength...",
+          "Most Sacred Heart of Jesus - Have mercy on us",
+          "Immaculate Heart of Mary - Pray for us",
+          "All the Angels and Saints - Pray for us",
+          "We fly to your patronage..."
+        ]
+      }
+    }
+  }

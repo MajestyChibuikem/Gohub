@@ -1,0 +1,191 @@
+{
+    "title": "Saturday Midday Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "And of the Son and of the Holy Spirit Amen.",
+      "leader2": "O God come to our aid",
+      "all2": "O Lord make haste to help us.",
+      "leader3": "Glory be to the Father and to the Son and to the Holy Spirit",
+      "all3": "as it was in the beginning, is now, and ever shall be, world without end Amen."
+    },
+    "hymn": {
+      "title": "LORD GOD AND MAKER OF ALL THINGS",
+      "verses": [
+        "Lord God and Maker of all things,",
+        "Creation is upheld by you.",
+        "While all must change and know decay,",
+        "You are unchanging, always new.",
+        "You are man's solace and his shield.",
+        "His Rock secure on which to build,",
+        "You are the spirit's tranquil home,",
+        "In you alone is hope fulfilled.",
+        "To God the Father and the Son",
+        "And Holy Spirit render praise,",
+        "Blest Trinity, from age to age,",
+        "The strength of all our living days."
+      ]
+    },
+    "antiphon": "Taste and see that the Lord is good",
+    "psalms": [
+      {
+        "title": "Psalm 33 (34)",
+        "verses": [
+          "I will bless the Lord at all times,",
+          "his praise always on my lips;",
+          "in the Lord my soul shall make its boast.",
+          "The humble shall hear and be glad.",
+          "Glorify the Lord with me.",
+          "Together let us praise his name.",
+          "I sought the Lord and he answered me;",
+          "from all my terrors he set me free.",
+          "Look towards him and be radiant;",
+          "let your face not be abashed.",
+          "This poor man called; the Lord heard him",
+          "and rescued him from all his distress.",
+          "The angel of the Lord is encamped",
+          "around those who revere him, to rescue them.",
+          "Taste and see that the Lord is good.",
+          "He is happy who seeks refuge in him.",
+          "Revere the Lord, you his saints.",
+          "They lack nothing, those who revere him.",
+          "Strong lions suffer want and go hungry",
+          "but those who seek the Lord lack no blessing.",
+          "Come, children, and hear me",
+          "that I may teach you the fear of the Lord.",
+          "Who is he who longs for life",
+          "and many days, to enjoy his prosperity?",
+          "Then keep your tongue from evil",
+          "and your lips from speaking deceit.",
+          "Turn aside from evil and do good;",
+          "seek and strive after peace.",
+          "The Lord turns his face against the wicked",
+          "to destroy their remembrance from the earth.",
+          "The Lord turns his eyes to the just",
+          "and his ears to their appeal.",
+          "They call and the Lord hears",
+          "and rescues them in all their distress,",
+          "The Lord is close to the broken-hearted;",
+          "Those whose spirit is crushed he will save.",
+          "Many are the trials of the just man",
+          "but from them all the Lord will rescue him.",
+          "He will keep guard over all his bones,",
+          "not one of his bones shall be broken.",
+          "Evil brings death to the wicked;",
+          "those who hate the good are doomed.",
+          "The Lord ransoms the souls of his servants.",
+          "Those who hide in him shall not be condemned."
+        ]
+      },
+      {
+        "title": "Psalm 100(101)",
+        "subtitle": "A Pattern for Rulers",
+        "verses": [
+          "My song is of mercy and justice;",
+          "I sing to you, O lord.",
+          "I will walk in the way of perfection.",
+          "O when, Lord, will you come?",
+          "I will walk with blameless heart",
+          "within my house",
+          "I will not set before my eyes",
+          "Whatever is base.",
+          "I will hate the ways of the crooked;",
+          "they shall not be my friend",
+          "The false-hearted must keep far away;",
+          "the wicked I disown.",
+          "The man who slanders his neighbor in Secret",
+          "I will bring to silence.",
+          "The man of proud looks and haughty heart",
+          "I will never endure.",
+          "I look to the faithful in the land",
+          "that they may dwell with me",
+          "He who walks in the way of perfection",
+          "shall be my friend.",
+          "No man who practices deceit",
+          "shall live within my house.",
+          "No man who utters lies shall stand",
+          "before my eyes",
+          "Morning by morning I will silence",
+          "all the wicked in the land,",
+          "uprooting from the city of the Lord",
+          "all who do evil."
+        ]
+      }
+    ],
+    "reading": "The Reading of the Day",
+    "intercessions": [
+      {
+        "text": "To the holy God, our savior, through Jesus Christ our Lord, be glory, majesty, dominion, and authority, before all time, now and for ever.",
+        "response": "LORD GIVE US YOUR SPIRIT"
+      },
+      {
+        "text": "We bless you, Lord, creator of the universe, we were sinners, in need of your grace; yet now you have called us to live in knowledge and service of you.",
+        "response": "LORD GIVE US YOUR SPIRIT"
+      },
+      {
+        "text": "Your son has shown us the way; as we follow in his step, may we never wander from the path that leads to life.",
+        "response": "LORD GIVE US YOUR SPIRIT"
+      },
+      {
+        "text": "We celebrate today the resurrection of your Son; in suffering and in gladness, may it bring us deep joy.",
+        "response": "LORD GIVE US YOUR SPIRIT"
+      },
+      {
+        "text": "O Lord, give us the spirit of prayer and praise; let us always and everywhere give you thanks.",
+        "response": "LORD GIVE US YOUR SPIRIT"
+      },
+      {
+        "text": "In the Church, God has made known to us his hidden purpose; to make all things one in Christ. Let us pray that his will may be done.",
+        "response": "LORD GIVE US YOUR SPIRIT"
+      },
+      {
+        "text": "We give you thanks for the presence and power of your Spirit in the Church; give us the will to search for unity, and inspire us to pray and work together.",
+        "response": "LORD GIVE US YOUR SPIRIT"
+      },
+      {
+        "text": "We give you thanks for all whose work proclaims your love; help us to serve the communities in whose life we share.",
+        "response": "LORD GIVE US YOUR SPIRIT"
+      },
+      {
+        "text": "Father, care for all who serve in the Church as ministers of your word and sacraments; may they bring your whole family to the unity for which Christ prayed.",
+        "response": "LORD GIVE US YOUR SPIRIT"
+      },
+      {
+        "text": "Your people have known the ravages of war and hatred; grant that they may know the peace left by your Son.",
+        "response": "LORD GIVE US YOUR SPIRIT"
+      },
+      {
+        "text": "Fulfil the hopes of those who sleep in your peace; bring them to that final resurrection when you will be all in all.",
+        "response": "LORD GIVE US YOUR SPIRIT"
+      }
+    ],
+    "special_prayers": [
+      {
+        "title": "Prayer for Nigeria in Distress",
+        "content": [
+          "All powerful and merciful father, you are the God of justice, love and peace, you rule over all the nations of the earth. Power and might are in your hands and no one can withstand you. We present our country Nigeria before you. We praise and thank you for you are the source of all we have and are. We are sorry for all the sins we have committed and for the good deeds we have failed to do. In your loving forgiveness, keep us safe from the punishment we deserve.",
+          "Lord, we are weighed down not only by uncertainties, but also by moral, economic and political problems. Listen to the cries of your people who confidently turn to you. God of infinite goodness, our strength in adversity, our health in weakness, our comfort in sorrow, be merciful to us your people. Spare this nation Nigeria from chaos, anarchy and doom.",
+          "Bless us with your kingdom of justice, love and peace. We ask this through Jesus Christ our Lord. Amen."
+        ]
+      },
+      {
+        "title": "Godfrey Okoye University Prayer",
+        "content": [
+          "God our Father, all knowledge, wisdom and truth come from you. you are the Creator of the entire universe with all its beauty and richness. Out of your infinite love you created human beings and endowed them with unfathomable ability to explore, discover, care for the earth, glorify your name and expand your kingdom of justice, love and peace. We your beloved children praise and thank you!",
+          "In your wisdom you established Go University to shine in the world as God's own university. It is a precious gift from you to the Church in Enugu Diocese, existing to serve humanity and the universal Church. We your beloved children praise and thank you!",
+          "Lord Jesus christ, you called us members of the Go University Family to share and promote your mission of salvation of the world; to be a reincarnation of intellectual vitality; to champion love and friendship; to excel in intercultural thinking and remain sound in moral and religious dialogue. We your beloved children praise and thank you!",
+          "Lord, lead us to remain ever committed to the unity of knowledge and always ask: Where is the evidence? You established Go university to be an instiution with footprints of a great achiever, the heartbeat of excellence and lavishly endowed in science and arts. We your beloved Children praise and thank you!",
+          "Holy Spirit, guide and direct the management and members of staff to be steadfast in the pursuit of the set goals and values of the university. Enable them, by your powerful protection, to discharge their duties with honesty, dedication and love. Instill in the students the Zeal to excel in the quest for knowledge animated by truth. Holy spirit, strengthen and establish in our university a culture of sound teaching, research, peace, service, and love. We make our prayer through Christ Our Lord Amen!"
+        ]
+      }
+    ],
+    "concluding_prayer": {
+      "text": "Good our Father, Source of unity and love, make your faithful people one in heart and mind that your Church may live in harmony, be steadfast in its profession of faith, and secure in unity. We ask this through our Lord Jesus Christ, your Son, who live and reigns with you and the Holy Spirit, One God, for ever and ever.",
+      "closing": {
+        "all": "Protect O Lord all those whom you have given us as guides, both spiritual and temporal. Enlighten our minds and inspire us to learn well for your greater glory and honor and may your love and blessings be always upon us through Christ our Lord. In the name of the Father and of the Son and of the Holy Spirit. Amen"
+      }
+    },
+    "attendance_button": {
+      "text": "Attendance",
+      "link": "../attendance.php"
+    }
+  }

@@ -1,0 +1,127 @@
+{
+    "title": "Tuesday Evening Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "and of the Son and of the Holy Spirit Amen.",
+      "leader2": "O God come to our aid",
+      "all2": "O Lord make haste to help us.",
+      "leader3": "Dear brothers and sisters in Christ, as the day draws to an end we come into the presence of the Lord to thank Him for the good things that He has given us this day. At the same time we know only too well that we have sinned against God. Let us recall our sins and beg Him for pardon and strength to do His will.",
+      "confession": {
+        "leader": "I confess to Almighty God",
+        "all": "And to you my brothers and sisters,",
+        "absolution": "May Almighty God have mercy on us, forgive us our sins and bring us to life everlasting."
+      }
+    },
+    "antiphon": "You cannot serve both God and wealth.",
+    "psalms": [
+      {
+        "title": "Psalm 48(49)",
+        "verses": [
+          "Hear this, all you peoples,",
+          "Give heed, all who dwell in the world,",
+          "Men both low and high,",
+          "Rich and poor alike!",
+          "My lips will speak words of wisdom.",
+          "My heart is full of insight.",
+          "I will turn my mind to a parable,",
+          "With the harp I will solve my problem.",
+          "Why should I fear in evil days",
+          "The malice of the foes who surround me,",
+          "Men who trust in their wealth,",
+          "And boast of the vastness of their riches?",
+          "For no man can buy his own ransom.",
+          "Or pay a price to God for his life.",
+          "The ransom of his soul is beyond him.",
+          "He cannot buy life without end,",
+          "Nor avoid coming to the grave.",
+          "He knows that wise men and fools must both perish",
+          "And leave their wealth to others",
+          "Their graves are their homes for ever,",
+          "Their dwelling place from age to age,",
+          "Though their names spread wide through the land.",
+          "In his riches, man lacks wisdom:",
+          "He is like the beasts that are destroyed."
+        ]
+      },
+      {
+        "title": "Psalm 129(130)",
+        "subtitle": "Prayer of Repentance and Trust: Sixth Psalm of Repentance",
+        "verses": [
+          "Out of depths I cry to you, O Lord,",
+          "Lord, hear my voice!",
+          "O let your ears be attentive",
+          "to the voice of my pleading.",
+          "If you, O lord, should mark our guilt.",
+          "Lord, who would survive?",
+          "But with you is found forgiveness:",
+          "for this we revere you.",
+          "My soul is waiting for the Lord.",
+          "I count on his word.",
+          "My soul is longing for the Lord",
+          "more than watchmen for daybreak",
+          "Let the watchman count on daybreak",
+          "and Israel on the Lord",
+          "Because with the Lord there is mercy",
+          "and fullness of redemption.",
+          "Israel indeed he will redeem",
+          "from all its iniquity."
+        ]
+      }
+    ],
+    "reading": "The Reading for Today",
+    "intercessions": [
+      {
+        "text": "By shedding his blood for us, Christ gathered together a new people from every Corner of the earth. Let us pray to him.",
+        "response": "CHRIST BE MINDFUL OF YOUR PEOPLE"
+      },
+      {
+        "text": "Christ, our king and redeemer; help us to know your power and your love.",
+        "response": "CHRIST BE MINDFUL OF YOUR PEOPLE"
+      },
+      {
+        "text": "Christ, our hope and courage; sustain us through the day.",
+        "response": "CHRIST BE MINDFUL OF YOUR PEOPLE"
+      },
+      {
+        "text": "Christ, our refuge and strength; fight with us against our weakness.",
+        "response": "CHRIST BE MINDFUL OF YOUR PEOPLE"
+      },
+      {
+        "text": "Christ, our joy and solace; stay with the poor and lonely.",
+        "response": "CHRIST BE MINDFUL OF YOUR PEOPLE"
+      },
+      {
+        "text": "We give you thanks, Lord God; for you have made man rich in all Wisdom and insight.",
+        "response": "CHRIST BE MINDFUL OF YOUR PEOPLE"
+      },
+      {
+        "text": "Lord God, you know the hearts of all rulers; may they work for the good of the people they govern.",
+        "response": "CHRIST BE MINDFUL OF YOUR PEOPLE"
+      },
+      {
+        "text": "Lord, you empower mankind to glorify this world with art; make our work live with vision and true hope.",
+        "response": "CHRIST BE MINDFUL OF YOUR PEOPLE"
+      },
+      {
+        "text": "You do not allow us to be tempted beyond our limits; strengthen the weak, raise up the fallen.",
+        "response": "CHRIST BE MINDFUL OF YOUR PEOPLE"
+      },
+      {
+        "text": "Father, you have promised men a share in your Son's resurrection on the last day; remember those who have gone before us on the path to eternal life.",
+        "response": "CHRIST BE MINDFUL OF YOUR PEOPLE"
+      }
+    ],
+    "lords_prayer": "Our Father.",
+    "concluding_prayer": {
+      "text": "Lord, hear the prayers of your people and bring the hearts of believers together in your praise and in common sorrow for their sins. Heal all divisions among Christians that we may rejoice in the perfect unity of your church and move together as one to eternal life in your kingdom.",
+      "closing": {
+        "all": [
+          "Give O Lord your blessing to our relations...",
+          "Be with us O Lord throughout this night...",
+          "Most Sacred Heart of Jesus - Have mercy on us",
+          "Immaculate Heart of Mary - Pray for us",
+          "All the Angels and Saints - Pray for us"
+        ]
+      }
+    }
+  }

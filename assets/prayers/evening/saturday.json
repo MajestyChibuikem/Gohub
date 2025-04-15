@@ -1,0 +1,120 @@
+{
+    "title": "Saturday Evening Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "And of the Son and of the Holy Spirit - Amen.",
+      "leader2": "O God come to our aid",
+      "all2": "O Lord make haste to help us.",
+      "leader3": "Dear brothers and sisters in Christ, as the day draws to an end we come into the presence of the Lord to thank Him for the good things that He has given us this day. At the same time we know only too well that we have sinned against God. Let us recall our sins and beg Him for pardon and strength to do His will.",
+      "confession": {
+        "leader": "I confess to Almighty God",
+        "all": "And to you my brothers and sisters...",
+        "absolution": "May Almighty God have mercy on us, forgive us our sins and bring us to life everlasting."
+      }
+    },
+    "antiphon": "Let every creature, in heaven and on earth, bend the knee at the name of Jesus.",
+    "scripture": {
+      "title": "PHIL. 2:6-11",
+      "verses": [
+        "Though he was in the form of God,",
+        "Jesus did not count equality with God a thing to be grasped.",
+        "He emptied himself,",
+        "Taking the form of a servant,",
+        "Being born in the likeness of men.",
+        "And being found in human form,",
+        "He humbled himself and became obedient unto death,",
+        "Even death on a cross.",
+        "Therefore God has highly exalted him.",
+        "And bestowed on him the name which is above every name.",
+        "That at the name of Jesus every knee should bow,",
+        "In heaven and on earth and under the earth.",
+        "And every tongue confesses that Jesus Christ is Lord, to the glory of God the Father."
+      ]
+    },
+    "psalms": [
+      {
+        "title": "Psalm 140(141)",
+        "subtitle": "Evening Prayer for Protection",
+        "verses": [
+          "I have called to you; Lord; hasten to help me!",
+          "Hear my voice when I cry to you",
+          "Let my prayer rise before you like incense,",
+          "the raising of my hands like an evening oblation.",
+          "Set, O Lord, a guard over my mouth;",
+          "keep watch, O lord, at the door of my lips!",
+          "Do not turn my heart to things that are wrong,",
+          "to evil deeds with men who are sinners",
+          "Never allow me to share in their feasting.",
+          "If a good man strikes or reproves me it is",
+          "kindness; but let the oil of the wicked not anoint my head.",
+          "Let my prayer be ever against their malice.",
+          "Their princes were thrown down by the side of the rock:",
+          "then they understood that my words were kind.",
+          "As a milestone is shattered to pieces on the ground,",
+          "so their bones were strewn at the mouth of the grave.",
+          "To you, Lord God, my eyes are turned",
+          "in you I take refuge; spare my soul!",
+          "From the trap they have laid for me keep me safe:",
+          "keep me from the snares of those who do evil.",
+          "Let the wicked fail into the trap they have set",
+          "while I pursue my way unharmed."
+        ]
+      }
+    ],
+    "reading": "Reading",
+    "intercessions": [
+      {
+        "text": "Nothing can separate us from the love of Christ, for he promised to be with his Church until the end of time. With confidence in his promise we pray.",
+        "response": "STAY WITH US, LORD JESUS"
+      },
+      {
+        "text": "In all things we are victorious through your love; take us into your care today.",
+        "response": "STAY WITH US, LORD JESUS"
+      },
+      {
+        "text": "Let the love of your Holy Spirit be in our hearts; so that we may consecrate this day to you.",
+        "response": "STAY WITH US, LORD JESUS"
+      },
+      {
+        "text": "Help all Christian to answer your call; may they be salt to the earth, and light to the world.",
+        "response": "STAY WITH US, LORD JESUS"
+      },
+      {
+        "text": "We pray for all those in industry; may they work in harmony for justice and for the good of the whole community.",
+        "response": "STAY WITH US, LORD JESUS"
+      },
+      {
+        "text": "We thank you for the beauty of creation; may the work of man not disfigure it, but enhance it to your greater glory.",
+        "response": "STAY WITH US, LORD JESUS"
+      },
+      {
+        "text": "We thank you, Father, for all the good thing we enjoy; teach us to be grateful and to use them well.",
+        "response": "STAY WITH US, LORD JESUS"
+      },
+      {
+        "text": "Teach us to seek the things that please you; then we shall find you in all that we do.",
+        "response": "STAY WITH US, LORD JESUS"
+      },
+      {
+        "text": "Lord, as we journey towards the promised land, feed us with bread from heaven; quench our thirst with living water.",
+        "response": "STAY WITH US, LORD JESUS"
+      },
+      {
+        "text": "To you, a thousand years are like a single day; take up those who have died with hope in you, and waken them into eternity.",
+        "response": "STAY WITH US, LORD JESUS"
+      }
+    ],
+    "lords_prayer": "Our Father",
+    "concluding_prayer": {
+      "text": "Lord, fill our hearts with the spirit of your charity, that we may please you by our thoughts, and love you in our brothers and sisters. We ask this through our Lord Jesus Christ, your Son, who lives and reigns with you and the Holy Spirit, One God, for ever and ever.",
+      "closing": {
+        "all": [
+          "Give O Lord your blessing to our relations …",
+          "Be with us O Lord throughout this night so that by your strength.......",
+          "Most Sacred Heart of Jesus - Have mercy on us",
+          "Immaculate Heart of Mary - Pray for us",
+          "All the Angels and Saints - Pray for us"
+        ]
+      }
+    }
+  }

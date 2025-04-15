@@ -1,0 +1,72 @@
+{
+    "title": "Saturday Morning Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "And of the Son and of the Holy Spirit- Amen.",
+      "leader2": "Come, O Holy Spirit, ……",
+      "leader3": "Let us place ourselves in the presence of God and humbly adore him,",
+      "all3": "Most holy and adorable Trinity, One God in Three Divine persons, I believe that you are here present. I adore you with the deepest humility, and with all my heart offer you the homage due to your sovereign majesty. Amen."
+    },
+    "antiphon": "How great is your name, Lord, through all the earth!",
+    "psalms": [
+      {
+        "title": "PSALM 8",
+        "verses": [
+          "How great is your name, O Lord our God, Through all the earth.",
+          "Your majesty is praised above the heavens; On the lips of children and of babes",
+          "You have found praise to foil your enemy, To silence the foe arid the rebel.",
+          "When I see the heavens, the work of your hands, The moon and the stars which you arranged,",
+          "What is man that you should keep him in mind, Mortal man that you care for him?",
+          "Yet you have made him little less than a god; With glory and honour you crowned him,",
+          "Gave him power over the works of your hand, Put all things under his feet.",
+          "All of them, sheep and cattle, Yes, even the savage beasts,",
+          "Birds of the air, and fish That make their way through the waters.",
+          "How great is your name, O Lord our God, Through all the earth!"
+        ]
+      },
+      {
+        "title": "PSALM 118(119)",
+        "verses": [
+          "I call with all my heart; Lord, hear me, I will keep your commands.",
+          "I call upon you, save me and I will do your will.",
+          "I rise before dawn and cry for help, I hope in your word.",
+          "My eys watch through the night to ponder your promise",
+          "In your love hear my voice, O Lord; Give me life by your decrees.",
+          "Those who harm me unjustly draw near: they are far from your law.",
+          "But you, O Lord, are close: Your commands are truth.",
+          "Long have I known that your will is established for ever."
+        ]
+      }
+    ],
+    "reading": "The Reading of the Day",
+    "intercessions": [
+      {
+        "text": "Christ became man to make us children of God and he intercedes for us before God our Father. Let us thank him for his loving merey, and pray.",
+        "response": "OPEN TO US THE TREASURES OF YOUR LOVE."
+      },
+      {
+        "text": "You have enlightened us in baptism; we consecrate our day to you.",
+        "response": "OPEN TO US THE TREASURES OF YOUR LOVE."
+      },
+      {
+        "text": "Fill us with praise of you today; nmay we take your word with us wherever we may go.",
+        "response": "OPEN TO US THE TREASURES OF YOUR LOVE."
+      },
+      {
+        "text": "Teacher us to respond to your word like Mary our Mother; may your word be fruitful in us.",
+        "response": "OPEN TO US THE TREASURES OF YOUR LOVE."
+      },
+      {
+        "text": "Give us courage when things go wrong; strengthen us wvith faith in you, with hope in your promises and with love of your will.",
+        "response": "OPEN TO US THE TREASURES OF YOUR LOVE."
+      }
+    ],
+    "concluding_prayer": "Let the splendor of the resurrection, light up our hearts and minds, Lord, scattering the shadows of death, and bringing us to the radiance of eternity. We make our prayer through Christ our Lord.",
+    "closing": {
+      "leader": "Let us thank God for his gifts and offer ourselves to Him.",
+      "all": "O my God, I most humbly thank you for all the favours.-",
+      "leader2": "Let us resolve to do good.",
+      "all2": "Adorable Jesus, Divine Model of the perfection..",
+      "all3": "Merciful Father, we finally entrust to your loving care our parents, brothers and sisters, our guardians, friends and teachers; oun cooks, typists, cleaners and all. Defend our community fronm al harm and graciously, protect from the snares of the evil one those who here present themselves before you through Christ our Lord Amen."
+    }
+  }

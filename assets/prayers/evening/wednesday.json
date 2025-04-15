@@ -1,0 +1,124 @@
+{
+    "title": "Wednesday Evening Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "And of the Son and of the Holy Spirit- Amen.",
+      "leader2": "O God come to our aid",
+      "all2": "O Lord make haste to help us.",
+      "leader3": "Dear brothers and sisters in Christ, as the day draws to an end we come into the presence of the Lord to thank Him for the good things that He has given us this day. At the same time we know only too well that we have sinned against God. Let us recall our sins and beg Him for pardon and strength to do His will.",
+      "confession": {
+        "leader": "I confess to Almighty God",
+        "all": "And to you my brothers and sisters……",
+        "absolution": "May Almighty God have mercy on us, forgive us our sins and bring us to life everlasting. Amen"
+      }
+    },
+    "antiphon": "How wonderful is this knowledge of yours that you have shown me, Lord.",
+    "psalms": [
+      {
+        "title": "Psalm 61(62)",
+        "verses": [
+          "In God alone is my soul at rest;",
+          "my help comes from Him.",
+          "He alone, is my rock, my stronghold,",
+          "My fortress: I stand firm.",
+          "How long will you all attack one man",
+          "To break him down,",
+          "As though he were a tottering wall,",
+          "Or a tumbling fence?",
+          "Their plan is only to destroy:",
+          "They take pleasure in lies.",
+          "With their mouth they utter blessing",
+          "But in their heart they curse.",
+          "In God alone be at rest, my soul;",
+          "For my hope comes from him.",
+          "He alone is my rock, my stronghold,",
+          "My fortress: I stand firm.",
+          "In God is my safety and glory,",
+          "The rock of my strength.",
+          "Take refuge in God all you people.",
+          "Trust him at all times.",
+          "Pour out your hearts before him",
+          "for God is our refuge.",
+          "Common folk are only a breath,",
+          "Great men an illusion,",
+          "Place in the scales, they rise;",
+          "They weigh less than a breath.",
+          "Do not put your trust in oppression",
+          "Nor vain hopes on plunder.",
+          "Do not set your heart on riches",
+          "Even when they increase.",
+          "For God has said only one thing",
+          "Only two do I know:",
+          "That to God alone belongs power",
+          "And to you, Lord, Love;",
+          "And that you repay each man",
+          "According to his deeds."
+        ]
+      },
+      {
+        "title": "Psalm 60(61)",
+        "verses": [
+          "O God, hear my cry!",
+          "listen to my prayer!",
+          "From the end of the earth I call;",
+          "my heart is faint.",
+          "On the rock too high for me to reach",
+          "set me on high,",
+          "O you who have been my refuge,",
+          "my tower against the foe.",
+          "Let me dwell in your tent for ever",
+          "grant me the heritage of those who fear you.",
+          "May you lengthen the life on the king:",
+          "may his years cover many generations.",
+          "May he ever sit enthroned before God:",
+          "Bid love and truth be his protection.",
+          "So I will always praise your name",
+          "And day after day fulfil my vows."
+        ]
+      }
+    ],
+    "reading": "The Reading of the day",
+    "intercessions": [
+      {
+        "text": "God is love: he who dwells in love dwells in God, and God in him. In Jesus Christ we see how God loves us. Let us renew our faith in his love:",
+        "response": "LORD JESUS YOU LOVED US AND GAVE YOURSELF FOR US"
+      },
+      {
+        "text": "You have given us life and light this morning; let us give thanks for such great gifts.",
+        "response": "LORD JESUS YOU LOVED US AND GAVE YOURSELF FOR US"
+      },
+      {
+        "text": "You are sole master of the future; keep us from despair and the fear of what is to come.",
+        "response": "LORD JESUS YOU LOVED US AND GAVE YOURSELF FOR US"
+      },
+      {
+        "text": "Love has no ambition to seek any thing for itself; strengthen our will to give up selfishness today.",
+        "response": "LORD JESUS YOU LOVED US AND GAVE YOURSELF FOR US"
+      },
+      {
+        "text": "May your love in us overcome all things; let there be no limit to our faith, our hope, and our endurance.",
+        "response": "LORD JESUS YOU LOVED US AND GAVE YOURSELF FOR US"
+      },
+      {
+        "text": "I may have faith strong enough to move mountains; but if I have no love, I am nothing with this in mind we pray:",
+        "response": "LORD JESUS YOU LOVED US AND GAVE YOURSELF FOR US"
+      },
+      {
+        "text": "Lord, sustain us as we build and grow towards you; increase our faith as we work.",
+        "response": "LORD JESUS YOU LOVED US AND GAVE YOURSELF FOR US"
+      }
+    ],
+    "lords_prayer": "Our Father.",
+    "concluding_prayer": {
+      "text": "Lord, Pour out upon us the fullness of your mercy and by the power of your spirit remove divisions among Christians. Let your church rise more clearly as a sign for all the nations that the world may be filled with the light of your spirit and believe in Jesus Christ whom you have sent, Who lives and reigns with you and Holy Spirit, one God, for ever and ever.",
+      "closing": {
+        "all": [
+          "Give O Lord your blessing to our relations, benefactors, friends and all...",
+          "Be with us O Lord throughout this night so that by your strength...",
+          "Most Sacred Heart of Jesus - Have mercy on us",
+          "Immaculate Heart of Mary - Pray for us",
+          "All the Angels and Saints - Pray for us"
+        ]
+      }
+    }
+  }

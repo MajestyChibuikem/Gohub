@@ -1,0 +1,191 @@
+{
+    "title": "Thursday Midday Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "And of the Son and of the Holy Spirit- Amen.",
+      "leader2": "O God come to our aid",
+      "all2": "O Lord make haste to help us.",
+      "leader3": "Glory be to the Father and to the Son and to the Holy Spirit",
+      "all3": "as it was in the beginning, is now, and ever shall be, world without end Amen."
+    },
+    "hymn": {
+      "title": "O BLESSED LORD, CREATOR GOD",
+      "verses": [
+        "O blessed Lord, Creator God,",
+        "In you all things are rendered pure,",
+        "By you are strengthened to endure.",
+        "O blessed, holy hand of God,",
+        "All things are sanctified by you;",
+        "Adorned enriched, you make them new.",
+        "O blessed Majesty of God,",
+        "Containing all that you have filled;",
+        "All things are done as you have willed.",
+        "O blessed, Holy Trinity",
+        "Serene and certain in your ways;",
+        "You are the light of endless days."
+      ]
+    },
+    "antiphon": "Lord, guide me in your truth",
+    "psalms": [
+      {
+        "title": "Psalm 24 (25)",
+        "verses": [
+          "To you, O Lord, I lift up my soul.",
+          "I trust you, let me not be disappointed;",
+          "do not let my enemies triumph.",
+          "Those who hope in you shall not be disappointed,",
+          "but only those who wantonly break faith.",
+          "Lord, make me know your ways.",
+          "Lord, teach me your paths.",
+          "Make me walk in your truth, and teach me:",
+          "For you are God my sáviour.",
+          "In you I hope all day long",
+          "because of your goodness, O Lord.",
+          "remember your mercy, Lord,",
+          "and the love you have shown from of old.",
+          "Do not remember the sins of my youth.",
+          "In your love remember me.",
+          "he Lord is good and upright.",
+          "He shows the path to those who stray,",
+          "He guides the humble in the right path;",
+          "He teaches his way to the poor.",
+          "His ways are faithfulness and love",
+          "for those who keep his covenant and law,",
+          "Lord for the sake of your name",
+          "forgive my guilt; for it is great.",
+          "If anyone fears the Lord",
+          "he will show him the path he should choose",
+          "His soul shall live in happiness",
+          "and his children shall possess the land",
+          "The Lord's friendship is for those who revere him",
+          "to them he reveals his covenant",
+          "My eyes are always on the Lord",
+          "for he rescues my feet from the snare",
+          "Turn to me and have mercy",
+          "for I am 1lonely and poor.",
+          "Relieve the anguish of my heart",
+          "and set me free from my distress.",
+          "See my affliction and my toil",
+          "and take all my sins away.",
+          "See how many are my foes",
+          "how violent their hatred for me.",
+          "Preserve my life and rescue me.",
+          "Do not disappoint me, you are my refuge.",
+          "May innocence and uprightness protect me.",
+          "for my hope is in you, O Lord."
+        ]
+      },
+      {
+        "title": "Psalm 83(84)",
+        "subtitle": "Love and longing for God's Temple",
+        "verses": [
+          "How lovely is your dwelling place,",
+          "Lord, God of hosts.",
+          "My soul is longing and yearning,",
+          "is yearning for the courts of the Lord.",
+          "My heart and my soul ring out their joy",
+          "to God, the living God.",
+          "The sparrow herself finds a home",
+          "And the swallow a nest for her brood;",
+          "she lays her young by your altars,",
+          "Lord of hosts, my king and my God.",
+          "They are happy, who dwell in your house,",
+          "For ever singing your praise.",
+          "They are happy, whose strength is in you,",
+          "in whose hearts are the roads to Zion.",
+          "As they go through the Bitter Valley",
+          "they make it a place of springs",
+          "(The autumn rain covers it with blessings).",
+          "They walk with ever growing strength,",
+          "they will see the God of gods in Zion.",
+          "O Lord God of hosts, hear my prayer,",
+          "give ear, O God of Jacob.",
+          "Turn your eyes, O God, our shield,",
+          "Look on the face of your anointed.",
+          "One day within your courts",
+          "is better than a thousand elsewhere.",
+          "The threshold of the house of God",
+          "I prefer to the dwellings of the wicked.",
+          "For the Lord God is a rampart, a shield",
+          "He will give us His favour and glory,",
+          "The Lord will not refuse any good",
+          "to those who walk without blame",
+          "Lord, God of Hosts",
+          "happy the man who trusts in you!"
+        ]
+      }
+    ],
+    "reading": "The Reading of the Day",
+    "intercessions": [
+      {
+        "text": "Blessed be our God and Father: he hears the prayers of his children.",
+        "response": "LORD BLESS YOUR PEOPLE"
+      },
+      {
+        "text": "We thank you, Father, for sending us your son; let us keep him before our eyes throughout this day.",
+        "response": "LORD BLESS YOUR PEOPLE"
+      },
+      {
+        "text": "Make wisdom our guide; help us walk in newness of life.",
+        "response": "LORD BLESS YOUR PEOPLE"
+      },
+      {
+        "text": "Lord, give us your strength in our weakness; when we meet problems gives us courage to face them.",
+        "response": "LORD BLESS YOUR PEOPLE"
+      },
+      {
+        "text": "Let us lift up our hearts in thankfulness to God our Father; who has blessed us in Christ with every spiritual gift.",
+        "response": "LORD BLESS YOUR PEOPLE"
+      },
+      {
+        "text": "Father, look on the Pope, our bishops, and all Christian leaders; sustain the ir faith, their love, and their courage.",
+        "response": "LORD BLESS YOUR PEOPLE"
+      },
+      {
+        "text": "Almighty God, we pray for our country; may it promote justice and brother-hood in the world.",
+        "response": "LORD BLESS YOUR PEOPLE"
+      },
+      {
+        "text": "We pray for all who live the Christian life; Father, look on them with kindness, and see in them the face of your beloved Son.",
+        "response": "LORD BLESS YOUR PEOPLE"
+      },
+      {
+        "text": "Remember those who have consecrated themselves to serve you in the religious life; enrich them in their poverty, love them in their chastity, enlighten their hearts in obedience to you.",
+        "response": "LORD BLESS YOUR PEOPLE"
+      },
+      {
+        "text": "Give rest to those who have died in Christ; for with you there is mercy, and fullness of Redemption.",
+        "response": "LORD BLESS YOUR PEOPLE"
+      }
+    ],
+    "special_prayers": [
+      {
+        "title": "Prayer for Nigeria in Distress",
+        "content": [
+          "All powerful and merciful father, you are the God of justice, love and peace, you rule over all the nations of the earth. Power and might are in your hands and no one can withstand you. We present our country Nigeria before you. We praise and thank you for you are the source of all we have and are. We are sorry for all the sins we have committed and for the good deeds we have failed to do. In your loving forgiveness, keep us safe from the punishment we deserve.",
+          "Lord, we are weighed down not only by uncertainties, but also by moral, economic and political problems. Listen to the cries of your people who confidently turn to you. God of infinite goodness, our strength in adversity, our health in weakness, our comfort in sorrow, be merciful to us your people. Spare this nation Nigeria from chaos, anarchy and doom.",
+          "Bless us with your kingdom of justice, love and peace. We ask this through Jesus Christ our Lord. Amen."
+        ]
+      },
+      {
+        "title": "Godfrey Okoye University Prayer",
+        "content": [
+          "God our Father, all knowledege, wisdom and truth come from you. you are the Creator of the entire universe with all its beauty and richness. Out of your infinite love you created human beings and endowed them with unfathomable ability to explore, discover, care for the earth, glorify your name and expand your kingdom of justice, love and peace. We your beloved children praise and thank you!",
+          "In your wisdom you established Go University to shine in the world as God's own university. It is a precious gift from you to the Church in Enugu Diocese, existing to serve humanity and the universal Church. We your beloved children praise and thank you!",
+          "Lord Jesus christ, you called us members of the Go University Family to share and promote your mission of salvation of the world; to be a reincarnation of intellectual vitality; to champion love and friendship; to excel in intercultural thinking and remain sound in moral and religious dialogue. We your beloved children praise and thank you!",
+          "Lord, lead us to remain ever committed to the unity of knowledge and always ask: Where is the evidence? You established Go university to be an instiution with footprints of a great achiever, the heartbeat of excellence and lavishly endowed in science and arts. We your beloved Children praise and thank you!",
+          "Holy Spirit, guide and direct the management and members of staff to be steadfast in the pursuit of the set goals and values of the university. Ebable them, by your powerful protection, to discharge thier duties with honesty, dedication and love. Instill in the students the Zeal to excel in the quest for knowledge animated by truth. Holy spirit, strengthen and establish in our university a culture od sound teaching, research, peace, service, and love. We make our prayer through Christ Our Lord Amen!"
+        ]
+      }
+    ],
+    "concluding_prayer": {
+      "text": "God our Father You reveal that those who work for peace will be called your sons and daughters, Help us to work without ceasing for the justice which brings true and lasting peace. We ask this through our Lord Jesus Christ, your son, who lives and reigns with you and the Holy Spirit, One God, for ever and ever Protect O Lord all those whom you have given us as guides, both spiritual and temporal. Enlighten our minds and inspire us to learn well for your greater glory and honor and may your love and blessings be always upon us through Christ our Lord. Amen",
+      "closing": {
+        "all": "In the name of the Father and of the Son and of the Holy Spirit. Amen"
+      }
+    },
+    "attendance_button": {
+      "text": "Attendance",
+      "link": "../attendance.php"
+    }
+  }

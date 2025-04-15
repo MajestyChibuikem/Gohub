@@ -1,0 +1,144 @@
+{
+    "title": "Thursday Evening Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "And of the Son and of the Holy Spirit Amen.",
+      "leader2": "O God come to our aid",
+      "all2": "O Lord make haste to help us.",
+      "leader3": "Dear brothers and sisters in Christ, as the day draws to an end we come into the presence of the Lord to thank Him for the good things that He has given us this day, At the same time we know only too well that we have sinned against God. Let us recall our sins and beg Him for pardon and strength to do His will.",
+      "confession": {
+        "leader": "l confess to Almighty God",
+        "all": "And to you my brothers and sisters....",
+        "absolution": "May Almighty God have mercy on us, forgive us our sins and bring us to life everlasting."
+      }
+    },
+    "antiphon": "The Lord is my love and my refuge; in him I place my trust.",
+    "psalms": [
+      {
+        "title": "Psalm 143(144)",
+        "verses": [
+          "Blessed be the Lord, my rock",
+          "Who trains my arms for battle",
+          "Who prepares my hands for war.",
+          "He is my love, my fortress;",
+          "He is my stronghold, my saviour",
+          "My shield, my place of refuge.",
+          "He brings peoples under my rule.",
+          "Lord, what is man that you care for him,",
+          "Mortal man, that you keep him in mind;",
+          "Man, who is merely a breath",
+          "Whose life fades like a shadow?",
+          "Lower, your heavens and come down;",
+          "Touch the mountains; wreath them in smoke.",
+          "Flash your lightening; rout the foes,",
+          "Shoot your arrows and put them to flight.",
+          "Reach down from heaven and save me;",
+          "Draw me out from the mighty waters,",
+          "From the hands of alien foes",
+          "Whose mouths are filled with lies,",
+          "Whose hands are raised in perjury."
+        ]
+      },
+      {
+        "title": "Psalm 87(88)",
+        "subtitle": "Prayer in Desolation",
+        "verses": [
+          "Lord my God, I call for help by day;",
+          "I cry at night before you.",
+          "Let my prayer come into your presence",
+          "O turn your ear to my cry",
+          "For my soul is filled with evils:",
+          "My life is on the bring of the grave.",
+          "I am reckoned as on in the tomb:",
+          "I have reached the end of my strength,",
+          "Like one alone among the dead;",
+          "like the slain lying in the graves;",
+          "Like those you remember no more,",
+          "Cut off, as they are, from your hand.",
+          "You have laid me in the depths of the tomb,",
+          "in places that are dark, in the depths.",
+          "Your anger weighs down upon me:",
+          "I am drowned beneath your waves.",
+          "You have taken away my friends",
+          "and made me hateful in their sight.",
+          "Imprisoned, I cannot escape;",
+          "my eyes are sunken with grief.",
+          "I call to you, Lord, all the day long;",
+          "to you I stretch out my hands.",
+          "Will you work your wonders for the dead?",
+          "Will the shades stand and praise you.",
+          "Will your love be told in the grave",
+          "or your faithfulness among the deed?",
+          "Will your wonders be known in the dark:",
+          "or your justice in the land of the oblivion?",
+          "As for me, Lord, I call to you for help:",
+          "in the morning my prayer comes before you.",
+          "Lord, why do you reject me?",
+          "Why do you hide you face?",
+          "Wretched, close to death from my youth?",
+          "I have borne your trails; I am numb.",
+          "Your fury has swept down upon me;",
+          "your terrors have utterly destroyed me",
+          "They surround me all the like a flood,",
+          "they assail me all together.",
+          "Friend and neighbor you have taken away",
+          "my one companion is darkness."
+        ]
+      }
+    ],
+    "reading": "The Reading of the Day",
+    "intercessions": [
+      {
+        "text": "Let us conclude this day with Christ, thanking him for all he has brought to us, and asking him to bless us.",
+        "response": "LORD, OUR TRUST IS IN YOU"
+      },
+      {
+        "text": "You offered yourself to the father on our behalf; join our offering with yours:",
+        "response": "LORD, OUR TRUST IS IN YOU"
+      },
+      {
+        "text": "You are gentle and humble of heart; teach us to receive others as you did.",
+        "response": "LORD, OUR TRUST IS IN YOU"
+      },
+      {
+        "text": "Father, you established a covenant with men; we trust in you, for you are faithful to your word.",
+        "response": "LORD, OUR TRUST IS IN YOU"
+      },
+      {
+        "text": "Send workers into the harvest; and bring the world to the knowledge and love of you.",
+        "response": "LORD, OUR TRUST IS IN YOU"
+      },
+      {
+        "text": "May the unity of the church be formed by love and understanding; gather us together through the gifts of your Holy Spirit.",
+        "response": "LORD, OUR TRUST IS IN YOU"
+      },
+      {
+        "text": "Help men to create a community where justice and peace may flourish; be with us, lest we labour in vain.",
+        "response": "LORD, OUR TRUST IS IN YOU"
+      },
+      {
+        "text": "Be mindful of the dead, especially those we have known; have mercy on those who have give us their help.",
+        "response": "LORD, OUR TRUST IS IN YOU"
+      }
+    ],
+    "lords_prayer": "Our Father",
+    "concluding_prayer": {
+      "text": "Lord, you guide all creation with fatherly care. As you have given all men one common origin, bring them together peacefully into one family and keep them united"
+    } ,
+      "additional_prayers": [
+        "Give O Lord your blessing to our relations, benefactors, friends and all people. Protect all those whom you have given us as guides, both spiritual and temporal. Succour the poor and the afflicted, widows and widowers, orphans and friendless, prisoners and travelers, the sick and the dying, bring back all who have left the Church, enlighten the non-Christians and assist all departed souls. Amen.",
+        "Be with us O Lord throughout this night so that by your strength we may rise at day-break refreshed to serve you. Drive far away from our community all the snares of the enemy. May your Holy Angels be here to guard us. And may your love and blessings be always upon us through Christ our Lord."
+      ],
+      "closing": {
+        "leader": [
+          "Most Sacred Heart of Jesus",
+          "Immaculate Heart of Mary",
+          "All the Angels and Saints"
+        ],
+        "all": [
+          "Have mercy on us",
+          "Pray for us",
+          "Pray for us"
+        ]
+      }
+    }

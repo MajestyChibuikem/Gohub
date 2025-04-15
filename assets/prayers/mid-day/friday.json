@@ -1,0 +1,163 @@
+{
+    "title": "Friday Midday Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "And of the Son and of the Holy Spirit- Amen.",
+      "leader2": "O God come to our aid",
+      "all2": "O Lord make haste to help us.",
+      "leader3": "Glory be to the Father and to the Son and to the Holy Spirit",
+      "all3": "as it was in the beginning, is now, and ever shall be, world without end Amen."
+    },
+    "hymn": {
+      "title": "COME HOLY SPIRIT",
+      "verses": [
+        "Come, Holy Spirit, live in us",
+        "With God the Father and the Son,",
+        "And grant us your abundant grace",
+        "To sanctify and make us one.",
+        "May mind and tongue made strong in love,",
+        "Your praise throughout the world proclaim,",
+        "And may that love within our hearts",
+        "Set fire to others with its flame.",
+        "Most blessed Trinity of love",
+        "For whom the heart of man was made,",
+        "To you be praise in timeless song,",
+        "And everlasting homage paid."
+      ]
+    },
+    "antiphon": "A pure heart create for me, O God, put a steadfast spirit within me.",
+    "psalms": [
+      {
+        "title": "Psalm 50(51)",
+        "verses": [
+          "Have mercy on me, God, in your kindness,",
+          "In your compassion blot out my offence.",
+          "Owash me more and more from my guilt",
+          "And cleanse me from my Sin.",
+          "My offences truly I know them,",
+          "My sin is always before me.",
+          "Against you, you alone, have I sinned;",
+          "What is evil in your sight I have done.",
+          "That you may be justified when you give sentence",
+          "And be without reproach when you judge,",
+          "O see, in guilt I was born,",
+          "A sinner was I conceived.",
+          "Indeed you love truth in the heart;",
+          "Then in the secret of my heart teach me wisdom.",
+          "O purify me, then I shall be clean;",
+          "O wash me, I shall be whiter than snow.",
+          "Make me hear rejoicing and gladness,",
+          "That the bones you have crushed may revive.",
+          "From my sins turn away your face",
+          "And blot out all my guilt.",
+          "A pure heart create for me, O God,",
+          "Put a steadfast spirit within me.",
+          "Do not cast me away from your presence,",
+          "Nor deprive me of your holy spirit.",
+          "Give me again the joy of your help;",
+          "With a spirit of favour sustain me,",
+          "That I may teach transgressors your ways",
+          "And sinners may return to you.",
+          "O rescue me, God, my helper,",
+          "And my tongue shall ring out your goodness.",
+          "O Lord open my lips",
+          "And my mouth shall declare your praise.",
+          "For in sacrifice you take no delight,",
+          "Burnt offering me you would refuse",
+          "My sacrifice, a contrite spirit.",
+          "A humble, contrite heart you will not spurn.",
+          "In your goodness, show favour to Zion:",
+          "Rebuild the walls of Jerusalem.",
+          "Then you will be pleased with lawful sacrifice,",
+          "Holocausts offered on your altar."
+        ]
+      },
+      {
+        "title": "Psalm 99(100)",
+        "subtitle": "The Lord calls those he has redeemed to sing a hymn of victory (St Athanasius)",
+        "verses": [
+          "Cry out with joy to the Lord, all the earth",
+          "Serve the Lord with gladness.",
+          "Come before him, singing for joy.",
+          "Know that he, the Lord, is God.",
+          "He made us, we belong to him,",
+          "we are his people, the sheep of his flock.",
+          "Go within his gates, giving thanks.",
+          "Enter his court with songs of praise.",
+          "Give thanks to him and bless his name",
+          "Indeed, how good is the Lord,",
+          "eternal his merciful love.",
+          "He is faithful from age to age."
+        ]
+      }
+    ],
+    "reading": "The Reading of the Day",
+    "intercessions": [
+      {
+        "text": "Lord, we meet around your table as your family; help us to see that our bitterness, and our sins are forgiven.",
+        "response": "LORD JESUS, WE LOVE YOU AND PUT OUR TRUST IN YOU"
+      },
+      {
+        "text": "Lord, by your grace help us to overcome our weakness and serve you better.",
+        "response": "LORD JESUS, WE LOVE YOU AND PUT OUR TRUST IN YOU"
+      },
+      {
+        "text": "Lord Jesus, you gave us Mary to be our Mother; may we by her intercession come to your glory.",
+        "response": "LORD JESUS, WE LOVE YOU AND PUT OUR TRUST IN YOU"
+      },
+      {
+        "text": "God our father, forgive us our sins; and help us to live a holy life worthy of our calling.",
+        "response": "LORD JESUS, WE LOVE YOU AND PUT OUR TRUST IN YOU"
+      },
+      {
+        "text": "Lord Jesus grant that all men and women may be saved; and come to knowledge of the truth.",
+        "response": "LORD JESUS, WE LOVE YOU AND PUT OUR TRUST IN YOU"
+      },
+      {
+        "text": "Protect our Pope N., our Bishop N.; help them in your strength and mercy.",
+        "response": "LORD JESUS, WE LOVE YOU AND PUT OUR TRUST IN YOU"
+      },
+      {
+        "text": "Support those who meet with difficulty and disappointment; renew their confidence and sense of purpose.",
+        "response": "LORD JESUS, WE LOVE YOU AND PUT OUR TRUST IN YOU"
+      },
+      {
+        "text": "Christ our loving Lord, in your kindness be with the sick and the poor, the weak and the dying; bring them your comfort.",
+        "response": "LORD JESUS, WE LOVE YOU AND PUT OUR TRUST IN YOU"
+      },
+      {
+        "text": "We commend to you all those who, in their lifetime, shared in the sacred Ministry; let them praise you for ever in heaven.",
+        "response": "LORD JESUS, WE LOVE YOU AND PUT OUR TRUST IN YOU"
+      }
+    ],
+    "special_prayers": [
+      {
+        "title": "Prayer for Nigeria in Distress",
+        "content": [
+          "All powerful and merciful father, you are the God of justice, love and peace, you rule over all the nations of the earth. Power and might are in your hands and no one can withstand you. We present our country Nigeria before you. We praise and thank you for you are the source of all we have and are. We are sorry for all the sins we have committed and for the good deeds we have failed to do. In your loving forgiveness, keep us safe from the punishment we deserve.",
+          "Lord, we are weighed down not only by uncertainties, but also by moral, economic and political problems. Listen to the cries of your people who confidently turn to you. God of infinite goodness, our strength in adversity, our health in weakness, our comfort in sorrow, be merciful to us your people. Spare this nation Nigeria from chaos, anarchy and doom.",
+          "Bless us with your kingdom of justice, love and peace. We ask this through Jesus Christ our Lord. Amen."
+        ]
+      },
+      {
+        "title": "Godfrey Okoye University Prayer",
+        "content": [
+          "God our Father, all knowledge, wisdom and truth come from you. you are the Creator of the entire universe with all its beauty and richness. Out of your infinite love you created human beings and endowed them with unfathomable ability to explore, discover, care for the earth, glorify your name and expand your kingdom of justice, love and peace. We your beloved children praise and thank you!",
+          "In your wisdom you established Go University to shine in the world as God's own university. It is a precious gift from you to the Church in Enugu Diocese, existing to serve humanity and the universal Church. We your beloved children praise and thank you!",
+          "Lord Jesus christ, you called us members of the Go University Family to share and promote your mission of salvation of the world; to be a reincarnation of intellectual vitality; to champion love and friendship; to excel in intercultural thinking and remain sound in moral and religious dialogue. We your beloved children praise and thank you!",
+          "Lord, lead us to remain ever committed to the unity of knowledge and always ask: Where is the evidence? You established Go university to be an instiution with footprints of a great achiever, the heartbeat of excellence and lavishly endowed in science and arts. We your beloved Children praise and thank you!",
+          "Holy Spirit, guide and direct the management and members of staff to be steadfast in the pursuit of the set goals and values of the university. Enable them, by your powerful protection, to discharge their duties with honesty, dedication and love. Instill in the students the Zeal to excel in the quest for knowledge animated by truth. Holy spirit, strengthen and establish in our university a culture of sound teaching, research, peace, service, and love. We make our prayer through Christ Our Lord Amen!"
+        ]
+      }
+    ],
+    "concluding_prayer": {
+      "text": "All-powerful, ever-living God, look with compassion on our frailty, and for our protection stretch out to us your strong right hand. We ask this through Christ our Lord. Protect O Lord all those whom you have given us as guides, both spiritual and temporal. Enlighten our minds and inspire us to learn well for your greater glory and honour and may your love and blessings be always upon us through Christ our Lord. Amen",
+      "closing": {
+        "all": "In the name of the Father and of the Son and of the Holy Spirit. Amen"
+      }
+    },
+    "attendance_button": {
+      "text": "Attendance",
+      "link": "../attendance.php"
+    }
+  }

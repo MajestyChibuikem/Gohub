@@ -1,0 +1,81 @@
+{
+    "title": "Friday Morning Prayer",
+    "opening": {
+      "leader": "In the name of the Father",
+      "all": "And of the Son and of the Holy Spirit- Amen.",
+      "leader2": "Come, O Holy Spirit, fill the hearts of the faithful……",
+      "leader3": "Let us place ourselves in the presence of God and humbly adore him,",
+      "all3": "Most holy and adorable Trinity, One God in Three Divine persons, I believe that you are here present. I adore you with the deepest humility, and with all my heart offer you the homage due to your sovereign majesty. Amen."
+    },
+    "antiphon": "I trust in the Lord; I have not wavered.",
+    "psalms": [
+      {
+        "title": "Psalm 25 (26)",
+        "verses": [
+          "Give judgment for me, O Lord: for I walk the path of perfection.",
+          "I trust in the Lord; I have not wavered.",
+          "Examine me, Lord, and try me; O test my heart and my mind,",
+          "For your love is before my eyes and I walk according to your truth.",
+          "I never take my place with liars and with hypocrites I shall not go,",
+          "I hate the evil-doer's company: I will not take my place with the wicked.",
+          "To prove my innocence.l wash my hands and take my place around your altar,",
+          "Singing a song of thanksgiving, proclaiming all your wonders.",
+          "O Lord, I love the house where you dwell The place where your glory abides.",
+          "Do not sweep me away with sinners, nor my life with bloodthirsty men",
+          "in whose hands are evil plots, Whose right hands are filled with gold.",
+          "As for me, I walk the path of perfection. Redeem me and show me your mercy.",
+          "My foot stands on level ground: I will bless the Lord in the assembly."
+        ]
+      },
+      {
+        "title": "Psalm 86(87)",
+        "subtitle": "In praise of Jerusalem",
+        "verses": [
+          "On the holy mountain is his city cherished by the Lord",
+          "The Lord prefers the gates of Sion to all Jacob's dwellings.",
+          "Of you are told glorious things, O city of God",
+          "Babylon and Egypt I will count among those who know me;",
+          "Philistia, Tyre, Ethiopia, these will be her children",
+          "and sion shall be called \"Mother\" for all shall be her children",
+          "It is he, the Lord Most High, who gives each his place.",
+          "In his register of peoples he writes: These are her children",
+          "and while they dance they will sing: In you all find their home.'"
+        ]
+      }
+    ],
+    "reading": "The Reading of the Day",
+    "intercessions": [
+      {
+        "text": "Lord Jesus Christ, we thank you. Through your cross and resurrection you offer freedom and hope to those ready to receive them.",
+        "response": "LORD, SHOW US YOUR LOVING KINDNESS."
+      },
+      {
+        "text": "We are children of the day; show us your mercy and love.",
+        "response": "LORD, SHOW US YOUR LOVING KINDNESS."
+      },
+      {
+        "text": "Through your passion and death you have won life for us; give us the strength of your Holy Spirit.",
+        "response": "LORD, SHOW US YOUR LOVING KINDNESS."
+      },
+      {
+        "text": "Father, Christ prayed that we be forgiven; as you accepted him, accept his prayer for all sinners.",
+        "response": "LORD, SHOW US YOUR LOVING KINDNESS."
+      },
+      {
+        "text": "Through his beloved disciple, Jesus gave us Mary to be our mother, with her we pray to you for all her children.",
+        "response": "LORD, SHOW US YOUR LOVING KINDNESS."
+      },
+      {
+        "text": "Father, heed the anguisli of those who cry out to You with your Son; My God, my God have you forsaken me'",
+        "response": "LORD, SHOW US YOUR LOVING KINDNESS."
+      }
+    ],
+    "concluding_prayer": "Lord God, you hold out the light of your Word to those who do not know you. Strengthen in our hearts the faith you have given us, so that no trials may quench the fire your Spirit has kindled within us. We make our prayer through our Lord Jesus Christ your son, who lives and reigns with you and the Holy Spirit, One God for ever and ever.",
+    "closing": {
+      "leader": "Let us thank God for his gifts and offer ourselves to Him.",
+      "all": "O my God, I most humbly thank you for all the favours...",
+      "leader2": "Let us resolve to do good.",
+      "all2": "Adorable Jesus, Divine Model of the perfection…….",
+      "all3": "Merciful Father, we finally entrust to your loVing care our parents, brothers and sisters, our guardians, friends and teachers; our cooks, typists, cleaners and all. Defend our community from all harm and graciously, protect from the snares of the evil one those who here present themselves before you through Christ our Lord. Amen."
+    }
+  }
