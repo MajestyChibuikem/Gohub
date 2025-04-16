@@ -7,6 +7,12 @@ export default function PrayersScreen() {
     <View style={{ flex: 1, padding: 20 }}>
       <Text>Prayers List</Text>
       <Link href="/prayers/monday">Monday Prayer</Link>
+      <Link href="/prayers/tuesday">Tuesday Prayer</Link>
+      <Link href="/prayers/wednesday">Wednesday Prayer</Link>
+      <Link href="/prayers/thursday">Thursday Prayer</Link>
+      <Link href="/prayers/friday">Friday Prayer</Link>
+      <Link href="/prayers/saturday">Saturday Prayer</Link>
+      <Link href="/prayers/sunday">Sunday Prayer</Link>
     </View>
   );
 }
