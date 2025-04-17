@@ -1,0 +1,15 @@
+{
+  "title": "MY LORD MY GOD",
+  "index": 99,
+  "content": {
+    "type": "hymn_with_images_only",
+    "metadata": {
+      "key": "Eb (moderator)",
+      "composer": "Jude Nnam"
+    },
+    "images": [
+      "../../../images/my-lord-my-God.jpeg",
+      "../../../images/my-lord-my-God(continuation).jpeg"
+    ]
+  }
+}

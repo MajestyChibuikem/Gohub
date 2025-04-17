@@ -1,0 +1,21 @@
+{
+  "title": "ALLEGRO VENNI SANCTE SPIRIT",
+  "index": 104,
+  "content": {
+    "type": "hymn_with_image_and_verses",
+    "metadata": {
+      "key": "A4/4 Allegro"
+    },
+    "images": [
+      "../../../images/allegro-venni-sancte-spirit.jpeg"
+    ],
+    "verses": [
+      "Veni pate,pauperum\nVeni dai munerum \nVeni dum n cordium",
+      "Consolater optime \nDulcis hospes animae\nDulce r frigerium",
+      "in labore requies \nIn alstie temperies \nIn fletu solatuim",
+      "Lux be - atissima\nReple coris intima \nTuorum fidelium",
+      "sine tuo mumine\nNihil est in homine\nNihil est in noxuim",
+      "Lava quad est sordidume\nRiga quad est aridum\nSana quad esresaucium"
+    ]
+  }
+}

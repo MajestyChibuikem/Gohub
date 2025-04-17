@@ -1,0 +1,14 @@
+{
+    "title": "GLORIA",
+    "index": 236,
+    "content": {
+      "type": "latin_with_chorus",
+      "chorus": "Gloria in excelsis Deo (3X) In excelsis Deo (Repeat 'in excelsis Deo' after each verse)",
+      "verses": [
+        "Et in terra pax hominibus, Bonae voluntatis Laudamus te benedicimus te adoramus te Glorificamus te, gratias agimus tibi Propter magnam gloriam tuam Domine Deus",
+        "Rex caelestis, Deus Pater omnipotens Domine fili unigenite, Jesu Christe Domine Deus",
+        "Agnus Del Filius Patri, qui tollis peccata mundi miserere nobis, qul tollis pecata mundi, sucipe depracationem nostrum qui sedes ad dextram Patris, miserere nobis, miserere nobis",
+        "Quoniam tu solus sanctus, tu solus Dominus Tu solus altissimus, Jesu Christe cum Sancto Spiritus, in gloria Dei Patris, Amen, Amen"
+      ]
+    }
+  }

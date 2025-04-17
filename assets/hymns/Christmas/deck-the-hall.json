@@ -1,0 +1,15 @@
+{
+    "title": "DECK THE HALL",
+    "index": 178,
+    "key": "F 4/4",
+    "images": [
+      "../../../images/deck-the-hall.jpeg"
+    ],
+    "content": {
+      "type": "verses",
+      "verses": [
+        "see the blazing yule beforesus, strike the harp and join the chorus. Follow me in merry measure while I tell of yuletide treasure, fa la la la la-",
+        "fast away the old year passes, Hail the new, ye lads and lasses, sing we joyous all together, heedless of the wind and weather, fa la la la la -"
+      ]
+    }
+  }

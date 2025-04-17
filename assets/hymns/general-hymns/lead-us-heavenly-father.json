@@ -1,0 +1,19 @@
+{
+  "title": "LEAD US, HEAVENLY FATHER",
+  "index": 100,
+  "content": {
+    "type": "hymn_with_image_and_verses",
+    "metadata": {
+      "key": "E"
+    },
+    "images": [
+      "../../../images/lead-us-heavenly-father (1).jpeg"
+    ],
+    "verses": [
+      "Saviour, breathe forgiveness o'er us All our weakness thou dost\nknow: Thou didst tread this earth before us, Thou didst feel its \nkeenest woe; hone and dreary, faint and \nweary, 
+Through1the desert, Thou didst go.",
+      "spirit of our God, decending, fill our hearts with heavely joy, love with every\npassion blending, pleasure that can never clog Thou provided, pardoned, \nGuided, nothing can our peace 
+destroy."
+    ]
+  }
+}

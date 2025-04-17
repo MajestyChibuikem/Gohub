@@ -1,0 +1,17 @@
+{
+  "title": "ON EAGLE'S WINGS",
+  "index": 129,
+  "content": {
+    "type": "refrain_and_verses",
+    "metadata": {
+      "composer": "Michael Joncas"
+    },
+    "refrain": "And he will raise you up on eagle's wings,\nbear you on the breath of dawn,\nmake you to shine like the sun,\nand hold you in the palm of his hand.",
+    "verses": [
+      "You who dwell in the shelter of the Lord\nwho abide in his shadow for life,\nsay to the Lord: \"My refuge, my rock in whom I trust!\"",
+      "The snare of the fowler will never capture you,\nand famine will bring you no fear;\nunder his wings your refuge, his faithfulness your shield.",
+      "You need not fear the terror of the night,\nnor the arrow that flies by day;\nthough thousands fall about you, near you it shall not come.",
+      "For to his angels he's given a command\nto guard you in all of your ways;\nupon their hands they will bear you up,\nlest you dash your foot against a stone."
+    ]
+  }
+}

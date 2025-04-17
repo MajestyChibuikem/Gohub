@@ -1,0 +1,18 @@
+{
+  "title": "ENO INEMESIT",
+  "index": 158,
+  "content": {
+    "type": "hymn_with_images_and_verses",
+    "metadata": {
+      "key": "Ab 3/4 [moderato]"
+    },
+    "images": [
+      "../../../images/eno-inemesit.jpeg",
+      "../../../images/eno-inemesit(continuation).jpeg"
+    ],
+    "verses": [
+      "O Ete imono fi idem nnyin ke akwa ima fo ye nnyi\nI mono fie sit ye uwwm nnyin yaik mmo enem fie sit.",
+      "I mada uyo ye wine i sok bo mmo ke inem e -- sit\nye mme a ka m emi nnyin ibong de yak o dok edi ki do fo"
+    ]
+  }
+}

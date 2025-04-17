@@ -1,0 +1,16 @@
+{
+    "title": "GLORIA (LINGALA)",
+    "index": 235,
+    "key": "A b 4/4 [Adante Allegro]",
+    "images": [
+      "../../../images/gloria.jpg",
+      "../../../images/gloria(continuation).jpeg"
+    ],
+    "content": {
+      "type": "verses",
+      "verses": [
+        "Na nzambi Mwuana, Nkembo Nkembo Nkembo (2ce) Yina Kuaka betu, Nkembo Nkembo Nkembo. (2ce) Ref",
+        "Na mpere santu, Nkembo Nkembo Nkembo (2ce) Yina zolaka betu, Nkembo Nkembo Nkembo. (2ce) Ref."
+      ]
+    }
+  }

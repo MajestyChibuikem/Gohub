@@ -1,74 +1,78 @@
-import { Image, StyleSheet, Platform } from 'react-native';
-
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+// app/(tabs)/home.tsx
+import { Link } from 'expo-router';
+import { Text, View, Image, Pressable } from 'react-native';
+import { getCurrentPrayerPeriod } from '../../utils/prayerTimes';
+import { useTheme } from '../../context/ThemeContext';
+import { Ionicons } from '@expo/vector-icons';
 
 export default function HomeScreen() {
+  const theme = useTheme();
+
+  const currentDay = new Date().toLocaleString('en-US', { weekday: 'long' });
+  const currentPeriod = getCurrentPrayerPeriod();
+
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
-      headerImage={
+    <View style={{ flex: 1, backgroundColor: theme.background, padding: 20 }}>
+      {/* Logo */}
+      <View style={{ alignItems: 'center', marginBottom: 20 }}>
         <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
+          source={require('../../assets/images/logo.png')} // update this path if needed
+          style={{ width: 100, height: 100, resizeMode: 'contain' }}
         />
-      }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">hey there</ThemedText>
-        <HelloWave />
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12'
-            })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-        <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
-      </ThemedView>
-    </ParallaxScrollView>
+      </View>
+
+      {/* Preface */}
+      <View style={{ marginBottom: 40 }}>
+        <Text style={{ fontSize: 20, fontWeight: 'bold', textAlign: 'center', color: theme.text }}>
+          A Compilation of Prayers and Songs
+        </Text>
+        <Text style={{ fontSize: 16, textAlign: 'center', color: theme.text, marginTop: 10 }}>
+          for
+        </Text>
+        <Text style={{ fontSize: 18, fontWeight: '600', textAlign: 'center', marginTop: 5, color: theme.accent }}>
+          Godfrey Okoye University
+        </Text>
+
+        <Text style={{ fontSize: 14, textAlign: 'center', marginTop: 20, color: theme.text }}>
+          Compilers/Editors:
+        </Text>
+        <Text style={{ fontSize: 14, textAlign: 'center', color: theme.text }}>
+          Sr. Mary Gloria Njoku DDL
+        </Text>
+        <Text style={{ fontSize: 14, textAlign: 'center', color: theme.text }}>
+          Rev. Fr. Prof. Christian Anieke
+        </Text>
+      </View>
+
+      {/* Today's Prayer Link */}
+      <Link
+        href={{
+          pathname: '/prayers/[day]',
+          params: { day: currentDay, period: currentPeriod }
+        }}
+        asChild
+      >
+        <Pressable
+          style={{
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            backgroundColor: theme.card,
+            padding: 15,
+            borderRadius: 10,
+            shadowColor: '#000',
+            shadowOpacity: 0.1,
+            shadowOffset: { width: 0, height: 2 },
+            shadowRadius: 6,
+            elevation: 3,
+          }}
+        >
+          <Text style={{ fontSize: 18, fontWeight: '500', color: theme.text }}>
+            Today’s Prayer ({currentDay} {currentPeriod})
+          </Text>
+          <Ionicons name="arrow-forward-circle" size={28} color={theme.accent} />
+        </Pressable>
+      </Link>
+    </View>
   );
 }
-
-const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-  },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
-  },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
-  },
-});

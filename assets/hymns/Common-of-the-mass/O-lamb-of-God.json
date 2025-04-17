@@ -1,0 +1,18 @@
+{
+    "title": "KEY Ab 4/4 [Adante Allegro] O LAMB OF GOD",
+    "index": 252,
+    "content": {
+      "type": "image_and_heading",
+      "heading": "KEY Ab 4/4 [Adante Allegro] O LAMB OF GOD",
+      "images": [
+        {
+          "source": "../../../images/o-lamb-of-God.jpeg",
+          "altText": "O Lamb of God"
+        },
+        {
+          "source": "../../../images/o-lamb-of-God(continuation).jpeg",
+          "altText": "O Lamb of God (Continuation)"
+        }
+      ]
+    }
+  }

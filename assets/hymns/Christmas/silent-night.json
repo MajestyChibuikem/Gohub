@@ -1,0 +1,15 @@
+{
+    "title": "SILENT NIGHT",
+    "index": 183,
+    "key": "Bb 6/8",
+    "images": [
+      "../../../images/silent-night.jpeg"
+    ],
+    "content": {
+      "type": "verses",
+      "verses": [
+        "Silent night, holy night Shards quake at the sight Lories stream from heaven afar Heavenly hosts sing alleluia Whist the saviour is born Wist the saviour is born",
+        "Silent night, holy night Son of God loves pure light Radiant beans from your holy With ther dawn of redeeming Jesus lord at thy birth Jesus, lord at thy birth"
+      ]
+    }
+  }

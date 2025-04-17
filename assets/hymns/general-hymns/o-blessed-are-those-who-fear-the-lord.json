@@ -1,0 +1,13 @@
+{
+  "title": "PS. 127 O BLESSED ARE THOSE WHO FEAR THE LORD",
+  "index": 101,
+  "content": {
+    "type": "hymn_with_image_and_verses",
+    "images": [
+      "../../../images/o-blessed-are-those-who-fear-the-lord.jpeg"
+    ],
+    "verses": [
+      "By the labour of your hands you shall eat\nYou will be happy and prosper\nYour wife like a fruitful vine in heart of your house\nYour children like the shoots of the olive, around your table"
+    ]
+  }
+}
