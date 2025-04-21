@@ -1,43 +1,66 @@
 {
-    "title": "The Angelus",
-    "description1": "May be said morning, noon and night, to put us in mind that God the Son became man for our salvation.",
-    "prayers": [
-      {
-        "leader": "V",
-        "text": "The Angel of the Lord declared unto Mary:"
-      },
-      {
-        "response": "R",
-        "text": "And she conceived of the Holy Spirit: Hail Mary, etc."
-      },
-      {
-        "leader": "V",
-        "text": "Behold the handmaid of the Lord:"
-      },
-      {
-        "response": "R",
-        "text": "Be it done unto me according to your word; Hail Mary, etc."
-      },
-      {
-        "leader": "V",
-        "text": "And the word was made Flesh:"
-      },
-      {
-        "response": "R",
-        "text": "And dwelt among us. Hail Mary, etc."
-      },
-      {
-        "leader": "J",
-        "text": "Pray for us, O Holy Mother of God."
-      },
-      {
-        "response": "R",
-        "text": "That we may be made worthy of the promises of Christ."
+  "title": {
+    "en": "The Angelus",
+    "es": "El Ángelus"
+  },
+  "description": {
+    "en": "May be said morning, noon and night, to put us in mind that God the Son became man for our salvation.",
+    "es": "Se puede rezar por la mañana, al mediodía y por la noche, para recordarnos que el Hijo de Dios se hizo hombre por nuestra salvación."
+  },
+  "sections": [
+    {
+      "type": "opening",
+      "content": {
+        "en": [
+          "V. The Angel of the Lord declared unto Mary:",
+          "R. And she conceived of the Holy Spirit: Hail Mary, etc."
+        ],
+        "es": [
+          "V. El ángel del Señor anunció a María:",
+          "R. Y ella concibió por obra del Espíritu Santo: Dios te salve, María, etc."
+        ]
       }
-    ],
-    "closing_prayer": "Let us pray: Pour forth, we beseech you O Lord, your grace into our hearts, that we to whom the incarnation of Christ your Son was made known by the message of an Angel. May by his passion and cross be brought to the glory of his resurrection, through the same Christ our Lord, Amen."
-    
-    
-  }
-  
-  
+    },
+    {
+      "type": "middle",
+      "content": {
+        "en": [
+          "V. Behold the handmaid of the Lord:",
+          "R. Be it done unto me according to your word; Hail Mary, etc.",
+          "V. And the word was made Flesh:",
+          "R. And dwelt among us. Hail Mary, etc."
+        ],
+        "es": [
+          "V. He aquí la esclava del Señor:",
+          "R. Hágase en mí según tu palabra; Dios te salve, María, etc.",
+          "V. Y el Verbo se hizo carne:",
+          "R. Y habitó entre nosotros. Dios te salve, María, etc."
+        ]
+      }
+    },
+    {
+      "type": "closing",
+      "content": {
+        "en": [
+          "J. Pray for us, O Holy Mother of God.",
+          "R. That we may be made worthy of the promises of Christ."
+        ],
+        "es": [
+          "J. Ruega por nosotros, Santa Madre de Dios.",
+          "R. Para que seamos dignos de las promesas de Cristo."
+        ]
+      }
+    },
+    {
+      "type": "prayer",
+      "content": {
+        "en": [
+          "Let us pray: Pour forth, we beseech you O Lord, your grace into our hearts, that we to whom the incarnation of Christ your Son was made known by the message of an Angel. May by his passion and cross be brought to the glory of his resurrection, through the same Christ our Lord, Amen."
+        ],
+        "es": [
+          "Oremos: Derrama, te rogamos, Señor, tu gracia en nuestros corazones, para que nosotros, a quienes fue revelada la encarnación de tu Hijo Jesucristo por el mensaje de un ángel, por su pasión y cruz seamos llevados a la gloria de su resurrección, por el mismo Cristo, nuestro Señor. Amén."
+        ]
+      }
+    }
+  ]
+}

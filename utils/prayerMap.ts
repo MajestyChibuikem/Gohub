@@ -53,20 +53,7 @@ type PrayerContent = {
   import MorningOffering from '@assets/prayers/DailyLife/MorningOffering.json';
   import SleepPrayer from '@assets/prayers/DailyLife/SleepPrayer.json';
   //saints & devotions
-  import Catena from '@assets/prayers/SaintsandDevotions/Catena.json';
-  import prayerofsaintfrancis from '@assets/prayers/SaintsandDevotions/prayerofsaintfrancis.json';
-  import StPatricksPrayer from '@assets/prayers/SaintsandDevotions/StPatricksPrayer.json';
-  //sacremental prayers
-  import afterholycommuinion from '@assets/prayers/SacramentalPrayers/AfterHolyCommunion.json';
-  import BeforeHolyCommunion from '@assets/prayers/SacramentalPrayers/BeforeHolyCommunion.json';
-  import litanyofthesacredheart from '@assets/prayers/SacramentalPrayers/LitanyoftheSacredHeart.json';
-  import prayerforconfession from '@assets/prayers/SacramentalPrayers/PrayerforConfession.json';
-  import prayerforgrace from '@assets/prayers/SacramentalPrayers/PrayerForGraceToMakeAGoodConfession.json';
-  //tradional prayers
-  import angelus from '@assets/prayers/traditional/angelus.json';
-  import orderofthemass from '@assets/prayers/traditional/OrderoftheMass.json';
-  import reginacaeli from '@assets/prayers/traditional/ReginaCaeli.json';
-  import holyrosary from '@assets/prayers/traditional/TheHolyRosary.json';
+
 
 
   // Helper function to create prayer sections from JSON
@@ -147,7 +134,7 @@ type PrayerContent = {
     return sections;
   };
   
-  const prayers: Record<'morning' | 'mid-day' | 'evening'|'traditional', Record<string, PrayerData>> = {
+  const prayers: Record<'morning' | 'mid-day' | 'evening', Record<string, PrayerData>> = {
     morning: {
         monday: {
             en: mondayMorning.title,
@@ -258,31 +245,13 @@ type PrayerContent = {
             es: sundayEvening.title, // Add Spanish title when available
             sections: createPrayerSections(sundayEvening)
         },
-    },
-    traditional:{
-      angelus:{
-        en: angelus.title,
-        es: angelus.title, // Add Spanish title when available
-        sections: createPrayerSections(angelus)
-      }
     }
   };
   
   export const loadPrayer = (
     dayOrPrayer: string,
-    period?: 'morning' | 'mid-day' | 'evening' | 'traditional'
+    period?: 'morning' | 'mid-day' | 'evening' 
   ): PrayerData => {
-    // Handle traditional prayers
-    if (period === 'traditional') {
-      const traditionalPrayers = prayers.traditional;
-      if (dayOrPrayer in traditionalPrayers) {
-        return traditionalPrayers[dayOrPrayer as keyof typeof traditionalPrayers];
-      }
-      return {
-        en: `Traditional prayer not found: ${dayOrPrayer}`,
-        es: `Oración tradicional no encontrada: ${dayOrPrayer}`,
-      };
-    }
   
     // Handle daily prayers
     const dayKey = dayOrPrayer.toLowerCase();

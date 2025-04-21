@@ -1,6 +1,27 @@
 {
-    "PrayerWhileAboutToSleep": {
-      "Prayer": "Into your hands, O Lord, I commend my spirit. Lord Jesus, receive my soul. In the Name of Our Lord Jesus Christ crucified, I lay down to sleep. Bless me, O Lord, and defend me, preserve me from sudden and unprovided death and from all dangers, and bring me unto life everlasting with you. Amen."
+  "title": {
+    "en": "PRAYER WHILE ABOUT TO SLEEP",
+    "es": "ORACIÓN ANTES DE DORMIR"
+  },
+  "sections": [
+    {
+      "type": "prayer",
+      "content": {
+        "en": [
+          "Into your hands, O Lord, I commend my spirit.",
+          "Lord Jesus, receive my soul.",
+          "In the Name of Our Lord Jesus Christ crucified, I lay down to sleep.",
+          "Bless me, O Lord, and defend me, preserve me from sudden and unprovided death and from all dangers, and bring me unto life everlasting with you.",
+          "Amen."
+        ],
+        "es": [
+          "En tus manos, Señor, encomiendo mi espíritu.",
+          "Jesús, recibe mi alma.",
+          "En el Nombre de Nuestro Señor Jesucristo crucificado, me acuesto a dormir.",
+          "Bendíceme, Señor, y defiéndeme, protégeme de una muerte repentina e imprevista y de todos los peligros, y llévame a la vida eterna contigo.",
+          "Amén."
+        ]
+      }
     }
-  }
-  
+  ]
+}

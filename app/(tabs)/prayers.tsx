@@ -66,10 +66,10 @@ export default function PrayersScreen() {
       title: 'Traditional Prayers',
       icon: '🙏',
       items: [
-        { title: 'THE ANGELUS', route: '/prayers/traditionalprayers', subtitle: 'Traditional Catholic devotion' },
-        { title: 'The Regina Caeli', route: '/prayers/regina-caeli', subtitle: 'Easter season prayer' },
-        { title: 'The Order of Mass', route: '/prayers/order-of-mass', subtitle: 'Structure of the Mass' },
-        { title: 'The Holy Rosary', route: '/prayers/holy-rosary', subtitle: 'Marian devotion' },
+        { title: 'THE ANGELUS', route: '/prayers/traditionalprayers?prayer=angelus', subtitle: 'Traditional Catholic devotion' },
+        { title: 'The Regina Caeli', route: '/prayers/traditionalprayers?prayer=regina-caeli', subtitle: 'Easter season prayer' },
+        { title: 'The Order of Mass', route: '/prayers/traditionalprayers?prayer=order-of-the-mass', subtitle: 'Structure of the Mass' },
+        { title: 'The Holy Rosary', route: '/prayers/traditionalprayers?prayer=holy-rosary', subtitle: 'Marian devotion' },
       ]
     },
     {
@@ -77,11 +77,11 @@ export default function PrayersScreen() {
       title: 'Sacramental Prayers',
       icon: '✝️',
       items: [
-        { title: 'LITANY OF THE SACRED HEART', route: '/prayers/litany-sacred-heart' },
-        { title: 'PRAYER FOR CONFESSION', route: '/prayers/confession' },
-        { title: 'Prayer for Grace To Make a Good Confession', route: '/prayers/grace-confession' },
-        { title: 'BEFORE HOLY COMMUNION', route: '/prayers/before-communion' },
-        { title: 'AFTER HOLY COMMUNION', route: '/prayers/after-communion' },
+        { title: 'LITANY OF THE SACRED HEART', route: '/prayers/sacramentalprayers?prayer=litany-of-the-sacred-heart' },
+        { title: 'PRAYER FOR CONFESSION', route: '/prayers/sacramentalprayers?prayer=prayer-for-confession' },
+        { title: 'Prayer for Grace To Make a Good Confession', route: '/prayers/sacramentalprayers?prayer=prayer-for-grace' },
+        { title: 'BEFORE HOLY COMMUNION', route: '/prayers/sacramentalprayers?prayer=before-holy-communion' },
+        { title: 'AFTER HOLY COMMUNION', route: '/prayers/sacramentalprayers?prayer=after-the-holy-communion' },
       ]
     },
     {
@@ -89,10 +89,10 @@ export default function PrayersScreen() {
       title: 'Saints & Devotions',
       icon: '👼',
       items: [
-        { title: 'PRAYER TO THE HOLY SPIRIT', route: '/prayers/holy-spirit' },
-        { title: 'PRAYER OF SAINT FRANCIS', route: '/prayers/st-francis' },
-        { title: "ST PATRICK'S PRAYER", route: '/prayers/st-patrick' },
-        { title: 'CATENA', route: '/prayers/catena' },
+        { title: 'PRAYER TO THE HOLY SPIRIT', route: '/prayers/saints?prayer=Prayer-to-the-holy-spirit' },
+        { title: 'PRAYER OF SAINT FRANCIS', route: '/prayers/saints?prayer=prayer-of-saint-francis' },
+        { title: "ST PATRICK'S PRAYER", route: '/prayers/saints?prayer=St-Patricks-Prayer' },
+        { title: 'CATENA', route: '/prayers/saints?prayer=catena' },
       ]
     },
     {
@@ -100,10 +100,10 @@ export default function PrayersScreen() {
       title: 'Daily Life',
       icon: '🌞',
       items: [
-        { title: 'MORNING OFFERING', route: '/prayers/morning-offering' },
-        { title: 'PRAYER WHILE ABOUT TO SLEEP', route: '/prayers/night-prayer' },
-        { title: 'GRACE BEFORE MEALS', route: '/prayers/grace-before-meals' },
-        { title: 'GRACE AFTER MEALS', route: '/prayers/grace-after-meals' },
+        { title: 'MORNING OFFERING', route: '/prayers/daily?prayer=morning-offering' },
+        { title: 'PRAYER WHILE ABOUT TO SLEEP', route: '/prayers/daily?prayer=Sleep-prayer' },
+        { title: 'GRACE BEFORE MEALS', route: '/prayers/daily?prayer=grace-before-meals' },
+        { title: 'GRACE AFTER MEALS', route: '/prayers/daily?prayer=grace-after-meals' },
       ]
     },
   ];

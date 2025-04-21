@@ -1,17 +1,52 @@
 {
-    "StPatricksPrayer": {
-      "Lines": [
-        "Christ be with me,",
-        "Christ within me,",
-        "Christ before me,",
-        "Christ beside me,",
-        "Christ beneath me,",
-        "Christ above me,",
-        "Christ in quiet.",
-        "Christ in danger,",
-        "Christ in hearts of all that love me,",
-        "Christ in mouth of friend and stranger."
-      ]
+  "title": {
+    "en": "PRAYER TO THE HOLY SPIRIT",
+    "es": "ORACIÓN AL ESPÍRITU SANTO"
+  },
+  "sections": [
+    {
+      "type": "versicle_response",
+      "title": {
+        "en": "Versicle and Response",
+        "es": "Versículo y Respuesta"
+      },
+      "content": {
+        "en": [
+          {
+            "V": "Come O Holy Spirit, fill the hearts of your faithful",
+            "R": "And enkindle in them the fire of your love."
+          },
+          {
+            "V": "Send forth your Spirit and they shall be created.",
+            "R": "And you shall renew the face of the earth."
+          }
+        ],
+        "es": [
+          {
+            "V": "Ven, Espíritu Santo, llena los corazones de tus fieles",
+            "R": "Y enciende en ellos el fuego de tu amor."
+          },
+          {
+            "V": "Envía tu Espíritu y serán creados.",
+            "R": "Y renovarás la faz de la tierra."
+          }
+        ]
+      }
+    },
+    {
+      "type": "prayer",
+      "title": {
+        "en": "Prayer",
+        "es": "Oración"
+      },
+      "content": {
+        "en": [
+          "O God, who taught the hearts of the faithful by the light of the Holy Spirit, grant that by the gift of the same Spirit we may be always truly wise and ever rejoice in His consolation. Through Christ our Lord. Amen."
+        ],
+        "es": [
+          "Oh Dios, que instruiste los corazones de los fieles con la luz del Espíritu Santo, concédenos por el don del mismo Espíritu ser siempre verdaderamente sabios y gozar siempre de su consuelo. Por Cristo nuestro Señor. Amén."
+        ]
+      }
     }
-  }
-  
+  ]
+}

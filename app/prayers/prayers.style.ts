@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-export const createTraditionalPrayerStyles = (theme: any) => StyleSheet.create({
+export const createPrayerStyles = (theme: any) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: theme.background,
@@ -42,5 +42,40 @@ export const createTraditionalPrayerStyles = (theme: any) => StyleSheet.create({
   prayerText: {
     marginVertical: 5,
     color: theme.text
-  }
+  },
+  prayerItem: {
+    marginBottom: 15,
+  },
+  prayerLeader: {
+    fontWeight: 'bold',
+    color: theme.accent,
+    marginBottom: 5,
+  },
+  prayerResponse: {
+    fontStyle: 'italic',
+    color: theme.textSecondary,
+    marginTop: 5,
+  },
+  closingPrayer: {
+    marginTop: 20,
+    fontStyle: 'italic',
+    color: theme.text,
+  },
+  section: {
+    marginTop: 16,
+    marginBottom: 16,
+    padding: 10,
+    backgroundColor: theme.sectionBackground,
+    borderRadius: 8,
+  },
+  sectionTitle: {
+    fontWeight: 'bold',
+    fontSize: 18,
+    marginBottom: 8,
+    color: theme.textColor,
+  },
+  nestedSection: {
+    marginLeft: 16,
+    marginBottom: 8,
+  },
 });

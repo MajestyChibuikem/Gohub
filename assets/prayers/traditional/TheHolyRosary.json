@@ -1,163 +1,122 @@
 {
-    "HolyRosary": {
-      "Structure": {
-        "Decade": {
-          "Components": [
-            "Our Father",
-            "10 Hail Marys",
-            "Glory be to the Father"
-          ],
-          "Purpose": "Each decade is recited in honor of a mystery in the life of Jesus and Mary"
-        },
-        "IntroductoryVerses": {
-          "Leader": [
-            "You, O Lord, will open my lips",
-            "Incline unto my aid, O God"
-          ],
-          "Response": [
-            "And my tongue shall announce your praise",
-            "O Lord, make haste to help me"
-          ],
-          "GloryBe": {
-            "Leader": "Glory be to the Father and to the Son and to the Holy Spirit",
-            "Response": "As it was in the beginning, is now, and ever shall be, world without end. Amen"
-          }
-        },
-        "FatimaPrayer": "O Jesus forgive us our sins, save us from the fire of hell, lead all souls into Heaven, especially those who have most need of your mercy"
-      },
-      "Mysteries": {
-        "Joyful": {
-          "Days": ["Monday", "Thursday"],
-          "Titles": [
-            "The Annunciation of the birth of Christ",
-            "The Visitation of our Lady to Elizabeth",
-            "The birth of our Lord",
-            "The Presentation in the Temple",
-            "The Finding of the Child Jesus in the Temple"
-          ]
-        },
-        "Sorrowful": {
-          "Days": ["Tuesday", "Friday"],
-          "Titles": [
-            "The Prayer and Agony in the Garden",
-            "The Scourging at the Pillar",
-            "The Crowning with Thorns",
-            "The Carrying of the Cross",
-            "The Crucifixion and Death of Our Lord"
-          ]
-        },
-        "Glorious": {
-          "Days": ["Wednesday", "Saturday", "Sunday"],
-          "Titles": [
-            "The Resurrection of our Lord from the dead",
-            "The Ascension of Christ into Heaven",
-            "The Descent of the Holy Spirit on the Apostles",
-            "The Assumption of our Lady into Heaven",
-            "The Coronation of the Blessed Virgin Mary in Heaven and Glory of all the Saints"
-          ]
-        },
-        "Luminous": {
-          "Days": ["Thursday"],
-          "Titles": [
-            "The Baptism of Jesus at Jordan",
-            "The Self Manifestation of Jesus Christ at the Wedding at Cana",
-            "The Proclamation of the Kingdom of God with His Call to Conversion",
-            "The Transfiguration of Jesus Christ at Mount Tabor",
-            "The Institution of the Eucharist as the Sacramental Expression of the Paschal"
-          ]
-        }
-      },
-      "Conclusion": {
-        "HailHolyQueen": [
+  "title": {
+    "en": "The Holy Rosary",
+    "es": "El Santo Rosario"
+  },
+  "sections": [
+    {
+      "type": "introduction",
+      "content": {
+        "en": [
+          "You, O Lord, will open my lips. And my tongue shall announce your praise.",
+          "Incline unto my aid, O God. O Lord, make haste to help me.",
+          "Glory be to the Father and to the Son and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen."
+        ],
+        "es": [
+          "Tú, oh Señor, abrirás mis labios. Y mi lengua anunciará tu alabanza.",
+          "Inclínate en mi ayuda, oh Dios. Oh Señor, date prisa en ayudarme.",
+          "Gloria al Padre, al Hijo y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén."
+        ]
+      }
+    },
+    {
+      "type": "mysteries",
+      "content": {
+        "en": [
+          "Joyful Mysteries (Monday, Thursday): The Annunciation, The Visitation, The Nativity, The Presentation, The Finding of Jesus in the Temple.",
+          "Sorrowful Mysteries (Tuesday, Friday): The Agony in the Garden, The Scourging, The Crowning with Thorns, The Carrying of the Cross, The Crucifixion.",
+          "Glorious Mysteries (Wednesday, Saturday, Sunday): The Resurrection, The Ascension, The Descent of the Holy Spirit, The Assumption, The Coronation of Mary.",
+          "Luminous Mysteries (Thursday): The Baptism of Jesus, The Wedding at Cana, The Proclamation of the Kingdom, The Transfiguration, The Institution of the Eucharist."
+        ],
+        "es": [
+          "Misterios Gozosos (Lunes, Jueves): La Anunciación, La Visitación, El Nacimiento, La Presentación, El Hallazgo de Jesús en el Templo.",
+          "Misterios Dolorosos (Martes, Viernes): La Agonía en el Huerto, La Flagelación, La Coronación de Espinas, El Camino del Calvario, La Crucifixión.",
+          "Misterios Gloriosos (Miércoles, Sábado, Domingo): La Resurrección, La Ascensión, La Venida del Espíritu Santo, La Asunción, La Coronación de María.",
+          "Misterios Luminosos (Jueves): El Bautismo de Jesús, Las Bodas de Caná, La Proclamación del Reino, La Transfiguración, La Institución de la Eucaristía."
+        ]
+      }
+    },
+    {
+      "type": "decade",
+      "content": {
+        "en": [
+          "Our Father",
+          "10 Hail Marys",
+          "Glory be to the Father"
+        ],
+        "es": [
+          "Padre Nuestro",
+          "10 Ave Marías",
+          "Gloria al Padre"
+        ]
+      }
+    },
+    {
+      "type": "conclusion",
+      "content": {
+        "en": [
           "Hail Holy Queen, Mother of mercy; hail our life, our sweetness and our hope!",
           "To you do we cry, poor banished children of Eve;",
           "To you do we send up our sighs, mourning and weeping in this vale of tears.",
           "Turn then, most gracious advocate, your eyes of mercy toward us;",
           "And after this our exile, show us the Blessed fruit of your womb, Jesus.",
-          "O Clement, O Loving, O Sweet Virgin Mary."
+          "O Clement, O Loving, O Sweet Virgin Mary.",
+          "Pray for us, O Holy Mother of God. That we may be made worthy of the promises of Christ."
         ],
-        "ClosingVerses": {
-          "V": "Pray for us, O Holy Mother of God",
-          "R": "That we may be made worthy of the promises of Christ"
-        },
-        "LetUsPray": "O God, whose only-begotten Son, by his life, death and resurrection has purchased for us the rewards of eternal life; grant, we beseech you, that meditating on these Mysteries in the most Holy Rosary of the Blessed Virgin Mary, we may both imitate what they contain and obtain what they promise, through Christ our Lord."
-      },
-      "LitanyOfBlessedVirgin": {
-        "Intro": [
-          "Lord, have mercy.",
-          "Christ, have mercy.",
-          "Lord, have mercy.",
-          "Christ, hear us.",
-          "Christ graciously hear us."
+        "es": [
+          "Dios te salve, Reina y Madre de misericordia; vida, dulzura y esperanza nuestra, ¡salve!",
+          "A ti clamamos los desterrados hijos de Eva;",
+          "A ti suspiramos, gimiendo y llorando en este valle de lágrimas.",
+          "Vuélvete, pues, misericordiosa Abogada, tus ojos misericordiosos hacia nosotros;",
+          "Y después de este destierro, muéstranos al fruto bendito de tu vientre, Jesús.",
+          "Oh clemente, oh piadosa, oh dulce Virgen María.",
+          "Ruega por nosotros, Santa Madre de Dios. Para que seamos dignos de alcanzar las promesas de Cristo."
+        ]
+      }
+    },
+    {
+      "type": "litany",
+      "content": {
+        "en": [
+          "Lord, have mercy. Christ, have mercy. Lord, have mercy.",
+          "Christ, hear us. Christ graciously hear us.",
+          "God the Father of Heaven – Have mercy on us.",
+          "God the Son Redeemer of the world – Have mercy on us.",
+          "God the Holy Ghost – Have mercy on us.",
+          "Holy Trinity, one God – Have mercy on us.",
+          "Holy Mary – Pray for us.",
+          "Holy Mother of God – Pray for us.",
+          "... (Include all invocations)",
+          "Lamb of God, who takes away the sins of the world – Spare us O Lord.",
+          "Lamb of God, who takes away the sins of the world – Graciously hear us O Lord.",
+          "Lamb of God, who takes away the sins of the world – Have mercy on us."
         ],
-        "GodInvocations": [
-          "God the Father of Heaven – Have mercy on us",
-          "God the Son Redeemer of the world – Have mercy on us",
-          "God the Holy Ghost – Have mercy on us",
-          "Holy Trinity, one God – Have mercy on us"
+        "es": [
+          "Señor, ten piedad. Cristo, ten piedad. Señor, ten piedad.",
+          "Cristo, óyenos. Cristo, escúchanos benignamente.",
+          "Dios Padre del Cielo – Ten misericordia de nosotros.",
+          "Dios Hijo Redentor del mundo – Ten misericordia de nosotros.",
+          "Dios Espíritu Santo – Ten misericordia de nosotros.",
+          "Santísima Trinidad, un solo Dios – Ten misericordia de nosotros.",
+          "Santa María – Ruega por nosotros.",
+          "Santa Madre de Dios – Ruega por nosotros.",
+          "... (Incluir todas las invocaciones)",
+          "Cordero de Dios, que quitas los pecados del mundo – Perdónanos, Señor.",
+          "Cordero de Dios, que quitas los pecados del mundo – Escúchanos benignamente, Señor.",
+          "Cordero de Dios, que quitas los pecados del mundo – Ten misericordia de nosotros."
+        ]
+      }
+    },
+    {
+      "type": "closing_prayer",
+      "content": {
+        "en": [
+          "O God, whose only-begotten Son, by his life, death and resurrection has purchased for us the rewards of eternal life; grant, we beseech you, that meditating on these Mysteries in the most Holy Rosary of the Blessed Virgin Mary, we may both imitate what they contain and obtain what they promise, through Christ our Lord."
         ],
-        "Invocations": [
-          "Holy Mary – Pray for us",
-          "Holy Mother of God – Pray for us",
-          "Holy Virgin of Virgins – Pray for us",
-          "Mother of Christ – Pray for us",
-          "Mother of Divine Grace – Pray for us",
-          "Mother most pure – Pray for us",
-          "Mother most chaste – Pray for us",
-          "Mother inviolate – Pray for us",
-          "Mother undefiled – Pray for us",
-          "Mother most amiable – Pray for us",
-          "Mother most admirable – Pray for us",
-          "Mother of Good Counsel – Pray for us",
-          "Mother of our Creator – Pray for us",
-          "Mother of our Savior – Pray for us",
-          "Virgin most prudent – Pray for us",
-          "Virgin most venerable – Pray for us",
-          "Virgin most renowned – Pray for us",
-          "Virgin most powerful – Pray for us",
-          "Virgin most merciful – Pray for us",
-          "Virgin most faithful – Pray for us",
-          "Mirror of justice – Pray for us",
-          "Seat of wisdom – Pray for us",
-          "Cause of our joy – Pray for us",
-          "Spiritual vessel – Pray for us",
-          "Vessel of honor – Pray for us",
-          "Singular Vessel of devotion – Pray for us",
-          "Mystical rose – Pray for us",
-          "Tower of David – Pray for us",
-          "Tower of ivory – Pray for us",
-          "House of gold – Pray for us",
-          "Ark of the covenant – Pray for us",
-          "Gate of Heaven – Pray for us",
-          "Morning star – Pray for us",
-          "Health of the sick – Pray for us",
-          "Refuge of sinners – Pray for us",
-          "Comfort of the afflicted – Pray for us",
-          "Help of Christians – Pray for us",
-          "Queen of Angels – Pray for us",
-          "Queen of Patriarchs – Pray for us",
-          "Queen of Prophets – Pray for us",
-          "Queen of Apostles – Pray for us",
-          "Queen of Martyrs – Pray for us",
-          "Queen of Confessors – Pray for us",
-          "Queen of Virgins – Pray for us",
-          "Queen of all Saints – Pray for us",
-          "Queen conceived without original sin – Pray for us",
-          "Queen assumed into heaven – Pray for us",
-          "Queen of the most holy Rosary – Pray for us",
-          "Queen of peace – Pray for us"
-        ],
-        "LambOfGod": [
-          "Lamb of God, who takes away the sins of the world – Spare us O Lord",
-          "Lamb of God, who takes away the sins of the world – Graciously hear us O Lord",
-          "Lamb of God, who takes away the sins of the world – Have mercy on us"
-        ],
-        "ClosingVerses": {
-          "V": "Pray for us, O holy Mother of God",
-          "R": "That we may be made worthy of the promises of Christ"
-        },
-        "LetUsPray": "Grant, we beseech Thee, O Lord God, that we Thy servants may enjoy lasting health of mind and body, and by the glorious intercession of the Blessed Mary, ever Virgin, be delivered from present sorrow and enter into the joy of eternal gladness. Through Christ, our Lord. Amen."
+        "es": [
+          "Oh Dios, cuyo único Hijo, por su vida, muerte y resurrección nos ha obtenido los premios de la vida eterna; te rogamos que, meditando estos Misterios en el Santísimo Rosario de la Virgen María, podamos imitar lo que contienen y obtener lo que prometen, por Cristo Nuestro Señor."
+        ]
       }
     }
-  }
-  
+  ]
+}

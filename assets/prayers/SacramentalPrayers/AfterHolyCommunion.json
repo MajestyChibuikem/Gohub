@@ -1,11 +1,116 @@
 {
-    "AfterHolyCommunion": {
-      "ActOfFaith": "O Jesus, I believe that I have received your flesh to eat and your body to drink, because you have said it, and your word is true. All that I am are your gift, and now you have given me yourself.",
-      "ActOfAdoration": "O Jesus, my God, my Creator, I adore you, because from your hands I came and with you I am to be happy forever.",
-      "ActOfHumility": "O Jesus, I am not worthy to receive you, and yet you have come to me that my poor heart may learn of you to be meek and humble.",
-      "ActOfLove": "Jesus, I love you; I love you with all my heart. You know that I love you, and wish to love you daily more and more.",
-      "ActOfThanksgiving": "My good Jesus, I thank you with all my heart. How good, how kind you are to me. Blessed be Jesus in the most Holy Sacrament of the Altar.",
-      "ActOfOffering": "O Jesus, receive my poor offering. Jesus, you have given yourself to me, and now let me give myself to you: I give you my body, that I may be chaste and pure. I give you my heart that I may always love you. I give you every breath that I shall breathe, and especially my last. I give you myself in life and in death, that I may be yours for ever and ever."
+  "title": {
+    "en": "AFTER HOLY COMMUNION",
+    "es": "DESPUÉS DE LA SANTA COMUNIÓN"
+  },
+  "sections": [
+    {
+      "type": "act_of_faith",
+      "title": {
+        "en": "Act of Faith",
+        "es": "Acto de Fe"
+      },
+      "content": {
+        "en": [
+          "O Jesus, I believe that I have received your flesh to eat and your body to drink, because you have said it, and your word is true.",
+          "All that I am are your gift, and now you have given me yourself."
+        ],
+        "es": [
+          "Oh Jesús, creo que he recibido tu carne para comer y tu cuerpo para beber, porque tú lo has dicho, y tu palabra es verdad.",
+          "Todo lo que soy es un regalo tuyo, y ahora me has dado a ti mismo."
+        ]
+      }
+    },
+    {
+      "type": "act_of_adoration",
+      "title": {
+        "en": "Act of Adoration",
+        "es": "Acto de Adoración"
+      },
+      "content": {
+        "en": [
+          "O Jesus, my God, my Creator, I adore you, because from your hands I came and with you I am to be happy forever."
+        ],
+        "es": [
+          "Oh Jesús, mi Dios, mi Creador, te adoro, porque de tus manos vine y contigo seré feliz por siempre."
+        ]
+      }
+    },
+    {
+      "type": "act_of_humility",
+      "title": {
+        "en": "Act of Humility",
+        "es": "Acto de Humildad"
+      },
+      "content": {
+        "en": [
+          "O Jesus, I am not worthy to receive you, and yet you have come to me that my poor heart may learn of you to be meek and humble."
+        ],
+        "es": [
+          "Oh Jesús, no soy digno de recibirte, y sin embargo has venido a mí para que mi pobre corazón aprenda de ti a ser manso y humilde."
+        ]
+      }
+    },
+    {
+      "type": "act_of_love",
+      "title": {
+        "en": "Act of Love",
+        "es": "Acto de Amor"
+      },
+      "content": {
+        "en": [
+          "Jesus, I love you; I love you with all my heart.",
+          "You know that I love you, and wish to love you daily more and more."
+        ],
+        "es": [
+          "Jesús, te amo; te amo con todo mi corazón.",
+          "Sabes que te amo, y deseo amarte cada día más y más."
+        ]
+      }
+    },
+    {
+      "type": "act_of_thanksgiving",
+      "title": {
+        "en": "Act of Thanksgiving",
+        "es": "Acto de Acción de Gracias"
+      },
+      "content": {
+        "en": [
+          "My good Jesus, I thank you with all my heart.",
+          "How good, how kind you are to me.",
+          "Blessed be Jesus in the most Holy Sacrament of the Altar."
+        ],
+        "es": [
+          "Mi buen Jesús, te doy gracias con todo mi corazón.",
+          "Qué bueno, qué amable eres conmigo.",
+          "Bendito sea Jesús en el Santísimo Sacramento del Altar."
+        ]
+      }
+    },
+    {
+      "type": "act_of_offering",
+      "title": {
+        "en": "Act of Offering",
+        "es": "Acto de Ofrenda"
+      },
+      "content": {
+        "en": [
+          "O Jesus, receive my poor offering.",
+          "Jesus, you have given yourself to me, and now let me give myself to you:",
+          "I give you my body, that I may be chaste and pure.",
+          "I give you my heart that I may always love you.",
+          "I give you every breath that I shall breathe, and especially my last.",
+          "I give you myself in life and in death, that I may be yours forever and ever."
+        ],
+        "es": [
+          "Oh Jesús, recibe mi pobre ofrenda.",
+          "Jesús, te has dado a mí, y ahora permíteme darme a ti:",
+          "Te doy mi cuerpo, para que sea casto y puro.",
+          "Te doy mi corazón para que siempre te ame.",
+          "Te doy cada aliento que respiraré, y especialmente mi último suspiro.",
+          "Te doy a mí mismo en vida y en muerte, para ser tuyo por siempre jamás."
+        ]
+      }
     }
-  }
-  
+  ]
+}

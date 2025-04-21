@@ -1,36 +1,107 @@
 {
-    "Catena": {
-      "Antiphon": "Who is she that cometh forth as the morning rising, fair as the moon, bright as the sun, terrible as an army set in battle array?",
-      "Verses": [
-        {
-          "V": "My soul+doth magnify the Lord,",
-          "R": "And my spirit hath rejoiced in God my savior."
-        },
-        {
-          "V": "Because He hath regarded the humility of His handmaid: for behold from henceforth all generations shall call me blessed.",
-          "R": "For He that is mighty hath done great things to me and holy is His name."
-        },
-        {
-          "V": "And His mercy is from generation unto generation to them that fear him,",
-          "R": "He hath showed might in His arm: He hath scattered the proud in the conceit of their heart."
-        },
-        {
-          "V": "He hath put down the mighty from their seat; and hath exalted the humble.",
-          "R": "He hath filled the hungry with good things: and the rich He hath sent empty away."
-        },
-        {
-          "V": "He hath received Israel His servant: being mindful of His mercy.",
-          "R": "As He spoke to our fathers, to Abraham and to his seed forever."
-        },
-        {
-          "V": "Glory be to the Father and to the Son, and to the Holy Spirit.",
-          "R": "As it was in the beginning, is now, and ever shall be, world without end."
-        }
-      ],
-      "RepeatAntiphon": "Who is she that cometh forth as the morning rising, fair as the moon, bright as the sun, terrible as an army set in battle array?",
-      "V1": "O Mary, conceived without sin,",
-      "R1": "Pray for us who have recourse to thee.",
-      "Prayer": "O Lord Jesus Christ, our mediator with the Father, who has been pleased to appoint the most Blessed Virgin, Thy mother to be our mother also, and our Mediatrix with Thee, mercifully grant that whosoever comes to Thee seeking Thy favors may rejoice to receive all of them through her. Amen."
+  "title": {
+    "en": "CATENA",
+    "es": "CADENA"
+  },
+  "sections": [
+    {
+      "type": "antiphon",
+      "content": {
+        "en": "Who is she that cometh forth as the morning rising, fair as the moon, bright as the sun, terrible as an army set in battle array?",
+        "es": "¿Quién es ella que avanza como la aurora, hermosa como la luna, brillante como el sol, temible como un ejército en orden de batalla?"
+      }
+    },
+    {
+      "type": "verses",
+      "title": {
+        "en": "Verses",
+        "es": "Versículos"
+      },
+      "content": {
+        "en": [
+          {
+            "V": "My soul+doth magnify the Lord,",
+            "R": "And my spirit hath rejoiced in God my savior."
+          },
+          {
+            "V": "Because He hath regarded the humility of His handmaid: for behold from henceforth all generations shall call me blessed.",
+            "R": "For He that is mighty hath done great things to me and holy is His name."
+          },
+          {
+            "V": "And His mercy is from generation unto generation to them that fear him,",
+            "R": "He hath showed might in His arm: He hath scattered the proud in the conceit of their heart."
+          },
+          {
+            "V": "He hath put down the mighty from their seat; and hath exalted the humble.",
+            "R": "He hath filled the hungry with good things: and the rich He hath sent empty away."
+          },
+          {
+            "V": "He hath received Israel His servant: being mindful of His mercy.",
+            "R": "As He spoke to our fathers, to Abraham and to his seed forever."
+          },
+          {
+            "V": "Glory be to the Father and to the Son, and to the Holy Spirit.",
+            "R": "As it was in the beginning, is now, and ever shall be, world without end."
+          }
+        ],
+        "es": [
+          {
+            "V": "Mi alma glorifica al Señor,",
+            "R": "Y mi espíritu se alegra en Dios mi Salvador."
+          },
+          {
+            "V": "Porque ha mirado la humildad de su esclava; porque he aquí, desde ahora todas las generaciones me llamarán bienaventurada.",
+            "R": "Porque el Poderoso ha hecho grandes cosas en mí, y santo es su nombre."
+          },
+          {
+            "V": "Y su misericordia se extiende de generación en generación sobre los que le temen,",
+            "R": "Ha demostrado el poder de su brazo: ha dispersado a los soberbios en la arrogancia de su corazón."
+          },
+          {
+            "V": "Ha derribado del trono a los poderosos y ha exaltado a los humildes.",
+            "R": "A los hambrientos ha colmado de bienes, y a los ricos ha despedido vacíos."
+          },
+          {
+            "V": "Ha socorrido a Israel, su siervo, acordándose de su misericordia,",
+            "R": "Como lo había prometido a nuestros padres, a Abraham y a su descendencia para siempre."
+          },
+          {
+            "V": "Gloria al Padre, y al Hijo, y al Espíritu Santo.",
+            "R": "Como era en el principio, ahora y siempre, por los siglos de los siglos."
+          }
+        ]
+      }
+    },
+    {
+      "type": "repeat_antiphon",
+      "content": {
+        "en": "Who is she that cometh forth as the morning rising, fair as the moon, bright as the sun, terrible as an army set in battle array?",
+        "es": "¿Quién es ella que avanza como la aurora, hermosa como la luna, brillante como el sol, temible como un ejército en orden de batalla?"
+      }
+    },
+    {
+      "type": "invocation",
+      "content": {
+        "en": [
+          "O Mary, conceived without sin,",
+          "Pray for us who have recourse to thee."
+        ],
+        "es": [
+          "Oh María, concebida sin pecado,",
+          "Ruega por nosotros que recurrimos a ti."
+        ]
+      }
+    },
+    {
+      "type": "prayer",
+      "content": {
+        "en": [
+          "O Lord Jesus Christ, our mediator with the Father, who has been pleased to appoint the most Blessed Virgin, Thy mother to be our mother also, and our Mediatrix with Thee, mercifully grant that whosoever comes to Thee seeking Thy favors may rejoice to receive all of them through her. Amen."
+        ],
+        "es": [
+          "Oh Señor Jesucristo, nuestro mediador con el Padre, que has querido nombrar a la Santísima Virgen, tu madre, como nuestra madre también y nuestra Mediadora contigo, concede piadosamente que quienes acuden a Ti buscando tus favores puedan alegrarse de recibirlos todos por medio de ella. Amén."
+        ]
+      }
     }
-  }
-  
+  ]
+}

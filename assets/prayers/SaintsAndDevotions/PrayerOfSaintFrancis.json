@@ -1,15 +1,46 @@
 {
-    "PrayerOfSaintFrancis": {
-      "Lines": [
-        "Lord, make me an instrument of your peace.",
-        "Where there is hatred, let me sow love.",
-        "Where there is injury, pardon.",
-        "Where there is discord, union.",
-        "Where there is doubt, faith.",
-        "Where there is despair, hope.",
-        "Where there is darkness, light.",
-        "Where there is sadness, joy."
-      ],
-      "Closing": "For your mercy and truth's sake, O Divine Master, grant that I may not so much seek to be consoled as to console, to be understood as to understand, to be loved as to love. For it is in giving that we receive, it is in pardoning that we are pardoned,it is in dying that we are bom to etemal life."
+  "title": {
+    "en": "PRAYER OF SAINT FRANCIS",
+    "es": "ORACIÓN DE SAN FRANCISCO"
+  },
+  "sections": [
+    {
+      "type": "lines",
+      "content": {
+        "en": [
+          "Lord, make me an instrument of your peace.",
+          "Where there is hatred, let me sow love.",
+          "Where there is injury, pardon.",
+          "Where there is discord, union.",
+          "Where there is doubt, faith.",
+          "Where there is despair, hope.",
+          "Where there is darkness, light.",
+          "Where there is sadness, joy."
+        ],
+        "es": [
+          "Señor, hazme instrumento de tu paz.",
+          "Donde haya odio, que yo siembre amor.",
+          "Donde haya ofensa, perdón.",
+          "Donde haya discordia, unión.",
+          "Donde haya duda, fe.",
+          "Donde haya desesperación, esperanza.",
+          "Donde haya oscuridad, luz.",
+          "Donde haya tristeza, alegría."
+        ]
+      }
+    },
+    {
+      "type": "closing",
+      "content": {
+        "en": [
+          "For your mercy and truth's sake, O Divine Master, grant that I may not so much seek to be consoled as to console, to be understood as to understand, to be loved as to love.",
+          "For it is in giving that we receive, it is in pardoning that we are pardoned, it is in dying that we are born to eternal life."
+        ],
+        "es": [
+          "Por tu misericordia y verdad, oh Divino Maestro, concédeme que no busque tanto ser consolado como consolar, ser comprendido como comprender, ser amado como amar.",
+          "Porque es dando que recibimos, es perdonando que somos perdonados, y es muriendo que nacemos a la vida eterna."
+        ]
+      }
     }
-  }
+  ]
+}

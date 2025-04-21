@@ -1,11 +1,114 @@
 {
-    "BeforeHolyCommunion": {
-      "PrayerForHelp": "O my God, help me to make a good Communion. Mary, my dearest Mother, pray to Jesus for me. My dear Angel Guardian, lead me to the Altar of God.",
-      "ActOfFaith": "O my God, because you have said it, I believe that I shall receive the Sacred Body of Jesus Christ to eat, and His Precious Blood to drink. My God, I believe this with all my heart.",
-      "ActOfHumility": "My God, I confess that I am a poor sinner; I am not worthy to receive the Body and Blood of Jesus, on account of my sins. Lord, I am not worthy to receive you under my roof, but only say the word, and my soul shall be healed.",
-      "ActOfSorrow": "My God, I detest all the sins of my life. I am sorry for them, because they have offended you, my God, who are so good, and I resolve never to commit sin anymore. My good God, pity me, have mercy on me, and forgive me.",
-      "ActOfAdoration": "O Jesus, great God, present on the Altar, I bow down before you, I adore you.",
-      "ActOfLoveAndDesire": "Jesus, I love you. I desire with all my heart to receive you. Jesus, come into my life and my poor soul, and give me your whole Self — Body, Blood, Soul, and Divinity — that I may live forever with you."
+  "title": {
+    "en": "BEFORE HOLY COMMUNION",
+    "es": "ANTES DE LA SANTA COMUNIÓN"
+  },
+  "sections": [
+    {
+      "type": "prayer_for_help",
+      "title": {
+        "en": "Prayer for Help",
+        "es": "Oración por Ayuda"
+      },
+      "content": {
+        "en": [
+          "O my God, help me to make a good Communion.",
+          "Mary, my dearest Mother, pray to Jesus for me.",
+          "My dear Angel Guardian, lead me to the Altar of God."
+        ],
+        "es": [
+          "Oh Dios mío, ayúdame a hacer una buena Comunión.",
+          "María, mi queridísima Madre, ruega a Jesús por mí.",
+          "Mi querido Ángel de la Guarda, llévame al Altar de Dios."
+        ]
+      }
+    },
+    {
+      "type": "act_of_faith",
+      "title": {
+        "en": "Act of Faith",
+        "es": "Acto de Fe"
+      },
+      "content": {
+        "en": [
+          "O my God, because you have said it, I believe that I shall receive the Sacred Body of Jesus Christ to eat, and His Precious Blood to drink.",
+          "My God, I believe this with all my heart."
+        ],
+        "es": [
+          "Oh Dios mío, porque tú lo has dicho, creo que recibiré el Sagrado Cuerpo de Jesucristo para comer y Su Preciosa Sangre para beber.",
+          "Dios mío, creo esto con todo mi corazón."
+        ]
+      }
+    },
+    {
+      "type": "act_of_humility",
+      "title": {
+        "en": "Act of Humility",
+        "es": "Acto de Humildad"
+      },
+      "content": {
+        "en": [
+          "My God, I confess that I am a poor sinner; I am not worthy to receive the Body and Blood of Jesus, on account of my sins.",
+          "Lord, I am not worthy to receive you under my roof, but only say the word, and my soul shall be healed."
+        ],
+        "es": [
+          "Dios mío, confieso que soy un pobre pecador; no soy digno de recibir el Cuerpo y la Sangre de Jesús, a causa de mis pecados.",
+          "Señor, no soy digno de que entres bajo mi techo, pero di solo una palabra, y mi alma será sanada."
+        ]
+      }
+    },
+    {
+      "type": "act_of_sorrow",
+      "title": {
+        "en": "Act of Sorrow",
+        "es": "Acto de Arrepentimiento"
+      },
+      "content": {
+        "en": [
+          "My God, I detest all the sins of my life.",
+          "I am sorry for them, because they have offended you, my God, who are so good, and I resolve never to commit sin anymore.",
+          "My good God, pity me, have mercy on me, and forgive me."
+        ],
+        "es": [
+          "Dios mío, detesto todos los pecados de mi vida.",
+          "Me arrepiento de ellos porque te he ofendido, Dios mío, que eres tan bueno, y resuelvo no cometer pecado nunca más.",
+          "Mi buen Dios, ten piedad de mí, ten misericordia de mí y perdóname."
+        ]
+      }
+    },
+    {
+      "type": "act_of_adoration",
+      "title": {
+        "en": "Act of Adoration",
+        "es": "Acto de Adoración"
+      },
+      "content": {
+        "en": [
+          "O Jesus, great God, present on the Altar, I bow down before you, I adore you."
+        ],
+        "es": [
+          "Oh Jesús, gran Dios, presente en el Altar, me inclino ante ti, te adoro."
+        ]
+      }
+    },
+    {
+      "type": "act_of_love_and_desire",
+      "title": {
+        "en": "Act of Love and Desire",
+        "es": "Acto de Amor y Deseo"
+      },
+      "content": {
+        "en": [
+          "Jesus, I love you.",
+          "I desire with all my heart to receive you.",
+          "Jesus, come into my life and my poor soul, and give me your whole Self — Body, Blood, Soul, and Divinity — that I may live forever with you."
+        ],
+        "es": [
+          "Jesús, te amo.",
+          "Deseo con todo mi corazón recibirte.",
+          "Jesús, entra en mi vida y en mi pobre alma, y dame todo tu Ser — Cuerpo, Sangre, Alma y Divinidad — para que viva para siempre contigo."
+        ]
+      }
     }
-  }
-  
+  ]
+}

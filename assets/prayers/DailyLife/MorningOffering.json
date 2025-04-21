@@ -1,10 +1,45 @@
 {
-    "MorningOffering": {
-      "Prayer1": "O, My God, in union with the Immaculate Heart of Mary, I offer you the Precious Blood of Jesus from all the altars throughout the world, joining with it the offering of my every thought, word, and action of this day.",
-      "Prayer2": "O, My Jesus, I desire today to gain every indulgence and merit I can, and I offer them, together with myself, to Mary Immaculate that she may best apply them to the interest of your Most Sacred Heart.",
-      "Prayer3": "Precious Blood of Jesus, save us.",
-      "Prayer4": "Immaculate Heart of Mary, pray for us.",
-      "Prayer5": "Sacred Heart of Jesus, have mercy on us."
+  "title": {
+    "en": "MORNING OFFERING",
+    "es": "OFRENDA DE LA MAÑANA"
+  },
+  "sections": [
+    {
+      "type": "prayer",
+      "content": {
+        "en": [
+          "O, My God, in union with the Immaculate Heart of Mary, I offer you the Precious Blood of Jesus from all the altars throughout the world, joining with it the offering of my every thought, word, and action of this day."
+        ],
+        "es": [
+          "Oh, Dios mío, en unión con el Inmaculado Corazón de María, te ofrezco la Preciosa Sangre de Jesús de todos los altares del mundo, uniéndola a la ofrenda de cada uno de mis pensamientos, palabras y acciones de este día."
+        ]
+      }
+    },
+    {
+      "type": "prayer",
+      "content": {
+        "en": [
+          "O, My Jesus, I desire today to gain every indulgence and merit I can, and I offer them, together with myself, to Mary Immaculate that she may best apply them to the interest of your Most Sacred Heart."
+        ],
+        "es": [
+          "Oh, Jesús mío, deseo hoy ganar toda indulgencia y mérito que pueda, y los ofrezco, junto conmigo mismo, al Inmaculado Corazón de María para que ella los aplique mejor en favor de tu Sagrado Corazón."
+        ]
+      }
+    },
+    {
+      "type": "invocation",
+      "content": {
+        "en": [
+          "Precious Blood of Jesus, save us.",
+          "Immaculate Heart of Mary, pray for us.",
+          "Sacred Heart of Jesus, have mercy on us."
+        ],
+        "es": [
+          "Preciosa Sangre de Jesús, sálvanos.",
+          "Inmaculado Corazón de María, ruega por nosotros.",
+          "Sagrado Corazón de Jesús, ten piedad de nosotros."
+        ]
+      }
     }
-  }
-  
+  ]
+}
