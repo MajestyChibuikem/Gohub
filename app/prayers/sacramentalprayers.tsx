@@ -4,7 +4,6 @@ import { ScrollView, View, Text } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { useTheme } from '../../context/ThemeContext';
 import { useLanguage } from '../../context/LanguageContext';
-import { createPrayerStyles } from './prayers.style';
 
 // Import prayers
 import afterholycommuinion from '@assets/prayers/SacramentalPrayers/AfterHolyCommunion.json';
@@ -19,7 +18,7 @@ type PrayerType = {
     content: any;
 };
 
-const sacrementalPrayers: PrayerType[] = [
+const sacramentalPrayers: PrayerType[] = [
     { 
       id: 'after-the-holy-communion', 
       title: 'AFTER HOLY COMMUNION', 
@@ -47,102 +46,182 @@ const sacrementalPrayers: PrayerType[] = [
     }
 ];
 
-export default function SacrementalPrayersScreen() {
-  const { prayer: paramPrayer } = useLocalSearchParams();
-  const { language } = useLanguage();
-  const theme = useTheme();
-  const styles = createPrayerStyles(theme);
+type PrayerSection = {
+  type: string;
+  title?: Record<string, string>;
+  content: Record<string, string[]>;
+};
 
-  const [selectedPrayer, setSelectedPrayer] = useState(
-    paramPrayer || sacrementalPrayers[0].id
+const parseSections = (data: any): PrayerSection[] => {
+  return data.sections?.map((section: any) => ({
+    type: section.type,
+    title: section.title,
+    content: section.content,
+  })) || [];
+};
+
+export default function SacramentalPrayersScreen() {
+  const { prayer: paramPrayer } = useLocalSearchParams();
+  const { theme, getFontSize } = useTheme();
+  const { language } = useLanguage();
+
+  const [selectedPrayerId, setSelectedPrayerId] = useState<string>(
+    typeof paramPrayer === 'string' ? paramPrayer : sacramentalPrayers[0].id
   );
 
-  const currentPrayer = sacrementalPrayers.find((p) => p.id === selectedPrayer);
+  const selectedPrayer = sacramentalPrayers.find(p => p.id === selectedPrayerId);
+  const sections = selectedPrayer ? parseSections(selectedPrayer.content) : [];
 
   const renderContent = (content: any) => {
     if (!content) return null;
 
-    // Handle simple string
     if (typeof content === 'string') {
-      return <Text style={styles.prayerText}>{content}</Text>;
+      return (
+        <Text style={{
+          color: theme.text,
+          marginVertical: 5,
+          fontSize: getFontSize(16)
+        }}>
+          {content}
+        </Text>
+      );
     }
 
-    // Handle array of strings
     if (Array.isArray(content)) {
       return content.map((item, i) => (
-        <Text key={i} style={styles.prayerText}>
+        <Text 
+          key={i}
+          style={{
+            color: theme.text,
+            marginVertical: 5,
+            fontSize: getFontSize(16)
+          }}
+        >
           {typeof item === 'string' ? item : renderContent(item)}
         </Text>
       ));
     }
 
-    // Handle verse/response pairs (if present in some prayers)
     if (content.V && content.R) {
       return (
-        <View style={styles.prayerItem}>
-          <Text style={styles.prayerLeader}>V: {content.V}</Text>
-          <Text style={styles.prayerResponse}>R: {content.R}</Text>
+        <View style={{ marginBottom: 15 }}>
+          <Text style={{
+            fontWeight: 'bold',
+            color: theme.accent,
+            fontSize: getFontSize(16)
+          }}>
+            V: {content.V}
+          </Text>
+          <Text style={{
+            fontStyle: 'italic',
+            color: theme.textSecondary,
+            fontSize: getFontSize(16),
+            marginTop: 5
+          }}>
+            R: {content.R}
+          </Text>
         </View>
       );
     }
 
-    // Handle sections if they exist
     if (content.sections) {
       return content.sections.map((section: any, index: number) => (
-        <View key={index} style={styles.section}>
+        <View key={index} style={{ marginBottom: 30 }}>
           {section.title && (
-            <Text style={styles.sectionTitle}>
-              {typeof section.title === 'string' ? section.title : section.title[language || 'en']}
+            <Text style={{
+              fontWeight: 'bold',
+              fontSize: getFontSize(18),
+              marginBottom: 10,
+              color: theme.accent
+            }}>
+              {typeof section.title === 'string' 
+                ? section.title 
+                : section.title[language || 'en']}
             </Text>
           )}
-          {renderContent(section.content)}
+          <View style={{ marginLeft: 10 }}>
+            {renderContent(section.content)}
+          </View>
         </View>
       ));
     }
 
-    // Handle language objects if they exist
-    if (content.en || content.es) {
-      return renderContent(content[language || 'en'] || content.en);
+    if (content[language] || content.en) {
+      return renderContent(content[language] || content.en);
     }
 
-    // Fallback for other objects
     if (typeof content === 'object') {
       return Object.entries(content).map(([key, value]) => (
-        <View key={key} style={styles.nestedSection}>
+        <View key={key} style={{ marginLeft: 15 }}>
           {renderContent(value)}
         </View>
       ));
     }
 
-    // Final fallback
-    return <Text style={styles.prayerText}>{JSON.stringify(content)}</Text>;
+    return (
+      <Text style={{
+        color: theme.text,
+        fontSize: getFontSize(16)
+      }}>
+        {JSON.stringify(content)}
+      </Text>
+    );
   };
 
   return (
-    <ScrollView style={[styles.container, styles.contentContainer]}>
+    <ScrollView
+      style={{ flex: 1, backgroundColor: theme.background, padding: 20 }}
+      contentContainerStyle={{ paddingBottom: 40 }}
+    >
       {/* Prayer Selector */}
-      <View style={styles.pickerContainer}>
-        <Text style={styles.pickerLabel}>Select Prayer:</Text>
-        <View style={styles.pickerWrapper}>
+      <View style={{ marginBottom: 20 }}>
+        <Text style={{
+          fontWeight: 'bold',
+          fontSize: getFontSize(16),
+          marginBottom: 5,
+          color: theme.text
+        }}>
+          Select Prayer:
+        </Text>
+        <View style={{ 
+          borderRadius: 8, 
+          overflow: 'hidden', 
+          backgroundColor: theme.card,
+          borderWidth: 1,
+          borderColor: theme.border
+        }}>
           <Picker
-            selectedValue={selectedPrayer}
-            onValueChange={setSelectedPrayer}
-            style={styles.picker}
-            itemStyle={styles.pickerItem}
+            selectedValue={selectedPrayerId}
+            onValueChange={setSelectedPrayerId}
+            style={{ color: theme.text }}
+            dropdownIconColor={theme.text}
+            itemStyle={{ fontSize: getFontSize(16) }}
           >
-            {sacrementalPrayers.map((prayer) => (
-              <Picker.Item key={prayer.id} label={prayer.title} value={prayer.id} />
+            {sacramentalPrayers.map((prayer) => (
+              <Picker.Item 
+                key={prayer.id} 
+                label={prayer.title} 
+                value={prayer.id} 
+              />
             ))}
           </Picker>
         </View>
       </View>
 
       {/* Selected Prayer Content */}
-      {currentPrayer && (
+      {selectedPrayer && (
         <>
-          <Text style={styles.prayerTitle}>{currentPrayer.title}</Text>
-          <View style={styles.prayerContent}>
-            {renderContent(currentPrayer.content)}
+          <Text style={{
+            fontSize: getFontSize(24),
+            fontWeight: 'bold',
+            marginBottom: 20,
+            color: theme.text
+          }}>
+            {selectedPrayer.title}
+          </Text>
+          
+          <View style={{ marginBottom: 30 }}>
+            {renderContent(selectedPrayer.content)}
           </View>
         </>
       )}

@@ -23,6 +23,9 @@ export const createPrayerStyles = (theme: any) => StyleSheet.create({
     overflow: 'hidden',
     backgroundColor: theme.card
   },
+  scrollContent: {
+    paddingHorizontal: 16,
+  },
   picker: {
     color: theme.text,
     backgroundColor: theme.card

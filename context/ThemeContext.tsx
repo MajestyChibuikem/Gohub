@@ -1,6 +1,7 @@
 // context/ThemeContext.tsx
-import React, { createContext, useContext } from 'react';
+import React, { createContext, useContext, useState, useEffect, useMemo } from 'react';
 import { useColorScheme } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Define the theme interface
 export interface Theme {
@@ -18,6 +19,22 @@ export interface Theme {
   subtle: string;
   highlight: string;
 }
+
+// Define font size options
+export type FontSizeOption = 'small' | 'medium' | 'large' | 'x-large';
+
+export interface ThemeSettings {
+  themeMode: 'light' | 'dark' | 'system';
+  fontSize: FontSizeOption;
+}
+
+// Font size values mapped to their options
+export const fontSizeValues: Record<FontSizeOption, number> = {
+  'small': 14,
+  'medium': 16,
+  'large': 18,
+  'x-large': 20,
+};
 
 const lightTheme: Theme = {
   background: '#ffffff',
@@ -51,17 +68,74 @@ const darkTheme: Theme = {
   highlight: '#311b92',
 };
 
-// Create the context with proper typing
-const ThemeContext = createContext<Theme>(lightTheme);
+const defaultSettings: ThemeSettings = {
+  themeMode: 'system',
+  fontSize: 'medium',
+};
+
+// Create context with theme and settings
+interface ThemeContextType {
+  theme: Theme;
+  settings: ThemeSettings;
+  updateSettings: (newSettings: Partial<ThemeSettings>) => void;
+  getFontSize: (baseSize: number) => number;
+}
+
+const ThemeContext = createContext<ThemeContextType>({
+  theme: lightTheme,
+  settings: defaultSettings,
+  updateSettings: () => {},
+  getFontSize: () => 16,
+});
 
 interface ThemeProviderProps {
   children: React.ReactNode;
 }
 
-export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
-  const scheme = useColorScheme();
-  const theme = scheme === 'dark' ? darkTheme : lightTheme;
-  return <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>;
+export const ThemeProvider: React.FC<{children: React.ReactNode}> = ({children}) => {
+  const systemColorScheme = useColorScheme();
+  const [settings, setSettings] = useState<ThemeSettings>(defaultSettings);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // load & save settings…
+  useEffect(() => {
+    (async () => {
+      try {
+        const json = await AsyncStorage.getItem('@gohub_theme_settings');
+        if (json) setSettings(JSON.parse(json));
+      } finally {
+        setIsLoading(false);
+      }
+    })();
+  }, []);
+  useEffect(() => {
+    if (!isLoading) {
+      AsyncStorage.setItem('@gohub_theme_settings', JSON.stringify(settings));
+    }
+  }, [settings, isLoading]);
+
+  // pick the right color palette:
+  const theme = useMemo<Theme>(() => {
+    if (settings.themeMode === 'light') return lightTheme;
+    if (settings.themeMode === 'dark')  return darkTheme;
+    return systemColorScheme === 'dark' ? darkTheme : lightTheme;
+  }, [settings.themeMode, systemColorScheme]);
+
+  const getFontSize = (size: number): number => Math.round(size);
+
+  const updateSettings = (newSettings: Partial<ThemeSettings>) => {
+    setSettings(s => ({ ...s, ...newSettings }));
+  };
+
+  const ctx = useMemo(() => ({
+    theme,
+    settings,
+    updateSettings,
+    getFontSize,
+  }), [theme, settings]);
+
+  if (isLoading) return null;
+  return <ThemeContext.Provider value={ctx}>{children}</ThemeContext.Provider>;
 };
 
-export const useTheme = (): Theme => useContext(ThemeContext);
+export const useTheme = () => useContext(ThemeContext);

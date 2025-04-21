@@ -4,141 +4,94 @@ import { ScrollView, View, Text } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { useTheme } from '../../context/ThemeContext';
 import { useLanguage } from '../../context/LanguageContext';
+import { createPrayerStyles } from './prayers.style';
 
-// Import prayer data
+// Import prayers
 import angelus from '@assets/prayers/traditional/angelus.json';
-import orderofthemass from '@assets/prayers/traditional/OrderOfTheMass.json';
-import reginacaeli from '@assets/prayers/traditional/ReginaCaeli.json';
-import holyrosary from '@assets/prayers/traditional/TheHolyRosary.json';
+import reginaCaeli from '@assets/prayers/traditional/ReginaCaeli.json';
+import holyRosary from '@assets/prayers/traditional/TheHolyRosary.json';
+import orderOfTheMass from '@assets/prayers/traditional/OrderOfTheMass.json';
 
-type PrayerType = {
+type PrayerSection = {
+  type: string;
+  title?: Record<string, string>;
+  content: Record<string, string[]>;
+};
+
+type Prayer = {
   id: string;
   title: string;
   content: any;
 };
 
-const traditionalPrayers: PrayerType[] = [
+const prayers: Prayer[] = [
   { id: 'angelus', title: 'THE ANGELUS', content: angelus },
-  { id: 'regina-caeli', title: 'Regina Caeli', content: reginacaeli },
-  { id: 'holy-rosary', title: 'Holy Rosary', content: holyrosary },
-  { id: 'order-of-the-mass', title: 'Order of the Mass', content: orderofthemass },
+  { id: 'regina-caeli', title: 'Regina Caeli', content: reginaCaeli },
+  { id: 'holy-rosary', title: 'Holy Rosary', content: holyRosary },
+  { id: 'order-of-the-mass', title: 'Order of the Mass', content: orderOfTheMass },
 ];
 
-type PrayerSection = {
-  type: 'opening' | 'middle' | 'closing' | 'prayer';
-  title?: Record<string, string>;
-  content: Record<string, string[]>;
-};
-
-const createPrayerSections = (prayer: any): PrayerSection[] => {
-  const sections: PrayerSection[] = [];
-
-  if (prayer.sections) {
-    prayer.sections.forEach((section: any) => {
-      sections.push({
-        type: section.type,
-        title: section.title,
-        content: section.content,
-      });
-    });
-  }
-
-  return sections;
-};
+const parseSections = (data: any): PrayerSection[] =>
+  data.sections?.map((section: any) => ({
+    type: section.type,
+    title: section.title,
+    content: section.content,
+  })) || [];
 
 export default function TraditionalPrayersScreen() {
   const { prayer: paramPrayer } = useLocalSearchParams();
+  const { theme, getFontSize } = useTheme();
   const { language } = useLanguage();
-  const theme = useTheme();
+  const styles = createPrayerStyles(theme);
 
-  const [selectedPrayer, setSelectedPrayer] = useState(
-    paramPrayer || traditionalPrayers[0].id
+  const [selectedPrayerId, setSelectedPrayerId] = useState<string>(
+    typeof paramPrayer === 'string' ? paramPrayer : prayers[0].id
   );
 
-  const currentPrayer = traditionalPrayers.find((p) => p.id === selectedPrayer);
-
-  const renderContent = (content: string[]) => {
-    return content.map((text, i) => (
-      <Text key={i} style={{ color: theme.text, marginVertical: 5 }}>
-        {text}
-      </Text>
-    ));
-  };
-
-  const prayerSections = currentPrayer
-    ? createPrayerSections(currentPrayer.content)
-    : [];
+  const selectedPrayer = prayers.find(p => p.id === selectedPrayerId);
+  const sections = selectedPrayer ? parseSections(selectedPrayer.content) : [];
 
   return (
     <ScrollView
-      style={{
-        flex: 1,
-        backgroundColor: theme.background,
-        padding: 20,
-      }}
-      contentContainerStyle={{ paddingBottom: 40 }}
+      style={[styles.container, styles.contentContainer]}
+      contentContainerStyle={styles.scrollContent}
     >
-      {/* Prayer Selector */}
-      <View style={{ marginBottom: 20 }}>
-        <Text
-          style={{
-            fontWeight: 'bold',
-            fontSize: 16,
-            marginBottom: 5,
-            color: theme.text,
-          }}
-        >
-          Select Prayer:
-        </Text>
-        <View
-          style={{
-            borderRadius: 8,
-            overflow: 'hidden',
-            backgroundColor: theme.card,
-          }}
-        >
+      {/* Picker */}
+      <View style={styles.pickerContainer}>
+        <Text style={styles.pickerLabel}>Select Prayer:</Text>
+        <View style={styles.pickerWrapper}>
           <Picker
-            selectedValue={selectedPrayer}
-            onValueChange={setSelectedPrayer}
-            style={{ color: theme.text, backgroundColor: theme.card }}
-            itemStyle={{ fontSize: 16 }}
+            selectedValue={selectedPrayerId}
+            onValueChange={setSelectedPrayerId}
+            style={styles.picker}
+            itemStyle={styles.pickerItem}
           >
-            {traditionalPrayers.map((prayer) => (
-              <Picker.Item key={prayer.id} label={prayer.title} value={prayer.id} />
+            {prayers.map(p => (
+              <Picker.Item key={p.id} label={p.title} value={p.id} />
             ))}
           </Picker>
         </View>
       </View>
 
-      {/* Selected Prayer Content */}
-      {currentPrayer && (
+      {/* Title */}
+      {selectedPrayer && (
         <>
-          <Text
-            style={{
-              fontSize: 24,
-              fontWeight: 'bold',
-              marginBottom: 20,
-              color: theme.text,
-            }}
-          >
-            {currentPrayer.title}
-          </Text>
-          {prayerSections.map((section, index) => (
-            <View key={index} style={{ marginBottom: 30 }}>
-              {section.title && (
-                <Text
-                  style={{
-                    fontWeight: 'bold',
-                    fontSize: 18,
-                    marginBottom: 10,
-                    color: theme.accent,
-                  }}
-                >
+          <Text style={styles.prayerTitle}>{selectedPrayer.title}</Text>
+
+          {/* Sections */}
+          {sections.map((section, idx) => (
+            <View key={idx} style={styles.section}>
+              {section.title?.[language] && (
+                <Text style={styles.sectionTitle}>
                   {section.title[language]}
                 </Text>
               )}
-              <View style={{ marginLeft: 10 }}>
-                {renderContent(section.content[language])}
+              <View style={styles.nestedSection}>
+                {section.content[language]?.map((line, i) => (
+                  <Text key={i} style={styles.prayerText}>
+                    {line}
+                  </Text>
+                ))}
               </View>
             </View>
           ))}

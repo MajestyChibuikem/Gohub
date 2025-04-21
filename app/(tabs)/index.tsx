@@ -1,17 +1,18 @@
-// app/(tabs)/home.tsx
+// app/(tabs)/index.tsx
 import { Link } from 'expo-router';
-import { Text, View, Image, Pressable, ScrollView, StyleSheet } from 'react-native';
+import { View, Image, Pressable, ScrollView, StyleSheet } from 'react-native';
 import { getCurrentPrayerPeriod } from '../../utils/prayerTimes';
 import { useTheme } from '../../context/ThemeContext';
 import { Ionicons } from '@expo/vector-icons';
+import ThemedText from '../../components/ThemedText';
+import {ThemedView} from '../../components/ThemedView';
 
 export default function HomeScreen() {
-  const theme = useTheme();
+  const { theme, getFontSize } = useTheme();
   
   const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: theme.background,
     },
     scrollContent: {
       flexGrow: 1,
@@ -37,38 +38,6 @@ export default function HomeScreen() {
       shadowRadius: 8,
       elevation: 5,
     },
-    title: {
-      fontSize: 22,
-      fontWeight: 'bold',
-      textAlign: 'center',
-      color: theme.text,
-      marginBottom: 15,
-    },
-    forText: {
-      fontSize: 16,
-      textAlign: 'center',
-      color: theme.textSecondary,
-      marginBottom: 5,
-    },
-    universityName: {
-      fontSize: 20,
-      fontWeight: '600',
-      textAlign: 'center',
-      color: theme.accent,
-      marginBottom: 25,
-    },
-    compilersHeading: {
-      fontSize: 14,
-      textAlign: 'center',
-      color: theme.textSecondary,
-      marginBottom: 8,
-    },
-    compilerName: {
-      fontSize: 15,
-      textAlign: 'center',
-      color: theme.text,
-      marginBottom: 3,
-    },
     prayerCardContainer: {
       marginTop: 20,
     },
@@ -86,12 +55,6 @@ export default function HomeScreen() {
       elevation: 4,
       borderLeftWidth: 5,
       borderLeftColor: theme.accent,
-    },
-    prayerCardText: {
-      fontSize: 18,
-      fontWeight: '500',
-      color: theme.text,
-      flex: 1,
     },
     prayerTypeHighlight: {
       fontWeight: 'bold',
@@ -125,12 +88,9 @@ export default function HomeScreen() {
       fontWeight: '500',
       marginLeft: 8,
     },
-    footerText: {
+    dateText: {
       textAlign: 'center',
-      marginTop: 40,
-      marginBottom: 20,
-      color: theme.textSecondary,
-      fontSize: 12,
+      marginBottom: 15,
     }
   });
 
@@ -143,7 +103,7 @@ export default function HomeScreen() {
   });
 
   return (
-    <View style={styles.container}>
+    <ThemedView style={{backgroundColor: theme.background}}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
         {/* Logo */}
         <View style={styles.logoContainer}>
@@ -155,36 +115,49 @@ export default function HomeScreen() {
 
         {/* Preface Card */}
         <View style={styles.prefaceContainer}>
-          <Text style={styles.title}>
+          <ThemedText type="title" style={{ textAlign: 'center', marginBottom: 15 }}>
             A Compilation of Prayers and Songs
-          </Text>
-          <Text style={styles.forText}>
+          </ThemedText>
+          
+          <ThemedText type="caption" style={{ textAlign: 'center', marginBottom: 5 }}>
             for
-          </Text>
-          <Text style={styles.universityName}>
+          </ThemedText>
+          
+          <ThemedText style={{
+            fontSize: getFontSize(20),
+            fontWeight: '600',
+            textAlign: 'center',
+            color: theme.accent,
+            marginBottom: 25,
+          }}>
             Godfrey Okoye University
-          </Text>
+          </ThemedText>
 
-          <Text style={styles.compilersHeading}>
+          <ThemedText type="caption" style={{ textAlign: 'center', marginBottom: 8 }}>
             Compilers/Editors:
-          </Text>
-          <Text style={styles.compilerName}>
+          </ThemedText>
+          
+          <ThemedText style={{ 
+            fontSize: getFontSize(15),
+            textAlign: 'center',
+            marginBottom: 3,
+          }}>
             Sr. Mary Gloria Njoku DDL
-          </Text>
-          <Text style={styles.compilerName}>
+          </ThemedText>
+          
+          <ThemedText style={{ 
+            fontSize: getFontSize(15),
+            textAlign: 'center',
+            marginBottom: 3,
+          }}>
             Rev. Fr. Prof. Christian Anieke
-          </Text>
+          </ThemedText>
         </View>
 
         {/* Today's Date */}
-        <Text style={{ 
-          textAlign: 'center', 
-          color: theme.textSecondary, 
-          marginBottom: 15,
-          fontSize: 16 
-        }}>
+        <ThemedText type="caption" style={styles.dateText}>
           {currentDate}
-        </Text>
+        </ThemedText>
 
         {/* Today's Prayer Link */}
         <View style={styles.prayerCardContainer}>
@@ -197,12 +170,19 @@ export default function HomeScreen() {
           >
             <Pressable style={styles.prayerCard}>
               <View style={{ flex: 1 }}>
-                <Text style={styles.prayerCardText}>
+                <ThemedText style={{
+                  fontSize: getFontSize(18),
+                  fontWeight: '500',
+                  flex: 1,
+                }}>
                   Today's Prayer
-                </Text>
-                <Text style={{ color: theme.textSecondary, marginTop: 5 }}>
-                  <Text style={styles.prayerTypeHighlight}>{currentDay}</Text> • {currentPeriod}
-                </Text>
+                </ThemedText>
+                
+                <ThemedText type="caption" style={{ marginTop: 5 }}>
+                  <ThemedText style={styles.prayerTypeHighlight}>
+                    {currentDay}
+                  </ThemedText> • {currentPeriod}
+                </ThemedText>
               </View>
               <Ionicons name="arrow-forward-circle" size={32} color={theme.accent} />
             </Pressable>
@@ -214,14 +194,14 @@ export default function HomeScreen() {
           <Link href="/prayers" asChild>
             <Pressable style={styles.navButton}>
               <Ionicons name="book-outline" size={20} color={theme.text} />
-              <Text style={styles.navButtonText}>All Prayers</Text>
+              <ThemedText style={styles.navButtonText}>All Prayers</ThemedText>
             </Pressable>
           </Link>
           
           <Link href="/hymns" asChild>
             <Pressable style={styles.navButton}>
               <Ionicons name="musical-notes-outline" size={20} color={theme.text} />
-              <Text style={styles.navButtonText}>Hymns</Text>
+              <ThemedText style={styles.navButtonText}>Hymns</ThemedText>
             </Pressable>
           </Link>
         </View>
@@ -231,22 +211,27 @@ export default function HomeScreen() {
           <Link href="/favorites" asChild>
             <Pressable style={styles.navButton}>
               <Ionicons name="heart-outline" size={20} color={theme.text} />
-              <Text style={styles.navButtonText}>Favorites</Text>
+              <ThemedText style={styles.navButtonText}>Favorites</ThemedText>
             </Pressable>
           </Link>
           
           <Link href="/settings" asChild>
             <Pressable style={styles.navButton}>
               <Ionicons name="settings-outline" size={20} color={theme.text} />
-              <Text style={styles.navButtonText}>Settings</Text>
+              <ThemedText style={styles.navButtonText}>Settings</ThemedText>
             </Pressable>
           </Link>
         </View>
 
-        <Text style={styles.footerText}>
+        <ThemedText type="caption" style={{ 
+          textAlign: 'center', 
+          marginTop: 40, 
+          marginBottom: 20,
+          fontSize: getFontSize(12)
+        }}>
           © {new Date().getFullYear()} Godfrey Okoye University - MAJESTY
-        </Text>
+        </ThemedText>
       </ScrollView>
-    </View>
+    </ThemedView>
   );
 }

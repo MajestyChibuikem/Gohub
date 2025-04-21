@@ -33,7 +33,7 @@ interface PrayerSection {
 }
 
 export default function PrayersScreen() {
-  const theme = useTheme();
+  const { theme, getFontSize } = useTheme();
   const scrollY = useRef(new Animated.Value(0)).current;
   const [expandedSection, setExpandedSection] = useState<string>('daily');
   
@@ -145,7 +145,7 @@ export default function PrayersScreen() {
 
   const renderItem = (item: PrayerItem, index: number, sectionIndex: number) => {
     const { scale, opacity } = getItemAnimation(index, sectionIndex);
-    
+  
     return (
       <Animated.View
         key={item.title}
@@ -164,6 +164,8 @@ export default function PrayersScreen() {
       </Animated.View>
     );
   };
+  
+  
 
   const renderSection = (section: PrayerSection, sectionIndex: number) => {
     const isExpanded = expandedSection === section.id;
@@ -179,7 +181,8 @@ export default function PrayersScreen() {
             styles.sectionHeader,
             {
               backgroundColor: isExpanded ? theme.accent : theme.card,
-              borderColor: theme.border
+              borderColor: theme.border,
+              shadowColor: theme.shadowColor
             }
           ]}
         >
@@ -187,7 +190,10 @@ export default function PrayersScreen() {
             <Text style={styles.sectionIcon}>{section.icon}</Text>
             <Text style={[
               styles.sectionTitle,
-              { color: isExpanded ? '#fff' : theme.text }
+              { 
+                color: isExpanded ? '#fff' : theme.text,
+                fontSize: getFontSize(18)
+              }
             ]}>
               {section.title}
             </Text>
@@ -198,7 +204,8 @@ export default function PrayersScreen() {
               styles.expandIcon,
               { 
                 color: isExpanded ? '#fff' : theme.text,
-                transform: [{ rotate: headerRotate }]
+                transform: [{ rotate: headerRotate }],
+                fontSize: getFontSize(24)
               }
             ]}
           >
@@ -207,7 +214,12 @@ export default function PrayersScreen() {
         </TouchableOpacity>
         
         {isExpanded && (
-          <Animated.View style={styles.sectionContent}>
+          <Animated.View 
+            style={[
+              styles.sectionContent,
+              { backgroundColor: theme.subtle }
+            ]}
+          >
             {section.items.map((item, index) => 
               renderItem(item, index, sectionIndex)
             )}
@@ -224,18 +236,36 @@ export default function PrayersScreen() {
         backgroundColor={theme.background}
       />
       
-      <View style={[styles.header, { backgroundColor: theme.background }]}>
-        <Text style={[styles.pageTitle, { color: theme.text }]}>Prayer Book</Text>
+      <View style={[styles.header, { 
+        backgroundColor: theme.surface,
+        borderBottomColor: theme.border,
+        shadowColor: theme.shadowColor
+      }]}>
+        <Text style={[styles.pageTitle, { 
+          color: theme.text,
+          fontSize: getFontSize(24)
+        }]}>
+          Prayer Book
+        </Text>
       </View>
       
       {todaysPrayer && (
-        <View style={[styles.todayContainer, { backgroundColor: theme.accent + '15', borderColor: theme.accent }]}>
-          <Text style={[styles.todayTitle, { color: theme.text }]}>
+        <View style={[styles.todayContainer, { 
+          backgroundColor: theme.highlight, 
+          borderColor: theme.accent 
+        }]}>
+          <Text style={[styles.todayTitle, { 
+            color: theme.text,
+            fontSize: getFontSize(16)
+          }]}>
             Today's Prayer ({currentDay})
           </Text>
           <Link 
             href={todaysPrayer.route as any} 
-            style={[styles.todayLink, { color: theme.accent }]}
+            style={[styles.todayLink, { 
+              color: theme.accent,
+              fontSize: getFontSize(18)
+            }]}
           >
             {todaysPrayer.title} →
           </Link>
@@ -244,7 +274,10 @@ export default function PrayersScreen() {
       
       <Animated.ScrollView
         style={{ flex: 1 }}
-        contentContainerStyle={styles.scrollContent}
+        contentContainerStyle={[
+          styles.scrollContent,
+          { paddingBottom: Platform.OS === 'ios' ? 80 : 40 }
+        ]}
         showsVerticalScrollIndicator={false}
         onScroll={Animated.event(
           [{ nativeEvent: { contentOffset: { y: scrollY } } }],
@@ -257,7 +290,10 @@ export default function PrayersScreen() {
         )}
         
         <View style={styles.footer}>
-          <Text style={[styles.footerText, { color: theme.textSecondary }]}>
+          <Text style={[styles.footerText, { 
+            color: theme.text,
+            fontSize: getFontSize(14)
+          }]}>
             GOHUB Prayer Book- MAJESTY
           </Text>
         </View>
@@ -274,11 +310,13 @@ const styles = StyleSheet.create({
     paddingTop: Platform.OS === 'ios' ? 50 : 20,
     paddingBottom: 10,
     borderBottomWidth: 1,
-    borderBottomColor: 'rgba(0,0,0,0.1)',
     alignItems: 'center',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 3,
   },
   pageTitle: {
-    fontSize: 24,
     fontWeight: 'bold',
     letterSpacing: 1,
   },
@@ -291,17 +329,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   todayTitle: {
-    fontSize: 16,
     fontWeight: '600',
     marginBottom: 8,
   },
   todayLink: {
-    fontSize: 18,
     fontWeight: 'bold',
   },
   scrollContent: {
     paddingHorizontal: 16,
-    paddingBottom: 40,
   },
   sectionContainer: {
     marginBottom: 16,
@@ -315,6 +350,10 @@ const styles = StyleSheet.create({
     padding: 16,
     borderRadius: 12,
     borderWidth: 1,
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.2,
+    shadowRadius: 2,
+    elevation: 2,
   },
   sectionHeaderContent: {
     flexDirection: 'row',
@@ -325,16 +364,16 @@ const styles = StyleSheet.create({
     marginRight: 10,
   },
   sectionTitle: {
-    fontSize: 18,
     fontWeight: '700',
   },
   expandIcon: {
-    fontSize: 24,
     fontWeight: 'bold',
   },
   sectionContent: {
     paddingTop: 12,
     paddingHorizontal: 8,
+    borderBottomLeftRadius: 12,
+    borderBottomRightRadius: 12,
   },
   footer: {
     marginTop: 20,
@@ -342,6 +381,6 @@ const styles = StyleSheet.create({
     paddingVertical: 20,
   },
   footerText: {
-    fontSize: 14,
+    fontWeight: '500',
   },
 });
