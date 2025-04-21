@@ -1,0 +1,43 @@
+{
+    "title": "The Angelus",
+    "description1": "May be said morning, noon and night, to put us in mind that God the Son became man for our salvation.",
+    "prayers": [
+      {
+        "leader": "V",
+        "text": "The Angel of the Lord declared unto Mary:"
+      },
+      {
+        "response": "R",
+        "text": "And she conceived of the Holy Spirit: Hail Mary, etc."
+      },
+      {
+        "leader": "V",
+        "text": "Behold the handmaid of the Lord:"
+      },
+      {
+        "response": "R",
+        "text": "Be it done unto me according to your word; Hail Mary, etc."
+      },
+      {
+        "leader": "V",
+        "text": "And the word was made Flesh:"
+      },
+      {
+        "response": "R",
+        "text": "And dwelt among us. Hail Mary, etc."
+      },
+      {
+        "leader": "J",
+        "text": "Pray for us, O Holy Mother of God."
+      },
+      {
+        "response": "R",
+        "text": "That we may be made worthy of the promises of Christ."
+      }
+    ],
+    "closing_prayer": "Let us pray: Pour forth, we beseech you O Lord, your grace into our hearts, that we to whom the incarnation of Christ your Son was made known by the message of an Angel. May by his passion and cross be brought to the glory of his resurrection, through the same Christ our Lord, Amen."
+    
+    
+  }
+  
+  

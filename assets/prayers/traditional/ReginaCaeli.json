@@ -1,0 +1,35 @@
+{
+  
+    "title": "The Regina Caeli",
+    "prayers2": [
+      {
+        "line": "O! Queen of Heaven, rejoice!",
+        "response": "Alleluia"
+      },
+      {
+        "line": "For He Whom You did merit to bear.",
+        "response": "Alleluia"
+      },
+      {
+        "line": "Has risen as He said",
+        "response": "Alleluia"
+      },
+      {
+        "line": "Pray for us to our God",
+        "response": "Alleluia"
+      },
+      {
+        "line": "Rejoice and be glad, O Virgin Mary",
+        "response": "Alleluia"
+      },
+      {
+        "line": "For the Lord has risen indeed",
+        "response": "Alleluia"
+      }
+    ],
+    "closing_prayer2": {
+      "text": "O God, who gives joy to the world through the Resurrection of your Son, Our Lord Jesus Christ, grant that we may obtain, through his Virgin Mother, Mary, the joys of everlasting life, through the same Christ Our Lord. Amen.",
+      "blessing": "May your divine assistance always remain with us and may the souls of the faithful departed through the mercy of God rest in peace. Amen.",
+      "glory_be": "Glory be to the Father and to the Son and to the Holy Spirit… (3 times)"
+    }
+  }

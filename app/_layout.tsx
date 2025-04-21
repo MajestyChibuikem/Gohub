@@ -6,12 +6,12 @@ export default function RootLayout() {
   return (
     <LanguageProvider>
       <ThemeProvider>
-      <Stack
-        screenOptions={{
-          headerShown: true,
-          gestureEnabled: true, // swipe back on iOS
-        }}
-      />
+        <Stack
+          screenOptions={{
+            headerShown: false, // Disable headers globally
+            gestureEnabled: true, // swipe back on iOS
+          }}
+        />
       </ThemeProvider>
     </LanguageProvider>
   );

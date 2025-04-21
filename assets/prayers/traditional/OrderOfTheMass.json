@@ -1,0 +1,672 @@
+{
+    "OrderOfMass": {
+      "Section": "Introductory Rites",
+      "EntranceHymn": "The choir can sing any entrance hymn(s).",
+      "Greeting": [
+        {
+          "Priest": "In the name of the Father, and of the Son, and of the Holy Spirit.",
+          "Response": "Amen."
+        },
+        {
+          "Priest": "The grace of our Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.",
+          "Response": "And with your spirit."
+        },
+        {
+          "Priest": "The grace and peace of God our Father and the Lord Jesus Christ be with you.",
+          "Response": "Blessed be God, the Father."
+        },
+        {
+          "Priest": "The grace and peace of God our Father and the Lord Christ be with you.",
+          "Response": "And with your spirit."
+        },
+        {
+          "Priest": "The Lord be with you.",
+          "Response": "And with your spirit."
+        },
+        {
+          "Note": "If the celebrant is a Bishop, he says: Peace be with you."
+        }
+      ],
+      "PenitentialAct": {
+        "Invitation": "Brethren (brothers and sisters), let us acknowledge our sins, and so prepare ourselves to celebrate the sacred mysteries.",
+        "Silence": "A brief pause for silence follows.",
+        "Confession": [
+          "I confess to almighty God",
+          "And to you, my brothers and sisters,",
+          "That I have greatly sinned,",
+          "In my thoughts and in my words,",
+          "In what I have done and what I have failed to do.",
+          "(Striking breast) Through my fault, through my fault, through my most grievous fault;",
+          "Therefore I ask blessed Mary ever-virgin,",
+          "All the Angels and Saints,",
+          "And you, my brothers and sisters,",
+          "To pray for me to the Lord our God."
+        ],
+        "Absolution": {
+          "Priest": "May almighty God have mercy on us, forgive us our sins, and bring us to everlasting life.",
+          "Response": "Amen."
+        }
+      },
+      "KyrieEleison": {
+        "Invocations": [
+          {
+            "Line": "You were sent to heal the contrite of heart.",
+            "Response": "Lord, have mercy.",
+            "Greek": "Kyrie, eleison."
+          },
+          {
+            "Line": "You came to call sinners.",
+            "Response": "Christ, have mercy.",
+            "Greek": "Christe, eleison."
+          },
+          {
+            "Line": "You are seated at the right hand of the Father to intercede for us.",
+            "Response": "Lord, have mercy.",
+            "Greek": "Kyrie, eleison."
+          }
+        ],
+        "PeopleResponses": [
+          "Lord, have mercy.",
+          "Christ, have mercy.",
+          "Lord, have mercy."
+        ],
+        "GreekVersion": [
+          {
+            "V": "Kyrie, eleison",
+            "R": "Kyrie, eleison"
+          },
+          {
+            "V": "Christe, eleison",
+            "R": "Christe, eleison"
+          },
+          {
+            "V": "Kyrie, eleison",
+            "R": "Kyrie, eleison"
+          }
+        ]
+      },
+      "Gloria": {
+        "Note": "When it is prescribed, this hymn is either sung or said.",
+        "Text": [
+          "Glory to God in the highest,",
+          "And on earth peace to people of good will.",
+          "We praise you, we bless you,",
+          "We adore you, we glorify you,",
+          "We give you thanks for your great glory,",
+          "Lord God, heavenly King,",
+          "O God, Almighty Father.",
+          "Lord Jesus Christ, Only Begotten Son,",
+          "Lord God, Lamb of God, Son of the Father,",
+          "You take away the sins of the world, have mercy on us.",
+          "You take away the sins of the world, receive our prayer.",
+          "You are seated at the right hand of the Father, have mercy on us.",
+          "For you alone are the Holy One,",
+          "You alone are the Lord,",
+          "You alone are the Most High, Jesus Christ,",
+          "With the Holy Spirit,",
+          "In the glory of God the Father.",
+          "Amen."
+        ]
+      },
+  
+      "CollectPrayer": {
+        "Priest": "Let us pray.",
+        "Instruction": "All pray in silence with the priest for a moment.",
+        "Conclusion": {
+          "Priest": "[Collect Prayer Text]",
+          "Response": "Amen."
+        }
+      }
+    },
+   
+      "Section": "Liturgy of the Word",
+      "FirstReading": {
+        "Instruction": "The reader goes to the ambo and reads the first reading while all sit and listen.",
+        "Ending": {
+          "Reader": "The word of the Lord.",
+          "People": "Thanks be to God."
+        }
+      },
+      "ResponsorialPsalm": {
+        "Instruction": "The psalmist or cantor sings or says the psalms, with the people making the response."
+      },
+      "SecondReading": {
+        "Note": "If there is to be a second reading.",
+        "Instruction": "A reader reads it from the ambo as above.",
+        "Ending": {
+          "Reader": "The word of the Lord.",
+          "People": "Thanks be to God."
+        }
+      },
+      "GospelAcclamationAndGospelReading": {
+        "Instruction": [
+          "All stand for the singing of the Alleluia or another chant as the liturgical time requires.",
+          "If incense is used, the priest puts some in the thurible.",
+          "The Deacon or Priest proceeds to the ambo, accompanied if appropriate by ministers with incense and candles."
+        ],
+        "Dialogue": [
+          {
+            "PriestOrDeacon": "The Lord be with you.",
+            "People": "And with your spirit."
+          },
+          {
+            "PriestOrDeacon": "A reading from the holy Gospel according to: N",
+            "People": "Glory to you, O Lord."
+          }
+        ],
+        "Gesture": "All make the Sign of the Cross on their forehead, lips, and breast.",
+        "Incensation": "Then the Deacon or Priest incenses the Book of the Gospels, if incense is used.",
+        "Proclamation": "Proclaims the Gospel.",
+        "Ending": {
+          "Note": "At the end of the Gospel, the Deacon or the Priest acclaims:",
+          "PriestOrDeacon": "The Gospel of the Lord.",
+          "People": "Praise to you, Lord Jesus Christ."
+        }
+      },
+          "GospelConclusion": {
+            "PriestOrDeacon": "The Gospel of the Lord.",
+            "People": "Praise to you, Lord Jesus Christ."
+          },
+          "Homily": {
+            "Instruction": "Then all sit for the homily, which is to be preached by a priest or deacon on all Sundays and holy days of obligation."
+          },
+          "ProfessionOfFaith": {
+            "Instruction": "At the end of the homily, after a moment of silence, all stand for the Symbol or Profession of Faith or Creed, when prescribed.",
+            "NiceneCreed": [
+              "I believe in one God,",
+              "the Father almighty,",
+              "maker of heaven and earth,",
+              "of all things visible and invisible.",
+              "I believe in one Lord Jesus Christ,",
+              "the Only Begotten Son of God,",
+              "born of the Father before all ages.",
+              "God from God, Light from Light,",
+              "true God from true God,",
+              "begotten, not made, consubstantial with the Father;",
+              "through him all things were made.",
+              "For us men and for our salvation",
+              "he came down from heaven,",
+              "(All bow) and by the Holy Spirit was incarnate",
+              "of the Virgin Mary",
+              "and became man.",
+              "For our sake he was crucified under Pontius Pilate,",
+              "he suffered death and was buried,",
+              "and rose again on the third day",
+              "in accordance with the Scriptures.",
+              "He ascended into heaven",
+              "and is seated at the right hand of the Father.",
+              "He will come again in glory",
+              "to judge the living and the dead",
+              "and his kingdom will have no end.",
+              "I believe in the Holy Spirit, the Lord, the giver of life,",
+              "who proceeds from the Father and the Son,",
+              "who with the Father and the Son is adored and glorified,",
+              "who has spoken through the prophets.",
+              "I believe in one, holy, catholic and apostolic Church.",
+              "I confess one baptism for the forgiveness of sins",
+              "and I look forward to the resurrection of the dead",
+              "and the life of the world to come. Amen."
+            ],
+            "NoteOnCreed": "Instead of the Niceno–Constantinopolitan Creed, especially during Lent and Easter time, the Apostles’ Creed may be used.",
+            "ApostlesCreed": [
+              "I believe in God,",
+              "the Father almighty,",
+              "Creator of heaven and earth,",
+              "and in Jesus Christ, his only Son, our Lord,",
+              "(All bow) who was conceived by the Holy Spirit,",
+              "born of the Virgin Mary,",
+              "suffered under Pontius Pilate,",
+              "was crucified, died and was buried;",
+              "he descended into hell;",
+              "on the third day he rose again from the dead;",
+              "he ascended into heaven,",
+              "and is seated at the right hand of God the Father almighty;",
+              "from there he will come to judge the living and the dead.",
+              "I believe in the Holy Spirit,",
+              "the holy Catholic Church,",
+              "the communion of saints,",
+              "the forgiveness of sins,",
+              "the resurrection of the body,",
+              "and life everlasting. Amen."
+            ]
+          },
+          "PrayerOfTheFaithful": {
+            "Title": "The Prayer of the Faithful",
+            "Instruction": "Then follows the Universal Prayer, that is, the prayer of the Faithful or Bidding Prayer."
+          },
+  
+  
+  
+          
+            
+              "Section3": "Liturgy of the Eucharist",
+              "PriestDialogue": {
+                "Priest": "Pray, brethren (brothers and sisters), that my sacrifice and yours may be acceptable to God, the almighty Father.",
+                "People": "May the Lord accept the sacrifice at your hands for the praise and glory of his name, for our good and the good of all his holy Church."
+              },
+              "PrayerOverTheOfferings": {
+                "Instruction": "Then the Priest, with hands extended, says the Prayer over the offerings, at the end of which the people acclaim: Amen."
+              },
+              "EucharisticPrayer": {
+                "Dialogue": [
+                  {
+                    "Priest": "The Lord be with you.",
+                    "People": "And with your spirit."
+                  },
+                  {
+                    "Priest": "Lift up your hearts.",
+                    "People": "We lift them up to the Lord."
+                  },
+                  {
+                    "Priest": "Let us give thanks to the Lord our God.",
+                    "People": "It is right and just."
+                  }
+                ],
+                "Preface": {
+                  "Instruction": "The Priest, with hands extended, continues the Preface. He concludes the Preface by singing or saying aloud with the people.",
+                  "HolyHolyHoly": "Holy, Holy, Holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the name of the Lord. Hosanna in the highest."
+                },
+                "MemorialAcclamation": {
+                  "Priest": "The mystery of faith.",
+                  "Options": [
+                    "We proclaim your Death, O Lord, and profess your Resurrection until you come again.",
+                    "When we eat this Bread and drink this Cup, we proclaim your Death, O Lord, until you come again.",
+                    "Save us, Saviour of the world, for by your Cross and Resurrection you have set us free."
+                  ],
+                  "People": "Amen"
+                }
+              },
+              "Prefaces": {
+                "SundaysInOrdinaryTime": {
+                  "V": "The Lord be with you.",
+                  "R": "And with your spirit.",
+                  "V2": "Lift up your hearts.",
+                  "R2": "We lift them up to the Lord.",
+                  "V3": "Let us give thanks to the Lord our God.",
+                  "P": "It is right and just.",
+                  "Text": [
+                    "It is truly right and just, our duty and our salvation, always and everywhere to give you thanks, Lord, Holy Father, almighty and eternal God, through Christ our Lord.",
+                    "For out of compassion for the waywardness that is ours, he humbled himself and was born of the Virgin; by the passion of the Cross, he freed us from unending death, and by rising from the dead, he gave us life eternal.",
+                    "And so, with Angels and Archangels, with Thrones and Dominions, and with all the hosts and Powers of heaven, as we sing the hymn of your glory without end we acclaim: Holy, Holy, Holy Lord God of hosts..."
+                  ]
+                },
+                "CommonPreface": {
+                  "V": "The Lord be with you.",
+                  "R": "And with your spirit.",
+                  "V2": "Lift up your hearts.",
+                  "R2": "We lift them up to the Lord.",
+                  "V3": "Let us give thanks to the Lord our God.",
+                  "R3": "It is right and just.",
+                  "Text": [
+                    "It is truly right and just, our duty and our salvation, always and everywhere to give you thanks, Lord, holy Father, almighty and eternal God, through Christ our Lord.",
+                    "In him you have been pleased to renew all things, giving us all a share in his fullness. For though he was in the form of God, he emptied himself and by the blood of his Cross brought peace to all creation. Therefore he has been exalted above all things, and to all who obey him, has become the source of eternal salvation.",
+                    "And so, with Angels and Archangels, with Thrones and Dominions, and with all the hosts and Powers of heaven, as we sing the hymn of your glory without end we acclaim: Holy, Holy, Holy Lord God of hosts..."
+                  ]
+                }
+              },
+            
+        
+  
+                  "Section4": "Eucharistic Prayer I (The Roman Canon)",
+                  "PriestDialogue2": {
+                    "V": "The Lord be with you.",
+                    "R": "And with your spirit.",
+                    "V2": "Lift up your hearts.",
+                    "R2": "We lift them up to the Lord.",
+                    "V3": "Let us give thanks to the Lord our God.",
+                    "R3": "It is right and just."
+                  },
+                  "Preface": {
+                    "Instruction": "There follows the preface indicated by the rubrics, which concludes:",
+                    "HolyHolyHoly": "Holy, Holy, Holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the name of the Lord. Hosanna in the highest."
+                  },
+                  "PrayerForTheChurch": {
+                    "Text": "To you, therefore, most merciful Father, we make humble prayer and petition through Jesus Christ, your Son, our Lord: that you accept and bless these gifts, these offerings, these holy and unblemished sacrifices, which we offer you firstly for your holy catholic Church. Be pleased to grant her peace, to guard, unite and govern her throughout the whole world, together with your servant N. our Pope and N. our Bishop, and all those who, holding to the truth, hand on the catholic and apostolic faith."
+                  },
+                  "CommemorationOfTheLiving": {
+                    "Text": "Remember, Lord, your servants N. and N. and all gathered here, whose faith and devotion are known to you. For them, we offer you this sacrifice of praise or they offer it for themselves and all who are dear to them, for the redemption of their souls, in hope of health and well-being, and paying their homage to you, the eternal God, living and true."
+                  },
+                  "IntercessionOfTheSaints": {
+                    "Text": "In communion with those whose memory we venerate, especially the glorious ever-Virgin Mary, Mother of our God and Lord, Jesus Christ, and blessed Joseph, her Spouse, your blessed Apostles and Martyrs, Peter and Paul, Andrew, James, John, Thomas, James, Philip, Bartholomew, Matthew, Simon and Jude, Linus, Cletus, Clement, Sixtus, Cornelius, Cyprian, Lawrence, Chrysogonus, John and Paul, Cosmas and Damian and all your Saints: we ask that through their merits and prayers, in all things we may be defended by your protecting help. (Through Christ our Lord. Amen.)"
+                  },
+                  "ProperFormsOfTheCommunicantes": {
+                    "NativityOfTheLord": {
+                      "Text": "Celebrating the most sacred night (day) when blessed Mary the immaculate Virgin brought forth the Saviour for this world, and in communion with those whose memory we venerate, especially the glorious ever-Virgin Mary, Mother of our God and Lord, Jesus Christ."
+                    },
+                    "EpiphanyOfTheLord": {
+                      "Text": "Celebrating the most sacred day on which your Only Begotten Son, eternal with you in your glory, appeared in a human body, truly sharing our flesh, and in communion with those whose memory we venerate, especially the glorious ever-Virgin Mary, Mother of our God and Lord, Jesus Christ."
+                    },
+                    "PaschalVigilUntilSecondSundayOfEaster": {
+                      "Text": "Celebrating the most sacred night (day) of the Resurrection of our Lord Jesus Christ in the flesh, and in communion with those whose memory we venerate, especially the glorious ever-Virgin Mary, Mother of our God and Lord, Jesus Christ."
+                    },
+                    "AscensionOfTheLord": {
+                      "Text": "Celebrating the most sacred day on which your Only Begotten Son, our Lord, placed at the right hand of your glory our weak human nature, which he had united to himself, and in communion with those whose memory we venerate, especially the glorious ever-Virgin Mary, Mother of our God and Lord, Jesus Christ."
+                    },
+                    "PentecostSunday": {
+                      "Text": "Celebrating the most sacred day of Pentecost, on which the Holy Spirit appeared to the Apostles in tongues of fire, and in communion with those whose memory we venerate, especially the glorious ever-Virgin Mary, Mother of our God and Lord, Jesus Christ."
+                    }
+        },
+               
+        
+            "Section5": "Eucharistic Prayer I (The Roman Canon)",
+            "Offering": {
+              "Text": "Therefore, Lord, we pray: graciously accept this oblation of our service, that of your whole family; order our days in your peace, and command that we be delivered from eternal damnation and counted among the flock of those you have chosen. (Through Christ our Lord. Amen)"
+            },
+            "ThursdayOfTheLordsSupper": {
+              "Text": "Therefore, Lord, we pray: graciously accept this oblation of our service, that of your whole family, which we make to you as we observe the day on which our Lord Jesus Christ handed on the mysteries of his Body and Blood for his disciples to celebrate; order our days in your peace, and command that we be delivered from eternal damnation and counted among the flock of those you have chosen. (Through Christ our Lord. Amen)"
+            },
+            "PaschalVigilUntilSecondSundayOfEaster": {
+              "Text": "Therefore, Lord, we pray: graciously accept this oblation of our service, that of your whole family, which we make to you also for those to whom you have been pleased to give the new birth of water and the Holy Spirit, granting them forgiveness of all their sins: order our days in your peace, and command that we be delivered from eternal damnation and counted among the flock of those you have chosen. (Through Christ our Lord. Amen)"
+            },
+            "InvocationOfTheHolySpiritForConcentration": {
+              "Text": "Be pleased, O God, we pray, to bless, acknowledge, and approve this offering in every respect; make it spiritual and acceptable, so that it may become for us the Body and Blood of your most beloved Son, our Lord Jesus Christ."
+            },
+            "InstitutionNarrativeAndConcentration": {
+              "Text": "On the day before he was to suffer, (On the Thursday of the Lord's Supper - Evening Mass: for our salvation and the salvation of all, that is today,) he took bread in his holy and venerable hands, and with eyes raised to heaven to you, O God, his almighty Father, giving you thanks he said the blessing, broke the bread and gave it to his disciples, saying:\n\nTAKE THIS, ALL OF YOU, AND EAT OF IT, FOR THIS IS MY BODY, WHICH WILL BE GIVEN UP FOR YOU.\n\nIn a similar way, when supper was ended, he took this precious chalice in his holy and venerable hands, and once more giving you thanks, he said the blessing and gave the chalice to his disciples, saying:\n\nTAKE THIS, ALL OF YOU, AND DRINK FROM IT, FOR THIS IS THE CHALICE OF MY BLOOD, THE BLOOD OF THE NEW AND ETERNAL COVENANT, WHICH WILL BE POURED OUT FOR YOU AND FOR MANY FOR THE FORGIVENESS OF SINS. DO THIS IN MEMORY OF ME."
+            },
+            "MemorialAcclamation": {
+              "Priest": "The mystery of faith.",
+              "People": [
+                "We proclaim your Death, O Lord, and profess your Resurrection until you come again.",
+                "When we eat this Bread and drink this Cup, we proclaim your Death, O Lord, until you come again.",
+                "Save us, Saviour of the world, for by your Cross and Resurrection you have set us free."
+              ]
+            },
+            "MemorialOfThePaschalMystery": {
+              "Text": "Therefore, O Lord, as we celebrate the memorial of the blessed Passion, the Resurrection from the dead, and the glorious Ascension into heaven of Christ, your Son, our Lord, we, your servants and your holy people, offer to your glorious majesty from the gifts that you have given us, this pure victim, this holy victim, this spotless victim, the holy Bread of eternal life and the Chalice of everlasting salvation."
+            },
+            "OfferingAndInvocationOfTheHolySpiritForCommunion": {
+              "Text": "Be pleased to look upon these offerings with a serene and kindly countenance, and to accept them, as once you were pleased to accept the gifts of your servant Abel the just, the sacrifice of Abraham, our father in faith, and the offering of your high priest Melchizedek, a holy sacrifice, a spotless victim. In humble prayer we ask you, almighty God: command that these gifts be borne by the hands of your holy Angel to your altar on high in the sight of your divine majesty, so that all of us who through this participation at the altar receive the most holy Body and Blood of your Son, may be filled with every grace and heavenly blessing; (Through Christ our Lord. Amen)"
+            },
+            "CommemorationOfTheDead": {
+              "Text": "Remember also, Lord, your servants N. and N., who have gone before us with the sign of faith and rest in the sleep of peace. Grant them, O Lord, we pray, and all who sleep in Christ, a place of refreshment, light and peace. (Through Christ our Lord. Amen)"
+            },
+            "PrayerForTheServantsOfTheChurch": {
+              "Text": "To us, also, your servants, who, though sinners, hope in your abundant mercies, graciously grant some share and fellowship with your holy Apostles and Martyrs: with John the Baptist, Stephen, Matthias, Barnabas, (Ignatius, Alexander, Marcellinus, Peter, Felicity, Perpetua, Agatha, Lucy, Agnes, Cecilia, Anastasia and all your Saints: admit us, we beseech you, into their company, not weighing our merits, but granting us your pardon, through Christ our Lord. Through whom you continue to make all these good things, O Lord; you sanctify them, fill them with life, bless them, and bestow them upon us."
+            },
+            "DoxologyAndGreatAmen": {
+              "Text": "Through him, and with him, and in him, O God, almighty Father, in the unity of the Holy Spirit, all glory and honour is yours, forever and ever.",
+              "People": "Amen"
+            },
+          
+  
+  
+  
+                "Section6": "Eucharistic Prayer II",
+                "Preface2": {
+                  "Text": "Although it is provided with its own Preface, this Eucharistic Prayer may also be used with other Prefaces, especially those that present an overall view of the mystery of salvation, such as the Common Prefaces."
+                },
+                "Dialogue": {
+                  "Priest": [
+                    "The Lord be with you.",
+                    "Lift up your hearts.",
+                    "Let us give thanks to the Lord our God."
+                  ],
+                  "People": [
+                    "And with your spirit.",
+                    "We lift them up to the Lord.",
+                    "It is right and just."
+                  ]
+                },
+                "EucharisticPrayer3": {
+                  "Text": "It is truly right and just, our duty and salvation, always and everywhere to give you thanks, Father most holy, through your beloved Son, Jesus Christ, your Word through whom you made all things, whom you sent as our Saviour and Redeemer, incarnate by the Holy Spirit and born of the Virgin. Fulfilling your will and gaining for you a holy people, he stretched out his hands as he endured his Passion, so as to break the bonds of death and manifest the resurrection. And so, with the Saints we declare your glory, as with one voice we acclaim:",
+                  "Acclamation": [
+                    "Holy, Holy, Holy Lord God of hosts.",
+                    "Heaven and earth are full of your glory.",
+                    "Hosanna in the highest.",
+                    "Blessed is he who comes in the name of the Lord.",
+                    "Hosanna in the highest."
+                  ]
+                },
+                "InvocationOfTheHolySpiritForConsecration": {
+                  "Text": "You are indeed Holy, O Lord, the fount of all holiness. Make holy, therefore, these gifts, we pray, by sending down your Spirit upon them like the dewfall, so that they may become for us the Body and Blood of our Lord, Jesus Christ."
+                },
+                "AdorationNarrativeAndConsecration": {
+                  "Text": "At the time he was betrayed and entered willingly into his Passion, he took bread and, giving thanks, broke it, and gave it to his disciples, saying:",
+                  "Narrative": [
+                    "TAKE THIS, ALL OF YOU, AND EAT OF IT, FOR THIS IS MY BODY, WHICH WILL BE GIVEN UP FOR YOU.",
+                    "In a similar way, when supper was ended, he took the chalice and, once more giving thanks, he gave it to his disciples, saying:",
+                    "TAKE THIS, ALL OF YOU, AND DRINK FROM IT, FOR THIS IS THE CHALICE OF MY BLOOD, THE BLOOD OF THE NEW AND ETERNAL COVENANT, WHICH WILL BE POURED OUT FOR YOU AND FOR MANY FOR THE FORGIVENESS OF SINS. DO THIS IN MEMORY OF ME."
+                  ]
+                },
+  
+  
+  
+                  "MemorialAcclamation1": {
+                    "Priest": "The mystery of faith.",
+                    "People": [
+                      "We proclaim your Death, O Lord, and profess your Resurrection until you come again.",
+                      "When we eat this Bread and drink this Cup, we proclaim your Death, O Lord, until you come again.",
+                      "Save us, Saviour of the world, for by your Cross and Resurrection you have set us free."
+                    ]
+                  },
+                  "MemorialOfThePaschalMystery1": {
+                    "Text": "Therefore, as we celebrate the memorial of his Death and Resurrection, we offer you, Lord, the Bread of life and the Chalice of salvation, giving thanks that you have held us worthy to be in your presence and minister to you."
+                  },
+                  "InvocationOfTheHolySpiritForCommunion": {
+                    "Text": "Humbly we pray that, partaking of the Body and Blood of Christ, we may be gathered into one by the Holy Spirit."
+                  },
+                  "IntercessionForTheLiving": {
+                    "Text": "Remember, Lord, your Church, spread throughout the world, and bring her to the fullness of charity, together with N. our Pope and N. our Bishop and all the clergy."
+                  },
+                  "IntercessionForTheDead": {
+                    "Text": "Remember also our brothers and sisters who have fallen asleep in the hope of the resurrection, and all who have died in your mercy: welcome them into the light of your face."
+                  },
+                  "InCommunionWithTheSaintsInHeaven": {
+                    "Text": "Have mercy on us all, we pray, that with the Blessed Virgin Mary, Mother of God, with the blessed Apostles, and all the Saints who have pleased you throughout the ages, we may merit to be co-heirs to eternal life, and may praise and glorify you through your Son, Jesus Christ."
+                  },
+                  "DoxologyAndGreatAmen3": {
+                    "Text": "Through him, and with him, and in him, O God, almighty Father, in the unity of the Holy Spirit, all glory and honour is yours, forever and ever.",
+                    "People": "Amen"
+                  },
+                  "CommunionRite": {
+                    "Text": "Then follows the Communion Rite."
+                  },
+                  "EucharisticPrayer4": {
+                    "IntroductoryDialogue": {
+                      "Priest": [
+                        "The Lord be with you.",
+                        "Lift up your hearts.",
+                        "Let us give thanks to the Lord our God."
+                      ],
+                      "People": [
+                        "And with your spirit.",
+                        "We lift them up to the Lord.",
+                        "It is right and just."
+                      ]
+                    },
+                    "Preface": {
+                      "Text": "Then follows the Preface to be used in accord with the rubrics, which concludes: Holy, Holy, Holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the name of the Lord. Hosanna in the highest."
+                    },
+                    "PraiseToTheFather": {
+                      "Text": "You are indeed Holy, O Lord, and all you have created rightly gives you praise, for through your Son our Lord Jesus Christ, by the power and working of the Holy Spirit, you give life to all things and make them holy, and you never cease to gather a people to yourself, so that from the rising of the sun to its setting a pure sacrifice may be offered to your name."
+                    },
+                    "InvocationOfTheHolySpiritForConsecration": {
+                      "Text": "Therefore, O Lord, we humbly implore you: by the same Spirit graciously make holy these gifts we have brought to you for consecration, that they may become the Body and Blood of your Son our Lord Jesus Christ, at whose command we celebrate these mysteries."
+                    },
+                    "InstitutionNarrativeAndConsecration": {
+                      "Text": [
+                        "For on the night he was betrayed he himself took bread, and giving you thanks he said the blessing, broke the bread and gave it to his disciples, saying: TAKE THIS, ALL OF YOU, AND EAT OF IT, FOR THIS IS MY BODY, WHICH WILL BE GIVEN UP FOR YOU.",
+                        "In a similar way, when supper was ended, he took the chalice, and giving you thanks he said the blessing, and gave the chalice to his disciples, saying: TAKE THIS, ALL OF YOU, AND DRINK FROM IT, FOR THIS IS THE CHALICE OF MY BLOOD, THE BLOOD OF THE NEW AND ETERNAL COVENANT, WHICH WILL BE POURED OUT FOR YOU AND FOR MANY FOR THE FORGIVENESS OF SINS. DO THIS IN MEMORY OF ME."
+                      ]
+                    },
+                    "MemorialAcclamation": {
+                      "Priest": "The mystery of faith.",
+                      "People": [
+                        "We proclaim your Death, O Lord, and profess your Resurrection until you come again.",
+                        "When we eat this Bread and drink this Cup, we proclaim your Death, O Lord, until you come again.",
+                        "Save us, Saviour of the world, for by your Cross and Resurrection you have set us free."
+                      ]
+                    },
+                    "MemorialOfThePaschalMysteryAndOffering": {
+                      "Text": "Therefore, O Lord, as we celebrate the memorial of the saving Passion of your Son, his wondrous Resurrection and Ascension into heaven, and as we look forward to his second coming, we offer you in thanksgiving this holy and living sacrifice."
+                    },
+                    "InvocationOfTheHolySpiritForConsecration_2": {
+                      "Text": "Look, we pray, upon the oblation of your Church and, recognizing the sacrificial Victim by whose death you willed to reconcile us to yourself, grant that we, who are nourished by the Body and Blood of your Son and filled with his Holy Spirit, may become one body, one spirit in Christ."
+                    }
+                  },
+                
+              
+                  
+                    "PrayerForTheAssembly": {
+                      "Text": "May he make of us an eternal offering to you, so that we may obtain an inheritance with your elect, especially with the most Blessed Virgin Mary, Mother of God, with your blessed Apostles and glorious Martyrs (with Saint N: the Saint of the day or Patron Saint) and with all the Saints, on whose constant intercession in your presence we rely for unfailing help."
+                    },
+                    "PrayerForTheChurchAndTheWorld": {
+                      "Text": "May this Sacrifice of our reconciliation, we pray, O Lord, advance the peace and salvation of the entire world. Be pleased to confirm in faith and charity your pilgrim Church on earth, with your servant N. our Pope and N. our Bishop, the Order of Bishops, all the clergy, and the entire people you have gained for your own. Listen graciously to the prayers of this family, whom you have summoned before you: in your compassion, O merciful Father, gather to yourself all your children scattered throughout the world."
+                    },
+                    "IntercessionForTheDead1": {
+                      "Text": "To our departed brothers and sisters, to all who were pleasing to you at their passing from this life, give kind admittance to your kingdom. There we hope to enjoy forever the fullness of your glory through Christ our Lord, through whom you bestow on the world all that is good."
+                    },
+                    "TheDoxologyAndTheGreatAmen": {
+                      "Text": "Through him, and with him, and in him, O God, almighty Father, in the unity of the Holy Spirit, all glory and honour is yours, forever and ever.",
+                      "People": "Amen."
+                    },
+                    "EucharisticPrayerIV": {
+                      "IntroductoryDialogue": {
+                        "Priest": [
+                          "The Lord be with you.",
+                          "Lift up your hearts.",
+                          "Let us give thanks to the Lord our God."
+                        ],
+                        "People": [
+                          "And with your spirit.",
+                          "We lift them up to the Lord.",
+                          "It is right and just."
+                        ]
+                      },
+                      "ThanksgivingToGodTheCreator": {
+                        "Text": "It is truly right to give you thanks, truly just to give you glory, Father most holy, for you are the one God living and true, existing before all ages and abiding for all eternity, dwelling in unapproachable light: yet you, who alone are good, the source of life, have made all that is, so that you might fill your creatures with blessings and bring joy to many of them by the glory of your light. And so, in your presence are countless hosts of Angels, who serve you day and night and, gazing upon the glory of your face, glorify you without ceasing. With them we, too, confess your name in exultation, giving voice to every creature under heaven as we acclaim: Holy, Holy, Holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the name of the Lord. Hosanna in the highest."
+                      },
+                      "PraiseToGodForTheGiftOfRedemption": {
+                        "Text": "We give you praise, Father most holy, for you are great, and you have fashioned all your works in wisdom and in love. You formed man in your own image and entrusted the whole world to his care, so that in serving you alone, the Creator, he might have dominion over all creatures. And when through disobedience he had lost your friendship, you did not abandon him to the domain of death. For you came in mercy to the aid of all, so that those who seek might find you. Time and again you offered them covenants and through the prophets taught them to look forward to salvation. And you so loved the world, Father most holy, that in the fullness of time you sent your Only Begotten Son to be our Saviour. Made incarnate by the Holy Spirit and born of the Virgin Mary, he shared our human nature in all things but sin. To the poor he proclaimed the good news of salvation, to prisoners, freedom, and to the sorrowful of heart, joy. To accomplish your plan, he gave himself up to death, and rising from the dead, he destroyed death and restored life. And that we might live no longer for ourselves but for him who died and rose again for us, he sent the Holy Spirit from you, Father, as the first fruits for those who believe, so that bringing to perfection his work in the world, he might sanctify creation to the full."
+                      },
+                      "InvocationOfTheHolySpiritForConsecration": {
+                        "Text": "Therefore, O Lord, we pray: may this same Holy Spirit graciously sanctify these offerings, that they may become the Body and Blood of our Lord Jesus Christ for the celebration of this great mystery, which he himself left us as an eternal covenant."
+                      },
+                      "InstitutionOfTheNarrativeAndConsecration": {
+                        "Text": [
+                          "For when the hour had come for him to be glorified by you, Father most holy, having loved his own who were in the world, he loved them to the end: and while they were at supper, he took bread, blessed and broke it, and gave it to his disciples, saying: TAKE THIS, ALL OF YOU, AND EAT OF IT, FOR THIS IS MY BODY, WHICH WILL BE GIVEN UP FOR YOU.",
+                          "In a similar way, taking the chalice filled with the fruit of the vine, he gave thanks, and gave the chalice to his disciples, saying: TAKE THIS, ALL OF YOU, AND DRINK FROM IT, FOR THIS IS THE CHALICE OF MY BLOOD, THE BLOOD OF THE NEW AND ETERNAL COVENANT, WHICH WILL BE POURED OUT FOR YOU AND FOR MANY FOR THE FORGIVENESS OF SINS. DO THIS IN MEMORY OF ME."
+                        ]
+                      }
+                    },
+                
+  
+                    
+                      "MemorialAcclamation2": {
+                        "Priest": "The mystery of faith.",
+                        "People": [
+                          "We proclaim your Death, O Lord, and profess your Resurrection until you come again.",
+                          "When we eat this Bread and drink this Cup, we proclaim your Death, O Lord, until you come again.",
+                          "Save us, Saviour of the world, for by your Cross and Resurrection you have set us free."
+                        ]
+                      },
+                      "MemorialOfThePaschalMysteryAndOffering": {
+                        "Text": "Therefore, O Lord, as we now celebrate the memorial of our redemption, we remember Christ's death and his descent to the realm of the dead, we proclaim his Resurrection and his Ascension to your right hand; and as we await his coming in glory, we offer you his Body and Blood, the sacrifice acceptable to you which brings salvation to the whole world."
+                      },
+                      "InvocationOfTheHolySpiritForCommunion1": {
+                        "Text": "Look, O Lord, upon the Sacrifice which you yourself have provided for your Church, and grant in your loving kindness to all who partake of this one Bread and one Chalice that, gathered into one body by the Holy Spirit, they may truly become a living sacrifice in Christ to the praise of your glory."
+                      },
+                      "IntercessionForTheLivingAndTheDead": {
+                        "Text": "Therefore, Lord, remember now all for whom we offer this sacrifice: especially your servant, N our Pope, N our Bishop, and the whole Order of Bishops, all the clergy, those who take part in this offering, those gathered here before you, your entire people, and all who seek you with a sincere heart. Remember also those who have died in the peace of your Christ and all the dead, whose faith you alone have known."
+                      },
+                      "PrayerForTheAssembly1": {
+                        "Text": "To all of us, your children, grant, O merciful Father, that we may enter into a heavenly inheritance with the blessed Virgin Mary, Mother of God, and with your Apostles and Saints in your kingdom. There, with the whole of creation, freed from the corruption of sin and death, may we glorify you through Christ our Lord, through whom you bestow on the world all that is good."
+                      },
+                      "TheDoxologyAndGreatAmen": {
+                        "Priest": "Through him, and with him, and in him, O God, almighty Father, in the unity of the Holy Spirit, all glory and honour is yours, forever and ever.",
+                        "People": "Amen."
+                      },
+                      "CommunionRite1": {
+                        "Intro": "The people rise for the communion rite.",
+                        "OurFather": {
+                          "Priest": "At the Saviour's command and formed by divine teaching, we dare to say:",
+                          "People": "Our Father, who art in heaven, hallowed be thy name; thy kingdom come, thy will be done on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil."
+                        },
+                        "DeliverUs": {
+                          "Priest": "Deliver us, Lord, we pray, from every evil, graciously grant peace in our days, that, by the help of your mercy, we may be always free from sin and safe from all distress, as we await the blessed hope and the coming of our Saviour, Jesus Christ.",
+                          "People": "For the kingdom, the power and the glory are yours now and forever."
+                        },
+                        "PeaceRite": {
+                          "Priest": "Lord Jesus Christ, who said to your Apostles, Peace I leave you, my peace I give you, look not on our sins, but on the faith of your Church, and graciously grant her peace and unity in accordance with your will. Who live and reign forever and ever.",
+                          "People": "Amen.",
+                          "Priest2": "The peace of the Lord be with you always.",
+                          "People2": "And with your spirit.",
+                          "Optional": "Let us offer each other the sign of peace."
+                        },
+                        "BreakingOfTheBread": {
+                          "Action": "Then he takes the host, breaks it over the paten, and places a small piece in the chalice, saying quietly:",
+                          "Priest": "May this mingling of the Body and Blood of our Lord Jesus Christ bring eternal life to us who receive it.",
+                          "People": [
+                            "Lamb of God, you take away the sins of the world, have mercy on us.",
+                            "Lamb of God, you take away the sins of the world, have mercy on us.",
+                            "Lamb of God, you take away the sins of the world, grant us peace."
+                          ]
+                        },
+                        "PriestPreparation": {
+                          "Option1": "Lord Jesus Christ, Son of the living God, who by the will of the Father and the work of the Holy Spirit, through your Death gave life to the world; free me by this, your most holy Body and Blood, from all my sins and from every evil: keep me always faithful to your commandments, and never let me be parted from you.",
+                          "Option2": "May the receiving of your Body and Blood, Lord Jesus Christ, not bring me to judgment and condemnation but through your loving mercy be for me protection in mind and body, and a healing remedy."
+                        },
+                        "InvitationToCommunion": {
+                          "Priest": "Behold the Lamb of God, behold him who takes away the sins of the world. Blessed are those called to the supper of the Lamb.",
+                          "All": "Lord, I am not worthy that you should enter under my roof but only say the word and my soul shall be healed."
+                        },
+                        "Communion": {
+                          "Action": "The Priest reverently consumes the Body and Blood of Christ. While the Priest is receiving the Body of Christ, the Communion Chant begins.",
+                          "Distribution": {
+                            "Priest": "The Body of Christ.",
+                            "Communicant": "Amen."
+                          },
+                          "AfterCommunion": {
+                            "Note": "If any are present who are to receive Holy Communion under both kinds, the proper rite is to be followed. After Communion, the Priest may return to the chair. If appropriate, a sacred silence may be observed for a while, or a psalm or other canticle of praise or a hymn be sung."
+                          }
+                        },
+                        "PrayerAfterCommunion": {
+                          "Note": "Then all rise, and the priest, standing at the altar or at the chair, says the prayer after Communion."
+                        }
+                      },
+  
+  
+                  
+                  
+  
+                        "PrayerAfterCommunion": {
+                          "Priest": "Let us pray.",
+                          "Note": "All pray in silence with the Priest for a while, unless silence has just been observed.",
+                          "Closing": "Then the Priest, with hands extended, says the Prayer after Communion, at the end of which the people acclaim:",
+                          "People": "Amen"
+                        },
+                        "ConcludingRites": {
+                          "Announcements": "If they are necessary, any brief announcements to the people follow here.",
+                          "Blessing": {
+                            "Priest": "The Lord be with you.",
+                            "People": "And with your spirit.",
+                            "PriestBlessing": "May almighty God bless you: the Father, and the Son, and the Holy Spirit.",
+                            "PeopleAmen": "Amen",
+                            "SolemnBlessingNote": "On certain days or occasions, this formula of blessing is preceded, in accordance with the rubrics, by another more solemn formula of blessing or by a prayer over the people."
+                          },
+                          "PontificalMassBlessing": {
+                            "Celebrant": {
+                              "Dialogue": [
+                                {"Celebrant": "The Lord be with you.", "People": "And with your spirit."},
+                                {"Celebrant": "Blessed be the name of the Lord.", "People": "Now and forever."},
+                                {"Celebrant": "Our help is in the name of the Lord.", "People": "Who made heaven and earth."}
+                              ],
+                              "BlessingWithStaff": "May almighty God bless you, the Father and the Son and the Holy Spirit.",
+                              "People": "Amen"
+                            }
+                          },
+                          "Dismissal": {
+                            "PriestOptions": [
+                              "Go forth, the Mass is ended.",
+                              "Go and announce the Gospel of the Lord.",
+                              "Go in peace, glorifying the Lord by your life.",
+                              "Go in peace."
+                            ],
+                            "People": "Thanks be to God."
+                          },
+                          "Conclusion": {
+                            "Note": "Then the Priest venerates the altar as usual with a kiss, as at the beginning. After making a profound bow with the ministers, he withdraws. If any liturgical action follows immediately, the rites of dismissal are omitted."
+                          }
+                        }
+                       }

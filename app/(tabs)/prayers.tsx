@@ -1,4 +1,4 @@
-// PrayersScreen.tsx
+// Prayers.tsx
 import React, { useRef, useState } from 'react';
 import { 
   Animated, 
@@ -66,7 +66,7 @@ export default function PrayersScreen() {
       title: 'Traditional Prayers',
       icon: '🙏',
       items: [
-        { title: 'THE ANGELUS', route: '/prayers/angelus', subtitle: 'Traditional Catholic devotion' },
+        { title: 'THE ANGELUS', route: '/prayers/traditionalprayers', subtitle: 'Traditional Catholic devotion' },
         { title: 'The Regina Caeli', route: '/prayers/regina-caeli', subtitle: 'Easter season prayer' },
         { title: 'The Order of Mass', route: '/prayers/order-of-mass', subtitle: 'Structure of the Mass' },
         { title: 'The Holy Rosary', route: '/prayers/holy-rosary', subtitle: 'Marian devotion' },
