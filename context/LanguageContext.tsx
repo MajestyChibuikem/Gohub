@@ -1,39 +1,68 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import * as Localization from 'expo-localization';
 
 type LanguageContextType = {
-  language: 'en' | 'es';
-  toggleLanguage: () => void;
+  language: string;
+  setLanguage: (lang: string) => void;
+  availableLanguages: string[];
 };
 
-const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+const LanguageContext = createContext<LanguageContextType>({
+  language: 'en',
+  setLanguage: () => {},
+  availableLanguages: ['en'],
+});
 
-export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
-  const [language, setLanguage] = useState<'en' | 'es'>('en');
+interface LanguageProviderProps {
+  children: React.ReactNode;
+}
+
+export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
+  const [language, setLanguage] = useState('en');
+  const availableLanguages = ['en', 'es', 'fr', 'de']; // Add more as needed
 
   useEffect(() => {
-    AsyncStorage.getItem('language').then((lang) => {
-      if (lang === 'en' || lang === 'es') setLanguage(lang);
-    });
+    const loadLanguage = async () => {
+      try {
+        const savedLanguage = await AsyncStorage.getItem('selectedLanguage');
+        if (savedLanguage && availableLanguages.includes(savedLanguage)) {
+          setLanguage(savedLanguage);
+        } else {
+          const systemLanguage = Localization.locale.split('-')[0];
+          const langToUse = availableLanguages.includes(systemLanguage) 
+            ? systemLanguage 
+            : 'en';
+          setLanguage(langToUse);
+        }
+      } catch (error) {
+        console.error('Failed to load language', error);
+      }
+    };
+
+    loadLanguage();
   }, []);
 
-  const toggleLanguage = async () => {
-    const newLang = language === 'en' ? 'es' : 'en';
-    setLanguage(newLang);
-    await AsyncStorage.setItem('language', newLang);
+  const handleSetLanguage = async (lang: string) => {
+    if (availableLanguages.includes(lang)) {
+      setLanguage(lang);
+      try {
+        await AsyncStorage.setItem('selectedLanguage', lang);
+      } catch (error) {
+        console.error('Failed to save language', error);
+      }
+    }
   };
 
   return (
-    <LanguageContext.Provider value={{ language, toggleLanguage }}>
+    <LanguageContext.Provider value={{
+      language,
+      setLanguage: handleSetLanguage,
+      availableLanguages,
+    }}>
       {children}
     </LanguageContext.Provider>
   );
 };
 
-export const useLanguage = () => {
-  const context = useContext(LanguageContext);
-  if (!context) {
-    throw new Error('useLanguage must be used within LanguageProvider');
-  }
-  return context;
-};
+export const useLanguage = () => useContext(LanguageContext);
