@@ -1,5 +1,7 @@
 // Prayers.tsx
 import React, { useRef, useState } from 'react';
+import { Ionicons } from '@expo/vector-icons';
+import { useFavorites } from '@/context/favoriteContext';
 import { 
   Animated, 
   View, 
@@ -8,7 +10,8 @@ import {
   TouchableOpacity,
   Platform,
   Dimensions,
-  StatusBar
+  StatusBar,
+  Pressable
 } from 'react-native';
 import { Link } from 'expo-router';
 import { useTheme } from '../../context/ThemeContext';
@@ -33,6 +36,7 @@ interface PrayerSection {
 }
 
 export default function PrayersScreen() {
+  const { toggleFavorite, isFavorite } = useFavorites();
   const { theme, getFontSize } = useTheme();
   const scrollY = useRef(new Animated.Value(0)).current;
   const [expandedSection, setExpandedSection] = useState<string>('daily');
@@ -89,9 +93,9 @@ export default function PrayersScreen() {
       title: 'Saints & Devotions',
       icon: '👼',
       items: [
-        { title: 'PRAYER TO THE HOLY SPIRIT', route: '/prayers/saints?prayer=Prayer-to-the-holy-spirit' },
+        { title: 'PRAYER TO THE HOLY SPIRIT', route: '/prayers/saints?prayer=prayer-to-the-holy-spirit' },
         { title: 'PRAYER OF SAINT FRANCIS', route: '/prayers/saints?prayer=prayer-of-saint-francis' },
-        { title: "ST PATRICK'S PRAYER", route: '/prayers/saints?prayer=St-Patricks-Prayer' },
+        { title: "ST PATRICK'S PRAYER", route: '/prayers/saints?prayer=st-patricks-prayer' },
         { title: 'CATENA', route: '/prayers/saints?prayer=catena' },
       ]
     },
@@ -110,7 +114,7 @@ export default function PrayersScreen() {
 
   // Find today's prayer
   const todaysPrayer = prayerSections[0].items.find(item => item.featured);
-
+  // const favorite = todaysPrayer ? isFavorite(todaysPrayer.title) : false;
   const toggleSection = (sectionId: string): void => {
     setExpandedSection(expandedSection === sectionId ? '' : sectionId);
   };
@@ -230,6 +234,7 @@ export default function PrayersScreen() {
   };
 
   return (
+
     <View style={[styles.container, { backgroundColor: theme.background }]}>
       <StatusBar
         barStyle={theme.background === '#ffffff' ? 'dark-content' : 'light-content'}
@@ -300,6 +305,7 @@ export default function PrayersScreen() {
       </Animated.ScrollView>
     </View>
   );
+  // Note: The footer text is static. You can replace it with a dynamic one if needed.
 }
 
 const styles = StyleSheet.create({

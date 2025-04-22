@@ -140,10 +140,18 @@ export default function SettingsScreen() {
         <SettingSection title="About">
           <View style={[styles.aboutSection, { backgroundColor: theme.card }]}>
             <ThemedText style={[styles.aboutText, { fontSize: getFontSize(14) }]}>
-              GoHub - Catholic Prayer App
+              GoHub - Godfrey's Prayer App
             </ThemedText>
             <ThemedText style={[styles.versionText, { fontSize: getFontSize(12), color: theme.textSecondary }]}>
               Version 1.0.0
+            </ThemedText>
+          </View>
+          <View style={[styles.aboutSection, { backgroundColor: theme.card }]}>
+            <ThemedText style={[styles.aboutText, { fontSize: getFontSize(14) }]}>
+              MAJESTY
+            </ThemedText>
+            <ThemedText style={[styles.versionText, { fontSize: getFontSize(12), color: theme.textSecondary }]}>
+                2025
             </ThemedText>
           </View>
         </SettingSection>

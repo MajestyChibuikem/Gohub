@@ -121,7 +121,10 @@ export const ThemeProvider: React.FC<{children: React.ReactNode}> = ({children})
     return systemColorScheme === 'dark' ? darkTheme : lightTheme;
   }, [settings.themeMode, systemColorScheme]);
 
-  const getFontSize = (size: number): number => Math.round(size);
+  const getFontSize = (baseSize: number): number => {
+    const scale = fontSizeValues[settings.fontSize] / fontSizeValues['medium']; // medium is default (scale = 1)
+    return Math.round(baseSize * scale);
+  };
 
   const updateSettings = (newSettings: Partial<ThemeSettings>) => {
     setSettings(s => ({ ...s, ...newSettings }));

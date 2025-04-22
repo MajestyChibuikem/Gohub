@@ -149,38 +149,33 @@ export default function HymnsScreen() {
 
   return (
     <View style={styles.container}>
-      <ScrollView contentContainerStyle={styles.scrollContent}>
-        <Text style={styles.headerText}>Hymn Book</Text>
-        <Text style={styles.subtitle}>Browse and search through the collection of hymns</Text>
+      <FlatList
+        data={filteredHymns}
+        keyExtractor={(item) => item.title}
+        renderItem={renderHymnItem}
+        ListHeaderComponent={
+          <>
+            <Text style={styles.headerText}>Hymn Book</Text>
+            <Text style={styles.subtitle}>Browse and search through the collection of hymns</Text>
 
-        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-          {HYMN_CATEGORIES.map((category) => (
-            <Pressable
-              key={category}
-              style={[styles.categoryChip, selectedCategory === category && styles.categoryChipSelected]}
-              onPress={() => setSelectedCategory(category)}
-            >
-              <Text style={[styles.categoryChipText, selectedCategory === category && styles.categoryChipTextSelected]}>
-                {formatCategoryName(category)}
-              </Text>
-            </Pressable>
-          ))}
-        </ScrollView>
+            <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+              {HYMN_CATEGORIES.map((category) => (
+                <Pressable
+                  key={category}
+                  style={[styles.categoryChip, selectedCategory === category && styles.categoryChipSelected]}
+                  onPress={() => setSelectedCategory(category)}
+                >
+                  <Text style={[styles.categoryChipText, selectedCategory === category && styles.categoryChipTextSelected]}>
+                    {formatCategoryName(category)}
+                  </Text>
+                </Pressable>
+              ))}
+            </ScrollView>
+      </>
+  }
+  contentContainerStyle={styles.scrollContent}
+/>
 
-        <FlatList
-          data={filteredHymns}
-          keyExtractor={(item) => item.title}
-          renderItem={renderHymnItem}
-          style={{ marginVertical: 20 }}
-        />
-
-        {/* {showLyrics && hymnData && (
-          <View>
-            <Text style={styles.lyricsTitle}>{hymnData.title.replace(/-/g, ' ')}</Text>
-            {hymnData.lyrics.map((verse, index) => formatVerse(verse, index))}
-          </View>
-        )} */}
-      </ScrollView>
     </View>
   );
 }

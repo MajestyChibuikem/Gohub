@@ -43,7 +43,7 @@ const dailyPrayer: PrayerType[] = [
 export default function DailyPrayersScreen() {
   const { prayer: paramPrayer } = useLocalSearchParams();
   const { language } = useLanguage();
-  const theme = useTheme();
+  const { theme, getFontSize } = useTheme();
   const styles = createPrayerStyles(theme);
 
   const [selectedPrayer, setSelectedPrayer] = useState(
@@ -107,7 +107,7 @@ export default function DailyPrayersScreen() {
   };
 
   return (
-    <ScrollView style={[styles.container, styles.contentContainer]}>
+    <ScrollView style={{ flex: 1, backgroundColor: theme.background, padding: 20 }} contentContainerStyle={{ paddingBottom: 40 }}>
       {/* Prayer Selector */}
       <View style={styles.pickerContainer}>
         <Text style={styles.pickerLabel}>Select Prayer:</Text>
