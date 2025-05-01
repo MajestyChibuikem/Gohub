@@ -1,17 +1,49 @@
 {
-    "title": "JOY TO THE WORLD",
-    "index": 180,
-    "key": "D 2/4",
-    "images": [
-      "../../../images/joy-to-the-world.jpeg",
-      "../../../images/joy-to-the-world(continuation).jpeg"
-    ],
-    "content": {
-      "type": "verses",
-      "verses": [
-        "joy to the world! the saviour reigns, let men their songs empty, While fields and flocks, rocks hills, and plains, female.repeat the sounding joy, repeat the sounding joy; Re-peat, repeat the sounding joy",
-        "No moze let sins and sorrow grow; nor thorns infest the ground He games to make, His blessings flow; far voice As the curse is founds, far as the curse is found; far as , far as the curse is found",
-        "He rules the world with truth and grace; and makes the nations prove The glories of His righteousness; And only wonders of His love, and wonders of his love; and wonders, and wonders of His love."
+  "title": "Joy to the World",
+  "sections": [
+    {
+      "type": "Verse 1",
+      "content": [
+        "Joy to the world! the Lord is come;",
+        "Let earth receive her King;",
+        "Let every heart prepare Him room,",
+        "And heaven and nature sing,",
+        "And heaven and nature sing,",
+        "And heaven, and heaven, and nature sing."
+      ]
+    },
+    {
+      "type": "Verse 2",
+      "content": [
+        "Joy to the earth! the Savior reigns;",
+        "Let men their songs employ;",
+        "While fields and floods, rocks, hills and plains",
+        "Repeat the sounding joy,",
+        "Repeat the sounding joy,",
+        "Repeat, repeat the sounding joy."
+      ]
+    },
+    {
+      "type": "Verse 3",
+      "content": [
+        "No more let sins and sorrows grow,",
+        "Nor thorns infest the ground;",
+        "He comes to make His blessings flow",
+        "Far as the curse is found,",
+        "Far as the curse is found,",
+        "Far as, far as the curse is found."
+      ]
+    },
+    {
+      "type": "Verse 4",
+      "content": [
+        "He rules the world with truth and grace,",
+        "And makes the nations prove",
+        "The glories of His righteousness,",
+        "And wonders of His love,",
+        "And wonders of His love,",
+        "And wonders, wonders of His love."
       ]
     }
-  }
+  ]
+}

@@ -1,12 +1,44 @@
 {
-    "title": "O CHRISTMASS PINE (OTANNENBUN)",
-    "index": 171,
-    "key": "G 3/4",
-    "images": [
-      "../../../images/O-christmass-pine.jpeg"
-    ],
-    "content": {
-      "type": "text",
-      "text": "Christmass pine, o Christmas pine, you point the way to courage. You teach me hope, fidelity, to conquer dark adversity, 0 Chistmass pien, o Christmass pine, you point the way to courage."
+  "title": "O Christmas Tree (O Tannenbaum)",
+  "sections": [
+    {
+      "type": "Verse 1",
+      "content": [
+        "O Christmas tree, O Christmas tree,",
+        "How lovely are thy branches!",
+        "O Christmas tree, O Christmas tree,",
+        "How lovely are thy branches!",
+        "Not only green in summer’s heat,",
+        "But also winter’s snow and sleet.",
+        "O Christmas tree, O Christmas tree,",
+        "How lovely are thy branches!"
+      ]
+    },
+    {
+      "type": "Verse 2",
+      "content": [
+        "O Christmas tree, O Christmas tree,",
+        "Thy candles shine so brightly!",
+        "O Christmas tree, O Christmas tree,",
+        "Thy candles shine so brightly!",
+        "From base to summit, day and bright,",
+        "There’s only splendor for the sight.",
+        "O Christmas tree, O Christmas tree,",
+        "Thy candles shine so brightly!"
+      ]
+    },
+    {
+      "type": "Verse 3",
+      "content": [
+        "O Christmas tree, O Christmas tree,",
+        "Thy beauty green will teach me",
+        "O Christmas tree, O Christmas tree,",
+        "Thy beauty green will teach me",
+        "That hope and love will ever be",
+        "The way to joy and peace for me.",
+        "O Christmas tree, O Christmas tree,",
+        "Thy beauty green will teach me."
+      ]
     }
-  }
+  ]
+}
