@@ -1,14 +1,75 @@
 {
-    "title": "GLORIA",
-    "index": 236,
-    "content": {
-      "type": "latin_with_chorus",
-      "chorus": "Gloria in excelsis Deo (3X) In excelsis Deo (Repeat 'in excelsis Deo' after each verse)",
-      "verses": [
-        "Et in terra pax hominibus, Bonae voluntatis Laudamus te benedicimus te adoramus te Glorificamus te, gratias agimus tibi Propter magnam gloriam tuam Domine Deus",
-        "Rex caelestis, Deus Pater omnipotens Domine fili unigenite, Jesu Christe Domine Deus",
-        "Agnus Del Filius Patri, qui tollis peccata mundi miserere nobis, qul tollis pecata mundi, sucipe depracationem nostrum qui sedes ad dextram Patris, miserere nobis, miserere nobis",
-        "Quoniam tu solus sanctus, tu solus Dominus Tu solus altissimus, Jesu Christe cum Sancto Spiritus, in gloria Dei Patris, Amen, Amen"
+  "title": "236. GLORIA",
+  "sections": [
+    {
+      "type": "Chorus",
+      "content": [
+        "Gloria in excelsis Deo",
+        "Gloria in excelsis Deo",
+        "Gloria in excelsis Deo"
+      ]
+    },
+    {
+      "type": "Verse 1",
+      "content": [
+        "Et in terra pax hominibus",
+        "Bonae voluntatis",
+        "Laudamus te, benedicimus te",
+        "Adoramus te, glorificamus te",
+        "Gratias agimus tibi propter magnam gloriam tuam",
+        "Domine Deus"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "In excelsis Deo"
+      ]
+    },
+    {
+      "type": "Verse 2",
+      "content": [
+        "Rex caelestis, Deus Pater omnipotens",
+        "Domine Fili unigenite, Jesu Christe",
+        "Domine Deus"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "In excelsis Deo"
+      ]
+    },
+    {
+      "type": "Verse 3",
+      "content": [
+        "Agnus Dei, Filius Patris",
+        "Qui tollis peccata mundi, miserere nobis",
+        "Qui tollis peccata mundi, suscipe deprecationem nostrum",
+        "Qui sedes ad dextram Patris, miserere nobis"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "In excelsis Deo"
+      ]
+    },
+    {
+      "type": "Verse 4",
+      "content": [
+        "Quoniam tu solus sanctus",
+        "Tu solus Dominus, tu solus Altissimus",
+        "Jesu Christe, cum Sancto Spiritus",
+        "In gloria Dei Patris",
+        "Amen, Amen"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "In excelsis Deo"
       ]
     }
-  }
+  ]
+}

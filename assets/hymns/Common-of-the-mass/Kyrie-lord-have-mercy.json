@@ -1,12 +1,110 @@
 {
-    "title": "KEYS Ab44 (ALLEGRO) KYRIE-LORD HAVE MERCY",
-    "index": 230,
-    "content": {
-      "type": "image_and_heading",
-      "heading": "KEYS Ab44 (ALLEGRO) KYRIE-LORD HAVE MERCY (BY JUDE NNAM)",
-      "image": {
-        "source": "../../../images/kyrie-lord-have-mercy.jpeg",
-        "altText": "Kyrie-Lord Have Mercy"
+  "title": "LORD HAVE MERCY - KYRIE ELEISON",
+  "sections": [
+    {
+      "type": "Lord Have Mercy",
+      "content": {
+        "en": [
+          "Lord, have mercy.",
+          "Lord, have mercy.",
+          "Oh Lord, have mercy on us.",
+          "Oh Lord, have mercy on us."
+        ],
+        "es": [
+          "Kyrie, eleison.",
+          "Kyrie, eleison.",
+          "Kyrie, eleison super nos.",
+          "Kyrie, eleison super nos."
+        ],
+        "ig": [
+          "Onyenwe anyị, mee ebere.",
+          "Onyenwe anyị, mee ebere.",
+          "Onyenwe anyị, mee ebere n'ime anyị.",
+          "Onyenwe anyị, mee ebere n'ime anyị."
+        ],
+        "yo": [
+          "Oluwa, sanu fun wa.",
+          "Oluwa, sanu fun wa.",
+          "Oluwa, sanu fun wa ni ile wa.",
+          "Oluwa, sanu fun wa ni ile wa."
+        ],
+        "ha": [
+          "Ya Ubangiji, ka yi mana jinƙai.",
+          "Ya Ubangiji, ka yi mana jinƙai.",
+          "Ya Ubangiji, ka yi mana jinƙai a kanmu.",
+          "Ya Ubangiji, ka yi mana jinƙai a kanmu."
+        ]
+      }
+    },
+    {
+      "type": "Christ Have Mercy",
+      "content": {
+        "en": [
+          "Christ, have mercy.",
+          "Christ, have mercy.",
+          "Oh Christ, have mercy on us.",
+          "Oh Christ, have mercy on us."
+        ],
+        "es": [
+          "Christe, eleison.",
+          "Christe, eleison.",
+          "Christe, eleison super nos.",
+          "Christe, eleison super nos."
+        ],
+        "ig": [
+          "Kristi, mee ebere.",
+          "Kristi, mee ebere.",
+          "Kristi, mee ebere n'ime anyị.",
+          "Kristi, mee ebere n'ime anyị."
+        ],
+        "yo": [
+          "Kristi, sanu fun wa.",
+          "Kristi, sanu fun wa.",
+          "Kristi, sanu fun wa ni ile wa.",
+          "Kristi, sanu fun wa ni ile wa."
+        ],
+        "ha": [
+          "Almasihu, ka yi mana jinƙai.",
+          "Almasihu, ka yi mana jinƙai.",
+          "Almasihu, ka yi mana jinƙai a kanmu.",
+          "Almasihu, ka yi mana jinƙai a kanmu."
+        ]
+      }
+    },
+    {
+      "type": "Lord Have Mercy (Repetition)",
+      "content": {
+        "en": [
+          "Lord, have mercy.",
+          "Lord, have mercy.",
+          "Oh Lord, have mercy on us.",
+          "Oh Lord, have mercy on us."
+        ],
+        "es": [
+          "Kyrie, eleison.",
+          "Kyrie, eleison.",
+          "Kyrie, eleison super nos.",
+          "Kyrie, eleison super nos."
+        ],
+        "ig": [
+          "Onyenwe anyị, mee ebere.",
+          "Onyenwe anyị, mee ebere.",
+          "Onyenwe anyị, mee ebere n'ime anyị.",
+          "Onyenwe anyị, mee ebere n'ime anyị."
+        ],
+        "yo": [
+          "Oluwa, sanu fun wa.",
+          "Oluwa, sanu fun wa.",
+          "Oluwa, sanu fun wa ni ile wa.",
+          "Oluwa, sanu fun wa ni ile wa."
+        ],
+        "ha": [
+          "Ya Ubangiji, ka yi mana jinƙai.",
+          "Ya Ubangiji, ka yi mana jinƙai.",
+          "Ya Ubangiji, ka yi mana jinƙai a kanmu.",
+          "Ya Ubangiji, ka yi mana jinƙai a kanmu."
+        ]
       }
     }
-  }
+  ]
+}

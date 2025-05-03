@@ -1,21 +1,30 @@
 {
-    "title": "AGNUS DEI AGNUS DEI",
-    "index": 249,
-    "content": {
-      "type": "choral",
-      "parts": [
-        {
-          "voice": "Bass",
-          "text": "Agnus Dei, Agnus DEi, qui tollis peccata Mundi misere nobis (2ice)"
-        },
-        {
-          "voice": "Soprano",
-          "text": "Agnus Dei, Agnus Dei, qui toliis peccata Mundi miserere nobis (2ice)"
-        },
-        {
-          "voice": "Combined",
-          "text": "Dona dona nobis pacem dona dona nobis pacem Qui tollis pecata mundi dona nobis pacem"
-        }
+  "title": "249. AGNUS DEI AGNUS DEI",
+  "sections": [
+    {
+      "type": "Bass",
+      "content": [
+        "Agnus Dei, Agnus Dei, qui tollis peccata Mundi",
+        "Miserere nobis",
+        "Miserere nobis"
+      ]
+    },
+    {
+      "type": "Soprano",
+      "content": [
+        "Agnus Dei, Agnus Dei, qui tollis peccata Mundi",
+        "Miserere nobis",
+        "Miserere nobis"
+      ]
+    },
+    {
+      "type": "Combined",
+      "content": [
+        "Dona dona nobis pacem",
+        "Dona dona nobis pacem",
+        "Qui tollis peccata mundi",
+        "Dona nobis pacem"
       ]
     }
-  }
+  ]
+}

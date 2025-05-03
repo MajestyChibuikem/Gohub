@@ -1,32 +1,120 @@
 {
-    "title": "DO YOU BELIEVE (BY JUDE NNAM)",
-    "index": 240,
-    "content": {
-      "type": "call_and_response",
-      "parts": [
-        {
-          "role": "Bass",
-          "text": "Do you believe, Do you believe, Do you believe"
-        },
-        {
-          "role": "Chorus",
-          "text": "Oh yes I believe in the Father and the Son And the Holy Spirit, Yes I believe (DC)"
-        },
-        {
-          "role": "Refrain",
-          "text": "Do you believe yes I believe"
-        },
-        {
-          "role": "Verses",
-          "text": [
-            "Mighty Father I believe (Ref.) Who created heaven and earth (Ref.) I believe in Jesus Christ (Ref.) Everlasting Son of God (Ref.& chorus)",
-            "Equal in the Father's power (Ref) And through Him all things were made (Ref.) He it was who saved us all (Ref.) And from heaven He came to earth (Ref.& chorus)",
-            "Of the Virgin Mary born (Ref.) By the Spirit was made flesh (Ref.) Suffered death was crucified (Ref.) And He rose up from the dead (Ref.& chorus)",
-            "He ascended into heaven (Ref.) And His kingdom has no end (Ref.) In the Spirit I believe (Ref.) Lord and Vivifier of all (Ref.& chorus)",
-            "With the Father and the Son (Ref.) He's adored and glorified (Ref.) I believe in the Holy Church (Ref.) And one baptism professed (Ref.& chorus)",
-            "I shall see him there in heaven (Ref.) Living in the world to come (Ref.) Amen amen amen. Amen amen amen. (Ref.& chorus)"
-          ]
-        }
+  "title": "DO YOU BELIEVE (BY JUDE NNAM)",
+  "sections": [
+    {
+      "type": "Bass",
+      "content": [
+        "Do you believe, Do you believe, Do you believe"
+      ]
+    },
+    {
+      "type": "Chorus",
+      "content": [
+        "Oh yes I believe in the Father and the Son",
+        "And the Holy Spirit, Yes I believe"
+      ]
+    },
+    {
+      "type": "Refrain",
+      "content": [
+        "Do you believe yes I believe"
+      ]
+    },
+    {
+      "type": "Verse 1",
+      "content": [
+        "Mighty Father I believe",
+        "Who created heaven and earth",
+        "I believe in Jesus Christ",
+        "Everlasting Son of God"
+      ]
+    },
+    {
+      "type": "Chorus",
+      "content": [
+        "Oh yes I believe in the Father and the Son",
+        "And the Holy Spirit, Yes I believe"
+      ]
+    },
+    {
+      "type": "Verse 2",
+      "content": [
+        "Equal in the Father's power",
+        "And through Him all things were made",
+        "He it was who saved us all",
+        "And from heaven He came to earth"
+      ]
+    },
+    {
+      "type": "Chorus",
+      "content": [
+        "Oh yes I believe in the Father and the Son",
+        "And the Holy Spirit, Yes I believe"
+      ]
+    },
+    {
+      "type": "Verse 3",
+      "content": [
+        "Of the Virgin Mary born",
+        "By the Spirit was made flesh",
+        "Suffered death was crucified",
+        "And He rose up from the dead"
+      ]
+    },
+    {
+      "type": "Chorus",
+      "content": [
+        "Oh yes I believe in the Father and the Son",
+        "And the Holy Spirit, Yes I believe"
+      ]
+    },
+    {
+      "type": "Verse 4",
+      "content": [
+        "He ascended into heaven",
+        "And His kingdom has no end",
+        "In the Spirit I believe",
+        "Lord and Vivifier of all"
+      ]
+    },
+    {
+      "type": "Chorus",
+      "content": [
+        "Oh yes I believe in the Father and the Son",
+        "And the Holy Spirit, Yes I believe"
+      ]
+    },
+    {
+      "type": "Verse 5",
+      "content": [
+        "With the Father and the Son",
+        "He's adored and glorified",
+        "I believe in the Holy Church",
+        "And one baptism professed"
+      ]
+    },
+    {
+      "type": "Chorus",
+      "content": [
+        "Oh yes I believe in the Father and the Son",
+        "And the Holy Spirit, Yes I believe"
+      ]
+    },
+    {
+      "type": "Verse 6",
+      "content": [
+        "I shall see him there in heaven",
+        "Living in the world to come",
+        "Amen, Amen, Amen",
+        "Amen, Amen, Amen"
+      ]
+    },
+    {
+      "type": "Chorus",
+      "content": [
+        "Oh yes I believe in the Father and the Son",
+        "And the Holy Spirit, Yes I believe"
       ]
     }
-  }
+  ]
+}

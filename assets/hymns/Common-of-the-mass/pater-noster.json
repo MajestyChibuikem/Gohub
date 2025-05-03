@@ -1,15 +1,18 @@
 {
-    "title": "PATER NOSTER",
-    "index": 246,
-    "content": {
-      "type": "paragraph_only",
-      "paragraph": [
-        "pater noster, qui est in caelis, sactificetur",
-        "nomen tuum: adveniat regnum tuum;",
-        "fiat voluntas tua, sicut in caelo, et in terra,",
+  "title": "246. PATER NOSTER",
+  "sections": [
+    {
+      "type": "Latin Text",
+      "content": [
+        "Pater noster, qui es in caelis, sanctificetur",
+        "nomen tuum; adveniat regnum tuum;",
+        "fiat voluntas tua, sicut in caelo et in terra.",
         "Panem nostrum cotidianum da nobis hodie;",
-        "Et dimitte nobis debita nostra,sicut et nos",
-        "Inucas in tentationem; sed libera nos a malo."
+        "et dimitte nobis debita nostra, sicut et nos",
+        "dimittimus debitoribus nostris;",
+        "et ne nos inducas in tentationem;",
+        "sed libera nos a malo."
       ]
     }
-  }
+  ]
+}

@@ -1,9 +1,9 @@
 {
-    "title": "CREDO",
-    "index": 241,
-    "content": {
-      "type": "latin_text",
-      "verses": [
+  "title": "241. CREDO",
+  "sections": [
+    {
+      "type": "Credo",
+      "content": [
         "Credo in unum Deum, Patrem omnipotentem,",
         "factorem caeli et terrae, visibilium omnium et invisibilium.",
         "Et in unum Dominum Jesu Christum,",
@@ -22,7 +22,7 @@
         "Et unam, sanctam, catholicam et apostolicam Ecclesiam.",
         "Confiteor unum baptisma in remissionem peccatorum. Et expecto",
         "resurrectionem mortuorum, et vitam venturi saeculi. Amen."
-      ],
-      "emphasis": "Et incarnatus est de Spiritu Sancto ex Maria Virgine, et homo factus est."
+      ]
     }
-  }
+  ]
+}

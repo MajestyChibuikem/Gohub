@@ -1,16 +1,42 @@
 {
-    "title": "GLORIA",
-    "index": 239,
-    "content": {
-      "type": "bilingual",
-      "chorus": {
-        "text": "E-gloria, gloria (2X) Gloria nkembo ee gloria Na zulu nkembo ee gloria Mpe na toto ndebama ee gloria",
-        "label": "Ch."
-      },
-      "verses": [
-        "Oo na zulu (uu) nkembo Na nzambe tata (aa) nkembo (2X) Yina salaka betu (uu) nkembo",
-        "Oo na zulu (uu) nkembo Na nzambe nwana (aa) nkembo (2X) Yina kalaka betu (uu) nkembo",
-        "Oo na zulu (uu) nkembo Wa mpere Santu (uu) nkembo (2X) Yina Nzobe Yaba atu (uu) nkembo"
+  "title": "239. GLORIA",
+  "sections": [
+    {
+      "type": "Chorus",
+      "content": [
+        "E-gloria, gloria",
+        "E-gloria, gloria",
+        "Gloria nkembo ee gloria",
+        "Na zulu nkembo ee gloria",
+        "Mpe na toto ndebama ee gloria"
+      ]
+    },
+    {
+      "type": "Verse 1",
+      "content": [
+        "Oo na zulu (uu) nkembo",
+        "Na nzambe tata (aa) nkembo",
+        "Na nzambe tata (aa) nkembo",
+        "Yina salaka betu (uu) nkembo"
+      ]
+    },
+    {
+      "type": "Verse 2",
+      "content": [
+        "Oo na zulu (uu) nkembo",
+        "Na nzambe nwana (aa) nkembo",
+        "Na nzambe nwana (aa) nkembo",
+        "Yina kalaka betu (uu) nkembo"
+      ]
+    },
+    {
+      "type": "Verse 3",
+      "content": [
+        "Oo na zulu (uu) nkembo",
+        "Wa mpere Santu (uu) nkembo",
+        "Wa mpere Santu (uu) nkembo",
+        "Yina Nzobe Yaba atu (uu) nkembo"
       ]
     }
-  }
+  ]
+}

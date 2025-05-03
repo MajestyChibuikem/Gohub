@@ -1,12 +1,33 @@
 {
-    "title": "MIMO MIMO (SANCTUS IN YORUBA)",
-    "index": 244,
-    "content": {
-      "type": "verses_only",
-      "verses": [
-        "Mimo mimo mimo Olodumare Olorunwa\nOlorun ajalaye obangiji oba ogo\nawon ogun orun wontereba\nNiwaju re.",
-        "Atere re k'aye oyiyigi olorunwa\nOrun orun aye\nWonkurifun ogore\nIbare lawanje\nLajunre orunrere",
-        "Ibunkun lafifun eninla tonbowa\nL'oruko oluwa\nIbare lawanje\nLajunreorunrere"
+  "title": "244. MIMO MIMO (SANCTUS IN YORUBA)",
+  "sections": [
+    {
+      "type": "Verse 1",
+      "content": [
+        "Mimo mimo mimo Olodumare Olorunwa",
+        "Olorun ajalaye obangiji oba ogo",
+        "Awon ogun orun wontereba",
+        "Niwaju re."
+      ]
+    },
+    {
+      "type": "Verse 2",
+      "content": [
+        "Atere re k'aye oyiyigi olorunwa",
+        "Orun orun aye",
+        "Wonkurifun ogore",
+        "Ibare lawanje",
+        "Lajunre orunrere"
+      ]
+    },
+    {
+      "type": "Verse 3",
+      "content": [
+        "Ibunkun lafifun eninla tonbowa",
+        "L'oruko oluwa",
+        "Ibare lawanje",
+        "Lajunreorunrere"
       ]
     }
-  }
+  ]
+}
