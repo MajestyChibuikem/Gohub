@@ -1,15 +1,59 @@
 {
   "title": "KUMBAYAH",
-  "index": 66,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Kum ba yah, my Lord, kum ba yah!\nKum ba yah, my Lord, kum ba yah!\nKum ba yah, my Lord, kum ba yau!\nO Lord, kum ba yah!",
-      "Someone's laughing, Lord, kum ha yah!\nSomeone's laughing, Lord, kum ba yahl\nSomeone's laughing, Lord, kum ba yah!\nO Lord, kum ba yah!",
-      "Someone's crying, Lord, kum ba yahl\nSomeone's crying, Lord, kum ba yah!\nSomeone's crying, Lord, kum ba yah!\nO Lord, kum ba yah!",
-      "Someone's praying, Lord, kum ba yah!\nSomeone's praying, Lord, kum ba yah!\nSomeone's praying, Lord, kum ba yah!\nO Lord, kum ba yah!",
-      "Someone's singing, Lord, kum ba yah!\nSomeone's singing, Lord, kum ba yah!\nSomeone's singing, Lord, kum ba yah!\nO Lord, kum ba yah!",
-      "Kum ba yah, my Lord, kum ba yah!\nKum ba yah, my Lord, kum ha yah!\nKum ba yah, my Lord, kum ha yah!\nO Lord, kum ba yah!"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Kumbayah, my Lord, kumbayah!",
+        "Kumbayah, my Lord, kumbayah!",
+        "Kumbayah, my Lord, kumbayah!",
+        "O Lord, kumbayah!"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Someone's laughing, Lord, kumbayah!",
+        "Someone's laughing, Lord, kumbayah!",
+        "Someone's laughing, Lord, kumbayah!",
+        "O Lord, kumbayah!"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Someone's crying, Lord, kumbayah!",
+        "Someone's crying, Lord, kumbayah!",
+        "Someone's crying, Lord, kumbayah!",
+        "O Lord, kumbayah!"
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Someone's praying, Lord, kumbayah!",
+        "Someone's praying, Lord, kumbayah!",
+        "Someone's praying, Lord, kumbayah!",
+        "O Lord, kumbayah!"
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Someone's singing, Lord, kumbayah!",
+        "Someone's singing, Lord, kumbayah!",
+        "Someone's singing, Lord, kumbayah!",
+        "O Lord, kumbayah!"
+      ]
+    },
+    {
+      "type": "verse 6",
+      "content": [
+        "Kumbayah, my Lord, kumbayah!",
+        "Kumbayah, my Lord, kumbayah!",
+        "Kumbayah, my Lord, kumbayah!",
+        "O Lord, kumbayah!"
+      ]
+    }
+  ]
 }

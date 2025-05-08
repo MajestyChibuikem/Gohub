@@ -1,13 +1,41 @@
 {
   "title": "BLESSED ASSURANCE",
-  "index": 63,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "This is my story, this is my song,\nPraising my Savior, all the day long;\nThis is my story, this is my song,\nPraising my Savior, all the day long.",
-    "verses": [
-      "Blessed assurance, Jesus is mine!\nO what a foretaste of glory divine!\nHeir of salvation, purchase of God,\nBorn of His Spirit, washed in His blood.",
-      "Perfect submission, perfect delight,\nVisions of rapture now burst on my sight;\nAngels descending bring from above\nEchoes of mercy, whispers of love.",
-      "Perfect submission, all is at rest\nI in my Savior am happy and blest,\nWatching and waiting, looking above,\nFilled with His goodness, lost in His love."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Blessed assurance, Jesus is mine!",
+        "Oh, what a foretaste of glory divine!",
+        "Heir of salvation, purchase of God,",
+        "Born of His Spirit, washed in His blood."
+      ]
+    },
+    {
+      "type": "chorus",
+      "content": [
+        "This is my story, this is my song,",
+        "Praising my Savior all the day long;",
+        "This is my story, this is my song,",
+        "Praising my Savior all the day long."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Perfect submission, perfect delight,",
+        "Visions of rapture now burst on my sight,",
+        "Angels descending, bring from above",
+        "Echoes of mercy, whispers of love"
+      ]
+    },
+    {
+      "type": "chorus",
+      "content": [
+        "This is my story, this is my song,",
+        "Praising my Savior all the day long;",
+        "This is my story, this is my song,",
+        "Praising my Savior all the day long."
+      ]
+    }
+  ]
 }

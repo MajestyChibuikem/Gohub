@@ -1,25 +1,86 @@
 {
   "title": "ODIGHI ONYE NWERE IKE KA CHINEKE",
-  "index": 51,
-  "content": {
-    "type": "paragraph_and_verses",
-    "paragraph": [
-      "Key Bb 4/4 W. Oleka",
-      "Odighi Onye nwere ike ka Chineke.",
-      "Amamihe mmadu adighi ka nke Chineke.",
-      "Ihunanya mmadu adighi ka nke Chineke."
-    ],
-    "verses": [
-      "Umu mmadu bianu k'anyi kele Chineke\nO bu ya bu Onye kere igwe.",
-      "Onye obula tinye olu n'ikele Chukwu,\nO ga agbaghar'unu njo ma unu gozie Ya.",
-      "Were obi ocha, n'obi anuri nabata Jesu,\nOtito n'ekele na onu ka 0 na achon'obi anyi.",
-      "Obi ebere ka Chukwu ji zite nwa Yan'uwa,\nNwa ya Jesu huru uwa n'anya, nwua.\nmaka njo uwa.",
-      "Mee ezi ebere maka njo nke Iji mehie Jesu,\nO ga agbaghara gi njo ma ikwuputa ha nile.",
-      "Cheta, Onye nweanyi achoghi onwu nke\nonye mmehie. O choro ka orogharia bia bie ezi ndu.",
-      "Ike Chukwu ka Jesu ji ma oru ebube\nIke Chukwu ka Oji site n'onwu binite.",
-      "Ike Chukwu ka eji agbanwo achicha na Mmanya,\nHa we buru ahu n'obara nke Dinwenu Jesu.",
-      "Kelenu Chukwu Onye ike nile di n'aka Ya,\nRio ya ka o nye unu ike imeri ajo muo.bod",
-      "Odighi onye nwere ike dika Chineke,\nOtito. n'ekele nile diri Chineke"
-    ]
-  }
+  "sections": [
+    {
+      "type": "intro",
+      "content": [
+        "Key Bb 4/4",
+        "By W. Oleka",
+        "Odighi Onye nwere ike ka Chineke.",
+        "Amamihe mmadu adighi ka nke Chineke.",
+        "Ihunanya mmadu adighi ka nke Chineke."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "Umu mmadu bianu k'anyi kele Chineke",
+        "O bu Ya bu Onye kere igwe."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Onye obula tinye olu n'ikele Chukwu,",
+        "O ga agbaghar'u njo ma unu gozie Ya."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Were obi ocha, n'obi anuri nabata Jesu,",
+        "Otito n'ekele na onu ka O na achon'obi anyi."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Obi ebere ka Chukwu ji zite nwa Ya n'uwa,",
+        "Nwa Ya Jesu huru uwa n'anya, nwụrụ.",
+        "Maka njo uwa."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Mee ezi ebere maka njo nke Iji mehie Jesu,",
+        "O ga agbaghara gi njo ma ikwuputa ha nile."
+      ]
+    },
+    {
+      "type": "verse 6",
+      "content": [
+        "Cheta, Onye nwe anyi achoghi onwu nke onye mmehie.",
+        "O choro ka orogharia bia bie ezi ndu."
+      ]
+    },
+    {
+      "type": "verse 7",
+      "content": [
+        "Ike Chukwu ka Jesu ji ma oru ebube",
+        "Ike Chukwu ka O ji site n'onwu binite."
+      ]
+    },
+    {
+      "type": "verse 8",
+      "content": [
+        "Ike Chukwu ka eji agbanwo achicha na Mmanya,",
+        "Ha we buru ahu n'obara nke Dinwenu Jesu."
+      ]
+    },
+    {
+      "type": "verse 9",
+      "content": [
+        "Kelenu Chukwu Onye ike nile di n'aka Ya,",
+        "Rio Ya ka o nye unu ike imeri ajo muo."
+      ]
+    },
+    {
+      "type": "verse 10",
+      "content": [
+        "Odighi onye nwere ike dika Chineke,",
+        "Otito n'ekele nile diri Chineke"
+      ]
+    }
+  ]
 }

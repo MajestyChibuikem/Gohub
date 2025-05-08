@@ -8,21 +8,22 @@
       "type": "holy holy holy",
       "content":{
         "en": [
-          "Sanctus, Sanctus, Sanctus,",
-          "Dóminus Deus Sábaoth.",
-          "Pleni sunt cæli et terra glória tua.",
-          "Hosánna in excélsis.",
-          "Benedíctus qui venit in nómine Dómini.",
-          "Hosánna in excélsis."
-        ],
-        "es": [
           "Holy, Holy, Holy,",
           "Lord God of Hosts.",
           "Heaven and earth are full of your glory.",
           "Hosanna in the highest.",
           "Blessed is he who comes in the name of the Lord.",
           "Hosanna in the highest."
+        ],
+        "es": [
+          "Sanctus, Sanctus, Sanctus,",
+          "Dóminus Deus Sábaoth.",
+          "Pleni sunt cæli et terra glória tua.",
+          "Hosánna in excélsis.",
+          "Benedíctus qui venit in nómine Dómini.",
+          "Hosánna in excélsis."
         ]
+
       }
     }
   ]

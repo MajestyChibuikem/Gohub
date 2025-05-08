@@ -1,18 +1,49 @@
 {
   "title": "OBU MBOSI ANURI",
-  "index": 54,
-  "content": {
-    "type": "paragraph_and_verses",
-    "paragraph": [
-      "KeyD 3/4 	by Fr. Stan Anih",
-      "O bu mbosi anuli",
-      "Jesu Kristi nonyere anyi"
-    ],
-    "verses": [
-      "Bianu sekpuere Ya\nBianu nye Ya otito\no si n'eluigwe bian'uwa\nMaka ihi ndi nke Ya:",
-      "Ya nwa bu Okwu Chukwu,\nYa nwa bu nwa Chukwu\nOkwu nke kasi okwwu",
-      "Okwu nke n'enye ndu\nOkwu nke n' enye udo\nJesus, Jesu, Jesu bu uzo\nJesu bu eziokwu.",
-      "Ya nwa meriri onwu.\nYa nwa meriri nj0.\nO nwuru onwu n'elu obe\nMak'ihi ndi nke Ya."
-    ]
-  }
+  "sections": [
+    {
+      "type": "intro",
+      "content": [
+        "Key D 3/4",
+        "By Fr. Stan Anih",
+        "O bu mbosi anuli",
+        "Jesu Kristi nonyere anyi"
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "Bianu sekpuere Ya",
+        "Bianu nye Ya otito",
+        "O si n'eluigwe bian'uwa",
+        "Maka ihi ndi nke Ya"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Ya nwa bu Okwu Chukwu,",
+        "Ya nwa bu nwa Chukwu",
+        "Okwu nke kasi okwu"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Okwu nke n'enye ndu",
+        "Okwu nke n'enye udo",
+        "Jesus, Jesu, Jesu bu uzo",
+        "Jesu bu eziokwu."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Ya nwa meriri onwu.",
+        "Ya nwa meriri njo.",
+        "O nwuru onwu n'elu obe",
+        "Mak'ihi ndi nke Ya."
+      ]
+    }
+  ]
 }

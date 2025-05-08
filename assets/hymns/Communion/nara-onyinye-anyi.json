@@ -1,20 +1,46 @@
 {
   "title": "NARA ONYINYE ANYI",
-  "index": 56,
-  "content": {
-    "type": "paragraph_and_verses",
-    "paragraph": [
-      "Key F 2/4	By Dorothy lperesw",
-      "Nara Onyinye anyi Chineke",
-      "Mere anyi ebere",
-      "Nurunu olu anyi",
-      "Nar'aririo anyi."
-    ],
-    "verses": [
-      "Ekene diri Gi, Oseburuwa Chineke\nNk'uwa niile, Onye nzoputa",
-      "Obu n'uju afoma Gi k'anyi siri\nn'at'achicha Anyi n'enye Gi.",
-      "N'ezie o bu iha ka mmadu siri n'ihe\nala mitara wee meputa.",
-      "Man'anyi n'ario gi\nK'Imee k'oghol'anyi\nAchicha n'enye ndu\nAchicha nzoputa"
-    ]
-  }
+  "sections": [
+    {
+      "type": "intro",
+      "content": [
+        "Key F 2/4",
+        "By Dorothy Iperesw",
+        "Nara Onyinye anyi Chineke",
+        "Mere anyi ebere",
+        "Nurunu olu anyi",
+        "Nar'aririo anyi."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "Ekene diri Gi, Oseburuwa Chineke",
+        "Nk'uwa niile, Onye nzoputa"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Obu n'uju afoma Gi k'anyi siri",
+        "n'at'achicha Anyi n'enye Gi."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "N'ezie o bu iha ka mmadu siri n'ihe",
+        "ala mitara wee meputa."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Man'anyi n'ario gi",
+        "K'Imee k'oghol'anyi",
+        "Achicha n'enye ndu",
+        "Achicha nzoputa"
+      ]
+    }
+  ]
 }

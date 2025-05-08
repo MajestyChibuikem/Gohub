@@ -1,14 +1,50 @@
 {
   "title": "I SHALL BE HEALED",
-  "index": 62,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Say your word Lord I shall be healed\nSay it say it Oh Lord I shall be healed\nI'm not worthy to have you in my soul\nOnly say your word I shall be healed",
-    "verses": [
-      "To the banquet throne of the Holy Lamb\nThe Lord Jesus is calling me\nBut I'm not worthy to receive Him\nBut if He says the word I shall be healed",
-      "I need you Lord within me\nTo give me grace and eternal life\nBut I'm not worthy to receive Him\nBut if He says the word I shall be healed",
-      "You gave me Lord eternal life\nBy the mystery of this Holy Feast\nBut I'm not worthy to receive Him\nBut if He says the word I shall be healed",
-      "I thank you Lord for choosing me\nTo partake freely of this Holy Meal\nBut I'm not worthy to receive Him\nBut if He says the word I shall be healed"
-    ]
-  }
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "Say your word Lord I shall be healed",
+        "Say it, say it, Oh Lord I shall be healed",
+        "I'm not worthy to have You in my soul",
+        "Only say Your word, I shall be healed"
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "To the banquet throne of the Holy Lamb",
+        "The Lord Jesus is calling me",
+        "But I'm not worthy to receive Him",
+        "But if He says the word, I shall be healed"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "I need You, Lord, within me",
+        "To give me grace and eternal life",
+        "But I'm not worthy to receive Him",
+        "But if He says the word, I shall be healed"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "You gave me, Lord, eternal life",
+        "By the mystery of this Holy Feast",
+        "But I'm not worthy to receive Him",
+        "But if He says the word, I shall be healed"
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "I thank You, Lord, for choosing me",
+        "To partake freely of this Holy Meal",
+        "But I'm not worthy to receive Him",
+        "But if He says the word, I shall be healed"
+      ]
+    }
+  ]
 }

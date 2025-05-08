@@ -1,14 +1,49 @@
 {
   "title": "MY HOPE IS BUILT (THE SOLID ROCK)",
-  "index": 67,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "My hope is built on nothing less\nThan Jesus' blood and righteousness.\nI dare not trust the sweetest frame,\nBut wholly trust in Jesus Name.",
-      "On Christ the solid Rock I stand,\nAll other ground is sinking sand;\nAll other ground is sinking sand.",
-      "When darkness seems to hide His face,\nI rest on His unchanging grace.\nIn every high and stormy gale,\nMy anchor holds within the veil.",
-      "His oath, His covenant, His blood,\nSupport me in the whelming flood.\nWhen all around my soul gives way,\nHe then is all my Hope and Stay.",
-      "When He shall come with trumpet sound,\nOh may I then in Him be found.\nDressed in His righteousness alone,\nFaultless to stand before the throne."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "My hope is built on nothing less",
+        "Than Jesus' blood and righteousness.",
+        "I dare not trust the sweetest frame,",
+        "But wholly trust in Jesus' Name."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "On Christ the solid Rock I stand,",
+        "All other ground is sinking sand;",
+        "All other ground is sinking sand."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "When darkness seems to hide His face,",
+        "I rest on His unchanging grace.",
+        "In every high and stormy gale,",
+        "My anchor holds within the veil."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "His oath, His covenant, His blood,",
+        "Support me in the whelming flood.",
+        "When all around my soul gives way,",
+        "He then is all my Hope and Stay."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "When He shall come with trumpet sound,",
+        "Oh may I then in Him be found.",
+        "Dressed in His righteousness alone,",
+        "Faultless to stand before the throne."
+      ]
+    }
+  ]
 }

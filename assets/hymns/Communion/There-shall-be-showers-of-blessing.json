@@ -1,14 +1,50 @@
 {
   "title": "THERE SHALL BE SHOWERS OF BLESSING",
-  "index": 84,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Showers of blessings,\nShowers of blessing we need,\nMercy drops round us are falling\nBut for the showers we plead",
-    "verses": [
-      "There shall be showers of blessing\nThis is the promise of love;\nThere shall be season refreshing\nSent from the Saviour above",
-      "There shall be showers of blessing\nPrecious reviving again\nOver the hills and the valleys,\nSound of abundance of rain",
-      "There shall be showers of blessing\nSent them upon us 0 Lord\nGrant to us now a refreshing\nCome, and now honour Thy word.",
-      "There shall be showers of blessing\nOh that today they might fall\nNow as to God we are confessing\nNow as on Jesus we call"
-    ]
-  }
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "Showers of blessings,",
+        "Showers of blessing we need,",
+        "Mercy drops round us are falling",
+        "But for the showers we plead"
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "There shall be showers of blessing",
+        "This is the promise of love;",
+        "There shall be season refreshing",
+        "Sent from the Saviour above"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "There shall be showers of blessing",
+        "Precious reviving again",
+        "Over the hills and the valleys,",
+        "Sound of abundance of rain"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "There shall be showers of blessing",
+        "Sent them upon us, O Lord",
+        "Grant to us now a refreshing",
+        "Come, and now honour Thy word."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "There shall be showers of blessing",
+        "Oh that today they might fall",
+        "Now as to God we are confessing",
+        "Now as on Jesus we call"
+      ]
+    }
+  ]
 }
