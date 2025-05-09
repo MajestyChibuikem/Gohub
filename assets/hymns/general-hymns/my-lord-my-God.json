@@ -1,15 +1,49 @@
 {
-  "title": "MY LORD MY GOD",
-  "index": 99,
-  "content": {
-    "type": "hymn_with_images_only",
-    "metadata": {
-      "key": "Eb (moderator)",
-      "composer": "Jude Nnam"
+  "title": "Jesus, My Lord, My God, My All",
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Jesus, my Lord, my God, my all,",
+        "Hear me, blest Savior, when I call;",
+        "Hear me, and from Thy dwelling place",
+        "Pour down the riches of Thy grace.",
+        "Jesus, my Lord, I Thee adore;",
+        "O make me love Thee more and more."
+      ]
     },
-    "images": [
-      "../../../images/my-lord-my-God.jpeg",
-      "../../../images/my-lord-my-God(continuation).jpeg"
-    ]
-  }
+    {
+      "type": "verse 2",
+      "content": [
+        "Jesus, too late I Thee have sought;",
+        "How can I love Thee as I ought?",
+        "And how extol Thy matchless fame,",
+        "The glorious beauty of Thy Name?",
+        "Jesus, my Lord, I Thee adore;",
+        "O make me love Thee more and more."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Jesus, what didst Thou find in me",
+        "That Thou hast dealt so lovingly?",
+        "How great the joy that Thou hast brought,",
+        "So far exceeding hope or thought!",
+        "Jesus, my Lord, I Thee adore;",
+        "O make me love Thee more and more."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Jesus, of Thee shall be my song;",
+        "To thee my heart and soul belong;",
+        "All that I have or am is Thine;",
+        "And Thou, blest Savior, Thou art mine.",
+        "Jesus, my Lord, I Thee adore;",
+        "O make me love Thee more and more."
+      ]
+    }
+  ]
 }

@@ -1,17 +1,51 @@
 {
   "title": "I FEEL LIKE SINGING ALL THE TIME",
-  "index": 114,
-  "content": {
-    "type": "chorus_and_verses",
-    "metadata": {
-      "author": "John Milton, 1608-74 From Psalm 16"
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "I'll praise Him I praise Him!",
+        "Praise Him all the time!",
+        "Praise Him! Praise Him!",
+        "I'll praise Him all the time!"
+      ]
     },
-    "chorus": "I'll praise Him I praise Him!\nPraise Him all the time!\nPraise Him! Praise Him!\nI'll praise Him all the time!",
-    "verses": [
-      "I FEEL like singing all the time,\nMy tears are wiped away;\nFor Jesus is a Friend of mine,\nI'll  serve Him every day.",
-      "When on the cross my Lord I saw,\nNailed there by sins of mine,\nFast fell the burning tears; but now\nI am singing all the time.",
-      "When fierce, temptations try my heart,\nI'll sing, \"Jesus is mine:\nAnd so, though tears at times may start\nI'm singing all the time,",
-      "The wondrous story of the Lamb\nell with that voice of thine,\nill others, with the glad new song,\no singing all the time."
-    ]
-  }
+    {
+      "type": "verse 1",
+      "content": [
+        "I FEEL like singing all the time,",
+        "My tears are wiped away;",
+        "For Jesus is a Friend of mine,",
+        "I'll serve Him every day."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "When on the cross my Lord I saw,",
+        "Nailed there by sins of mine,",
+        "Fast fell the burning tears; but now",
+        "I am singing all the time."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "When fierce temptations try my heart,",
+        "I'll sing",
+        "Jesus is mine:",
+        "And so, though tears at times may start,",
+        "I'm singing all the time,"
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "The wondrous story of the Lamb",
+        "Tell with that voice of thine,",
+        "Till others, with the glad new song,",
+        "Go singing all the time."
+      ]
+    }
+  ]
 }

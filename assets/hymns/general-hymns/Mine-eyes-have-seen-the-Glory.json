@@ -1,19 +1,52 @@
 {
-  "title": "MINE EYES HAVE SEEN THE GLORY",
-  "index": 121,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Mine eyes have seen the glory of the coming of the Lord;\nHe is trampling out the vintage where the grapes of wrath are stored.\nHe has loosed the fateful lightning of his terrible swift 
-sword;\nHis truth is marching on.\nGlory! Glory! Hallelujah! Glory! Glory! Hallelujah!\nGlory! Glory! Hallelujah! His truth is marching on",
-      "I have seen him in the watchfires of a hundred circling camps;\nThey have built him an altar in the evening dews and damps.\nI can read the righteous sentence by the dim and flaring 
-lamps\nHis day is marching on.",
-      "He has sounded forth the trumpet that shall never call retreat;\nHe is sifting out the hearts of all before his judgment seat.\nO be swift, my soul, to answer him; be jubilant, my feet!\nOur 
-God is marching on.",
-      "In the beauty of the lilies Christ was born across the sea,\nWith a glory in his bosom that transfigures you and me.\nAs he died to make us holy, let us live to make all free!\nWhile God is 
-marching on.",
-      "He is coming like the glory of the morning on the wave;\nHe is wisdom to the mighty, he is honor to the brave.\nSo the world shall be his footstool, and the soul of wrong his slave.\nOur God 
-is marching on."
-    ]
-  }
-}
+      "title": "MINE EYES HAVE SEEN THE GLORY",
+      "sections": [
+        {
+          "type": "verse 1",
+          "content": [
+            "Mine eyes have seen the glory of the coming of the Lord;",
+            "He is trampling out the vintage where the grapes of wrath are stored.",
+            "He has loosed the fateful lightning of his terrible swift sword;",
+            "His truth is marching on.",
+            "Glory! Glory! Hallelujah! Glory! Glory! Hallelujah!",
+            "Glory! Glory! Hallelujah! His truth is marching on"
+          ]
+        },
+        {
+          "type": "verse 2",
+          "content": [
+            "I have seen him in the watchfires of a hundred circling camps;",
+            "They have built him an altar in the evening dews and damps.",
+            "I can read the righteous sentence by the dim and flaring lamps",
+            "His day is marching on."
+          ]
+        },
+        {
+          "type": "verse 3",
+          "content": [
+            "He has sounded forth the trumpet that shall never call retreat;",
+            "He is sifting out the hearts of all before his judgment seat.",
+            "O be swift, my soul, to answer him; be jubilant, my feet!",
+            "Our God is marching on."
+          ]
+        },
+        {
+          "type": "verse 4",
+          "content": [
+            "In the beauty of the lilies Christ was born across the sea,",
+            "With a glory in his bosom that transfigures you and me.",
+            "As he died to make us holy, let us live to make all free!",
+            "While God is marching on."
+          ]
+        },
+        {
+          "type": "verse 5",
+          "content": [
+            "He is coming like the glory of the morning on the wave;",
+            "He is wisdom to the mighty, he is honor to the brave.",
+            "So the world shall be his footstool, and the soul of wrong his slave.",
+            "Our God is marching on."
+          ]
+        }
+      ]
+    }

@@ -1,18 +1,32 @@
 {
   "title": "NOW THANK WE ALL OUR GOD",
-  "index": 147,
-  "content": {
-    "type": "verses_only",
-    "metadata": {
-      "author": "Martin Rinckart, 1586-1649"
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Now thank we all our God with heart and hands and voices,",
+        "Who wondrous things has done, in whom this world rejoices;",
+        "Who from our mothers' arms has blessed us on our way,",
+        "With countless gifts of love, and still is ours today."
+      ]
     },
-    "verses": [
-      "Now thank we all our God With heart and hands and voices,\nWho wondrous things has done, In whom this world rejoices;\nWho from our mothers arms Has blessed us on our way\nWith countless 
-gifts of love, And still is ours today.",
-      "O may this bounteous God Through all our life be near us,\nWith ever-joyful hts And blessed peace to cheer us;\nPreserve us in his grace, And guide us when perplexed,\nAnd free us from all 
-ills In this world and the next.",
-      "All praise and thanks to God The Father now be given,\nThe Son and Spirit blessed Who reign in highest heaven;\nEternal, triune God, Whom earth and heaven adore;\nFor thus it was, is now, And 
-shall be evermore."
-    ]
-  }
+    {
+      "type": "verse 2",
+      "content": [
+        "O may this bounteous God through all our life be near us,",
+        "With ever-joyful hearts and blessed peace to cheer us;",
+        "Preserve us in his grace and guide us when perplexed,",
+        "And free us from all ills in this world and the next."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "All praise and thanks to God the Father now be given,",
+        "The Son and Spirit blessed who reign in highest heaven;",
+        "Eternal, triune God, whom earth and heaven adore;",
+        "For thus it was, is now, and shall be evermore."
+      ]
+    }
+  ]
 }

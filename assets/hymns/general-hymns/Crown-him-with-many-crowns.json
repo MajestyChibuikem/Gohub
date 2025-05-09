@@ -1,19 +1,70 @@
 {
-  "title": "CROWN HIM WITH MANY CROWNS",
-  "index": 138,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Crown him with many crowns, The Lamb upon the throne;\nHark! how the heavenly anthem drowns All music but its own.\nAwake, my soul, and sing To Christ, who set us free,\nAnd hail him as your 
-heavenly King Through all eternity.",
-      "Crown him the Lord of life, Who triumphed o'er the grave,\nAnd rose victorious in the strife For those he came to save.\nHis glories now we sing, Who died and rose on high,\nWho died, eternal 
-life to bring, And lives that death may die.",
-      "Crown him the Lord of love, Behold his hands and side,\nRich wounds yet visible above In beauty glorified.\nNo angel in the sky Can fully bear that sight,\nBut downward bends his burning eye 
-At mysteries so bright.",
-      "Crown him the Lord of peace, Whose power a scepter sways\nFrom pole to pole, that wars may cease, Absorbed in prayer and praise.\nHis reign shall know no end, And round his pierced feet\nFair 
-flowers of Paradise extend Their fragrance ever sweet.",
-      "Crown him the Lord of years, The risen Lord sublime,\nCreator of the rolling spheres, The Master of all time.\nAll hail, Redeemer, hail! For you have died for me;\nYour praise and glory shall 
-not fail Throughout eternity."
-    ]
-  }
-}
+      "title": "CROWN HIM WITH MANY CROWNS",
+      "sections": [
+        {
+          "type": "verse 1",
+          "content": [
+            "Crown Him with many crowns,",
+            "The Lamb upon the throne;",
+            "Hark! How the heavenly anthem drowns",
+            "All music but its own.",
+            "Awake, my soul, and sing",
+            "To Christ, who set us free,",
+            "And hail Him as your heavenly King,",
+            "Through all eternity."
+          ]
+        },
+        {
+          "type": "verse 2",
+          "content": [
+            "Crown Him the Lord of life,",
+            "Who triumphed o'er the grave,",
+            "And rose victorious in the strife,",
+            "For those He came to save.",
+            "His glories now we sing,",
+            "Who died and rose on high,",
+            "Who died, eternal life to bring,",
+            "And lives that death may die."
+          ]
+        },
+        {
+          "type": "verse 3",
+          "content": [
+            "Crown Him the Lord of love,",
+            "Behold His hands and side,",
+            "Rich wounds, yet visible above,",
+            "In beauty glorified.",
+            "No angel in the sky",
+            "Can fully bear that sight,",
+            "But downward bends his burning eye,",
+            "At mysteries so bright."
+          ]
+        },
+        {
+          "type": "verse 4",
+          "content": [
+            "Crown Him the Lord of peace,",
+            "Whose power a scepter sways",
+            "From pole to pole, that wars may cease,",
+            "Absorbed in prayer and praise.",
+            "His reign shall know no end,",
+            "And round His pierced feet",
+            "Fair flowers of Paradise extend",
+            "Their fragrance ever sweet."
+          ]
+        },
+        {
+          "type": "verse 5",
+          "content": [
+            "Crown Him the Lord of years,",
+            "The risen Lord sublime,",
+            "Creator of the rolling spheres,",
+            "The Master of all time.",
+            "All hail, Redeemer, hail!",
+            "For You have died for me;",
+            "Your praise and glory shall not fail,",
+            "Throughout eternity."
+          ]
+        }
+      ]
+    }

@@ -1,13 +1,41 @@
 {
   "title": "LORD JESUS THINK ON ME",
-  "index": 167,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Lord Jesus think on me \nAn purge away my sin \nFrom earthborn passion set me free\nAnd make me pure within",
-      "Lord Jesus think on me \nWith many a care oppress\nLet me Thy loving servant be\nAnd taste Thy promised rest",
-      "Lord Jesus think on me \nNor let me go away \nThrough darkness and perplexity\nPoint Thou the heavenly way",
-      "Lord jesus think on me \nThat when the flood is past\nI may eternal brightness see \nAnd share Thy joy at last"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Lord Jesus think on me",
+        "An purge away my sin",
+        "From earthborn passion set me free",
+        "And make me pure within"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Lord Jesus think on me",
+        "With many a care oppress'd",
+        "Let me Thy loving servant be",
+        "And taste Thy promised rest"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Lord Jesus think on me",
+        "Nor let me go away",
+        "Through darkness and perplexity",
+        "Point Thou the heavenly way"
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Lord Jesus think on me",
+        "That when the flood is past",
+        "I may eternal brightness see",
+        "And share Thy joy at last"
+      ]
+    }
+  ]
 }

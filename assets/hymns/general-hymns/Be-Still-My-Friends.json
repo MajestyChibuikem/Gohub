@@ -1,13 +1,40 @@
 {
-  "title": "Be Still My Friends",
-  "index": 152,
-  "content": {
-    "type": "paragraph_and_verses",
-    "paragraph": "I ask you, my friends, to be still; and know that\nI am here with you! The longing in your heart I\nwill fill: for I now make my home in you!",
-    "verses": [
-      "The mountains, the valleys, the Oceans deep\nsing prais-es and glory to you!\nAnd all of creation joins in Song\nbut man finds you with-in!",
-      "The crowds on the hill-sides Need your Bread;\nThe lame need your healing hand!\nThe blind and the dumb cry out for you;\nWhen will men understand?",
-      "We've worked all the clay, Lord, hear prayer!\nOur hearts laboured long for you!\nBut now we've returned and you knoW need:\nto spend some time with you"
-    ]
-  }
+  "title": "BE STILL MY FRIENDS",
+  "sections": [
+    {
+      "type": "intro",
+      "content": [
+        "I ask you, my friends, to be still, and know that",
+        "I am here with you! The longing in your heart I",
+        "Will fill, for I now make My home in you!"
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "The mountains, the valleys, the oceans deep",
+        "Sing praises and glory to You!",
+        "And all of creation joins in song,",
+        "But man finds You within!"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "The crowds on the hillside need Your bread;",
+        "The lame need Your healing hand!",
+        "The blind and the dumb cry out for You;",
+        "When will men understand?"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "We've worked all the day, Lord, hear our prayer!",
+        "Our hearts labored long for You!",
+        "But now we've returned, and You know we need:",
+        "To spend some time with You."
+      ]
+    }
+  ]
 }

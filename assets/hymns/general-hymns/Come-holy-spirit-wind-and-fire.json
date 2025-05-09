@@ -1,16 +1,40 @@
 {
   "title": "COME, HOLY SPIRIT, WIND AND FIRE",
-  "index": 123,
-  "content": {
-    "type": "chorus_and_verses",
-    "metadata": {
-      "composer": "Alan J. Hommerding, Henri F. Hemy, 1818-1888"
+  "composer": "Alan J. Hommerding, Henri F. Hemy (1818-1888)",
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "Come, Holy Spirit, Wind and Fire,",
+        "Come fill Your Church, our hearts inspire;"
+      ]
     },
-    "chorus": "Come, Holy Spirit, Wind and Fire\nCome fill your church, our hearts inspire",
-    "verses": [
-      "life giving Spirit, through your might Darkness and\nchaos turned to light. Voice of the prophets\nfrom above, Speaking of Gods eternal love.",
-      "O spirit, by your power outpoured Blest Mary\nbore the incarnate Word; you o'er the Jordan's\nwaters came, That Christ the Gospel might proclaim",
-      "Pentecost Spirit, Paraclete, Making the\nwork of Christ complete; Born of the water\nand your grace, We speak the Good News every place."
-    ]
-  }
+    {
+      "type": "verse 1",
+      "content": [
+        "Life-giving Spirit, through Your might,",
+        "Darkness and chaos turned to light.",
+        "Voice of the prophets from above,",
+        "Speaking of God's eternal love."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "O Spirit, by Your power outpoured,",
+        "Blessed Mary bore the incarnate Word;",
+        "You o'er the Jordan's waters came,",
+        "That Christ the Gospel might proclaim."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Pentecost Spirit, Paraclete,",
+        "Making the work of Christ complete;",
+        "Born of the water and Your grace,",
+        "We speak the Good News every place."
+      ]
+    }
+  ]
 }

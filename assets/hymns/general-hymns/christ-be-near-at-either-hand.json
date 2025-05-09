@@ -1,13 +1,34 @@
 {
   "title": "CHRIST, BE NEAR AT EITHER HAND",
-  "index": 128,
-  "content": {
-    "type": "paragraph_only",
-    "metadata": {
-      "source": "The Lorica of St. Patrick Irish folk song"
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Christ, be near at either hand,",
+        "Christ, behind, before me stand;",
+        "Christ, with me wherever I go,",
+        "Christ, around, above, below."
+      ]
     },
-    "paragraph": "Christ, be near at either hand\nChrist, behind, before me stand\nChrist, with me where ever I go\nChrist, a - round, a - bove, be - low.\nChrist, be in my heart and mind\nChrist, 
-within my soul enshrine\nChrist, control my wayward heart\nChrist, a - bide and ne'er de - part.\nChrist my life and only way\nChrist, my lantern night and day\nChrist, be my unchanging 
-friend\nGuide and shepherd to the end."
-  }
+    {
+      "type": "verse 2",
+      "content": [
+        "Christ, be in my heart and mind,",
+        "Christ, within my soul enshrine;",
+        "Christ, control my wayward heart,",
+        "Christ, abide and never depart."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Christ, be my unchanging friend,",
+        "Christ, abide and never depart;",
+        "Christ my life and only way,",
+        "Christ, my lantern night and day;",
+        "Christ, be my unchanging friend,",
+        "Guide and shepherd to the end."
+      ]
+    }
+  ]
 }

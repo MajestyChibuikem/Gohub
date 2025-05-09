@@ -1,15 +1,32 @@
 {
   "title": "MORNING HAS BROKEN",
-  "index": 142,
-  "content": {
-    "type": "verses_only",
-    "metadata": {
-      "author": "Eleanor Farjeon, 1881-1965"
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Morning has broken like the first morning,",
+        "Blackbird has spoken like the first bird.",
+        "Praise for the singing; praise for the morning;",
+        "Praise for them, springing fresh from the word."
+      ]
     },
-    "verses": [
-      "Morning has broken Like the first morning,\nBlackbird has spoken Like the first bird.\nPraise for the singing; Praise for the morning;\nPraise for them, springing Fresh from the word",
-      "Sweet the rain's new fall Sunlit from heaven,\nLike the first dewfall On the first grass.\nPraise for the sweetness Of the wet garden,\nSprung in completeness Where God has passed.",
-      "Mine is the sunlight; Mine is the morning\nBorn  of the one light Eden saw play.\nPraise with elation, Praise every morning,\nGod's re-creation Of the new day."
-    ]
-  }
+    {
+      "type": "verse 2",
+      "content": [
+        "Sweet the rain's new fall sunlit from heaven,",
+        "Like the first dewfall on the first grass.",
+        "Praise for the sweetness of the wet garden,",
+        "Sprung in completeness where God has passed."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Mine is the sunlight; mine is the morning",
+        "Born of the one light Eden saw play.",
+        "Praise with elation, praise every morning,",
+        "God's re-creation of the new day."
+      ]
+    }
+  ]
 }

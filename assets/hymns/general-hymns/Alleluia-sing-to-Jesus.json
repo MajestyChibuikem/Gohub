@@ -1,20 +1,41 @@
 {
   "title": "ALLELUIA! SING TO JESUS",
-  "index": 122,
-  "content": {
-    "type": "verses_only",
-    "metadata": {
-      "author": "William C. Dix, 1837-1898"
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Alleluia! Sing to Jesus, His the scepter, his the throne;",
+        "Alleluia! His the triumph, His the victory alone;",
+        "Hark! the songs of peaceful Zion thunder like a mighty flood,",
+        "Jesus out of every nation has redeemed us by his blood."
+      ]
     },
-    "verses": [
-      "Alleluia! Sing to Jesus, His the scepter, his the throne;\nAlleluia! His the triumph, His the victory alone;\nHark! the songs of peaceful Zion Thunder like a mighty flood,\nJesus out of every 
-nation Has redeemed us by his blood.",
-      "Alleluia! Not as orphans Are we left in sorrow now;\nAlleluia! He is near us, Faith believes, nor questions how;\nThough the cloud from sight received him\nWhen the forty days were o'er, 
-Shall our hearts forget his promise,\n\"I am with you evermore\"?",
-      "Alleluia! Bread of angels, You on earth our food, our stay;\nAlleluia! Here the sinful Flee to you from day to day;\nIntercessor, friend of sinners, Earth's Redeemer, plead for me,\nHere the 
-songs of all the sinless Sweep across the crystal sea.",
-      "Alleluia! King eternal, You the Lord of lords we own;\nAlleluia! Son of Mary, Son of God from heaven's throne;\nOur salvation you accomplished, Robed in flesh, our great High Priest\nHere on 
-earth both priest and victim In the eucharistic feast."
-    ]
-  }
+    {
+      "type": "verse 2",
+      "content": [
+        "Alleluia! Not as orphans are we left in sorrow now;",
+        "Alleluia! He is near us, faith believes, nor questions how;",
+        "Though the cloud from sight received him when the forty days were o'er,",
+        "Shall our hearts forget his promise: 'I am with you evermore?'"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Alleluia! Bread of angels, you on earth our food, our stay;",
+        "Alleluia! Here the sinful flee to you from day to day;",
+        "Intercessor, friend of sinners, Earth's Redeemer, plead for me,",
+        "Here the songs of all the sinless sweep across the crystal sea."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Alleluia! King eternal, you the Lord of lords we own;",
+        "Alleluia! Son of Mary, Son of God from heaven's throne;",
+        "Our salvation you accomplished, robed in flesh, our great High Priest,",
+        "Here on earth both priest and victim in the eucharistic feast."
+      ]
+    }
+  ]
 }

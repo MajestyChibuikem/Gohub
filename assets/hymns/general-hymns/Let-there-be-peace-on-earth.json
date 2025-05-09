@@ -1,14 +1,30 @@
 {
   "title": "LET THERE BE PEACE ON EARTH",
-  "index": 131,
-  "content": {
-    "type": "verses_with_alternative_text",
-    "verses": [
-      "Let there be peace on earth And let it begin with me.\nLet there be peace on earth, The peace that was meant to be.\nWith God as our Father, Brothers all are we.\nLet me walk with my brother 
-In perfect harmony.",
-      "Let peace begin with me; Let this be the moment now.\nWith ev'ry step I take, Let this be my solemn vow:\nTo take each moment and live each moment In peace eternally.\nLet there be peace on 
-earth And let it begin with me."
-    ],
-    "alternative_text": "With God our Creator, Children all are we.\nLet us walk with each other In perfect harmony."
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Let there be peace on earth And let it begin with me.",
+        "Let there be peace on earth, The peace that was meant to be.",
+        "With God as our Father, Brothers all are we.",
+        "Let me walk with my brother In perfect harmony."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Let peace begin with me; Let this be the moment now.",
+        "With ev'ry step I take, Let this be my solemn vow:",
+        "To take each moment and live each moment In peace eternally.",
+        "Let there be peace on earth And let it begin with me."
+      ]
+    },
+    {
+      "type": "alternative text",
+      "content": [
+        "With God our Creator, Children all are we.",
+        "Let us walk with each other In perfect harmony."
+      ]
+    }
+  ]
 }

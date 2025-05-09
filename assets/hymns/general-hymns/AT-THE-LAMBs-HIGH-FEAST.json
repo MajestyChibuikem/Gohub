@@ -1,20 +1,57 @@
 {
   "title": "AT THE LAMB'S HIGH FEAST",
-  "index": 134,
-  "content": {
-    "type": "verses_only",
-    "metadata": {
-      "translator": "Robert Campbell, 1814-1868"
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "At the Lamb's high feast we sing,",
+        "Praise to our victorious King;",
+        "Who has washed us in the tide",
+        "Flowing from his wounded side;",
+        "Praise we Christ whose love divine",
+        "Gives his sacred blood for wine,",
+        "Gives his body for the feast,",
+        "Christ the victim, Christ the priest."
+      ]
     },
-    "verses": [
-      "At the Lamb's high feast we sing Praise to our victorious King\nWho has washed us in the tide Flowing from his wounded side;\nPraise we Christ whose love divine Gives his sacred blood for 
-wine,\nGives his body for the feast, Christ the victim, Christ the priest.",
-      "Where the paschal blood is poured, Death's dark angel sheathes the sword;\nIsreal's hosts triumphant go Through the wave that drowns the foe.\nPraise we Christ whose blood was shed, Paschal 
-victim, paschal bread;\nWith sincerity and love Eat we manna from above.",
-      "Mighty Victim from the sky, Hell's fierce power beneath you lie;\nYou have conquered in the fight, You have brought us life and light;\nNow no more can death appall, Now no more the grave 
-enthral1;\nYou have opened Paradise, And in you the saints shall rise.",
-      "Easter triumph, Easter joy, Have the power of sin destroyed.\nFrom the power of sin set free, Newborn souls in Christ are we.\nHymns of glory, songs of praise, Father, unto you we 
-raise;\nPraise to you, our risen Lord, And the Spirit we accord."
-    ]
-  }
+    {
+      "type": "verse 2",
+      "content": [
+        "Where the paschal blood is poured,",
+        "Death's dark angel sheathes the sword;",
+        "Israel's hosts triumphant go",
+        "Through the wave that drowns the foe.",
+        "Praise we Christ whose blood was shed,",
+        "Paschal victim, paschal bread;",
+        "With sincerity and love,",
+        "Eat we manna from above."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Mighty Victim from the sky,",
+        "Hell's fierce power beneath you lie;",
+        "You have conquered in the fight,",
+        "You have brought us life and light;",
+        "Now no more can death appall,",
+        "Now no more the grave enthrall;",
+        "You have opened Paradise,",
+        "And in you the saints shall rise."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Easter triumph, Easter joy,",
+        "Sin and death now disemploy;",
+        "From the power of sin set free,",
+        "Newborn souls in Christ are we;",
+        "Hymns of glory, songs of praise,",
+        "Father, unto you we raise;",
+        "Praise to you, our risen Lord,",
+        "And the Spirit be adored."
+      ]
+    }
+  ]
 }

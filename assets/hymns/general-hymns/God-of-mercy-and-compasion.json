@@ -1,14 +1,50 @@
 {
   "title": "GOD OF MERCY AND COMPASSION",
-  "index": 157,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Jesus Lord, I ask for mercy\nLet me not implore in vain\nAll my sins mow detest them\nNever will I sin again",
-    "verses": [
-      "God of mercy and compassion\nLook with pity upon me;\nFather, let me call the father,\nTis thy child return to thee.",
-      "By my sins I have deserved\ndeath and endless misery:\nHell with all its pains and torments\nAnd for all eternity",
-      "By my sins I have abandoned\nRight and claim to heaven above;\nWhere the saints rejoice forever\nIn a boundless sea of love",
-      "See our savioue, bleeding,dying\nOn the cross if calvary;\nTo that cross my sins have nailed him \nYet he died and dies for me."
-    ]
-  }
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "Jesus, Lord, I ask for mercy,",
+        "Let me not implore in vain;",
+        "All my sins now I detest them,",
+        "Never will I sin again."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "God of mercy and compassion,",
+        "Look with pity upon me;",
+        "Father, let me call the Father,",
+        "'Tis Thy child returned to Thee."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "By my sins I have deserved",
+        "Death and endless misery;",
+        "Hell with all its pains and torments,",
+        "And for all eternity."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "By my sins I have abandoned",
+        "Right and claim to Heaven above;",
+        "Where the saints rejoice forever",
+        "In a boundless sea of love."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "See our Saviour, bleeding, dying,",
+        "On the cross of Calvary;",
+        "To that cross my sins have nailed Him,",
+        "Yet He died and still He lives for me."
+      ]
+    }
+  ]
 }
