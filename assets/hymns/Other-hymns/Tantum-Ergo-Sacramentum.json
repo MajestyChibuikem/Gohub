@@ -1,10 +1,27 @@
 {
   "title": "TANTUM ERGO SACRAMENTUM",
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Tantum Ergo Sacramentum\nVeneremur cernui\nEt antiquum documentum\nNovo cedat ritui\nPraestet fides supplementum\nSensuum defectul.",
-      "Genitori, Genitoque\nLaus et jubilatio,\nSalus honor vitus quoque\nSit et benedictio\nProcendenti ab utroque,\nCompare sit audatio. Amen"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Tantum Ergo Sacramentum",
+        "Veneremur cernui;",
+        "Et antiquum documentum",
+        "Novo cedat ritui;",
+        "Praestet fides supplementum",
+        "Sensuum defectui."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Genitori, Genitoque",
+        "Laus et jubilatio,",
+        "Salus, honor, virtus quoque,",
+        "Sit et benedictio;",
+        "Procedenti ab utroque",
+        "Compar sit laudatio. Amen."
+      ]
+    }
+  ]
 }

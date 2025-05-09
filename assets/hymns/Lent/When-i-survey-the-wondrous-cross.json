@@ -1,15 +1,59 @@
 {
   "title": "WHEN I SURVEY THE WONDROUS CROSS",
-  "index": 186,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "When i survey the wondrous cross\nOn which the Prince of glory died,\nMy richest gain I count but loss,\nAnd pour contempt on all my pride.",
-      "Forbid it, Lord, that I should boast,\nSave in the death of Christ my God!\nAll the vain things that charm me most,\nI sacrifice them to His blood.",
-      "See from his head, His hands, His feet,\nsorrow  and love flow mingled down!\nDid e er such love and sorrow meet,\nOr thorns compose so rich a crown?",
-      "His dying crimson, like a robe,\nSpreads o'er His body on the tree;\nThen I am dead to all the globe,\nAnd all the globe is dead to me.",
-      "Were the whole realm of nature mine,\nThat were a present far too small:\nLove so amazing, so divine,\nDemands my soul, my life, my all.",
-      "To Christ, Who won for sinners grace\nBy bitter grief and anguish sore,\nBe praise from all the ransomed race\nForever and forevermore."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "When I survey the wondrous cross",
+        "On which the Prince of glory died,",
+        "My richest gain I count but loss,",
+        "And pour contempt on all my pride."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Forbid it, Lord, that I should boast,",
+        "Save in the death of Christ my God!",
+        "All the vain things that charm me most,",
+        "I sacrifice them to His blood."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "See from His head, His hands, His feet,",
+        "Sorrow and love flow mingled down!",
+        "Did e'er such love and sorrow meet,",
+        "Or thorns compose so rich a crown?"
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "His dying crimson, like a robe,",
+        "Spreads o'er His body on the tree;",
+        "Then I am dead to all the globe,",
+        "And all the globe is dead to me."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Were the whole realm of nature mine,",
+        "That were a present far too small:",
+        "Love so amazing, so divine,",
+        "Demands my soul, my life, my all!"
+      ]
+    },
+    {
+      "type": "verse 6",
+      "content": [
+        "To Christ, Who won for sinners grace",
+        "By bitter grief and anguish sore,",
+        "Be praise from all the ransomed race",
+        "Forever and forevermore."
+      ]
+    }
+  ]
 }

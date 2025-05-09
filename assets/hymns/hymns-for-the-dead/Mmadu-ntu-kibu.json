@@ -1,15 +1,50 @@
 {
   "title": "MMADU NTU KIBU",
-  "index": 219,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Mmadu ntu k 'ibu, na ntu ka iga alaghachi\n(Chukwu) Onye kere anyi\nGa-ekpe anyi ikpe ma anyi nwuo \nYa bu k'anyi kwusi nfuli elu.",
-    "verses": [
-      "Mmadu k'anyi theta\nAja k'anyi bu ya k'aiyi g'alaghachikwa\nMgbe ria-adighi any",
-      "Mmadu cheta na onwu na-abia es\nMmadu cheta na onwu ka gi Ike",
-      "Mmadu cheta na inwere Ike idi ndu n'ututu\nMa n'anyasi iburu ozu",
-      "Mmadu cheta, oriye ogaranya cheta na\nUwa bu oriri, iga anwu buru aja na ntu.",
-      "Mmadu cheta, onye eze chetakwa\nI bu ihe oriri nke ahuhu."
-    ]
-  }
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "Mmadu ntu k'ibu, na ntu ka iga alaghachi",
+        "(Chukwu) Onye kere anyi",
+        "Ga-ekpe anyi ikpe ma anyi nwuo",
+        "Ya bu k'anyi kwusi nfuli elu."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "Mmadu k'anyi theka,",
+        "Aja k'anyi bu ya k'aiyi g'alaghachi kwa,",
+        "Mgbe ria-adighi any."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Mmadu cheta na onwu na-abia esu,",
+        "Mmadu cheta na onwu ka gi Ike."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Mmadu cheta na inwere Ike idi ndu n'ututu,",
+        "Ma n'anyasi iburu ozu."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Mmadu cheta, oriye ogaranya cheta na",
+        "Uwa bu oriri, iga anwu buru aja na ntu."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Mmadu cheta, onye eze chetakwa,",
+        "I bu ihe oriri nke ahuhu."
+      ]
+    }
+  ]
 }

@@ -1,14 +1,50 @@
 {
   "title": "ONYE KERE UWA BIKO",
-  "index": 215,
-  "content": {
-    "type": "refrain_and_verses",
-    "refrain": "Onye kere uwa biko nabata obi nwodibo Gi\nBiko Nna ejila iwe zute ya n'ezi\nWere ebere kwe k'obata\nN'obodo oma ahu bu Jerusalem.",
-    "verses": [
-      "Aku na ihe ekike\nihe nile di n'uwa agafe go\nUgbua buzi oge Gi Dinwenu.",
-      "Onyenweanyi gbaghara\nOnweghi onye puru izu oke\nN'ihu Gi belu so ma o natara\nN'aka Gi mgbaghara nke njo.",
-      "Uwa agafe go\nIhe nile di n'uwa agafe go\nEnwerozim onye inye aka ozo\nBelu so Gi.",
-      "Ahu buzi nri ahuhu\nMu onwe dibu ndu n'oge gara aga\nBuzi nri anumaanu\nOnyenwem cheta mo\nCheta mo Nna enwerozim ike ozo."
-    ]
-  }
+  "sections": [
+    {
+      "type": "refrain",
+      "content": [
+        "Onye kere uwa biko, nabata obi nwo dibo Gi,",
+        "Biko Nna, ejila iwe zuru Ya n'ezi,",
+        "Were ebere kwe k'obata,",
+        "Na obodo oma ahu bu Jerusalem."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "Aku na ihe ekike,",
+        "Ihe nile di n'uwa agafe go,",
+        "Ụgbụa bụ zi oge Gi Dinwenu."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Onye nwe anyi gbaghara,",
+        "Onweghi onye puru izu oke,",
+        "N'ihu Gi belu so ma o natara,",
+        "N'aka Gi mgbaghara nke njo."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Uwa agafe go,",
+        "Ihe nile di n'uwa agafe go,",
+        "Enwerọzim onye inye aka ọzọ,",
+        "Belu so Gi."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Ahu bụ ihe ahụhụ,",
+        "Mụ onwe dị bu ndụ n'oge gara aga,",
+        "Bụ ihe anụmanụ,",
+        "Onye nwe m cheta mọ,",
+        "Cheta mọ Nna enwerọzim ike ọzọ."
+      ]
+    }
+  ]
 }

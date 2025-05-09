@@ -1,15 +1,59 @@
 {
-  "title": "O PARADISE! O PARADISE",
-  "index": 209,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "When loyal hearts and true,\nStand ever in the light,\nAll rapture through and through.\nIn God's most holy sight.",
-    "verses": [
-      "O Paradise! O Paradise!\nWho doth not crave for rest?\nWho would not seek the happy land,\nWhere they that loved are best?",
-      "O Paradise! O Paradise!\nWherefore doth death delay?\nBright death that is the welcome dawn\nOf our eternal day.",
-      "0 Paradise! 0 Paradise!\nT is weary waiting here;\nI long to be where Jesus is.\nTo feel to see Him near.",
-      "O Paradise! 0 Paradise!\nI want to sin no more;\nI want to be as pure on earth,\nAs on thy spotless shore.",
-      "O Paradise! 0 Paradise!\nI feeI 'twill not be long\nPatience: I almost think I hear\nFaint fragments of thy song."
-    ]
-  }
+  "title": "O PARADISE! O PARADISE!",
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "When loyal hearts and true,",
+        "Stand ever in the light,",
+        "All rapture through and through,",
+        "In God's most holy sight."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "O Paradise! O Paradise!",
+        "Who doth not crave for rest?",
+        "Who would not seek the happy land,",
+        "Where they that loved are best?"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "O Paradise! O Paradise!",
+        "Wherefore doth death delay?",
+        "Bright death that is the welcome dawn",
+        "Of our eternal day."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "O Paradise! O Paradise!",
+        "'Tis weary waiting here;",
+        "I long to be where Jesus is,",
+        "To feel, to see Him near."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "O Paradise! O Paradise!",
+        "I want to sin no more;",
+        "I want to be as pure on earth,",
+        "As on thy spotless shore."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "O Paradise! O Paradise!",
+        "I feel 'twill not be long;",
+        "Patience! I almost think I hear",
+        "Faint fragments of thy song."
+      ]
+    }
+  ]
 }

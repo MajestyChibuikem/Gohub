@@ -1,14 +1,40 @@
 {
-  "title": "CHETA M ONVENWE M boroa",
-  "index": 218,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Cheta m onyenwem, achupula nwaodibo Gi\nCheta m onyenwem, Chukwu Nna moo.",
-    "verses": [
-      "Chetam Onyenwem, chetanu onye I jiri maka ya taa ahuhu\nCheta m ekwela ka m laa n'iyi.",
-      "Cheta m Onyenwem amara Gi ura kee Gi agbun'ihi m\nCheta m Onyenwem onye I huru n'anya",
-      "Lee obe Kalvary ebe akpogburu Dinwenu o\nLee obe Kalvary",
-      "Cheta ebere Gi Oh Dinwenu\nCheta ebere Gi Chukwu Nna moo"
-    ]
-  }
+  "title": "CHETA M ONYENWEM BOROA",
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "Cheta m onyenwem, achupula nwao dibo Gi",
+        "Cheta m onyenwem, Chukwu Nna m o."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "Cheta m Onyenwem, chetanu onye I jiri maka ya taa ahuhu,",
+        "Cheta m ekwela ka m laa n'iyi."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Cheta m Onyenwem, amara Gi ura kee Gi agbun ihi m,",
+        "Cheta m Onyenwem, onye I huru n'anya."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Lee obe Kalvary ebe akpogburu Dinwenu o,",
+        "Lee obe Kalvary."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Cheta ebere Gi, Oh Dinwenu,",
+        "Cheta ebere Gi, Chukwu Nna m o."
+      ]
+    }
+  ]
 }

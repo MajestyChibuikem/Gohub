@@ -1,12 +1,30 @@
 {
-  "title": "NARA NARA NARA AJA",
-  "index": 216,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Nara, nara, nara, aja biko Chukwu\nAja anyi n'erunyere Gi maka ndi din du na ndi nwuru anwu\nKa aja nke a anyi ji akwu ugwo mmeghie\nMeda gi obi maka njo anyi",
-    "verses": [
-      "O Chukwu anyi .d-ario ka iwere ebere\nNekwasi anya n'onyinye nyin'ebunye\nGi Makaezumike na nzoputa nwaodibo Gi",
-      "Nye ya onodu ebebe n'etiti ndi nke gi\nAzoputagoro, nuru nuru aririo any\nOh oh-naranu onyinye anyi, Oh Chukwu"
-    ]
-  }
+  "title": "NARA, NARA, NARA AJA",
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "Nara, nara, nara, aja biko Chukwu,",
+        "Aja anyi n'erunyere Gi maka ndi enyi du na ndi nwuru anwu,",
+        "Ka aja nke a anyi ji akwu ugwo mmehie,",
+        "Meda Gi obi maka njo anyi."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "O Chukwu, anyi ndu-ario ka I were ebere,",
+        "Nekwasi anya n'onyinye n'ime ebunye,",
+        "Gi ma kaezumike na nzoputa Nwaodibo Gi."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Nye Ya onodu ebebe n'etiti ndi nke Gi,",
+        "Azoputa goro, nuru nuru aririo anyi.",
+        "Oh, Oh! Nara nu onyinye anyi, Oh Chukwu!"
+      ]
+    }
+  ]
 }

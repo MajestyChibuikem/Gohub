@@ -1,15 +1,58 @@
 {
   "title": "IT IS WELL WITH MY SOUL",
-  "index": 214,
-  "content": {
-    "type": "refrain_and_verses",
-    "refrain": "It is well, with my soul\nIt is well, with my soul\nIt is well, it is well with my soul",
-    "verses": [
-      "When peace like a river attendant my way,\nWhen sorrows like sea billows roll\nwhatever my lot, Thou has taught me to say,\nIt is well, it is well with my soul.",
-      "Though Satan should buffet, though trial should come\nLet this bless assurance control,\nThat Christ has regarded my helpless estate,\nAnd hath shed His own blood for my soul.",
-      "My sin, oh the bliss of this glorious thought!\nMy sin, not in part but the whole,\nIs nailed to the cross, and I bear it no more,\nPraise the Lord, praise the Lord, O my soul!",
-      "for me, be it Christ, be it Christ hence to live:\nIf Jordan above me shall roll,\nNo pang shall be mine, for in death as in life\nThou wilt whisper Thy peace to my soul.",
-      "But Lord, tis for Thee, for Thy coming we wait,\nThe sky, not the grave, is our goal;\nOh trump of the angel! Oh voice of the Lord!\nBlessed hope, blessed rest of my soul!"
-    ]
-  }
+  "sections": [
+    {
+      "type": "refrain",
+      "content": [
+        "It is well, it is well with my soul",
+        "It is well, it is well with my soul",
+        "It is well, it is well with my soul"
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "When peace, like a river, attends my way,",
+        "When sorrows like sea billows roll;",
+        "Whatever my lot, Thou hast taught me to say,",
+        "'It is well, it is well with my soul.'"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Though Satan should buffet, though trials should come,",
+        "Let this blessed assurance control:",
+        "That Christ has regarded my helpless estate,",
+        "And hath shed His own blood for my soul."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "My sin, oh the bliss of this glorious thought!",
+        "My sin, not in part but the whole,",
+        "Is nailed to the cross, and I bear it no more,",
+        "Praise the Lord, praise the Lord, O my soul!"
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "For me, be it Christ, be it Christ, hence to live:",
+        "If Jordan above me shall roll,",
+        "No pang shall be mine, for in death as in life,",
+        "Thou wilt whisper Thy peace to my soul."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "But Lord, 'tis for Thee, for Thy coming we wait,",
+        "The sky, not the grave, is our goal;",
+        "Oh, trump of the angel! Oh, voice of the Lord!",
+        "Blessed hope, blessed rest of my soul!"
+      ]
+    }
+  ]
 }

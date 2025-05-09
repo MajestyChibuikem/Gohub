@@ -1,15 +1,60 @@
 {
   "title": "I AM THE BREAD OF LIFE",
-  "index": 206,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "And I will raise him up\nAnd I will raise him up\nAnd I will raise him up on the last day.",
-    "verses": [
-      "I am the bread of life\nHe who comes to me shall not hunger\nHe who believes in me shall not thirst\nNo one can come to me \nUnless the father draw him.",
-      "The bread that I will give\nIs my flesh for the life of the world \nAnd he who eats of this bread\nHe shall live forever, He shall live forever.",
-      "I am the resurrection.\nI am the life\nHe who believes in me\nEven though he dies, he shall live forever.",
-      "Yes Lord I believe\nThat you are the Christ\nThe son of God, the son of God,\nWho has come into the world?",
-      "I am the way and the truth.\nI am the life\nNo one comes to the Father\nExcept he comes through me.\nExcept he comes through me."
-    ]
-  }
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "And I will raise him up",
+        "And I will raise him up",
+        "And I will raise him up on the last day."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "I am the bread of life.",
+        "He who comes to me shall not hunger;",
+        "He who believes in me shall not thirst.",
+        "No one can come to me",
+        "Unless the Father draws him."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "The bread that I will give",
+        "Is my flesh for the life of the world.",
+        "And he who eats of this bread",
+        "He shall live forever, He shall live forever."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "I am the resurrection.",
+        "I am the life.",
+        "He who believes in me",
+        "Even though he dies, he shall live forever."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Yes, Lord, I believe",
+        "That You are the Christ,",
+        "The Son of God, the Son of God,",
+        "Who has come into the world?"
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "I am the way and the truth.",
+        "I am the life.",
+        "No one comes to the Father",
+        "Except he comes through Me.",
+        "Except he comes through Me."
+      ]
+    }
+  ]
 }

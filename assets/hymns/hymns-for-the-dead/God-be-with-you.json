@@ -1,14 +1,50 @@
 {
   "title": "GOD BE WITH YOU",
-  "index": 204,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Till we meet!.. .. Till we meet!\nTill we meet at Jesus feet;\nTill we meet!. . .. Till we meet!\nGod be with you till we meet again!",
-    "verses": [
-      "God be with you till we meet again!\nBy His counsels guide, uphold you,\nwith ills sheep securely fold you;\nGod be with you till we meet again!",
-      "God be with you till we meet again!\nNeath His wings securely hide you,\nDaily manna still provide you;\nGod be with you till we meet again!",
-      "God be with you till we meet again!\nWhen life's perils thick confound you,\nPut His loving arms around you;\nGod be with you till we meet again!",
-      "od he with you till we meet again!\nKeep love's banner floating o'er you,\nSmite deaths threatening wave before you;\nGod be with you till we meet again"
-    ]
-  }
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "Till we meet! Till we meet!",
+        "Till we meet at Jesus' feet;",
+        "Till we meet! Till we meet!",
+        "God be with you till we meet again!"
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "God be with you till we meet again!",
+        "By His counsels guide, uphold you,",
+        "With His sheep securely fold you;",
+        "God be with you till we meet again!"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "God be with you till we meet again!",
+        "Neath His wings securely hide you,",
+        "Daily manna still provide you;",
+        "God be with you till we meet again!"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "God be with you till we meet again!",
+        "When life's perils thick confound you,",
+        "Put His loving arms around you;",
+        "God be with you till we meet again!"
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "God be with you till we meet again!",
+        "Keep love's banner floating o'er you,",
+        "Smite death's threatening wave before you;",
+        "God be with you till we meet again!"
+      ]
+    }
+  ]
 }
