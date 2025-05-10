@@ -1,15 +1,32 @@
 {
   "title": "NETINU MKPU ONU",
-  "index": 26,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Kwebenu ukwe, n'etinu mkpuonu\nN'ihi na onye no n'etiti unu\nBu nnukwu onye di nso nke Israel",
-    "verses": [
-      "N'ezie Chineke bu onye nzoputam\nEnwere m nchekwube egwu agaghi atu m\nN'ihi na Dinwenu bu ike m na ukwe m\no bu onye nzoputa\nUnu g'eji onu kuru mmiri\nN'umi nke nzoputa",
-      "N'enyenu Dinwenu ekene, n'eonu aha ya\nMenu ka olu aka ya rute mmadu nile nti\nNa-akowaputanu ka aha ya si di mkpa",
-      "Buoronu Dinwenu abu oma\nN'ihi na oruru oru oma\nMenu ka anu ya n'uwa nile\nNdi nke Zion, kwebenu ukwe\nN'etinu mkpu onun'ihi na\nOnye no n'etiti unu bu\nNnukwu onye di nso nke Israel",
-      "Alaeze nke Israel kwebenu\nUkwe otito nyc Dinwenu\nGosi flu na ike na ebube nke\nChukwu di na-ala Israel nile\nN'ihi nke a werenu opi ike na\nUbo akwara buoro Dinwenu abu.",
-      "Otito din Nna na Nwa na Muo Nso\nEtu cdi na mbido\nUgbua ga adigidekwa otu a\nRue mgbe ebighiebi. Amen"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Netinu mkpu onu dị n'etiti mmadu,",
+        "Ọ bụrụ na anyi aga n'ụzọ ya, ga-esi anyi na ulo.",
+        "Ụmụ Chineke dị ize, dịghị onye isi na-abịa."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Anyi bụ umu Chineke, Ọ dị n'etiti anyi;",
+        "N'ime obi dị mma, Ọ bụrụ na anyi dịghị ezi.",
+        "Ọ zaa anyi n'ụzọ dị mma, dị ka ọ dị n'akwukwo."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Ọ dị n'etiti anyi di, dị n'etiti anyi,",
+        "Ọ bụrụ na anyi aga n'ụzọ ya, ga-esi anyi na ulo.",
+        "Ọ dị n'etiti anyi di, dị n'etiti anyi."
+      ]
+    }
+  ]
 }

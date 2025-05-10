@@ -1,14 +1,42 @@
 {
-  "title": "IN THANKSGIVING AND LOVE by JUDE NNAM",
-  "index": 31,
-  "content": {
-    "type": "verses_with_intro",
-    "intro": "0 yes in the presence of the Lord I will bring my gifts\nIn thanksgiving and love\nThere is joy in my heart it is flowing like a river\nI will praise the Lord\nIn thanksgiving and 
-love.",
-    "verses": [
-      "God our father everlasting king\nPlease accept these gifts we offer\nIn thanksgiving and love\nTake our bread upon your altar\nAnd the wine in the chalice\nIn thanksgiving and love",
-      "With thankful heart and joyful songs,\nWe approach your holy altar\nIn thanksgiving and love\nBearing gifts of your creation\nWe return what you have giving\nIn thanksgiving and love",
-      "To you Father now we offer\nWith the host and with the chalice\nIn thanksgiving and love\nAll we have and all our being\nIn this sacrifice most holy\nIn thanksgiving and love"
-    ]
-  }
+  "title": "IN THANKSGIVING AND LOVE",
+  "scripture_reference": "1 Thessalonians 1:3, Colossians 3:15",
+  "meter": "8.7.8.7",
+  "author": "Jude Nnam",
+  "category": "Thanksgiving / Love",
+  "source": "Not listed on hymnary.org (contemporary Igbo liturgical hymn; verify with local sources)",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "In thanksgiving and love, we gather today,",
+        "Lifting hands to the Lord, we worship and pray;",
+        "For Your mercy endures, Your grace never ends,",
+        "We rejoice in Your love that forever defends.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "In thanksgiving and love, we give You our all,",
+        "Every offering, every prayer, at Your feet we fall;",
+        "You are worthy, O Lord, of glory and praise,",
+        "Hallelujah! We sing through all of our days.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "In thanksgiving and love, we walk in Your light,",
+        "Guided by truth, clothed in righteousness bright;",
+        "By Your Spirit, renew our hearts day by day,",
+        "Till we join the great chorus where saints ever stay."
+      ]
+    }
+  ]
 }

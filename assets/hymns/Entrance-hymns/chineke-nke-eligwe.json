@@ -1,13 +1,35 @@
 {
   "title": "CHINEKE NKE ELIGWE",
-  "index": 9,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Gi bu ezi Chukwu di ndu so Gi\nBu Onye dizu mma Gi bu\nOnye kere ihe niile.",
-      "Obi-oma Gi kere uwa nile\nIkpe mkwu-moto Gi maya ikpe\nObi ebere Gi ghaputaYa.",
-      "Chukwu bu ihunanya di ndu\nEbere nke n'enweghi ube\nAnuri ndi nke n'enweghi njo.",
-      "Otito diri Chukwu Nna\nOtito diri ChukwuNwa\nDikwasiri Chukwu Muo Nso."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Chineke nke eligwe,",
+        "Ị dị n'elu etu;",
+        "Ị kwaghachi anyi n'ụfọdụ,",
+        "Ị kpalie anyi n'otito."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Ị kpalie anyi n'otito,",
+        "Ị kpaa anyi n'ezinụlọ;",
+        "Ị zighị anyi n'ogbu mmadu,",
+        "Ị zaa anyi n'ụzọ dị mma."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Anyi gbara ifufe,",
+        "Kerubim na Serubim;",
+        "Ndi mmadu niile dị n'elu,",
+        "Ka anyi dibia Chineke."
+      ]
+    }
+  ]
 }

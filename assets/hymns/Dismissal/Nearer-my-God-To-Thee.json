@@ -1,16 +1,35 @@
 {
-  "title": "NEARER, MY GOD, TO THEE",
-  "index": 95,
-  "content": {
-    "type": "refrain_and_verses",
-    "refrain": "Nearer, my God, to Thee,\nNearer to Thee!",
-    "verses": [
-      "Nearer, Imy God, to Thee, nearer to Thee!\nE'en though it be a cross that raiseth me, .\nStill all my song shall be, nearer, my God, to Thee.",
-      "Though like the wanderer, the sun gone down,\nDarkness be over me, my rest a stone.\nYet in my dreams I'd be nearer, my God to Thee.",
-      "There let the way appear, steps unto heaven;\nAll that Thou sendest me, in mercy given,\nAngels to beckon me nearer, my God to Thee nearer to Thee",
-      "Then, with my waking thoughts bright with Thy praise,\nOut of my stony griefs Bethel I'll raise;\nSo by my woes to be nearer, my God, to Thee.",
-      "Or, if on joyful wing cleaving the sky,\nSun, moon, and stars forgot, upward Il fy,\nDull all my song shall be, nearer, my God, to Thee.",
-      "There in my Father’s home, safe and at rest,\nThere in my Savior’s love, perfectly blest;\nAge after age to be nearer my God to Thee"
-    ]
-  }
+  "title": "Nearer, My God, to Thee",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Nearer, my God, to Thee,",
+        "Nearer to Thee;",
+        "E'en though it be a cross",
+        "That raiseth me;"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Still all my song shall be,",
+        "Nearer, my God, to Thee,",
+        "Nearer to Thee;",
+        "Though like the wanderer,"
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Lonely and forsaken,",
+        "Of earthly hope bereft,",
+        "Bowed down with grief and fear,",
+        "Nearer, my God, to Thee!"
+      ]
+    }
+  ]
 }

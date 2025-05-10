@@ -1,14 +1,35 @@
 {
   "title": "ANYI ABIAWO CHINEKE",
-  "index": 22,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Anyi abiawo Chineke anyi abiawo Nna\nAnyi abiawo ikele gi gozie anyl Chukwu",
-    "verses": [
-      "Bianu umu Chineke k'anyi kelee Nna\nBianu ndi kwere na okpara ya Jesu",
-      "Too nu Chneke Onye kere uwa nile\nToonu Chineke Onye n'echekwa-ba ya",
-      "Chukwu ebuka, Chukwu ebuka\nNgozi ya kari akari n'ebe anyi no\nKelee ya, kelee ya, kelenu Chukwu.",
-      "Gi bu Nna Nw'ekele anyi m'ututu m'ehihie\nGi bu Nna nw'otito anyi ma mgbede m'anyasi."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Anyi abiawo Chineke,",
+        "Mmadu na anyanwu;",
+        "N'ime obi dị mma,",
+        "Ọ dị n’etiti anyi."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Ị dị n’etiti anyi,",
+        "Kama anyi dịghị ezi;",
+        "Dọrọ anyi n’ụtọ mmadu,",
+        "Ka anyi wee sị Chineke."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Anyi abia Chineke,",
+        "Eze mmadu nke dị mma;",
+        "Ọ bụ Eze dị n'elu,",
+        "Nke si n'etiti anyi."
+      ]
+    }
+  ]
 }

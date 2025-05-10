@@ -1,46 +1,32 @@
 {
-  "title": "ULO DINWENU BU EBE OBIBI KASI MMA",
-  "index": 3,
-  "content": {
-    "type": "hymn_with_images_and_tables",
-    "metadata": {},
-    "images": [
-      "../../../images/ulo-dinwenu-bu-ebe-obibi-kasi-mma.jpeg"
-    ],
-    "table_data": {
-      "main_table": [
-        {
-          "columns": [
-            "Ulo Dinwe \n.m,d : - ,r.d \n.d,l<sub>l</sub> : -,l .s,\n.s,m : - ,f.m",
-            "nu bu \nd : s<sub>l</sub> s<sub>l</sub> : M<sub>l</sub>\nm : d :",
-            "ebe-obi - bi ka \nd,d.-,t<sub>l</sub> : t<sub>l</sub>.l<sub>l</sub>\nm<sub>l</sub>,m<sub>l</sub>,-,s<sub>l</sub> : s<sub>l</sub>.f<sub>l</sub>\nd,d.-,m : m . d\nd,d,-,m<sub>l</sub> : 
-m<sub>l</sub>. f<sub>l</sub>",
-            "si mma \nl<sub>l</sub>.l<sub>l</sub> : -\nf<sub>l</sub>.f<sub>l</sub> : - \nd.d : - \nf<sub>l</sub>.f<sub>l</sub> : -"
-          ]
-        },
-        {
-          "columns": [
-            ".f,r :-,s.m \nUlo Dinwe \n: \n: \n: \n:",
-            "m : l<sub>l</sub> \nnu bu\n.l<sub>l,</sub>l<sub>l</sub> :-,l<sub>l</sub>.m<sub>l</sub>\n.m,d:-,d.d\n.d,d :-,m.l<sub>l</sub>\nUlo Dinwe",
-            "d,d.-,t :t.d\nebe - obi bi\nm<sub>l</sub> : s<sub>l</sub>\nd j: r \nl<sub>l</sub> : s<sub>l</sub>\nnu bu",
-            "r : - \nl<sub>l</sub>,l<sub>l</sub>.-,s<sub>l</sub> : s<sub>l</sub>\nd,d.-,t<sub>l</sub> : t<sub>l</sub> \nf<sub>l</sub>,f<sub>l</sub>.-,r<sub>l</sub> : r<sub>l</sub>\nebe -obi-bi"
-          ]
-        },
-        {
-          "columns": [
-            "ebe - obi-bi ka\nm,m.-,r : r,d\ns<sub>l</sub>,s<sub>l</sub> ,-,t<sub>l</sub> : t<sub>l</sub>.s<sub>l</sub>\nd,d.-,r : r.m \nd,d.-,s<sub>l</sub> : s<sub>l</sub>.d<sub>l</sub>",
-            "si mma \nd . d : = \ns<sub>l</sub>,s<sub>l</sub> : - \nm . m : - \nd<sub>l</sub> . d<sub>l</sub> : -",
-            ""
-          ]
-        }
+  "title": "ULO DINWENU BU EBE OBIBI KALA",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Ulo dinwenu bu ebe obibi kala,",
+        "Dị n'etiti mmadu, Ọ bụrụ na anyi aga n'ụzọ ya.",
+        "Ga-esi anyi na ulo, ụmụ Chineke dị ize."
       ]
     },
-    "verses": [
-      ",s.m:-,f,. |m,m.-,m :r.l<sub>l</sub>,<sub>l</sub> |d.-,d:-,t<sub>l</sub>.t<sub>l</sub>|t<sub>l</sub>:-| m,f.-,f:r.l<sub>l</sub> |t<sub>l</sub>.d,t<sub>l</sub>:t<sub>l</sub> |.f : 
-r.t<sub>l</sub> |d:-| \nO n'agu m nnukwu aguu ibata n'ebe obibi gi \nmegherem uzo gi dinwenu kwe kambata",
-      ",s.m:-,d.d |dl.f : f,m.m | l<sub>l</sub>.-,l<sub>l</sub>: l<sub>l</sub>.d|t, : -| f, -,f:f | f.r,m : m . s<sub>l</sub>| :r.r| d:-\nOtu ubochi n'ebe Dinwenu kachasi mma ka ri- a nnukwuru nnu 
-n'ebe-ozo",
-      ",m.m,m : -,m.s|r,m.-,m : -| ,f .f :-,r.m | r : - |,s.m : f.m | f.m:m | r.r,m:t<sub>l</sub> . r| d.d:-\nN-gwere ghar'ukwu-osisi aka-akpara ya Mghara \nGi Dinwenu nkem n'eme-agwula."
-    ]
-  }
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Anyi bụ umu Chineke, Ọ dị n'etiti anyi;",
+        "N'ime obi dị mma, Ọ bụrụ na anyi dịghị ezi.",
+        "Ọ zaa anyi n'ụzọ dị mma, dị ka ọ dị n'akwukwo."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Ọ dị n'etiti anyi di, dị n'etiti anyi,",
+        "Ọ bụrụ na anyi aga n'ụzọ ya, ga-esi anyi na ulo.",
+        "Ọ dị n'etiti anyi di, dị n'etiti anyi."
+      ]
+    }
+  ]
 }

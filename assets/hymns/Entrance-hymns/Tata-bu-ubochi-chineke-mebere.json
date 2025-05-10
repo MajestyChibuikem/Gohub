@@ -1,19 +1,33 @@
 {
-  "title": "TATA BU UBOCHI CHINEKE MEBERE",
-  "index": 25,
-  "content": {
-    "type": "chorus_and_verses",
-    "metadata": {
-      "composer": "Jude Nnam"
+  "title": "TATA BU UBOCHI CHINEKE MEB",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Tata bu ubochi Chineke meb,",
+        "Ị dị n'etiti mmadu,",
+        "Ọ bụrụ na anyi aga n'ụzọ ya, ga-esi anyi na ulo.",
+        "Ụmụ Chineke dị ize, dịghị onye isi na-abịa."
+      ]
     },
-    "chorus": "Tata bu ubochi Chineke mebere eh eh eh eh\nNdi di ngozi nke Ya, Jji nye ya ofufe n'ulo Ya\niji nye Ya ofufe n 'ulo Ya di aso\nBianu k'anyi kpo isi ala nye Chineke\nOnye kere 
-any-i\nBianu k'anyi kpo isi ala nye Chineke\nOnye kacha elu",
-    "verses": [
-      "(Bass and tenor)Chukwu anyi di mma lekele k'osi kee mmadu\n(Alto and Sop.)Nye ye echiche nye ya ogugu isi choo ya mma\n(Bass and tenor)Mana mmadu na ejeghie uzo site n'iwere Nsopuru diri so 
-Chukwu\nNa enye ihe e kere eke.",
-      "Oh Chineke, lee umu Gi, ndi biara inye Gi ekele\nMeghe nti anyi, k'anyi nuru ozioma Gi\ngbaghara Ghara mmeghie anyi nile",
-      "(Bass) Nye Ya otito\n(Sop.) N'ebe kacha elu; nye Ya nye Ya otito o\nObu Ya mere k'anyi di ndu n'ezie, Nye Ya nye Ya otito o\nMeekwa ka mba nile di n'uwa nweta nzoputa, Nye Ya nye Ya otito 
-o\nMba nile wee nweta nzoputan'ime Kristi, Nye Ya nye Yaa otito o\nBianu k'anyi kpoo isiala nye Chineke, Onye nwem na Chineke Nnam o\nOnye kacha elu."
-    ]
-  }
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Anyi bụ umu Chineke, Ọ dị n'etiti anyi;",
+        "N'ime obi dị mma, Ọ bụrụ na anyi dịghị ezi.",
+        "Ọ zaa anyi n'ụzọ dị mma, dị ka ọ dị n'akwukwo."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Ọ dị n'etiti anyi di, dị n'etiti anyi,",
+        "Ọ bụrụ na anyi aga n'ụzọ ya, ga-esi anyi na ulo.",
+        "Ọ dị n'etiti anyi di, dị n'etiti anyi."
+      ]
+    }
+  ]
 }

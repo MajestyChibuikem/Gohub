@@ -1,22 +1,88 @@
 {
-  "title": "CHINEKE NARA ONYINYE",
-  "index": 46,
-  "content": {
-    "type": "chorus_and_verses_with_intro",
-    "intro": "Key D3/4\nArr & Harm. By Bigard Team\nKoros.\nChineke nara Onyinye\nNk'anyi n 'enye Gi (Dc)",
-    "chorus": "Chineke nara Onyinye\nNk'anyi n 'enye Gi (Dc)",
-    "verses": [
-      "Mgb'I kere uwa I kere anyi\nK'anyi yie Gi k'anyi yie Gi",
-      "Site n'oge Adam ruo kita\nGinwa n'edu anyi.",
-      "Site afo Nne ruo n'ili\nGi nwa n'edu Anyi.",
-      "Mgbe oya n'ahuhu di n'uwa\nGi kwudebere anyi.",
-      "Gin'eche anyi nche mgbe nile\nN'akasi anyi obi.",
-      "Mgbe anyi n'adada gi nwa Nna n'ekulite anyi.",
-      "Na nsogbu nile gi bu ihe n'anuri obi anyi.",
-      "Mgbe anyi g'anwu rap'uwabiko nara anyi.",
-      "Otito diri Chukwu Nna na Nwa na Muo Ns0.",
-      "Etu O din'izizi di kita g'adi ruo ebebe",
-      "Amen amen Alleluia."
-    ]
-  }
+  "title": "CHINEKE NARA ONYINYE (GOD, THE GIVER OF GIFTS)",
+  "scripture_reference": "Psalm 23:1, Malachi 3:10",
+  "category": "Thanksgiving / Divine Provision",
+  "meter": "Call-and-response (traditional Igbo liturgical meter)",
+  "author": "Bigard Team (arranged harmony)",
+  "source": "Not listed on hymnary.org (regional Igbo liturgical hymn; verify with local sources)",
+  "sections": [
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Chineke nara Onyinye",
+        "Nk'anyi n'enye Gi",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Mgb'I kere uwa I kere anyi",
+        "K'anyi yie Gi k'anyi yie Gi",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Site n'oge Adam ruo kita",
+        "Ginwa n'edu anyi.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Site afo Nne ruo n'ili",
+        "Gi nwa n'edu Anyi.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "Mgbe oya n'ahuhu di n'uwa",
+        "Gi kwudebere anyi.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 5",
+      "content": [
+        "Gin'eche anyi nche mgbe nile",
+        "N'akasi anyi obi.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 6",
+      "content": [
+        "Mgbe anyi g'anwu rap'uwabi",
+        "Ko nara anyi.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 7",
+      "content": [
+        "Otito diri Chukwu Nna na Nwa na Muo Ns0."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 8",
+      "content": [
+        "Etu O din'izizi di kita g'adi ruo ebebe",
+        "Amen amen Alleluia."
+      ]
+    }
+  ]
 }

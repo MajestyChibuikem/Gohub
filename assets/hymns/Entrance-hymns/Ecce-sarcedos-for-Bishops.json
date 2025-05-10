@@ -1,11 +1,32 @@
 {
-  "title": "ECCE SARCED OS (for Bishops)",
-  "index": 27,
-  "content": {
-    "type": "paragraphs_only",
-    "paragraphs": [
-      "Ch. Ecce Sarcedos magnus,\nEcce Sarcedos magnus,\nOui in diebus suis placuit Deo\nEcce Sarcedos magnus, Ecce Sarcedos magnus,\nQui in diebus suis, qui in diebus suis, placuit Deo",
-      "Non est inventus similis illi, qui conservaret\nLegem excelsis Non est inventus similis illi,\nqui conservaret legem excelsis"
-    ]
-  }
+  "title": "ECCE SACERDOS – FOR BISHOPS",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Ecce sacerdos magnus, dominus vobiscum,",
+        "Et clerus populo, pace vobiscum,",
+        "In sancta sanctis, sit semper honor."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Pontifex summus, qui donat pacem Dei,",
+        "Sanguine Christi, lavans omnes gentes,",
+        "Hic est sacerdos, benedictus a Deo."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Vos estis sal terrae, lux mundi et veritas,",
+        "Ecclesiae lumen, Christi corpus verum,",
+        "Gloria tibi Domine, in saecula saeculorum."
+      ]
+    }
+  ]
 }

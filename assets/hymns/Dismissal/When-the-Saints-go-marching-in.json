@@ -1,13 +1,35 @@
 {
   "title": "WHEN THE SAINTS GO MARCHING IN",
-  "index": 87,
-  "content": {
-    "type": "refrain_and_verses",
-    "refrain": "When the saints go marching in,\nO, when the saints go marching in,\nLord, I want to be in that number\nwhen the saints go marching in.",
-    "verses": [
-      "I am just a weary pilgrim,\nplodding through this world of sin,\nGetting ready for that meeting\nWhen the saints go marching in.",
-      "Up there I'll see the Saviour\nWho redeemed my soul from sin;\nWith extended hands He'll greet me\nwhen the Saints go marching in.",
-      "We are treading on the pathway\nOf the saints gone on before;\nBut we'Il meet gin together\nOver on the golden shore."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "When the saints go marching in,",
+        "Oh, when the saints go marching in,",
+        "Lord, I want to be in that number,",
+        "When the saints go marching in!"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "When the trumpet sounds its call,",
+        "Oh, when the trumpet sounds its call,",
+        "Lord, I want to be in that number,",
+        "When the saints go marching in!"
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "When we gather home at last,",
+        "Oh, when we gather home at last,",
+        "Lord, I want to be in that number,",
+        "When the saints go marching in!"
+      ]
+    }
+  ]
 }

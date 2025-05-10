@@ -1,21 +1,32 @@
 {
-  "title": "K'ANYI JEE N'OBI EZE",
-  "index": 21,
-  "content": {
-    "type": "chorus_refrain_and_verses",
-    "metadata": {
-      "composer": "Linus Okwu"
+  "title": "KA ANYI JEE NA OBI EZE",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Ka anyi jee na obi eze, dị n'etiti mmadu,",
+        "Ọ bụrụ na anyi aga n'ụzọ ya, ga-esi anyi na ulo.",
+        "Ụmụ Chineke dị ize, dịghị onye isi na-abịa."
+      ]
     },
-    "chorus": "Obi na asomu a aiyei ye, obi na asomuo\nMgbe m nuru ka anasi e k'anyi jee nu n ulonso\nK'anyi jeenu n 'obieze e, onye ihe nile din'aka ya\nOnye ji aka ya diri n 'onwe ya, Onye 
-n'enwero mbido\nNke O na-enwe njedebe o, Chineke Eze ukwu\nNwannenm nwere anuri bata,\nk'anyi kelee Chineke Onyeoma",
-    "refrain": "Mh mh mh ai yei ye\nMh mh mh ai yei ye",
-    "verses": [
-      "Oseburuwa nara ekele, Onye nwe mmadu abiara bee gi\nAnyi si k'anyi bia kporo gi isiala, ihe I na emere anyi ebuka\nOgologo ndu Gi n'enye anyi, ahu ike anyi di Gi n'aka\nji n'ede anyi na-ako 
-bu oru aka Gi, umu n'uba anyi bu oru aka Gi\nYak'anyi ji bia n'iru Gi ikporo Gi isiala ai yei ye",
-      "Mh mh mh oma lee (omalicha) iheoma nile di n'uwa\nEbube ebube ebube,\nugwu na ndida nine hancha bu oru aka Gi\nOnwa na kpakpando nwannem okwa Chukwu kere ha\nAnu elu na anu mmiri,\nanu ala 
-tobe Chukwu\nUwa na iheoma nile di n'ime ya bu nke Gi\nEzi Chukwu gi nelekota ya Onye eze Chineke\nAbiara m bee Gi omalicha.",
-      "Obi na so muo o obi na aso mu -o\nK'anyi jebenu na be Chukwu jee rio ya mgbaghara\nK'anyi je gbusa ikpere ala riowa ya mgbaghara\nK'anyi je n'iru Chineke ma riokwa ya ngozi\nNa Missa di aso 
-Chukwu na akpude be anyi nso\nO na edo kwa anyi nso, O n' enye kwa anyi ngozi\nO Chineke gbadata. K'anyi na Gi noria ai yei ye."
-    ]
-  }
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Anyi bụ umu Chineke, Ọ dị n'etiti anyi;",
+        "N'ime obi dị mma, Ọ bụrụ na anyi dịghị ezi.",
+        "Ọ zaa anyi n'ụzọ dị mma, dị ka ọ dị n'akwukwo."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Ọ dị n'etiti anyi di, dị n'etiti anyi,",
+        "Ọ bụrụ na anyi aga n'ụzọ ya, ga-esi anyi na ulo.",
+        "Ọ dị n'etiti anyi di, dị n'etiti anyi."
+      ]
+    }
+  ]
 }

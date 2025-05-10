@@ -1,19 +1,54 @@
 {
-  "title": "ANYI BU UMU NKE CHINEKE NNA",
-  "index": 40,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "O Chinecke Nna, 0 nara Onyinye\n" +
-              "O mee ka ezi na ulo obula dim ma (DC)",
-    "verses": [
-      "Anyi bu umu nke Chineke Nna\n" +
-      "Site n'ubochi nke amuru anyi (DC)",
-      "Anyi bu ndi enweghi ike obula\n" +
-      "Belu soso Gi bu Chineke Nna (DC)",
-      "Maka ihi mmehie nke anyi mere\n" +
-      "Biko Chineke mere anyi ebere (DC)",
-      "Site na mmiri nke Baptisma\n" +
-      "Anyi bu umu nke Chineke Nna (DC)"
-    ]
-  }
+  "title": "ANYI BU UMU NKE CHINEKE NNA (WE ARE THE CHILDREN OF GOD THE FATHER)",
+  "scripture_reference": "1 John 3:1-2, Romans 8:14-17",
+  "category": "Doxology / Praise",
+  "meter": "Call-and-response (traditional Igbo liturgical meter)",
+  "author": "Traditional Igbo liturgical chant",
+  "sections": [
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "O Chinecke Nna, o nara Onyinye",
+        "O mee ka ezi na ulo obula dim ma",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Anyi bu umu nke Chineke Nna",
+        "Site n'ubochi nke amuru anyi",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Anyi bu ndi enweghi ike obula",
+        "Belu soso Gi bu Chineke Nna",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Maka ihi mmehie nke anyi mere",
+        "Biko Chineke mere anyi ebere",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "Site na mmiri nke Baptisma",
+        "Anyi bu umu nke Chineke Nna"
+      ]
+    }
+  ],
+  "source": "Not listed on hymnary.org (regional Igbo liturgical hymn; verify with local sources)"
 }

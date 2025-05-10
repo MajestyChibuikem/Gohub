@@ -1,22 +1,32 @@
 {
-  "title": "K'ANYI JEE NULO CHUKWU",
-  "index": 20,
-  "content": {
-    "type": "chorus_refrain_and_verses",
-    "metadata": {
-      "composer": "Jude Nnam"
+  "title": "KA ANYI JEE NA ULO CHUKWU",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Ka anyi jee na ulo Chukwu, dị n'elu etu,",
+        "Ị kwaghachi anyi n'ụfọdụ, kpaa anyi n'otito.",
+        "Ị zighị anyi n'ogbu mmadu, zaa anyi n'ụzọ dị mma."
+      ]
     },
-    "chorus": "Enwere m anuri age m nuru ka ha n 'ekwu si\nK'anyi fee n 'ulo Chukwu, n 'ulo Chineke Nna muo\nN'ulo Chukwu.",
-    "verses": [
-      "Enwere m anuri oge m nuru ka ha n'ekwu\nK'anyi jee nu n'ulo Chukwu uuu\nNgi bu Jerusalem anyi kwuzi\nN'onu uzo ama gi.",
-      "Ewuru Jerusalem, dika oke obodo kwusiri ike\ndika oke obodo kwusiri Ike\nEbe ahu ka Mba nile na aga\nMba nile nke Dinwenu."
-    ],
-    "refrain": "K'anyi jee n'ulo Chukwu, n'ulo Chukwu     2x",
-    "refrain_verses": [
-      "N'ihi ihunanya nke umunne (Ref.)",
-      "Na ndi enyi m ana m ekwu si (Ref.)",
-      "N'hi ihunanya mnwere maka ulo nke Dinwenu(Ref.)",
-      "Aga m ario maka odi mma gi (Ref. Chorus)"
-    ]
-  }
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Ị bụ nnolite anyi, dị n'etu dị elu,",
+        "Anyi aghị akwụ ego, ma ka anyi na-eso ya.",
+        "Ụmụ mmadu niile dị n'elu, kabria Chineke."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Ọ dịghị onye isi na-abịa, ọ bụrụ Jesu bụ Eze,",
+        "Onye bụrụ nwata Chineke, ga-enye ya ike dị mma.",
+        "Anyi gbaghị akwụ ego, ma ka anyi na-eso ya."
+      ]
+    }
+  ]
 }

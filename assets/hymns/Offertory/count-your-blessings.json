@@ -1,14 +1,53 @@
 {
   "title": "COUNT YOUR BLESSINGS",
-  "index": 33,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Count your blessings name them one by one\nCount you blessings see what God has done\nCount your blessings name them one by one\nAnd it will surprise you what the Lord hs dones",
-    "verses": [
-      "When upon life billows you are tempted tossed\nWhen you are discouraged thinking all is gone\nCount your many blessing name them one by one\nAnd it will surprise you what the Lord has done.",
-      "When you look it others wfth th ir ands and gold\nThink that Christ has promised you His wealth untold\nCount your many blessings wealth can never buy\nYour reward in heaven nor your home on 
-high.",
-      "So amid the conflict whether great or small\nDo not be disheartened God is over al\nCount your many blessings angels will attend\nHelp and comfort give you till your journey's end"
-    ]
-  }
+  "scripture_reference": "2 Corinthians 9:15, Psalm 107:1",
+  "meter": "8.7.8.7",
+  "author": "Johnson Oatman Jr. (1897)",
+  "category": "Thanksgiving / Offertory",
+  "source": "https://www.hymnary.org/text/count_your_blessings_name_them_one_by_one ",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "When upon life’s billows you are tempest-tossed,",
+        "When you are discouraged, thinking all is lost,",
+        "Count your many blessings, name them one by one,",
+        "And it will surprise you what the Lord hath done.",
+        ""
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Count your blessings, name them one by one,",
+        "Count your blessings, see what God hath done;",
+        "Count your blessings, name them one by one,",
+        "And it will surprise you what the Lord hath done.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Are you ever burdened with a load of care?",
+        "Does the cross seem heavy you are called to bear?",
+        "Count your many blessings, every doubt will fly,",
+        "And you will keep singing as the days go by.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "When you look at others with their lands and gold,",
+        "Don’t forget the blessings that your hands hold;",
+        "Count your many blessings, walk where shadows fall,",
+        "And you will keep singing through it all."
+      ]
+    }
+  ]
 }

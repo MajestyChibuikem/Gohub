@@ -1,15 +1,38 @@
 {
-  "title": "OLUGBALA JESU KRISTI",
-  "index": 44,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Olugbala Jesu Kristi, meta lokan O,\nEmi mmo O\nA more wa 0, wa bore wa",
-    "verses": [
-      "A more wa 0 (2X), Baba Loke, 0 ba mimo",
-      "Karowa Jaiye 0 (2X), Baba Loke, 0 ba mimo",
-      "Dariji wa 0 (2X), Baba Loke, 0 ba mimo",
-      "Omo niyi Omo nide, Omo Lade",
-      "Orien Fun wa nitawo, Oba mimo"
-    ]
-  }
+  "title": "OLUGBALA JESU KRISTI (OUR LORD JESUS CHRIST)",
+  "scripture_reference": "Philippians 2:11, Romans 10:9",
+  "meter": "Call-and-response (traditional Igbo liturgical meter)",
+  "author": "Traditional Igbo liturgical chant",
+  "category": "Doxology / Praise",
+  "source": "Not listed on hymnary.org (regional Igbo liturgical hymn; verify with local sources)",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Opening Verse",
+      "content": [
+        "Olugbala Jesu Kristi, meta lokan O,",
+        "Emi mmo O,",
+        "A more wa 0, wa bore wa.",
+        ""
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus (Refrain)",
+      "content": [
+        "A more wa 0 (2X), Baba Loke, 0 ba mimo",
+        "Karowa Jaiye 0 (2X), Baba Loke, 0 ba mimo",
+        "Dariji wa 0 (2X), Baba Loke, 0 ba mimo",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Closing Verse",
+      "content": [
+        "Omo niyi Omo nide, Omo Lade,",
+        "Orien Fun wa nitawo, Oba mimo."
+      ]
+    }
+  ]
 }

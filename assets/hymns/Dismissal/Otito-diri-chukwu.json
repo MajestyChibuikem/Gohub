@@ -1,14 +1,29 @@
 {
-  "title": "OTITO DIRI CHUKWU",
-  "index": 89,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Otito din Chukwu nke jiri aka Ya diri Onwe Ya\nOnye n'enweghi mbido nke ona enwe isi njedebe",
-    "verses": [
-      "Otito diri Chukwu nke ji aka Ya diri Onwe Ya\nOnye na enweghi mbido nke o na-enwe is njedebe\nBuru azi Onye okike, Dinwenu nke ihe nile\nBuru azi Onye okike, Dinwenu nke ihe nile",
-      "Otito diri Chukwu, onye puru ime ihe nile,\nO kere eluigwe n'ala, n'ejighi ihe ke ya,\nKa Muoma ka mmadu ha, siten'okwu nke onu Ya (D.C)",
-      "Otito diri Chukwu Onye mazuru ihe nile\nHuzuo ihe nzuzo ga, n'ililo anyi bu n'uche\nOnye no n'ebe nile, ka n'uwa ka n'eluigwe (DC)",
-      "Otito diri Chukwu, onye bu soso ofu n'onwe Ya\nK'ewe tobe ihe omimi, nke ato n'otu di ngozi\nNna na Nwa Ya na Muo Nso, ha ato bu otu bu s'ofu\nChukwu (DC)"
-    ]
-  }
+  "title": "OTITO DIRU CHUKWU",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Otito diru Chukwu,",
+        "Ị dị n'etiti mmadu."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Ọ dị n'etiti anyi di,",
+        "Ka anyi maara Ya n'obi."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Ọ zaa anyi n'ụzọ dị mma,",
+        "Maka ihunanya Ya."
+      ]
+    }
+  ]
 }

@@ -1,19 +1,48 @@
 {
-  "title": "WERE ONYINYE DI MMA KELEE VA",
-  "index": 42,
-  "content": {
-    "type": "refrain_and_verses_with_intro",
-    "intro": "Ktuniem umunnem k 'anyi nyenu Chineke\nEzi onyinye ee, vere onyinye di mma Kelee ya",
-    "refrain": "Were onyinye dim ma kelee ya Kelee Chukwu",
-    "verses": [
-      "Ya kere gi ya n'eche gi- Ezi Chukwu",
-      "Yan'edu gi n'uzo nile - Ezi Chukwu",
-      "Ya n'enye di ya n'enye nwunye- Ezi Chukwu",
-      "Yan'enye nwa, ya n'enye ego- Ezi Chukwu",
-      "Yan'enye anwu, ya n'enye mmiri- Ezi Chukwu",
-      "Yan'enye olu, ya n'enye ike Ezi Chukwu",
-      "Yan'enye uburu na ma akwukwo- Ezi Chukwu",
-      "Yan'azo gi n'onya ndi iro- Ezi Chukwu"
-    ]
-  }
+  "title": "WERE ONYINYE DI MMA KEELE VA (GOD’S GOOD GIFT IS TRULY HERE)",
+  "scripture_reference": "James 1:17, Psalm 107:1",
+  "meter": "Call-and-response (traditional Igbo liturgical meter)",
+  "author": "Traditional Igbo liturgical chant",
+  "category": "Thanksgiving / Divine Mercy",
+  "source": "Not listed on hymnary.org (regional Igbo liturgical hymn; verify with local sources)",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Ktuniem umunnem k'anyi nyenu Chineke",
+        "Ezi onyinye ee, vere onyinye di mma Kelee ya",
+        ""
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Were onyinye dim ma kelee ya",
+        "Kelee Chukwu",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Ya kere gi ya n'eche gi - Ezi Chukwu",
+        "Yan'edu gi n'uzo nile - Ezi Chukwu",
+        "Ya n'enye di ya n'enye nwunye - Ezi Chukwu",
+        "Yan'enye nwa, ya n'enye ego - Ezi Chukwu"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Yan'enye anwu, ya n'enye mmiri - Ezi Chukwu",
+        "Yan'enye olu, ya n'enye ike - Ezi Chukwu",
+        "Yan'enye uburu na ma akwukwo - Ezi Chukwu",
+        "Yan'azo gi n'onya ndi iro - Ezi Chukwu"
+      ]
+    }
+  ]
 }

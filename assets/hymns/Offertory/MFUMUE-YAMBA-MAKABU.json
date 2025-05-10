@@ -1,13 +1,61 @@
 {
-  "title": "MFUMUE YAMBA MAKABU by WILFRED AGU",
-  "index": 45,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Talama boko namono yakele pamba\nTala mono kibeni nsuka miya meni\nNkiki ma mono tala nda pe sanange ne\nMfumue mfumue mfumue mfumue\nMfumue mfumue mfumue mfumue eee",
-    "verses": [
-      "Eee mfumue yamba makabu (2ice)\nYamba makabu yaki mengana beto(2ice).",
-      "Eee mfumue yamba mampa(2ice)\nYamba mampa ya ki mengana beto(2ice).",
-      "Eee mfumue yamba vinu (2ice)\nYamba vinu ya ki mengana beto(2ice)."
-    ]
-  }
+  "title": "MFUMUE YAMBA MAKABU (GOD OF OUR ANCESTORS)",
+  "scripture_reference": "Deuteronomy 32:7-8, Psalm 78:4-8",
+  "meter": "Call-and-response (traditional regional liturgical meter)",
+  "author": "Wilfred Agu",
+  "category": "Ancestral Faith / Divine Provision",
+  "source": "Not listed on hymnary.org (contemporary regional liturgical hymn; verify with local sources)",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Intro Refrain",
+      "content": [
+        "Talama boko namono yakele pamba",
+        "Tala mono kibeni nsuka miya meni",
+        "Nkiki ma mono tala nda pe sanange ne",
+        ""
+      ]
+    },
+    {
+      "type": "refrain",
+      "title": "Chant Refrain",
+      "content": [
+        "Mfumue mfumue mfumue mfumue",
+        "Mfumue mfumue mfumue mfumue eee",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Eee mfumue yamba makabu",
+        "Yamba makabu yaki mengana beto",
+        "Eee mfumue yamba makabu",
+        "Yamba makabu yaki mengana beto",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Eee mfumue yamba mampa",
+        "Yamba mampa ya ki mengana beto",
+        "Eee mfumue yamba mampa",
+        "Yamba mampa ya ki mengana beto",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Eee mfumue yamba vinu",
+        "Yamba vinu ya ki mengana beto",
+        "Eee mfumue yamba vinu",
+        "Yamba vinu ya ki mengana beto"
+      ]
+    }
+  ]
 }

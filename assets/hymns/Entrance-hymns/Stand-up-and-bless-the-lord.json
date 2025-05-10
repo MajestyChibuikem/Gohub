@@ -1,13 +1,35 @@
 {
   "title": "STAND UP AND BLESS THE LORD",
-  "index": 14,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Stand up and bless the Lord\nYou people of His choice\nStand up and bless the Lord\nYour God with heart and soul and mind",
-      "Though high above all praise\nAbove all blessing high\nWho would not fear His holy name\nAnd laud and magnify",
-      "O for the living flame\nFrom His own altar brought\nTo touch our lips, our mind\nIn spirit and wing to heaven our thought",
-      "God is our strength and song,\nAnd His salvation ours,\nThen be His love in Christ proclaimed\nWith all our ransomed powers."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Stand up and bless the Lord,",
+        "Ye people of His choice;",
+        "Stand up and bless His matchless name,",
+        "In songs of sweetest voice."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "His mercies are divine,",
+        "And full of truth and grace;",
+        "They flow from everlasting years,",
+        "And never end nor fade."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "He sent His light abroad,",
+        "To guide our steps aright;",
+        "He gave His Son to die for us,",
+        "And give us life and light."
+      ]
+    }
+  ]
 }

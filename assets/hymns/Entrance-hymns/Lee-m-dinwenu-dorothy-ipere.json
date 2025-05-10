@@ -1,17 +1,32 @@
 {
-  "title": "LEE M DINWENU",
-  "index": 23,
-  "content": {
-    "type": "chorus_and_verses",
-    "metadata": {
-      "composer": "Dorothy Iperu"
+  "title": "LEE M DINWENU DOROTHY IPER",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Lee m dinwenu, Dorothy ipere,",
+        "Maka ifufe gi, anyi dibia Chukwu,",
+        "Ị dị n'etiti anyi di, dị n'etiti anyi."
+      ]
     },
-    "chorus": "Lee m lee m Dinwenu lo muu ors c pe\nA biara m ime uche Gi",
-    "verses": [
-      "Echere m echere m Dinwenu\nO wee hulata ala n' ebe m no\nnu mkpu akwa m\nOtinyere ukwe ohuru n'onu m\nOtito nke Chukwu anyl. e id o ou oe",
-      "I naghi aria aja m'obu ihe nhunye,\nKama nti gheoghe\nI naghi aria aja nsuru oku n'ihe nchuja\nKama lee m.",
-      "N'ime akwukwo edere na ntosiri ime iwu gi\nChineke mo iwu gi n'ato m uto n'ime ime obi mo.",
-      "Ekwuputago m ikpe nkwumoto gi\nN'ihu nnukwu ogbakoba\nOnweghi mgbe m mechiri onu m\nI ma nke ao Dinwenu."
-    ]
-  }
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Ụmụ Chineke dị ize, dịghị onye isi na-abịa,",
+        "Ọ bụrụ na anyi aga n'ụzọ ya, ga-esi anyi na ulo.",
+        "Ọ dị n'etiti anyi di, dị n'etiti anyi."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Anyi bụ umu Chineke, Ọ dị n'etiti anyi;",
+        "N'ime obi dị mma, Ọ bụrụ na anyi dịghị ezi.",
+        "Ọ zaa anyi n'ụzọ dị mma, dị ka ọ dị n'akwukwo."
+      ]
+    }
+  ]
 }

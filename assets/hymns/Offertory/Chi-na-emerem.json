@@ -1,14 +1,73 @@
 {
-  "title": "CHI N'EMEREM by JUDE NNAM",
-  "index": 39,
-  "content": {
-    "type": "verses_with_intro_and_bass",
-    "intro": "On'emere m mma On'emere m mma\nKed ihem ga enye gi ezi Nna mo Ony'obi oma\nA gam aja ya mma, a ga m aturu ya mma mma\nIhe Chi n 'emere m onu m apughi ikocha",
-    "bass": "Chi n'emere m mma n'ezieokwu, (Chinemere mo)\nI ma na Chineke Nna bu ya bu, (O bu Chi) Chinnemere m'iheoma",
-    "verses": [
-      "I na-aju m onye nyere m ndu mo\nNdu nke idi onye nyere gi eh\nI na-aju m onye nyere m ahu ike\nAhu ike nke inwere onye nyere gi eh oh.",
-      "Ina eje eje na abata\no bu onye na-echebe gi n'ihe mberede\nnile nke ekwensu na-agba\no bu onye na-echebe gi n'ihe mberede oh",
-      "O bu onye kere anyanwu na onwa\nMa kee kpakpando nile di n'eluigwe\no nyere mmadu echiche n'ihe nile n'uju\nNwannem soro m kele Chineke, Chi mo n'emere m iheoma."
-    ]
-  }
+  "title": "CHI N'EMEREM (MERCIFUL GOD)",
+  "scripture_reference": "Titus 3:4-7, James 1:17",
+  "category": "Grace / Mercy",
+  "meter": "Call-and-response (traditional Igbo liturgical meter)",
+  "author": "Jude Nnam",
+  "source": "Not listed on hymnary.org (contemporary Igbo liturgical hymn; verify with local sources)",
+  "sections": [
+    {
+      "type": "intro",
+      "title": "Intro",
+      "content": [
+        "On'emere m mma, On'emere m mma",
+        "Ked ihem ga enye gi ezi, Nna mo Ony'obi oma",
+        "A gam aja Ya mma, a ga m aturu Ya mma mma",
+        "Ihe Chi n'emere m onu m apughi ikocha",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "I na-aju m onye nyere m ndu mo",
+        "Ndu nke idi onye nyere gi eh",
+        "I na-aju m onye nyere m ahu ike",
+        "Ahu ike nke inwere onye nyere gi eh oh.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Ina eje eje na abata",
+        "O bu onye na-echebe gi n'ihe mberede",
+        "Nile nke ekwensu na-agba",
+        "O bu onye na-echebe gi n'ihe mberede oh",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "O bu onye kere anyanwu na onwa",
+        "Ma kee kpakpando nile di n'eluigwe",
+        "O nyere mmadu echiche n'ihe nile n'uju",
+        "Nwannem soro m kele Chineke, Chi mo n'emere m ihe oma."
+      ]
+    },
+    {
+      "type": "refrain",
+      "title": "Bass Refrain",
+      "content": [
+        "Chi n'emere m mma n'ezie okwu, (Chinemere mo)",
+        "I ma na Chineke Nna bu ya bu, (O bu Chi) Chinnemere m'ihe oma"
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Abinci Alheri zamu ci",
+        "Abinci alheri eh, abinci rai",
+        "Shiryeye daga wurin Allah O!",
+        "Abinci alheri zamu ci",
+        "Shiryeye daga wurin Allah O!",
+        "Abinci alheri zamu ci"
+      ]
+    }
+  ]
 }

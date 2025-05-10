@@ -1,17 +1,35 @@
 {
-  "title": "ALL HAIL THE POWER OF JESUS NAME",
-  "index": 86,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "All hail the power of Jesus Name!\nLet angels prostrate fall; (DC)\nBring forth the royal diadem,\nand crown Him Lord of all.",
-      "Let highborn seraphs tune the lyre,\nand as they tune it, fall; (DC)\nBefore His face Who tunes their choir,\nand crown Him Lord of al",
-      "Crown Him, ye ning stars of light,\nWho fixed this floating ball; (DC)\nNow hail the strength of Israel's might,\nand crown Him Lord of all,",
-      "Crown Him, ye martyrs of your God,\nwho from His altar call; (DC)\nExtol the Stem of Jesse's Rod,\nand crown Him Lord of all.",
-      "Ye seed of Israel's chosen race,\nye ransomed from the fall, (DC)\nHail Him Who saves you by His grace,\nand crown Him Lord of all.",
-      "Hail Him, ye heir of David's line\nWhom David Lord did call, (DC)\nThe God incarnate, Man divine\nand crown Him Lord of all",
-      "Sinners, whose love can ne'er forget\nthe wornwood and the gall, (DC)\nGo spread your trophies at His feet\nand crown Him Lord of all",
-      "Let every tribe and every tongue\nbefore Him prostrate fall (DC)\nAnd shout in universal song\nthe crowned Lord of all."
-    ]
-  }
+  "title": "All Hail The Power Of Jesus",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "All hail the power of Jesus' name!",
+        "Let angels prostrate fall;",
+        "Bring forth the royal diadem,",
+        "And crown Him Lord of all!"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Ye chosen seed of Israel's race,",
+        "Ye ransomed from the fall,",
+        "Hail Him who saves you by His grace,",
+        "And crown Him Lord of all!"
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Let every kindred, every tribe,",
+        "On this terrestrial ball,",
+        "To Him all majesty ascribe,",
+        "And crown Him Lord of all!"
+      ]
+    }
+  ]
 }

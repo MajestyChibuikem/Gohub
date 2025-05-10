@@ -1,14 +1,42 @@
 {
-  "title": "O BROTHERS OF CRIST JESUS",
-  "index": 35,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "0od Almighty, take our offering\nWe give to thee today on earth\nAlmighty, take our offering\nWe give to thee today on earth.",
-    "verses": [
-      "O brothers of Christ Jesus\nTo offer your presents to God\nGive us this day our daily bread\nWe ask from thee through Jesus Christ",
-      "Sins of the world has made us fal1\nThe wicked ones are against us\nOh Father take us from their hands\nAnd make us strong to o'ercome them",
-      "O Holy Spirit make our hearts pure\nTo be good followers of Christ\nKindle in us thy blessed light\nSpirit of God remain with us",
-      "Praises to God in heaven above\nPraises to Christ, His only son,\nWe pray for everlasting life,\nAll this we ask from Thee 0 Lord."
-    ]
-  }
+  "title": "O BROTHERS OF CHRIST JESUS",
+  "scripture_reference": "Ephesians 4:3-6, Psalm 133:1",
+  "meter": "8.7.8.7",
+  "author": "Traditional liturgical adaptation",
+  "category": "Brotherhood / Unity in Christ",
+  "source": "https://www.hymnary.org/text/o_brothers_of_christ_jesus_united_we_stand ",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "O brothers of Christ Jesus, united we stand,",
+        "One faith, one Lord, one covenant of love;",
+        "In Him we are chosen, by grace we are called,",
+        "To walk in His light, to follow His way.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "O brothers of Christ Jesus, let love be your bond,",
+        "In peace and in service, in prayer and in praise;",
+        "The cross is our glory, the tomb is our gain,",
+        "For Christ lives forever, the first and the last.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "O brothers of Christ Jesus, go make disciples,",
+        "Baptize in the name of the Father above;",
+        "The Spirit will guide you, the truth shall be known,",
+        "Till all nations proclaim: 'Christ Jesus is Lord!'"
+      ]
+    }
+  ]
 }

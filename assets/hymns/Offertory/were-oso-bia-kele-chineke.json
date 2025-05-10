@@ -1,13 +1,52 @@
 {
-  "title": "WERE OSO BIA KELEE CHINEKE",
-  "index": 41,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Were oso bia kelee Chineke\nWere oso bia nye Chineke onyinye\nDi mma nwannem\nKelee yan'oga agozi gi\nKelee ya n oga agozi gi",
-    "verses": [
-      "Chineke enyego gi aku n'uba nk'uwa\nMana o bughi ka I were ya mebisie onwe gi\nOnyere gi ya k'iwere ya fee ya n'uwa\nMa binyere ya na ndu ebebe",
-      "I Duru Ogaidilya, ya buru na ime chineke\nI buru ogbenye, ya buru n'ime Chineke\nMaka na a bu Chineke n'enye onyinye nile",
-      "I mekata were onyinye Chineke nyere gi\nMejoo mmadu ibe gi\nIga anata ugwo ya\nO bughin'elu uwa nke a oburu n'uwa ozo"
-    ]
-  }
+  "title": "WERE OSO BIA KEELE CHINEKE (GOD’S WAYS ARE TRULY HERE)",
+  "scripture_reference": "James 1:17, Psalm 25:4-5",
+  "meter": "Call-and-response (traditional Igbo liturgical meter)",
+  "author": "Traditional Igbo liturgical chant",
+  "category": "Thanksgiving / Divine Guidance",
+  "source": "Not listed on hymnary.org (regional Igbo liturgical hymn; verify with local sources)",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Were oso bia kelee Chineke",
+        "Were oso bia nye Chineke onyinye",
+        "Di mma nwannem",
+        "Kelee yan'oga agozi gi",
+        "Kelee ya n'oga agozi gi",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Chineke enyego gi aku n'uba nk'uwa",
+        "Mana o bughi ka i were Ya mebisie onwe gi",
+        "Onyere gi Ya k'iwere Ya fee Ya n'uwa",
+        "Ma binyere Ya na ndu ebebe",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "I Duru Ogaidilya, ya buru na ime chineke",
+        "I buru ogbenye, ya buru n'ime Chineke",
+        "Maka na a bu Chineke n'enye onyinye nile"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "I mekata were onyinye Chineke nyere gi",
+        "Mejoo mmadu ibe gi",
+        "Iga anata ugwo Ya",
+        "O bughin'elu uwa nke a oburu n'uwa ozo"
+      ]
+    }
+  ]
 }

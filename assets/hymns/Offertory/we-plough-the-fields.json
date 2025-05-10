@@ -1,16 +1,54 @@
 {
-  "title": "WE PLOW THE FIELDS",
-  "index": 34,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "All good gifis around us\nAre sent from heaven above,\nThen thank the Lord, o thank the Lord\nFor all His love.",
-    "verses": [
-      "We plow the fields, and scatter the good seed on land,\nBut it is fed and watered by God's almighty hand;\nHe sends the snow in winter, the warmth to swell grain,\nThe breezes and the 
-sunshine, and soft refreshing",
-      "He only is the Maker of all things near and far;\nHe paints the wayside flower, He lights the evening star\nThe winds and waves obey Him, by Him the birds fed;\nMuch more to us, His children, 
-He gives our daily bread",
-      "We thank Thee, then, o Father, for all things bright and good,\nThe seed time and the harvest, our life, our health, and food;\nNo gifts have we to offer, for all Thy love imparts\nBut that 
-which Thou desirest, our humble, thankful hearts."
-    ]
-  }
+  "title": "WE PLOUGH THE FIELDS",
+  "scripture_reference": "Psalm 107:33-38, 1 Corinthians 3:6-8",
+  "meter": "8.7.8.7",
+  "author": "Matthias Claudius (1782), translated by John C. Messenger",
+  "category": "Harvest / Thanksgiving",
+  "source": "https://www.hymnary.org/text/we_plough_the_fields_and_scatter_the_good_seed_on_the_land ",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "We plough the fields and scatter",
+        "The good seed on the land;",
+        "But it is fed and watered",
+        "By God's almighty hand.",
+        "He sends the sun and rain,",
+        "He brings forth bread and grain;",
+        "The earth is His, and all that grows",
+        "Is from His bounteous grace.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "He only is the Maker",
+        "Of all things near and far;",
+        "He paints the flowers, He feeds the flocks,",
+        "He sends the rolling stars.",
+        "He guards our way, He grants",
+        "The harvest of the land;",
+        "All good gifts around us",
+        "Are sent by His command.",
+        ""
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "All good gifts around us,",
+        "All graces we receive,",
+        "From His great storehouse in the skies,",
+        "We through His mercy live.",
+        "He gives all life and breath,",
+        "He crowns our days with peace;",
+        "O thank Him for His goodness,",
+        "O praise His name, give thanks!"
+      ]
+    }
+  ]
 }

@@ -1,25 +1,35 @@
 {
-  "title": "JUBILATE ALLELUIA (PSALM 66)",
-  "index": 15,
-  "content": {
-    "type": "refrain_and_verses",
-    "refrains": [
-      "I. Jubilate Deus omnis terra uh",
-      "II. Alleluia Alleluia uh"
-    ],
-    "verses": [
-      "Cry out and shout to God all the earth (Ref. I)",
-      "Oh sing to glory of His name (Ref II)",
-      "All the earth shall worship you (Ref. I)",
-      "And singing praises to your name (Ref. I)",
-      "Come and see the work of the Lord (Ref. I)",
-      "In His doings towards the sons of men (Ref. II)",
-      "God turned the sea into dry land (Ref.II)",
-      "They passed through the river on foot (Ref. II)",
-      "Oh bless our God He has risen (Ref. I)",
-      "All the earth come lets praise Him (Ref. I)",
-      "Alleluia, A-lie-lu-ia",
-      "A-men, A---men"
-    ]
-  }
+  "title": "JUBILATE ALLELUJA (PSALM 66)",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Jubilate Deo omnis terra,",
+        "Servite Domino in laetitia;",
+        "Introite in conspectu ejus in exultatione.",
+        "Alleluia, alleluia!"
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Scitote quoniam Dominus ipse est Deus,",
+        "Ipse fecit nos et non ipsi nos,",
+        "Populus ejus et oves pascuae ejus.",
+        "Alleluia, alleluia!"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Venite, audite et narrabo vobiscum,",
+        "Omnes qui timetis Deum,",
+        "Quanta fecit Dominus animae meae.",
+        "Alleluia, alleluia!"
+      ]
+    }
+  ]
 }
