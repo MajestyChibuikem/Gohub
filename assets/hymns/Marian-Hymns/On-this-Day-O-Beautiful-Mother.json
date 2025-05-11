@@ -1,0 +1,39 @@
+{
+  "title": "ON THIS DAY, O BEAUTIFUL MOTHER",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "On this day we ask to share,",
+        "Dearest Mother, thy sweet care,",
+        "Aid us ere our feet astray,",
+        "Wander from thy guiding way.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Queen of angels deign to hear,",
+        "Thy dear children's humble prayer,",
+        "Young hearts gain, O Virgin pure,",
+        "Jesus' love for them assure.",
+        ""
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "On this day, O beautiful Mother,",
+        "On this day we give thee our love.",
+        "Near thee, Madonna, fondly we hover,",
+        "Trusting thy gentle care to prove.",
+        "Near thee, Madonna, fondly we hover,",
+        "Trusting thy gentle care to prove."
+      ]
+    }
+  ]
+}

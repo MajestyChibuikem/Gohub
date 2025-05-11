@@ -1,14 +1,40 @@
 {
-  "title": "SOM NYAME (SERVE THE LORD)",
-  "index": 103,
-  "content": {
-    "type": "hymn_with_images_only",
-    "metadata": {
-      "key": "F 2/4 (Andante)"
+  "title": "SOM NYAME",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Som Nyame, som Nyame,",
+        "Onyame yɛn na-ahyɛ me,",
+        "Na me nso na medeɛ no,",
+        "Na me nso na medeɛ no."
+      ]
     },
-    "images": [
-      "../../../images/som-nyame-(serve-the-lord).jpeg",
-      "../../../images/som-nyame-(serve-the-lord) (1).jpeg"
-    ]
-  }
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "W’ahyɛ me, w’ahyɛ me,",
+        "Na me nso na medeɛ no,",
+        "Na me nso na medeɛ no,",
+        "Som Nyame, som Nyame."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Yehowa, Yehowa,",
+        "Onyame yɛn na-ahyɛ me,",
+        "Na me nso na medeɛ no,",
+        "Na me nso na medeɛ no."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": []
+    }
+  ]
 }

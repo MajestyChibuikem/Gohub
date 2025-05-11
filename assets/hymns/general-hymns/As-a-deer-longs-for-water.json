@@ -1,26 +1,47 @@
 {
-  "title": "AS A DEER LONGS FOR WATER",
-  "index": 159,
-  "content": {
-    "type": "hymn_with_images_and_verses",
-    "metadata": {
-      "key": "a3/4",
-      "composer": "John A. C. Njoku"
+  "title": "As the Deer",
+  "author": "Martin J. Nystrom (1984)",
+  "tune": "As the Deer (Martin J. Nystrom)",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "As the deer panteth for the water,",
+        "So my soul longeth after Thee.",
+        "You alone are my heart's desire,",
+        "And I long to worship Thee."
+      ]
     },
-    "images": [
-      "../../../images/as-a-deer-longs-for-water.jpeg",
-      "../../../images/as-a-deer-longs-for-water (1).jpeg",
-      "../../../images/as-a-deer-longs-for-water-2.jpeg"
-    ],
-    "verses": [
-      "Why are you so downcast, my soul,\nwhy so troubled within me?\nHope in God, for i will praise him again, \nmy saviorand my God.\nMY soul is downcast when i remember \nfrom these lands of 
-jordan and Hermon,",
-      "\"Wehre are you, small mountain?\"\nDeep calls to deep as your cataracts thunder;\nyour waves and torrents have gone over me \nMay the lord bestow his love by day, \nby night his song is upon 
-my lips -\naprayer to the God of my life.",
-      "I say to God, my rock,\n\"why have you forgotten me?\nwhy do i go about mourning, oppressed by the enemy?\"\nMy whole being suffers in mortal agony,\nas my advrsaries continually taunt 
-me,\n\"where is your God?\"",
-      "Why are you \nso downcast, my soul,\nwhy so troubled within me?\nHopw in Godl\nfor again \nI will praise him -\nmy savior\nand my God."
-    ],
-    "additional_notes": "Use verse 1 solfa notes for verse 6 and use verse 2 solfa notes for verse 3, 4, and 5."
-  }
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "You alone are my strength, my shield;",
+        "To You alone may my spirit yield.",
+        "You alone are my heart's desire,",
+        "And I long to worship Thee."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "You're my Friend and You are my Brother,",
+        "Even though You are a King.",
+        "I love You more than any other,",
+        "So much more than anything."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "I want You more than gold or silver,",
+        "Only You can satisfy.",
+        "You alone are the real joy giver",
+        "And the apple of my eye."
+      ]
+    }
+  ]
 }

@@ -1,0 +1,29 @@
+{
+  "title": "HAIL HOLY QUEEN, ENTHRONED",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Hail, holy Queen, mother of mercy,",
+        "Our life, our sweetness, and our hope!"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "To thee do we cry, poor banished children of Eve;",
+        "To thee do we send up our sighs, mourning and weeping in this valley of tears."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Turn then, most gracious advocate,",
+        "Thine eyes of mercy toward us;"
+      ]
+    }
+  ]
+}

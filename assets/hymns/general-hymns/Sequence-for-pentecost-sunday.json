@@ -1,10 +1,39 @@
 {
-  "title": "Sequence for Pentecost Sunday",
-  "index": 96,
-  "content": {
-    "type": "hymn_with_image_only",
-    "images": [
-      "../../../images/Sequence-for-penticost-sunday.jpeg"
-    ]
-  }
+  "title": "SEQUENCE FOR PENTECOST SUNDAY",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Veni, Sancte Spiritus,",
+        "Et emitte caelitus,",
+        "Lucis tuae radium."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Veni, pater pauperum,",
+        "Veni, da noster interior,",
+        "Lavans quod est sordidum,",
+        "Rigans quod est aridum,",
+        "Sana quod est saucium."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Veni, Sancte Spiritus,",
+        "Reple tuorum corda fidelium,",
+        "Et tui amoris sibi deducat gaudium sempiternum."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": []
+    }
+  ]
 }

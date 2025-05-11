@@ -1,12 +1,40 @@
 {
   "title": "WE BRING OUR GIFTS LORD",
-  "index": 155,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "We bring our gifts Lord, bread and wine\nWe bring our gifts Lord, bread and wine\nWe bring our-selves, Lord, heart and Mind\nO Lord Kumbaya.",
-      "Make us one Lord, as you prayed\nMake us one Lord, as you prayed\nGrant us peace Lord, hear our prayer\nO Lord, Kumbaya.",
-      "Let us love Lord, as you loved,\nLet us love Lord, as you loved,\nin this banquet Lord, we find strength: O Lord, Kumbaya."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "We bring our gifts Lord, bread and wine",
+        "We bring our gifts Lord, bread and wine",
+        "We bring our-selves, Lord, heart and Mind",
+        "O Lord Kumbaya."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Make us one Lord, as you prayed",
+        "Make us one Lord, as you prayed",
+        "Grant us peace Lord, hear our prayer",
+        "O Lord, Kumbaya."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Let us love Lord, as you loved,",
+        "Let us love Lord, as you loved,",
+        "In this banquet Lord, we find strength:",
+        "O Lord, Kumbaya."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": []
+    }
+  ]
 }

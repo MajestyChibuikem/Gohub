@@ -1,0 +1,45 @@
+{
+  "title": "IMMACULATE MARY",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Immaculate Mary, your praises we sing;",
+        "You reign now in splendor with Jesus, our King."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "In heaven the blessed your glory proclaim;",
+        "On earth we, your children, invoke your sweet name."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Your name is our power, your virtues our light;",
+        "Your love is our comfort, your prayers our might."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "We pray for the Church, our true mother on earth;",
+        "And beg you to watch o'er the land of our birth."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Ave, ave, ave, Maria!",
+        "Ave, ave, Maria!"
+      ]
+    }
+  ]
+}

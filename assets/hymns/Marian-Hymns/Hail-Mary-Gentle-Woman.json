@@ -1,0 +1,29 @@
+{
+  "title": "HAIL MARY, GENTLE WOMAN",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Hail, Mary, gentle woman,",
+        "Peaceful mother, woman strong."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "In your arms a child is sleeping,",
+        "The redemption of the nations."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Through the dark of night you whispered,",
+        "God is near us, we are one."
+      ]
+    }
+  ]
+}

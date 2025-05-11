@@ -1,0 +1,55 @@
+{
+  "title": "MARY'S SONG",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "My soul proclaims the Lord my God.",
+        "My spirit sings God's praise,",
+        "Who looks on me, and lifts me up,",
+        "That gladness fills my days."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "All nations now will share my joy;",
+        "For gifts God has out poured.",
+        "This lowly one has been made great.",
+        "I magnify the Lord."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "For those who fear the Holy One,",
+        "God's mercy will not die.",
+        "Whose strong right arm puts down the proud,",
+        "And lifts the lowly high."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "God fills the hungry with good things,",
+        "And sends the rich away;",
+        "The promise made to Abraham",
+        "Is filled to endless day."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 5",
+      "content": [
+        "Then let all nations praise our God,",
+        "The Father and the Son,",
+        "The Spirit blest, who lives in us,",
+        "While endless ages run."
+      ]
+    }
+  ]
+}

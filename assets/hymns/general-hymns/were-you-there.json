@@ -1,21 +1,50 @@
 {
   "title": "WERE YOU THERE",
-  "index": 160,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Were you there when they crucified my lord?\nwere you there when they crucified my lord?\nOh! sometimes it causes me to tremble, tremble, tremble!\nWere you there when they crucified my 
-Lord?",
-      "Were you there when they nailed him to the tree?\nwere you there when they nailed him to the tree?\nOh! sometimes it causes me to tremble, tremble, tremble!\nwere you there when they nailed 
-him to the tree?",
-      "were you there when they pierced him in ther side?\nwere hou there when they piered him in the side?\nOh! sometimes it causes me to tremble, tremble, tremble\nwere you there they pierced him 
-in the side?",
-      "were you there when the sun refused to shine?\nwere you there when the sun refused to shine?\nOh! sometimes it causes me to tremble, tremble, tremble!\nWere you there when the sun refused to 
-shine?",
-      "Were you there when they laid him in the tomb?\nWere you there when they laid him in the tomb?\nOh! Sometimes it causes me to tremble, tremble, tremble!\nWere you there when they laid him in 
-the tomb?",
-      "Were you there when he rose from out the tomb?\nWere you there when he rose feom out the tomb?\nOh! Sometime i feel like shouting glory, glory, glory!\nWere you there when he rose from out 
-the tomb?"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Were you there when they crucified my Lord?",
+        "Were you there when they crucified my Lord?",
+        "Oh! Sometimes it causes me to tremble, tremble, tremble;",
+        "Were you there when they crucified my Lord?"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Were you there when they nailed Him to the tree?",
+        "Were you there when they nailed Him to the tree?",
+        "Oh! Sometimes it causes me to tremble, tremble, tremble;",
+        "Were you there when they nailed Him to the tree?"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Were you there when they laid Him in the tomb?",
+        "Were you there when they laid Him in the tomb?",
+        "Oh! Sometimes it causes me to tremble, tremble, tremble;",
+        "Were you there when they laid Him in the tomb?"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "Were you there when God raised Him from the dead?",
+        "Were you there when God raised Him from the dead?",
+        "Oh! Sometimes it causes me to tremble, tremble, tremble;",
+        "Were you there when God raised Him from the dead?"
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": []
+    }
+  ]
 }

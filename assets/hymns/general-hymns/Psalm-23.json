@@ -1,17 +1,42 @@
 {
-  "title": "Psalm 23 (fourth Sunday of Easter Year A)",
-  "index": 97,
-  "content": {
-    "type": "hymn_with_images_and_verses",
-    "images": [
-      "../../../images/Psalm23.jpeg",
-      "../../../images/Psalm23-(fourth-sunday-of-Easter-year-A).jpeg"
-    ],
-    "verses": [
-      "He guides me along the right path; (sop)\nHe is true to his name. (sop + alto)\nIf  i should walk in the valley of darkness.(sop)\nNo evil would i fear.(sop + alto)\nYou are there with your 
-crook and your staff. (sop + alto ten)\nwith these you give me comfort. R/ (sop + alto ten",
-      "You have prepared a banquet for me (sop)\nin the sight of my foes. \nMY head you have annointed with oil; (sop + alto ten)\nMy cup is over flowing.  R/ (sop + alto ten)",
-      "Surely goodness and kindness shall follow me (sop)\nAll the days of my life. (sop + alto)\nIn the lords own house shall i dwell (sop + alto ten)\nForever and ever. R/ (sop + alto ten)"
-    ]
-  }
+  "title": "PSALM 23",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "He guides me along the right path;",
+        "He is true to His name.",
+        "If I should walk in the valley of darkness,",
+        "No evil would I fear.",
+        "You are there with Your crook and Your staff,",
+        "With these You give me comfort."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "You have prepared a banquet for me",
+        "In the sight of my foes.",
+        "My head You have anointed with oil;",
+        "My cup is overflowing."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Surely goodness and kindness shall follow me",
+        "All the days of my life.",
+        "In the Lord’s own house shall I dwell",
+        "Forever and ever."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": []
+    }
+  ]
 }

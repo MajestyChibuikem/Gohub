@@ -1,14 +1,40 @@
 {
   "title": "WE GATHER TOGETHER",
-  "index": 148,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "We gather together to sing the Lord's praises,\nTo worship the Father through Jesus, his Son.\nIn this celebration, all sing with jubilation!\nWe are his holy people whose freedom he won.",
-      "We greet our Lord present within our assembly;\nWe hear the good news announced clearly to all.\nWith songs of rejoicing our praises we are voicing,\nAs we invoke God's blessing and answer 
-the call.",
-      "Since Christ is the vine and his people the branches,\nIn him we give praise to the Father above.\nChrist brings every nation the wonders of salvation,\nThat all may grow in knowledge, in 
-faith, hope, and love."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "We gather together to sing the Lord's praises,",
+        "To worship the Father through Jesus, His Son.",
+        "In this celebration, all sing with jubilation!",
+        "We are His holy people whose freedom He won."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "We greet our Lord present within our assembly;",
+        "We hear the good news announced clearly to all.",
+        "With songs of rejoicing our praises we are voicing,",
+        "As we invoke God's blessing and answer the call."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Since Christ is the vine and His people the branches,",
+        "In Him we give praise to the Father above.",
+        "Christ brings every nation the wonders of salvation,",
+        "That all may grow in knowledge, in faith, hope, and love."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": []
+    }
+  ]
 }

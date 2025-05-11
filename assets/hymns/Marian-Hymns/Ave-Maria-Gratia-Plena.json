@@ -1,0 +1,29 @@
+{
+  "title": "AVE MARIA, GRATIA PLENA",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Hail, Mary, full of grace,",
+        "The Lord is with thee."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Blessed art thou among women,",
+        "And blessed is the fruit of thy womb, Jesus."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Holy Mary, Mother of God,",
+        "Pray for us sinners, now and at the hour of our death."
+      ]
+    }
+  ]
+}

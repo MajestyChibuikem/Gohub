@@ -1,0 +1,29 @@
+{
+  "title": "O COME TO THE THRONE OF GRACE",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "O come to the throne of grace,",
+        "Where mercy flows like a river;"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Lift up your hearts to the Father above,",
+        "And ask in faith whatever you need."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "O Mary, Queen of Mercy,",
+        "Intercede for us before your Son."
+      ]
+    }
+  ]
+}

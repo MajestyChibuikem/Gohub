@@ -1,16 +1,37 @@
 {
   "title": "TO JESUS CHRIST, OUR SOVEREIGN KING",
-  "index": 135,
-  "content": {
-    "type": "refrain_and_verses",
-    "metadata": {
-      "composer": "Martin B. Hellriegel, 1890-1981"
+  "sections": [
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Christ Jesus, Victor! Christ Jesus, Ruler!",
+        "Christ Jesus, Lord and Redeemer!"
+      ]
     },
-    "refrain": "Christ Jesus, Victor! Christ Jesus, Ruler!\nChrist Jesus, Lord and Redeemer!",
-    "verses": [
-      "To Jesus Christ, our sovereign King Who is the world's salvation,\nAll praise and homage do we bring And thanks and adoration.",
-      "Your reign extend, 0 King benign, To every land and nation;\nFor in your kingdom, Lord divine, Alone we find salvation.",
-      "To you and to your Church, great King, We pledge our hearts oblation;\nUntil before your throne we sing In endless jubilation."
-    ]
-  }
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "To Jesus Christ, our sovereign King Who is the world's salvation,",
+        "All praise and homage do we bring And thanks and adoration."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Your reign extend, O King benign, To every land and nation;",
+        "For in your kingdom, Lord divine, Alone we find salvation."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "To you and to your Church, great King, We pledge our hearts oblation;",
+        "Until before your throne we sing In endless jubilation."
+      ]
+    }
+  ]
 }
