@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useLocalSearchParams } from 'expo-router';
 import { ScrollView, View, Text } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
@@ -6,8 +6,8 @@ import { useTheme } from '../../context/ThemeContext';
 import { useLanguage } from '../../context/LanguageContext';
 import { createPrayerStyles } from './prayers.style';
 
-import graceaftermeals from '@assets/prayers/DailyLife/graceaftermeals.json';
-import gracebeforemeals from '@assets/prayers/DailyLife/gracebeforemeals.json';
+import GraceAfterMeals from '@assets/prayers/DailyLife/GraceAfterMeals.json';
+import GraceBeforeMeals from '@assets/prayers/DailyLife/GraceBeforeMeals.json';
 import MorningOffering from '@assets/prayers/DailyLife/MorningOffering.json';
 import SleepPrayer from '@assets/prayers/DailyLife/SleepPrayer.json';
 
@@ -21,12 +21,12 @@ const dailyPrayer: PrayerType[] = [
     { 
       id: 'grace-after-meals', 
       title: 'Grace After Meals', 
-      content: graceaftermeals 
+      content: GraceAfterMeals 
     },
     { 
       id: 'grace-before-meals', 
       title: 'Grace Before Meals', 
-      content: gracebeforemeals 
+      content: GraceBeforeMeals 
     },
     { 
       id: 'morning-offering', 

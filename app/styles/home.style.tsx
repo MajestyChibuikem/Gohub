@@ -1,3 +1,5 @@
+import React from 'react';
+import { View } from 'react-native';
 import { StyleSheet } from 'react-native';
 import { Theme } from '../../context/ThemeContext';
 
@@ -143,3 +145,7 @@ export const createHomeStyles = (theme: Theme) => StyleSheet.create({
     fontSize: 12,
   }
 });
+
+export default function HomeStyle() {
+  return <View />;
+}

@@ -42,9 +42,9 @@ function RootLayoutNav() {
   return (
     <>
       <StatusBar style={theme.background === '#ffffff' ? 'dark' : 'light'} />
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="prayers" options={{ headerShown: false }} />
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="(tabs)" />
+        <Stack.Screen name="prayers" />
       </Stack>
     </>
   );

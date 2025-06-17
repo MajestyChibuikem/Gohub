@@ -1,3 +1,5 @@
+import React from 'react';
+import { View } from 'react-native';
 import { StyleSheet } from 'react-native';
 
 export const createPrayerStyles = (theme: any) => StyleSheet.create({
@@ -82,3 +84,7 @@ export const createPrayerStyles = (theme: any) => StyleSheet.create({
     marginBottom: 8,
   },
 });
+
+export default function PrayerStyle() {
+  return <View />;
+}

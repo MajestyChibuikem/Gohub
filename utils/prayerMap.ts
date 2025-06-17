@@ -48,8 +48,8 @@ type PrayerContent = {
 
 
   //daily prayers
-  import graceaftermeals from '@assets/prayers/DailyLife/graceaftermeals.json';
-  import gracebeforemeals from '@assets/prayers/DailyLife/gracebeforemeals.json';
+  import GraceAfterMeals from '@assets/prayers/DailyLife/GraceAfterMeals.json';
+  import GraceBeforeMeals from '@assets/prayers/DailyLife/GraceBeforeMeals.json';
   import MorningOffering from '@assets/prayers/DailyLife/MorningOffering.json';
   import SleepPrayer from '@assets/prayers/DailyLife/SleepPrayer.json';
   //saints & devotions
