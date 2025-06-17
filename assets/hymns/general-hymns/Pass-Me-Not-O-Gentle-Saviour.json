@@ -1,14 +1,54 @@
 {
   "title": "PASS ME NOT O! GENTLE SAVIOUR",
-  "index": 113,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Saviour, Saviour, hear my humble cry:\nAnd while others on Thou art calling\ndo not pass me by",
-    "verses": [
-      "Pass me not O gentle Saviour\nHear my humble cry;\nWhile on others Thou art calling,\nDo not pass me by.",
-      "Let me at a throne of mercy\nFind a sweet relief;\nkneeling there in deep contrition,\nHelp my unbelief.",
-      "Trusting only in Thy merit,\nWould I seek Thy face;\nHeal my wounded, broken spirit,\nSave me by Thy grace",
-      "Thou the spring of all my comfort,\nMore than life to me;\nWhom have I on earth beside Thee?\nWhom in heaven but Thee?"
-    ]
-  }
+  "sections": [
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Saviour, Saviour, hear my humble cry:",
+        "And while others on Thou art calling",
+        "Do not pass me by"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Pass me not O gentle Saviour",
+        "Hear my humble cry;",
+        "While on others Thou art calling,",
+        "Do not pass me by."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Let me at a throne of mercy",
+        "Find a sweet relief;",
+        "Kneeling there in deep contrition,",
+        "Help my unbelief."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Trusting only in Thy merit,",
+        "Would I seek Thy face;",
+        "Heal my wounded, broken spirit,",
+        "Save me by Thy grace."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "Thou the spring of all my comfort,",
+        "More than life to me;",
+        "Whom have I on earth beside Thee?",
+        "Whom in heaven but Thee?"
+      ]
+    }
+  ]
 }

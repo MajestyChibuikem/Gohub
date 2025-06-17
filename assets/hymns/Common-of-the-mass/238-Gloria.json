@@ -1,9 +1,9 @@
 {
-    "title": "GLORIA",
-    "index": 238,
-    "content": {
-      "type": "latin_text",
-      "verses": [
+  "title": "238. GLORIA",
+  "sections": [
+    {
+      "type": "Gloria",
+      "content": [
         "Gloria in excelsis Deo",
         "Et in terra pax hominibus",
         "Bonae voluntátis laudámuste",
@@ -25,4 +25,5 @@
         "In gloria Dei Patris"
       ]
     }
-  }
+  ]
+}

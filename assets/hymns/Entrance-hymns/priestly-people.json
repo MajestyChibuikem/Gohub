@@ -1,25 +1,56 @@
 {
-  "title": "PRIESTLY PEOPLE",
-  "index": 24,
-  "content": {
-    "type": "paragraph_and_verses",
-    "metadata": {
-      "key": "Bb 2/4 [moderato]",
-      "composer": "Lucien Deiss"
+  "title": {
+    "en": "PRIESTLY PEOPLE",
+    "es": ""
+  },
+  "sections": [
+    {
+      "type": "verse",
+      "title": {
+        "en": "Verse 1",
+        "es": "Versículo 1"
+      },
+      "content": {
+        "en": [
+          "We are a royal priesthood,",
+          "A holy nation called by grace;",
+          "Chosen from the world to serve,",
+          "And walk in light before His face."
+        ],
+        "es": []
+      }
     },
-    "paragraph": [
-      "KeyBb 2/4 [moderato] PRIESTLY PEOPLE (LUCIEN DEISS)"
-    ],
-    "verses": [
-      "We sing to you, O son born of Mary the Virgin, we give you praise, our brother born to heal us our saving Lord.",
-      "We sing to you, O brightness of splendor and glory, we give you praise, O morning star announcing the coming day.",
-      "We sing to you, O light bringing men out of darkness, we give you praise, O light, who show us the way to heaven.",
-      "We sing to you, Messiah foretold by the prophet, we give you praise, O son of David and son of Abraham.",
-      "We sing to you, Messiah the hope of the people, we give you praise, O Christ our lord and king humble, meek of heart.",
-      "We sing to you, the way to the father in heaven, we give you praise, the of the tnuth, and way of all grace and light.",
-      "We sing to you, O priest of the new dispensation, we give you praise, Our peace sealed by the blood of the sacrifice.",
-      "We sing to you, O lamb put to death for the sinner, we give you praise, O victim immolated for all mankind.",
-      "We sing to you, the tabernacle made by the father, we give you praise, the corner stone and saviour of Isreal."
-    ]
-  }
+    {
+      "type": "chorus",
+      "title": {
+        "en": "Chorus",
+        "es": "Coro"
+      },
+      "content": {
+        "en": [
+          "Jesus is our great High Priest,",
+          "Who gave His life upon the cross;",
+          "Now He lives to intercede,",
+          "And bear our names before the loss."
+        ],
+        "es": []
+      }
+    },
+    {
+      "type": "verse",
+      "title": {
+        "en": "Verse 2",
+        "es": "Versículo 2"
+      },
+      "content": {
+        "en": [
+          "Let us offer all we are,",
+          "In worship pure and sacrifice;",
+          "To live for Him who died for us,",
+          "Is joy beyond what earth supplies."
+        ],
+        "es": []
+      }
+    }
+  ]
 }

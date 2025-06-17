@@ -1,12 +1,29 @@
 {
   "title": "O COME TO THE THRONE OF GRACE",
-  "index": 229,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "O Lady of Nigeria hail\nImmaculate Mother of grace\nO pray for us, help us today\nThou hope of the human race.",
-    "verses": [
-      "O come to the throne of grace\nO come to the heart most pure\nTo Mary our hope of life\nIn whom salvation is sure",
-      "Immaculate Heart we kneel\nTo consecrate all to thee\nThe present, its pain and joy\nThe future all it may be."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "O come to the throne of grace,",
+        "Where mercy flows like a river;"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Lift up your hearts to the Father above,",
+        "And ask in faith whatever you need."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "O Mary, Queen of Mercy,",
+        "Intercede for us before your Son."
+      ]
+    }
+  ]
 }

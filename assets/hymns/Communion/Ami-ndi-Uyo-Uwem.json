@@ -1,15 +1,94 @@
 {
-  "title": "AMI NDI UYO UWEM",
-  "index": 82,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Ndien amı/nyemenede/na m\nEnye o dok/k'akpare usen/bo\nIdem/ye iyip Christ/ke afo\nEyenye me ume m.",
-    "verses": [
-      "Ami ndi uyo uwem\nAmi ndi mmong uwon\nnye cmi editade, inwung in wang\nEye nyene uwem",
-      "Bread enye, emi ndunode, enye\nEr' ikpokidem mi\nDibo ndien uyo cmi, ke afo\nEnyenyene uwenm",
-      "lde m mi edi udua, iyip in ongde\nOdie ye a mi",
-      "Ami ndie diset ke mkpa, ye uwen\nYa akpa niko",
-      "Buotidem ye Obong fo\nKo afo eyenyene uwem."
-    ]
-  }
+  "title": "AMỊ NDI UYO UMEM",
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "Ndien Ami nyemenede nam enye ọdọk",
+        "K'akpatre usen",
+        "Bọ Idem ye Iyip Christ ke afo",
+        "Eyen yene uwem"
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "Ami ndi uyo uwem",
+        "Ami ndi mmọñ uwem",
+        "Enye emi editade"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Ami ndi uyo uwem",
+        "Ami ndi mmọñ uwem",
+        "Enye emi editade"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Ami ndi uyo uwem",
+        "Ami ndi mmọñ uwem",
+        "Enye emi editade"
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Ami ndi uyo uwem",
+        "Ami ndi mmọñ uwem",
+        "Enye emi editade"
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Ami ndi uyo uwem",
+        "Ami ndi mmọñ uwem",
+        "Enye emi editade"
+      ]
+    },
+    {
+      "type": "verse 6",
+      "content": [
+        "Ami ndi uyo uwem",
+        "Ami ndi mmọñ uwem",
+        "Enye emi editade"
+      ]
+    },
+    {
+      "type": "verse 7",
+      "content": [
+        "Ami ndi uyo uwem",
+        "Ami ndi mmọñ uwem",
+        "Enye emi editade"
+      ]
+    },
+    {
+      "type": "verse 8",
+      "content": [
+        "Ami ndi uyo uwem",
+        "Ami ndi mmọñ uwem",
+        "Enye emi editade"
+      ]
+    },
+    {
+      "type": "verse 9",
+      "content": [
+        "Ami ndi uyo uwem",
+        "Ami ndi mmọñ uwem",
+        "Enye emi editade"
+      ]
+    },
+    {
+      "type": "verse 10",
+      "content": [
+        "Ami ndi uyo uwem",
+        "Ami ndi mmọñ uwem",
+        "Enye emi editade"
+      ]
+    }
+  ]
 }

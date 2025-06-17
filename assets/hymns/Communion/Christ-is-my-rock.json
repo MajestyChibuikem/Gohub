@@ -1,15 +1,59 @@
 {
   "title": "CHRIST IS MY ROCK",
-  "index": 65,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Christ is my Rock, my Refuge, my Stronghold\nFirm as the tree's root that clutches the land\nHe who has faith builds without wory\nNot like the man who build upon sand\nI set my house 
-on a solid foundation\nChrist is my Rock the root of my soul's recreation",
-    "verses": [
-      "I know a man who loved to live free\nHe pitched his tent bythe side of the sea\nIt stood near the surf nd was washed by the spray\nTill one day a wave iame and washed it away",
-      "I know a man who loved to live high\nHe build his castle near up to the sky\nthrough summer and spring it stood pretty well\nWhen winter winds whistled it toppled and fell.",
-      "I know a man a cool one to know,\nHe built his house out of ice and snow\nIn chill isolation his night work was done\nBut melted away with warm morning sun",
-      "I know a man who built out of straw\nThe flimsiest fellow that I ever saw\nOne day a spark set it to flame\nAnd nothing was left to remember his name"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Christ is my Rock, my hope, my salvation,",
+        "I will not fear in tribulation,",
+        "He’s the foundation of my salvation,",
+        "Christ is my Rock, my salvation, my hope."
+      ]
+    },
+    {
+      "type": "chorus",
+      "content": [
+        "Christ is my Rock, my refuge and strength,",
+        "I will call on His name at length,",
+        "In times of trouble, He’s my defense,",
+        "Christ is my Rock, my refuge and strength."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "When the storms of life are raging,",
+        "And my soul is in despair,",
+        "I will call upon His name,",
+        "He’s my refuge, He’s always there."
+      ]
+    },
+    {
+      "type": "chorus",
+      "content": [
+        "Christ is my Rock, my refuge and strength,",
+        "I will call on His name at length,",
+        "In times of trouble, He’s my defense,",
+        "Christ is my Rock, my refuge and strength."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Though the world may try to shake me,",
+        "And the waves of life may roar,",
+        "I will stand firm in His promise,",
+        "For He is my Rock evermore."
+      ]
+    },
+    {
+      "type": "chorus",
+      "content": [
+        "Christ is my Rock, my refuge and strength,",
+        "I will call on His name at length,",
+        "In times of trouble, He’s my defense,",
+        "Christ is my Rock, my refuge and strength."
+      ]
+    }
+  ]
 }

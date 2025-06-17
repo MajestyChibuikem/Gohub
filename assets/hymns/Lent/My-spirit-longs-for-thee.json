@@ -1,12 +1,32 @@
 {
   "title": "MY SPIRIT LONGS FOR THEE",
-  "index": 190,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "My spirit longs for Thee\nWithin my troubled breast\nThough I unworthy be\nOf so divine a guest",
-      "Of so divine a guest\nUnworthy though I be\nYet has my heart to rest\nUnless it comes from Thee",
-      "Unless it from Thee\nIn vain I link around\nIn all that I can see\nNo rest is to be found"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "My spirit longs for Thee,",
+        "Within my troubled breast;",
+        "Though I unworthy be,",
+        "Of so divine a guest."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Of so divine a guest,",
+        "Unworthy though I be;",
+        "Yet has my heart no rest",
+        "Unless it come from Thee."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Unless it come from Thee,",
+        "In vain I look around;",
+        "In all that I can see,",
+        "No rest is to be found."
+      ]
+    }
+  ]
 }

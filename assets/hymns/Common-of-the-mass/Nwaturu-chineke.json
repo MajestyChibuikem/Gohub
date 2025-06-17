@@ -1,11 +1,24 @@
 {
-    "title": "NWATURU CHINEKE",
-    "index": 251,
-    "content": {
-      "type": "verses_only",
-      "verses": [
-        "Nwaturu Chineke, Nwaturu Chukwu\nOnye n'ekpochapu njo nke uwa\nBiko meere ayi ebere    2X",
-        "Nwaturu Chineke, Nwaturu chukwu\nOnye n'ekpochapu njo nke uwa\nNye anyi (Onyenweanyi) nye anyi (chukwu ebube)\nNye anyi nye anyi udo"
+  "title": "251. NWATURU CHINEKE",
+  "sections": [
+    {
+      "type": "Verse 1",
+      "content": [
+        "Nwaturu Chineke, Nwaturu Chukwu",
+        "Onye n'ekpochapu njo nke uwa",
+        "Biko meere ayi ebere",
+        "Biko meere ayi ebere"
+      ]
+    },
+    {
+      "type": "Verse 2",
+      "content": [
+        "Nwaturu Chineke, Nwaturu chukwu",
+        "Onye n'ekpochapu njo nke uwa",
+        "Nye anyi (Onyenweanyi)",
+        "Nye anyi (chukwu ebube)",
+        "Nye anyi nye anyi udo"
       ]
     }
-  }
+  ]
+}

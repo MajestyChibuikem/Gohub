@@ -1,14 +1,50 @@
 {
   "title": "WELUNA ANYA NENE JESU",
-  "index": 192,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "(Weluna anya) Weluna anya ne-ele Jesu\n(n'ebe Okolu n'obe)n'ebe Okotu n'obe\n(0 gbasara unu aka) 0 gbasara unu aka\nK'Owere tiara unu",
-    "verses": [
-      "Unu bu ndi no n'elu uwa\nN'ime afufu na mkpa\nMgbe nchekwube ji benata,\nEkpo obi nwute unu.",
-      "Mgbe ndi b'unu ji rapu uwa\nSoso unu wenano\nJidesinu obi ke Iota\nJesu dili unu nso",
-      "Mgbe mbosi onwu un ji bia,\nIkpe natu un egwu\nJidenu richekwube n'ene\nJesu no n'enu obe",
-      "Biakwutenum unu nine\nNdi ife n'anyi si ike\nNdi ane bogbu azi\nUnu ncha gezu ike."
-    ]
-  }
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "Weluna anya, weluna anya ne-ele Jesu,",
+        "N'ebe Okotu n'obe, n'ebe Okotu n'obe,",
+        "O gbasara unu aka,",
+        "K'Owere tiara unu."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "Unu bu ndi no n'elu uwa,",
+        "N'ime afufu na mkpa,",
+        "Mgbe nchekwube ji benata,",
+        "Ekpo obi nwute unu."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Mgbe ndi b'unu ji rapu uwa,",
+        "Soso unu wenano,",
+        "Jidesinu obi ke Iota,",
+        "Jesu dili unu nso."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Mgbe mbosi onwu unu ji bia,",
+        "Ikpe natu unu egwu,",
+        "Jidenu richikwube n'enyi,",
+        "Jesu no n'enu obe."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Bia kwụtenu m unu nine,",
+        "Ndi ife n'anyi si ike,",
+        "Ndi ane bogbu azi,",
+        "Unu ncha gezu ike."
+      ]
+    }
+  ]
 }

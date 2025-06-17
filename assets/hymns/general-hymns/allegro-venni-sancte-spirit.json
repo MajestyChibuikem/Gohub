@@ -1,21 +1,83 @@
 {
-  "title": "ALLEGRO VENNI SANCTE SPIRIT",
-  "index": 104,
-  "content": {
-    "type": "hymn_with_image_and_verses",
-    "metadata": {
-      "key": "A4/4 Allegro"
+  "title": "Veni Sancte Spiritus (Come, Holy Spirit)",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Veni, Sancte Spiritus,",
+        "Et emitte caelitus",
+        "Lucis tuae radium.",
+        "Veni, pater pauperum,"
+      ]
     },
-    "images": [
-      "../../../images/allegro-venni-sancte-spirit.jpeg"
-    ],
-    "verses": [
-      "Veni pate,pauperum\nVeni dai munerum \nVeni dum n cordium",
-      "Consolater optime \nDulcis hospes animae\nDulce r frigerium",
-      "in labore requies \nIn alstie temperies \nIn fletu solatuim",
-      "Lux be - atissima\nReple coris intima \nTuorum fidelium",
-      "sine tuo mumine\nNihil est in homine\nNihil est in noxuim",
-      "Lava quad est sordidume\nRiga quad est aridum\nSana quad esresaucium"
-    ]
-  }
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Veni, lumen cordium.",
+        "Deus consolator optime,",
+        "Dulcis hospes animae,",
+        "Dulce refrigerium."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "In labore requies,",
+        "In aestu temperies,",
+        "In fletu solatium.",
+        "O lux beatissima,"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "Reple cordis intima",
+        "Tuorum fidelium.",
+        "Sine tuo numine",
+        "Nihil est in homine,"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 5",
+      "content": [
+        "Nihil est innoxium.",
+        "Lava quod est sordidum,",
+        "Riga quod est aridum,",
+        "Sana quod est saucium."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 6",
+      "content": [
+        "Flecte quod est rigidum,",
+        "Fove quod est frigidum,",
+        "Rege quod est devium.",
+        "Da tuis fidelibus,"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 7",
+      "content": [
+        "In te confidentibus,",
+        "Sacrum septenarium,",
+        "Da virtutis meritum,"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 8",
+      "content": [
+        "Da salutis exitum,",
+        "Da perpetuae gloriae",
+        "Palmam sine fine. Amen."
+      ]
+    }
+  ]
 }

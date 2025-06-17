@@ -1,12 +1,35 @@
 {
   "title": "HERE WE ARE",
-  "index": 16,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Here we are altogether\nAs we sing our song joyfully\nHere we are joined together\nAs we pray we always be",
-    "verses": [
-      "Join we now as friends and celebrate\nThe brotherhood we share all as one\nKeep the fire burning kindle it with care\nAnd we all join in and sing",
-      "Let us make the world an alleluia\nLet us make the world a better place\nKeep a smile handy, have a helping hand\nLet us all join in and sing"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Here we are before You, Lord,",
+        "In Your holy presence;",
+        "We give our lives as offering,",
+        "To serve in love and reverence."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "You are the light that guides our way,",
+        "Our hope and our salvation;",
+        "We lift our hearts to worship You,",
+        "And walk in Your salvation."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "We are the people of Your grace,",
+        "Your hands have formed and fashioned;",
+        "Now send us forth to do Your will,",
+        "And live as true disciples."
+      ]
+    }
+  ]
 }

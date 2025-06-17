@@ -1,13 +1,42 @@
 {
-  "title": "IT IS PAY BACK TIME by JUDE NNAM",
-  "index": 32,
-  "content": {
-    "type": "verses_with_intro",
-    "intro": "Father to you we offer\nJesus to you this gift we bring\nHoly Ghost accept this offering\nWhich we offer up to you.",
-    "verses": [
-      "I believe that Jesus died for me\nA sacrifice beyond my understanding\nOffering Himself in place of me \nOh how can I repay the Lord.",
-      "I believe all that the scriptures said\nAbout the love beyond my understanding\nForgiveness beyond comprehension\nOh how can I repay the Lord",
-      "Teach me Lord to love you as I ought\nOh teach me Lord to love you all my life time\nSpreading love where ever I find myself\nOh how can I repay the Lord"
-    ]
-  }
+  "title": "IT IS PAY BACK TIME",
+  "scripture_reference": "Malachi 3:10, 2 Corinthians 9:7, Luke 6:38",
+  "meter": "8.7.8.7",
+  "author": "Jude Nnam",
+  "category": "Stewardship / Offertory",
+  "source": "Not listed on hymnary.org (contemporary Igbo liturgical hymn; verify with local sources)",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "It is pay back time, give to God what is His,",
+        "Offerings and tithes with a joyful heart;",
+        "Sow into His kingdom, watch the blessings rise,",
+        "He will pour out grace, heaven’s open door.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "It is pay back time, give with faith and love,",
+        "For the Lord loves a cheerful giver;",
+        "Trust His promise, see the harvest grow,",
+        "Reaping joy from seeds you sow below.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "It is pay back time, lift your hands and sing,",
+        "Praise the Lord for all He’s done;",
+        "Thank Him for His mercy, thank Him for His grace,",
+        "Every blessing flows from His throne."
+      ]
+    }
+  ]
 }

@@ -1,15 +1,55 @@
 {
   "title": "WHAT A FRIEND WE HAVE IN JESUS",
-  "index": 118,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "What a Friend we have in Jesus,\nAll our sins and griefs to bear\nWhat a privilege to carry\nEverything to God in prayer\nO what peace we often forfeit,\nO what needless pain we bear,\nAll 
-because we do not carry\nEverything to God in prayer.",
-      "Have we trials and temptations\nIs there trouble any where\nWe should never be discouraged\nTake it to the Lord in prayer\nCan we find a friend so faithful\nWho will all our sorrows 
-share\nJesus knows our every weakness,\nTake it to the Lord in prayer.",
-      "Are we weak and heavy - laden\nCumbered with a load of care?\nJesus only is our refuge\nTake it to the Lord in prayer,\nDo thy friends despise, forsake thee?\nTake it to the Lord in 
-prayer.\nIn His arms He'll take and shield thee,\nThou wilt find a solace there."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "What a Friend we have in Jesus,",
+        "All our sins and griefs to bear",
+        "What a privilege to carry",
+        "Everything to God in prayer",
+        "O what peace we often forfeit,",
+        "O what needless pain we bear,",
+        "All",
+        "because we do not carry",
+        "Everything to God in prayer."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Have we trials and temptations",
+        "Is there trouble any where",
+        "We should never be discouraged",
+        "Take it to the Lord in prayer",
+        "Can we find a friend so faithful",
+        "Who will all our sorrows",
+        "share",
+        "Jesus knows our every weakness,",
+        "Take it to the Lord in prayer."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Are we weak and heavy - laden",
+        "Cumbered with a load of care?",
+        "Jesus only is our refuge",
+        "Take it to the Lord in prayer,",
+        "Do thy friends despise, forsake thee?",
+        "Take it to the Lord in",
+        "prayer.",
+        "In His arms He'll take and shield thee,",
+        "Thou wilt find a solace there."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": []
+    }
+  ]
 }

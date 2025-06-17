@@ -1,15 +1,35 @@
 {
   "title": "STANDING ON THE PROMISES",
-  "index": 88,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Standing, standing, standing\nOn the promises of God my Savior\nStanding, standing,\nI am standing on the promises of God",
-    "verses": [
-      "Standing on the promises of Christ my king\nThrough eternal ages let his praises ring:\nGlory in the highest, I will shout and sing\nStanding on the promises of God",
-      "Standing on the promises that cannot fail\nWhen the howling storms of doubt and fear assail\nBy the living word of God I shall prevail\nStanding on the promises of God.",
-      "Standing on the promises I now can see\nPerfect, present, cleasing in the blood for me\nStanding in the liberty where Christ makes free\nStanding on the promises of God.",
-      "Standing on the promises of Christ the Lord\nBound to him etermally by love's strong word\nOvercoming daily with spirit's sword\nStanding on the promises of God.",
-      "Standing on the promises cannot fail\nListening every moment to the spirit's call,\nResting in my savior as my all in all\nStanding on the promises of God."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Standing on the promises of Christ my King,",
+        "Through eternal ages let His praises ring;",
+        "Glory in the highest, I will shout and sing,",
+        "Standing on the promises of God."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Standing on the promises that cannot fail,",
+        "When the storms of doubt and fear assault the soul;",
+        "By the living Word of God I shall prevail,",
+        "Standing on the promises of God."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Standing on the promises of Christ the Lord,",
+        "Bound by His unchanging love forevermore;",
+        "Earth may pass away, and the heavens fade,",
+        "But the Word of God shall stand forevermore!"
+      ]
+    }
+  ]
 }

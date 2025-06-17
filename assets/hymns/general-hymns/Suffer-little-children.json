@@ -1,14 +1,57 @@
 {
   "title": "SUFFER LITTLE CHILDREN",
-  "index": 153,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Suffer little children to come unto\nfor such is the kingdom of heaven.\nSuffer little children to come unto me\nfor theirs the kingdom of the Lord",
-    "verses": [
-      "They came unto Him children, Little Children\nthat he might lay his hands upon them\nPray for and Bless them.\nChildren, Little Children\nGather-around the Lord.",
-      "The Disciples said, Children, Little Children\nLeave the master to His prayer\nHe called them and said\nChildren little children\nGather around the Lord.",
-      "But Jesus said, children, little children\nStay my Blessing to receive\nForbid not that children, little children.\nShall gather around the Lord.",
-      "For you must be like children, little children\nhumble, simple, pure in heart\nchildren, little Children\nThy kingdom of heaven belong."
-    ]
-  }
+  "sections": [
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Suffer little children to come unto",
+        "For such is the kingdom of heaven.",
+        "Suffer little children to come unto me",
+        "For theirs the kingdom of the Lord."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "They came unto Him children, Little Children",
+        "That He might lay His hands upon them,",
+        "Pray for and Bless them.",
+        "Children, Little Children",
+        "Gather-around the Lord."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "The Disciples said, Children, Little Children",
+        "Leave the master to His prayer,",
+        "He called them and said,",
+        "Children little children",
+        "Gather around the Lord."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "But Jesus said, children, little children",
+        "Stay my Blessing to receive,",
+        "Forbid not that children, little children,",
+        "Shall gather around the Lord."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "For you must be like children, little children,",
+        "Humble, simple, pure in heart,",
+        "Children, Little Children,",
+        "Thy kingdom of heaven belong."
+      ]
+    }
+  ]
 }

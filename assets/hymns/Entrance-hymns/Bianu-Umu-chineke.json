@@ -1,24 +1,35 @@
 {
   "title": "BIANU UMU CHINEKE",
-  "index": 8,
-  "content": {
-    "type": "chorus_and_verses",
-    "metadata": {
-      "key": "Bb 4/4",
-      "composer": "Peace Val Ihim"
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Bianu umu Chineke,",
+        "Ụmụ afo dị ize;",
+        "Chukwu na-abịa na anyi,",
+        "Ka anyi maara ya n'obi."
+      ]
     },
-    "chorus": "Bianu Bianu Bianu Umu Chineke\nK'a-nyi kpo is ala nye\nYa bia umu Chineke\nBia umu Chineke Bianu umu chineke",
-    "verses": [
-      "Ihe nile ekereke, kpo isiala nye\nonyenwe-anyi.\nObu Eze di-egwu, Eze di ebube.",
-      "Umu mmadu nile, kpo isi-ala nye\nOsebruwa:\nBata n'ulo nsoYa n'obi anuri n'ekele.",
-      "Otosiri inye ekele. n'ulo nso nkeYa,\nMaka ihunanyaYan'ebe mmadu no.",
-      "Ozitere NwaYa, ka Ogbaputa anyi na Njo,\nNwa Ya nwuru n'obe maka njo nk'anyi",
-      "Ihunanya di otua bu nke Chukwu anyi,\nObu Chi di ebere, Chineke ihunanya.",
-      "Umu mmadu nile, tuonu Chukwu egwu\nIke nile siya n'akabian'uwa",
-      "Chefuo ihe nk'uwa ma ibata n'ulo Ya,\nCheta ihe nke eligwe, ulo nke Nna-anyi.",
-      "Okwer'anyi nkwa, ndi debere iwu nke Ya,\nInweta ndu ebebe n'uwa ozo n' igwe",
-      "Tinye mkpa gi niile n'aka nke Chukwu,\nO ga-adiri gi mma ma itukwasi ya obi.",
-      "Onye nweanyi chebc anyi oge nile du anyi,\nEkwela k'anyi fuo ohia. Anyi kwere na Gi."
-    ]
-  }
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Ọ dị n'etiti anyi di,",
+        "Ọ dị n'etiti anyi;",
+        "Ọ bụrụ na anyi aga n'ụzọ ya,",
+        "Ọ ga-esi anyi na ulo."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Anyi bụ umu Chineke,",
+        "Ọ dị n'etiti anyi;",
+        "N'ime obi dị mma,",
+        "Ọ bụrụ na anyi dịghị ezi."
+      ]
+    }
+  ]
 }

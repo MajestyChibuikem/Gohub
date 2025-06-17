@@ -1,10 +1,23 @@
 {
   "title": "REQUIEM",
-  "index": 220,
-  "content": {
-    "type": "refrain_only",
-    "refrain": "Requiem aeternam\nDona eis Domine, et lus perpetua\nLuceat eis.",
-    "additional_text": "Requiem aeternam\nDona eis Domine, et lus perpetua\nLuceat eis.\nTe decet hymnus Deus in Sion\nEt tibi reddatur votum in Jerusalem\nExaudi orationem meam\nAd te omni caro 
-véniet"
-  }
+  "sections": [
+    {
+      "type": "refrain",
+      "content": [
+        "Requiem aeternam dona eis, Domine,",
+        "Et lux perpetua luceat eis."
+      ]
+    },
+    {
+      "type": "verse",
+      "content": [
+        "Requiem aeternam dona eis, Domine,",
+        "Et lux perpetua luceat eis.",
+        "Te decet hymnus, Deus, in Sion,",
+        "Et tibi reddatur votum in Jerusalem.",
+        "Exaudi orationem meam;",
+        "Ad te omni caro veniet."
+      ]
+    }
+  ]
 }

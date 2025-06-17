@@ -1,19 +1,32 @@
 {
-  "title": "COME DOWN HOLY SPIRIT",
-  "index": 102,
-  "content": {
-    "type": "hymn_with_image_and_verses",
-    "metadata": {
-      "key": "F2/4"
+  "title": "COME DOWN, HOLY SPIRIT",
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Come down, Holy Spirit, come in wind and flame;",
+        "Shining in our darkness, blow away our shame.",
+        "Lend us Your strength and light us on our way,",
+        "Till our night of weeping turns into joyful day."
+      ]
     },
-    "images": [
-      "../../../images/come-down-holy-spirit.jpeg"
-    ],
-    "verses": [
-      "Halleluia---\ncome down holy spirit and fill our hearts\ncome and fill the hearts of all your faithful people\nkindle in our hearts the fire of your love\nDescend on us, creator spirit so 
-come down ----",
-      "Halleluia",
-      "Send forth your spirit to us o lord \nLet it renuw all the facve of the earth\nThe love of God has been poured in our hearts \nby his spirit loving in his people. so come down----"
-    ]
-  }
+    {
+      "type": "verse 2",
+      "content": [
+        "Come down, Holy Spirit, with a gentle word;",
+        "In this world of conflict, let Your voice be heard.",
+        "Hope for the weak and warnings for the strong,",
+        "Till the noise of battle fades into prayer and song."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Come down, Holy Spirit, hover like a dove;",
+        "Seek the lost and lonely, fill them with Your love.",
+        "Fly to our souls where doubts and questions dwell,",
+        "Till by faith and hope we know that all shall be well."
+      ]
+    }
+  ]
 }

@@ -1,22 +1,32 @@
 {
-  "title": "K'ANYI NYE CHUKWU OTITO",
-  "index": 11,
-  "content": {
-    "type": "verses_with_refrain",
-    "metadata": {
-      "key": "D 2/4"
+  "title": "KA ANYI NYE CHUKWU OTITO",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Ka anyi nye Chukwu otito, dị n'etiti mmadu,",
+        "Ọ bụrụ na anyi aga n'ụzọ ya, ga-esi anyi na ulo.",
+        "Ụmụ Chineke dị ize, dịghị onye isi na-abịa."
+      ]
     },
-    "verses": [
-      "Ku-lienu K'anyi nye Chukwu Otit0.\nKoros:\nOtito diri Chukwun'ebe nile n'oge nile\nOtito diri Chukwu.",
-      "Chukwu zitere anyi Onye nzoputa.",
-      "Jesu si n'eluigwe bia n'uwa.",
-      "Jesu merir' onwu n'ekwensu.",
-      "O zoputara anyi nime njo.",
-      "6. Wee kuziere anyi uzo nke eligwe.",
-      "Maka ihi nkea otito diri Ya.",
-      "Otito diri Nna bin'igwe",
-      "Otito diri Nwa na Muo-nso.",
-      "Otito diri Chukwu mgbe niile."
-    ]
-  }
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Anyi bụ umu Chineke, Ọ dị n'etiti anyi;",
+        "N'ime obi dị mma, Ọ bụrụ na anyi dịghị ezi.",
+        "Ọ zaa anyi n'ụzọ dị mma, dị ka ọ dị n'akwukwo."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Ọ dị n'etiti anyi di, dị n'etiti anyi,",
+        "Ọ bụrụ na anyi aga n'ụzọ ya, ga-esi anyi na ulo.",
+        "Ọ dị n'etiti anyi di, dị n'etiti anyi."
+      ]
+    }
+  ]
 }

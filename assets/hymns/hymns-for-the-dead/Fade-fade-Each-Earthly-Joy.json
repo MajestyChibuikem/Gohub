@@ -1,13 +1,42 @@
 {
   "title": "FADE, FADE, EACH EARTHLY JOY",
-  "index": 203,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Fade, fade, each earthly joy, Jesus is mine!\nBreak every tender tie; Jesus is mine!\nLark is the wilderness\nearth has no resting place,\nJesus alone can bless, Jesus is mine!",
-      "Tempt not my soul away; Jesus is mine!\nHere would I ever stay; Jesus is mine!\nPerishing things of clay,\nBorn but for one brief day,\nPass from my heart away! Jesus is mine!",
-      "Farewell, ye dreams of night; Jesus is mine!\nst in this dawning light; Jesus is mine!\nl that my soul has tried,\nft but a dismal void\nsus has satisfied; Jesus is mine!",
-      "Farewell, mortality; Jesus is mine!\ncome, eternity, Jesus is mine!\ncome, O loved and blest;\ncome, sweet scenes of rest;\ncome, my Saviour bless; Jesus is mine!"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Fade, fade, each earthly joy, Jesus is mine!",
+        "Break every tender tie; Jesus is mine!",
+        "Dark is the wilderness, earth has no resting place,",
+        "Jesus alone can bless, Jesus is mine!"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Tempt not my soul away; Jesus is mine!",
+        "Here would I ever stay; Jesus is mine!",
+        "Perishing things of clay, born but for one brief day,",
+        "Pass from my heart away! Jesus is mine!"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Farewell, ye dreams of night; Jesus is mine!",
+        "Now in this dawning light; Jesus is mine!",
+        "All that my soul has tried, left but a dismal void,",
+        "Jesus has satisfied; Jesus is mine!"
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Farewell, mortality; Jesus is mine!",
+        "Welcome, eternity; Jesus is mine!",
+        "Welcome, O loved and blest;",
+        "Welcome, sweet scenes of rest;",
+        "Welcome, my Saviour rest; Jesus is mine!"
+      ]
+    }
+  ]
 }

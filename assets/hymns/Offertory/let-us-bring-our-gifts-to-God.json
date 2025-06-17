@@ -1,12 +1,52 @@
 {
-  "title": "LET US BRING OUR GIFTS TO GOD",
-  "index": 36,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Come God's children let us sing, Alleluia\nBringing gifts to praise our King Alleluia\nDrawing close in heart and mind Alleluia\nThat by His aid the trust we'll find Alleluia",
-      "We offer gifts of bread and wine Alleluia\nIn Christ our Lord, the Son Divine Alleluia\nIn joyful song our voices raise Alleluia\nTo God above we offer praise Alleluia",
-      "We must love Him with all our heart Alleluia\nAs a whole and not a part Alleluia\nCome God's children let us sing, Alleluia\nBringing gifts to praise our King Alleluia"
-    ]
-  }
+  "title": "LET US BRING OUR GIFTS",
+  "scripture_reference": "2 Corinthians 9:7, Malachi 3:10, Psalm 96:8",
+  "meter": "8.7.8.7",
+  "author": "Traditional liturgical adaptation",
+  "category": "Offertory / Stewardship",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Let us bring our gifts to God,",
+        "Offerings of love and praise;",
+        "He has given all we hold,",
+        "Now we give Him back His grace.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Let us bring our time and hands,",
+        "Talents to use for Thee;",
+        "Let us bring our hearts and minds,",
+        "All to Your service bind.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Let us bring our thanks today,",
+        "Praising Your holy name;",
+        "For Your mercy never fails,",
+        "Ever Your love remains.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "Let us bring our lives anew,",
+        "Broken and pure in You;",
+        "Take what we are, make us whole,",
+        "Sanctify and feed our soul."
+      ]
+    }
+  ]
 }

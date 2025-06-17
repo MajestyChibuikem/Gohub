@@ -1,15 +1,29 @@
 {
-  "title": "HAIL, HOLY QUEEN ENTHRONED ABOVE",
-  "index": 223,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Hail, holy Queen enthroned above, O Maria.\nHail, Queen of mercy and of love, O Maria.\nTriumph, all ye cherubim; Sing with us, ye seraphim.\nHeaven  and earth resound the hymn: Salve, salve, 
-salve,\nRegina!",
-      "The cause of joy to us below, O Maria.\nThe spring through which all graces flow, O Maria.\nAngels, all your praises bring; Earth and heaven, with us sing\nAll creation echoing: Salve, salve, 
-salve, Regina!",
-      "O gentle, loving, holy one, O Maria.\nThe God of light became your Son, O Maria.\nTriumph, all ye cherubim, Sing with us, ye seraphim.\nHeaven and earth resound the hymn: Salve, salve, 
-salve,\nRegina!"
-    ]
-  }
+  "title": "HAIL HOLY QUEEN, ENTHRONED",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Hail, holy Queen, mother of mercy,",
+        "Our life, our sweetness, and our hope!"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "To thee do we cry, poor banished children of Eve;",
+        "To thee do we send up our sighs, mourning and weeping in this valley of tears."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Turn then, most gracious advocate,",
+        "Thine eyes of mercy toward us;"
+      ]
+    }
+  ]
 }

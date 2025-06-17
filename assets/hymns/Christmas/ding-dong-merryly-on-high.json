@@ -1,17 +1,38 @@
 {
-    "title": "DING-DONG MERRILY ON HIGH",
-    "index": 169,
-    "key": "B b 4/4",
-    "arranger": "Charles Wood",
-    "images": [
-      "../../../images/ding-dong-merrily-on-high.jpeg",
-      "../../../images/ding-dong-merrily-on-high (1).jpeg"
-    ],
-    "content": {
-      "type": "verses",
-      "verses": [
-        "E'en so here below, below, let steeple bells be swungen; And i-o, i-o i-o By priest and people singing.",
-        "Pray ye dutifully prime, your matins chime ye ringers; May you beautifully rime your eventime song ye singers"
+  "title": "Ding Dong! Merrily on High",
+  "sections": [
+    {
+      "type": "Verse 1",
+      "content": [
+        "Ding dong! merrily on high",
+        "In heav’n the bells are ringing:",
+        "Ding dong! verily the sky",
+        "Is riv’n with angel singing.",
+        "Gloria, Hosanna in excelsis!",
+        "Gloria, Hosanna in excelsis!"
+      ]
+    },
+    {
+      "type": "Verse 2",
+      "content": [
+        "E’en so here below, below,",
+        "Let steeple bells be swungen,",
+        "And “io, io, io!”",
+        "By priest and people sungen.",
+        "Gloria, Hosanna in excelsis!",
+        "Gloria, Hosanna in excelsis!"
+      ]
+    },
+    {
+      "type": "Verse 3",
+      "content": [
+        "Pray you, dutifully prime",
+        "Your matin chime, ye ringers;",
+        "May you beautifully rime",
+        "Your evetime song, ye singers.",
+        "Gloria, Hosanna in excelsis!",
+        "Gloria, Hosanna in excelsis!"
       ]
     }
-  }
+  ]
+}

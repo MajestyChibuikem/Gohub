@@ -1,127 +1,86 @@
 {
-  "title": "A JOYFUL DAY",
-  "index": 2,
-  "content": {
-    "type": "hymn_with_images_and_tables",
-    "metadata": {
-      "key": "A4/4 (quasi allegro)",
-      "composer": "Ezeoke C."
+  "title": "ALL THINGS BRIGHT AND BEAUTIFUL",
+  "sections": [
+    {
+      "type": "refrain",
+      "content": [
+        "All things bright and beautiful,",
+        "All creatures great and small,",
+        "All things wise and wonderful,",
+        "The Lord God made them all."
+      ]
     },
-    "images": [
-      "../../../images/a-joyful-day.jpeg",
-      "../../../images/a-joyful-day-continuation.jpeg"
-    ],
-    "table_data": {
-      "main_table": [
-        {
-          "columns": [
-            "s . m:-.s / - : m \nwhat a joy - ful \nm . d:-.m / -: d\nwhat a joy - ful \ns . s : -.s/ - : s \nwhat a joy - ful \n: d / - : -\nTis",
-            "f : - / - : d\nday the \nr : - / - : d \nday the \nl : - / - : m \nday the \n/ f,/ l, : f,\nA joy-ful",
-            "m : -.r/- : d \nday of the \nd: -.t,/ - : l,\nday of the \ns : -.s/ - : m \nday of the \nd : - / - : d \nday of ",
-            "r : - /-:-\nLord\nt : - /-:-\nLord\nf : - /-:-\nLord \ns, :l, / s,: - \nthe Lord ",
-            "s : -.m/-: d\na joy - ful \nd : -/-: - \nwhat \ns : -.m/-:d\nA you-ful \nd,: -.m,/-:s'tis a joy"
-          ]
-        },
-        {
-          "columns": [
-            "l, : - / d : m \nday we are \nf, . f, :-. l/ p : d \njoyful day we're \nd : - / m : s\nday we are \nf, : f, / - : d \nful day oh ",
-            "r : -.r/ - : d\nha-ppy and \nt,:-.t, /-: s, \nha-ppy and \nf : -.f/-: m \nha-ppy and \nf, : -.s,/-: s, \nyes we are ",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "columns": [
-            "l. m re ",
-            "s : -.s/-: m \njoice in the",
-            "f: - / - : d\nlord the ",
-            "m .m:-.r/- : d\nchildren of the ",
-            "r : - / - : - lord"
-          ]
-        },
-        {
-          "columns": [
-            "d : -. r /- : t, a \njoy -ful ",
-            "l :-/d : m \nday we are ",
-            "r :-.r / - : r \nhappy and ",
-            "d : - / -:-\nglad",
-            ""
-          ]
-        },
-        {
-          "columns": [
-            "2. m A",
-            "s : -.m/- : s\nrise and praise",
-            "f: -/-: d \nhim who ",
-            "m :-.r/-: d \nmade earth and",
-            "r : t, /-:- heaven"
-          ]
-        },
-        {
-          "columns": [
-            "d : -.r / -: t,\na joy - ful ",
-            "l,: - / d : m \nday we are",
-            "r :-.r / -: r \nhappy and ",
-            "d : - /-:- glad",
-            ""
-          ]
-        },
-        {
-          "columns": [
-            "3. s En ",
-            "s : -. m/-: f \nenter His tem",
-            "f : - / -: d \nple and",
-            "m :-.r / -:d\nsing Him your ",
-            "r : t, / -:- \npraises"
-          ]
-        },
-        {
-          "columns": [
-            "d : -.r/-: t, \na joy - ful ",
-            "l,: - /d: m \nday we are ",
-            "r :-.r /-: r\nhappy and ",
-            "d : -/-:- glad",
-            ""
-          ]
-        },
-        {
-          "columns": [
-            "4. m the ",
-            "s : -.m /-: s \nLord is so ",
-            "f :-f/-: d \ngood He's ",
-            "m: -.r/- : d\ngood to His ",
-            "r :t, /-:-people"
-          ]
-        },
-        {
-          "columns": [
-            "d : -.r/-: t, \na joy - ful",
-            "l,:- /d: m \nday we are ",
-            "r :-.r /-: r\nhappy and ",
-            "d : -/-:-\nglad",
-            ""
-          ]
-        },
-        {
-          "columns": [
-            "5. m \nun ",
-            "s: -.f/-: m \ncount-able",
-            "f :-.r /-d \npraises we",
-            "m :-.f/- : d \ngive to the",
-            "r :t, /-:- \nFather"
-          ]
-        },
-        {
-          "columns": [
-            "d : -.r/-: t,\na joy - ful ",
-            "l, : -/ d : m \nday we are",
-            "r :-.r / -: r \nhappy and",
-            "d :-/-:- \nglad",
-            ""
-          ]
-        }
+    {
+      "type": "verse 1",
+      "content": [
+        "Each little flower that opens,",
+        "Each little bird that sings,",
+        "He made their glowing colors,",
+        "He made their tiny wings."
+      ]
+    },
+    {
+      "type": "refrain",
+      "content": [
+        "All things bright and beautiful,",
+        "All creatures great and small,",
+        "All things wise and wonderful,",
+        "The Lord God made them all."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "The purple-headed mountain,",
+        "The river running by,",
+        "The sunset and the morning",
+        "That brightens up the sky."
+      ]
+    },
+    {
+      "type": "refrain",
+      "content": [
+        "All things bright and beautiful,",
+        "All creatures great and small,",
+        "All things wise and wonderful,",
+        "The Lord God made them all."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "The cold wind in the winter,",
+        "The pleasant summer sun,",
+        "The ripe fruits in the garden,",
+        "He made them every one."
+      ]
+    },
+    {
+      "type": "refrain",
+      "content": [
+        "All things bright and beautiful,",
+        "All creatures great and small,",
+        "All things wise and wonderful,",
+        "The Lord God made them all."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "He gave us eyes to see them,",
+        "And lips that we might tell",
+        "How great is God Almighty,",
+        "Who has made all things well."
+      ]
+    },
+    {
+      "type": "refrain",
+      "content": [
+        "All things bright and beautiful,",
+        "All creatures great and small,",
+        "All things wise and wonderful,",
+        "The Lord God made them all."
       ]
     }
-  }
+  ]
 }

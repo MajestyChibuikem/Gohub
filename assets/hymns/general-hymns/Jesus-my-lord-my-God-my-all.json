@@ -1,15 +1,61 @@
 {
   "title": "JESUS, MY LORD, MY GOD, MY ALL",
-  "index": 156,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Sweet Sacrament, You we adore;\nOh, make us love you more and more",
-    "verses": [
-      "Jesus, My Lord, My God, myall,\nHow can I love you as I ought?\nAnd how revere this wondrous gift?\nSo far suppressing hope or thoughts?",
-      "Had I but Mary's sinless heart\nTo love You with, my dearest King,\nOh, with what bursts of fervent praise\nYour goodness, Jesus, would I sing!\nSweet Sacrament, etc.",
-      "Ah see! Within a creature's hand\nThe vast Creator designs to be\nReposing infant-like, as though\nOn Joseph's arm, or Mary'knee\nSweet Sacrament, etc.",
-      "You body, soul, and Godhead, all:\nO mystery of love divine!\nI cannot compass all I have\nFor all you have and all are mine,\nSweet Sacrament, etc.",
-      "Sound, sound His praises higher still,\nAnd come, ye angels, to our aid;\nTis God, 'tis God, the very God\nwhose power man and angels made.\nSweet Sacrament, etc"
-    ]
-  }
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "Sweet Sacrament, You we adore;",
+        "Oh, make us love you more and more"
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "Jesus, My Lord, My God, my all,",
+        "How can I love you as I ought?",
+        "And how revere this wondrous gift?",
+        "So far suppressing hope or thoughts?"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Had I but Mary's sinless heart",
+        "To love You with, my dearest King,",
+        "Oh, with what bursts of fervent praise",
+        "Your goodness, Jesus, would I sing!",
+        "Sweet Sacrament, etc."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Ah see! Within a creature's hand",
+        "The vast Creator designs to be",
+        "Reposing infant-like, as though",
+        "On Joseph's arm, or Mary's knee",
+        "Sweet Sacrament, etc."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Your body, soul, and Godhead, all:",
+        "O mystery of love divine!",
+        "I cannot compass all I have",
+        "For all you have and all are mine,",
+        "Sweet Sacrament, etc."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Sound, sound His praises higher still,",
+        "And come, ye angels, to our aid;",
+        "'Tis God, 'tis God, the very God",
+        "Whose power man and angels made.",
+        "Sweet Sacrament, etc"
+      ]
+    }
+  ]
 }

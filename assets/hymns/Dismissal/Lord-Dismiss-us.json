@@ -1,12 +1,29 @@
 {
-  "title": "LORD DISMISS US",
-  "index": 90,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Lord dismiss us with your blessing\nFill our hearts with joy and peace\nLet us each your love possessing\nTriumph in redeeming grace\no refresh us, o re fresh us\nAs we work to keep a pace",
-      "Thanks we give and adoration\nFor gospel's joyful sound\nMay the fruits of this communion\nIn our hearts and lives abound:\nEver faithful, ever faithful\nTo the truth may we be found.",
-      "So that when your love shall call us\nSaviour, from the world away\nLet no fear of death upset us\nGlad summons to obey\nMay we ever, may we ever\nIn Your loving presence stay"
-    ]
-  }
+  "title": "LORD, DISMISS US",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Lord, dismiss us with Your blessing,",
+        "Grant us peace beyond our knowing;"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Fill our hearts with joy and gladness,",
+        "As in You, our rest is growing."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "May the light of Your salvation",
+        "Guide our steps through ev'ry trial"
+      ]
+    }
+  ]
 }

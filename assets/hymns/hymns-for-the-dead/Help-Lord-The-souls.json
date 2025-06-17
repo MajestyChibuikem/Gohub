@@ -1,15 +1,59 @@
 {
   "title": "HELP LORD THE SOULS",
-  "index": 205,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Help Lord, the souls that thou has made,\nhe souls to thee so dear,\nn prison for the debt unpaid\nf sin committed here.",
-      "These holy souls, they suffer on.\nesigned in heart and will,\nntil thy high behest is done. \nnd justice has its fill.",
-      "For daily falls, for pardoned crime,\ney joy to undergo\ne shadow of thy Cross sublime,\ne remnant of thy woe.",
-      "Oh, by their patience of delay\nheir hope amid their pain.\nheir sacred zeal to burn away. \nisfigurement and stain;",
-      "Oh, by their fire of love, not less\nIn keenness than the flame;\nOh, by their very helplessness;\nOh, by thy own great Name;",
-      "Good Jesu, help! sweet Jesu, aid\nThe souls to Thee most dear,\nIn prison for the debt unpaid\nOf sins committed here."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Help, Lord, the souls that Thou hast made,",
+        "The souls to Thee so dear,",
+        "In prison for the debt unpaid",
+        "Of sin committed here."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "These holy souls, they suffer on,",
+        "Resigned in heart and will,",
+        "Until Thy high behest is done,",
+        "And justice has its fill."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "For daily falls, for pardoned crime,",
+        "They joy to undergo",
+        "The shadow of Thy Cross sublime,",
+        "The remnant of Thy woe."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Oh, by their patience of delay,",
+        "Their hope amid their pain,",
+        "Their sacred zeal to burn away",
+        "Each figurement and stain;"
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Oh, by their fire of love, not less",
+        "In keenness than the flame;",
+        "Oh, by their very helplessness;",
+        "Oh, by Thy own great Name!"
+      ]
+    },
+    {
+      "type": "verse 6",
+      "content": [
+        "Good Jesu, help! sweet Jesu, aid",
+        "The souls to Thee most dear,",
+        "In prison for the debt unpaid",
+        "Of sins committed here."
+      ]
+    }
+  ]
 }

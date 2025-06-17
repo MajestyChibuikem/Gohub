@@ -1,15 +1,59 @@
 {
-  "title": "NO NOT ONE",
-  "index": 70,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Jesus knows all about our struggle\nHe will guide till the day is done\nThere is not a friend like the lowly Jesus\nNo not one, no not one",
-    "verses": [
-      "There is not a friend like the lowly Jesus\nNo not one, no not one\nNone else can heal all our souls disease\nNo not one, no not one",
-      "No friend like Him is holy and gentle\nNo not one, no not on\nAnd yet no friend is so meek and lowly\nNo not one, no not one",
-      "There's not an hour that He is not near us\nNo not one, no not one\nNo night go dark but His can dear us\nNo not one, no not one",
-      "Did ever a sairit find this friend forsake him\nNo not one, no not one\nFind that he would not take him\nNo not one, no not one",
-      "Was ever a gift like the Saviour given\nNo not one, no not one\nWill He refuse us a home in heaven\nNo not one, no not one."
-    ]
-  }
+  "title": "NO, NOT ONE",
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "Jesus knows all about our struggle",
+        "He will guide till the day is done",
+        "There is not a friend like the lowly Jesus",
+        "No, not one, no, not one"
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "There is not a friend like the lowly Jesus",
+        "No, not one, no, not one",
+        "None else can heal all our soul's disease",
+        "No, not one, no, not one"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "No friend like Him is holy and gentle",
+        "No, not one, no, not one",
+        "And yet no friend is so meek and lowly",
+        "No, not one, no, not one"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "There's not an hour that He is not near us",
+        "No, not one, no, not one",
+        "No night grows dark but His light can clear us",
+        "No, not one, no, not one"
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Did ever a saint find this Friend forsake him?",
+        "No, not one, no, not one",
+        "Find that He would not take him?",
+        "No, not one, no, not one"
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Was ever a gift like the Saviour given?",
+        "No, not one, no, not one",
+        "Will He refuse us a home in heaven?",
+        "No, not one, no, not one"
+      ]
+    }
+  ]
 }

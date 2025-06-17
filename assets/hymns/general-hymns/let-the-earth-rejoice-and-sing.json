@@ -1,16 +1,41 @@
 {
   "title": "LET THE EARTH REJOICE AND SING",
-  "index": 127,
-  "content": {
-    "type": "verses_only",
-    "metadata": {
-      "composer": "Melvin L. Farrell, 1930-1986"
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Let the earth rejoice and sing, Alleluia!",
+        "At the triumph of our King; Alleluia!",
+        "Who ascends from mortal sight, Alleluia!",
+        "Reigns now at our Father's right, Alleluia!"
+      ]
     },
-    "verses": [
-      "Let the earth rejoice and sing, Alleluia!\nAt the triumph of our King; Alleluia!\nWho ascends from mortal sight, Alleluia!\nReigns now at our Father's right, Alleluia!",
-      "Christ who did upon a tree, Alleluia!\nNow shall reign eternally; Alleluia!\nChrist who saved our fallen race, Alleluia\nTakes in heaven his rightful place, Allehuia!",
-      "Heaven  and earth shall bend the knee, Alleluia!\nOn this day of victory; Alleluia!\nLife has shattered evil's might, Alleluia!\nRising glorious in our sight, Alleluia!",
-      "Jesus, Victor, hear our prayer, Alleluia!\nIn your triumph let us share; Alleluia!\nLift our minds and hearts above, Alleluia!\nStrengthen each one in your love, Alleluia!"
-    ]
-  }
+    {
+      "type": "verse 2",
+      "content": [
+        "Christ who did upon a tree, Alleluia!",
+        "Now shall reign eternally; Alleluia!",
+        "Christ who saved our fallen race, Alleluia!",
+        "Takes in heaven his rightful place, Alleluia!"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Heaven and earth shall bend the knee, Alleluia!",
+        "On this day of victory; Alleluia!",
+        "Life has shattered evil's might, Alleluia!",
+        "Rising glorious in our sight, Alleluia!"
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Jesus, Victor, hear our prayer, Alleluia!",
+        "In your triumph let us share; Alleluia!",
+        "Lift our minds and hearts above, Alleluia!",
+        "Strengthen each one in your love, Alleluia!"
+      ]
+    }
+  ]
 }

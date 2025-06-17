@@ -1,21 +1,32 @@
 {
   "title": "CHINEKE NNA",
-  "index": 10,
-  "content": {
-    "type": "paragraph_and_verses",
-    "metadata": {
-      "key": "D 2/4",
-      "composer": "Fr. Azuka"
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Chineke nna dị n'ulu, dị n'etiti anyi di,",
+        "N'ime obi dị mma, kama anyi dịghị ezi.",
+        "Dọrọ anyi n’ụtọ mmadu, ka anyi wee sị Chineke."
+      ]
     },
-    "paragraph": [
-      "KeyD 2/4 By Fr. Azuka"
-    ],
-    "verses": [
-      "Chineke Nna anyi abia tata\nIkpo isi-ala n'ekele-ekele\nWetara anyi ndu nke si n'igwe.",
-      "Bianun'ihu Ya unu ndi nke Ya,\nKa O gbaghara unu\nKa O wee nara unu.",
-      "Toonu olu Ya, Toonu ebube Ya,\nKa onye unu ahu ike,\nKa onye unu udo.",
-      "Ibu ezi-okwu, lbu so otito,\nOnye di nwayoo.\nOnye di ebere.",
-      "Toonu Chukwu Nna\nToonu Chukwu Nwa,\nKa Muo Nso we bia biri,\nN'obi unu."
-    ]
-  }
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Ị dị n'etiti anyi di, dị n'etiti anyi,",
+        "Ọ bụrụ na anyi aga n'ụzọ ya, ga-esi anyi na ulo.",
+        "Ọ dị n'etiti anyi di, dị n'etiti anyi."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Anyi abia Chineke, Eze mmadu nke dị mma,",
+        "Ọ bụ Eze dị n'elu, nke si n'etiti anyi.",
+        "Anyi gbara ifufe, Kerubim na Serubim."
+      ]
+    }
+  ]
 }

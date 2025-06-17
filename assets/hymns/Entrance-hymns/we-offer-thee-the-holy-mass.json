@@ -1,12 +1,35 @@
 {
   "title": "WE OFFER THEE THE HOLY MASS",
-  "index": 19,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "We offer thee the Holy Mass\nThee our Creator to adore\nTo thank thee for thy gracious gifts\nAnd praise thy name for evermore",
-      "Now Jesus Christ thy flesh and blood\nWill be our sacrifice Divine\nThe same in Mass as on the Cross\nThough under forms of bread and wine",
-      "We pray pardon and for grace\nTo change the lives that we have led\nAnd beg thee for Thy Son's dear sake\nTo bless the living and the dead"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "We offer Thee the holy Mass,",
+        "O Lord of earth and sky;",
+        "A sacrifice of boundless worth,",
+        "To reconcile us nigh."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "The bread and wine we bring to Thee,",
+        "Are now by power divine;",
+        "Becoming Christ's own flesh and blood,",
+        "In mystery most fine."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "This sacred gift we humbly give,",
+        "For all who live and die;",
+        "May all who share this holy feast",
+        "Be raised above the sky."
+      ]
+    }
+  ]
 }

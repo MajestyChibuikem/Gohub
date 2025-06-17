@@ -1,83 +1,35 @@
 {
-  "title": "A Joyful Day",
-  "index": 2,
-  "content": {
-    "type": "hymn_with_images",
-    "metadata": {
-      "key": "A4/4",
-      "tempo": "quasi allegro",
-      "composer": "Ezeoke C."
+  "title": "A JOYFUL DAY",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Awake, my soul, and with the sun",
+        "Thy daily stage of duty run;",
+        "Shake off dull sloth, and joyful rise",
+        "To pay thy God thy morning vows."
+      ]
     },
-    "images": [
-      "../../../images/a-joyful-day.jpeg",
-      "../../../images/a-joyful-day-continuation.jpeg"
-    ],
-    "table_data": {
-      "rows": [
-        {
-          "columns": [
-            "s . m:-.s / - : m what a joy - ful",
-            "f : - / - : d day the",
-            "m : -.r/- : d day of the",
-            "r : - /-:- Lord",
-            "s : -.m/-: d a joy - ful"
-          ]
-        },
-        {
-          "columns": [
-            "l, : - / d : m day we are",
-            "r : -.r/ - : d ha-ppy and",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "columns": [
-            "d : -. r /- : t, a joy -ful",
-            "l :-/d : m day we are",
-            "f: - / - : d lord the",
-            "m .m:-.r/- : d children of the",
-            "r : - / - : - lord"
-          ]
-        },
-        {
-          "columns": [
-            "2. m A",
-            "s : -.m/- : s rise and praise",
-            "f: -/-: d him who",
-            "m :-.r/-: d made earth and",
-            "r : t, /-:- heaven"
-          ]
-        },
-        {
-          "columns": [
-            "3. s En",
-            "s : -. m/-: f ter His tem",
-            "f : - / -: d ple and",
-            "m :-.r / -:d sing Him your",
-            "r : t, / -:- praises"
-          ]
-        },
-        {
-          "columns": [
-            "4. m the",
-            "s : -.m /-: s lord is so",
-            "f :-f/-: d good He's",
-            "m: -.r/- : d good to His",
-            "r :t, /-:-people"
-          ]
-        },
-        {
-          "columns": [
-            "5. m un",
-            "s: -.f/-: m count-able",
-            "f :-.r /-d praises we",
-            "m :-.f/- : d give to the",
-            "r :t, /-:- Father"
-          ]
-        }
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Praise God, from whom all blessings flow;",
+        "Praise Him, all creatures here below;",
+        "Praise Him above, ye heavenly host;",
+        "Praise Father, Son, and Holy Ghost."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "People and creatures, render back",
+        "To thy great Maker praises due;",
+        "Let the bright heavens his power proclaim,",
+        "And earth her Creator's glory name."
       ]
     }
-  }
+  ]
 }

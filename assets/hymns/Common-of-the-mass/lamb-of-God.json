@@ -1,18 +1,25 @@
 {
-    "title": "Key G ¾ (prayerfully) LAMB OF GOD",
-    "index": 250,
-    "content": {
-      "type": "image_and_heading",
-      "heading": "Key G ¾ (prayerfully) LAMB OF GOD John Njoku C.",
-      "images": [
-        {
-          "source": "../../../images/lamb-of-god.jpeg",
-          "altText": "Lamb of God"
-        },
-        {
-          "source": "../../../images/lamb-of-god(continuation).jpeg",
-          "altText": "Lamb of God (Continuation)"
-        }
+  "title": "LAMB OF GOD",
+  "sections": [
+    {
+      "type": "Agnus Dei",
+      "content": [
+        "Lamb of God,",
+        "Lamb of God,",
+        "you take away the sins of the world,",
+        "Have mercy on us.",
+        "Have mercy on us.",
+        "Lamb of God,",
+        "Lamb of God,",
+        "you take away the sins of the world,",
+        "Have mercy on us.",
+        "Have mercy on us.",
+        "Lamb of God,",
+        "Lamb of God,",
+        "you take away the sins of the world,",
+        "Grant us peace.",
+        "Grant us peace."
       ]
     }
-  }
+  ]
+}

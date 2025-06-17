@@ -1,16 +1,37 @@
 {
   "title": "SING PRAISE TO OUR CREATOR",
-  "index": 146,
-  "content": {
-    "type": "refrain_and_verses",
-    "metadata": {
-      "composer": "Omer Westendorf, 1916-1997"
+  "sections": [
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Praise the holy Trinity, Undivided Unity;",
+        "Holy God, mighty God, God immortal, be adored."
+      ]
     },
-    "refrain": "Praise the holy Trinity, Undivided Unity;\nHoly God, mighty God, God immortal, be adored.",
-    "verses": [
-      "Sing praise to our Creator, Redeemed of Adam's race\nGod's children by adoption, Baptized in living grace.",
-      "To Jesus Christ give glory, God's co-eternal Son;\nAs members of his Body We are in Christ made one.",
-      "Now praise the Holy Spirit Poured forth upon the earth,\nWho sanctifies and guides us, Confirmed in our rebirth."
-    ]
-  }
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Sing praise to our Creator, Redeemed of Adam's race",
+        "God's children by adoption, Baptized in living grace."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "To Jesus Christ give glory, God's co-eternal Son;",
+        "As members of his Body We are in Christ made one."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Now praise the Holy Spirit Poured forth upon the earth,",
+        "Who sanctifies and guides us, Confirmed in our rebirth."
+      ]
+    }
+  ]
 }

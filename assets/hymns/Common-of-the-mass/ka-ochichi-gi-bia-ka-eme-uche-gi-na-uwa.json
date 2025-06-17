@@ -1,15 +1,84 @@
 {
-    "title": "K'OCHICHI GI BIA, K'EME UCHE GI N'UWA",
-    "index": 247,
-    "content": {
-      "type": "chorus_and_verses",
-      "chorus": "K'ochichi Gi bia, ka-eme uche Gi n'uwa O Chineke mo k'ochichi Gi bia (DC)",
-      "verses": [
-        "Nna Anyi no n'igwe K'otito diri aha Gi O chineke mo k'ochichi Gi bia ch",
-        "K'eme uche Gi n'uwa, K'esi eme ya n'igwe O Chineke mo Kochichi Gi bia ch",
-        "Nye anyi tata, nri nke ubochi anyi O chineke mo k'ochichi Gi bia ch",
-        "Gbaghara anyi mmeie dika anyi si gbaghara Ndi meghiere anyi k'ochichi Gi bia ch",
-        "Ekwena k'anyi kwenye na nranye Ma zoputa anyi n'ajo ihe biko. ch"
+  "title": "247. K'OCHICHI GI BIA, K'EME UCHE GI N'UWA",
+  "sections": [
+    {
+      "type": "Chorus",
+      "content": [
+        "K'ochichi Gi bia, ka-eme uche Gi n'uwa",
+        "O Chineke mo k'ochichi Gi bia"
+      ]
+    },
+    {
+      "type": "Verse 1",
+      "content": [
+        "Nna Anyi no n'igwe",
+        "K'otito diri aha Gi",
+        "O Chineke mo k'ochichi Gi bia"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "K'ochichi Gi bia, ka-eme uche Gi n'uwa",
+        "O Chineke mo k'ochichi Gi bia"
+      ]
+    },
+    {
+      "type": "Verse 2",
+      "content": [
+        "K'eme uche Gi n'uwa",
+        "K'esi eme ya n'igwe",
+        "O Chineke mo k'ochichi Gi bia"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "K'ochichi Gi bia, ka-eme uche Gi n'uwa",
+        "O Chineke mo k'ochichi Gi bia"
+      ]
+    },
+    {
+      "type": "Verse 3",
+      "content": [
+        "Nye anyi tata, nri nke ubochi anyi",
+        "O Chineke mo k'ochichi Gi bia"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "K'ochichi Gi bia, ka-eme uche Gi n'uwa",
+        "O Chineke mo k'ochichi Gi bia"
+      ]
+    },
+    {
+      "type": "Verse 4",
+      "content": [
+        "Gbaghara anyi mmeie dika anyi si gbaghara",
+        "Ndi meghiere anyi k'ochichi Gi bia"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "K'ochichi Gi bia, ka-eme uche Gi n'uwa",
+        "O Chineke mo k'ochichi Gi bia"
+      ]
+    },
+    {
+      "type": "Verse 5",
+      "content": [
+        "Ekwena k'anyi kwenye na nranye",
+        "Ma zoputa anyi n'ajo ihe biko"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "K'ochichi Gi bia, ka-eme uche Gi n'uwa",
+        "O Chineke mo k'ochichi Gi bia"
       ]
     }
-  }
+  ]
+}

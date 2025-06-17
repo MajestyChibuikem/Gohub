@@ -1,17 +1,57 @@
 {
-  "title": "HOLY GOD, WE PRAISE THY NAME",
-  "index": 149,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Holy God, we praise thy name; Lord of all, we bow before thee!\nAll on earth thy rule acclaim, All in heaven above adore thee;\nInfinite thy vast domain, Everlasting is thy reign.\nInfinite 
-thy vast domain, Everlasting is thy reign.",
-      "Hark! The loud celestial hymn Angel choirs above are raising,\nCherubinm and seraphim, In unceasing chorus praising;\nFill the heaven with sweet accord: \"Holy, holy, holy Lord.\nFill the 
-heavens with sweet accord: \"Holy, holy, holy Lord.",
-      "Lo! The apostolic train Join, the sacred name to hallow;\nProphets swell the loud refrain, And the white-robed martyrs follow;\nAnd from morn to set of sun, Through the Church the song goes 
-on.\nAnd from morn to set of sun, Through the Church the song goes on.",
-      "Holy Father, Holy Son, Holy Spirit, Three we name thee;\nWhile in essence only One, Undivided God we 'claim thee;\nAnd adoring bend the knee, While we own the mystery.\nAnd adoring bend the 
-knee, While we own the mystery."
-    ]
-  }
-}
+      "title": "HOLY GOD, WE PRAISE THY NAME",
+      "sections": [
+        {
+          "type": "verse 1",
+          "content": [
+            "Holy God, we praise Thy name;",
+            "Lord of all, we bow before Thee!",
+            "All on earth Thy rule acclaim,",
+            "All in heaven above adore Thee;",
+            "Infinite Thy vast domain,",
+            "Everlasting is Thy reign.",
+            "Infinite Thy vast domain,",
+            "Everlasting is Thy reign."
+          ]
+        },
+        {
+          "type": "verse 2",
+          "content": [
+            "Hark! The loud celestial hymn,",
+            "Angel choirs above are raising;",
+            "Cherubim and Seraphim,",
+            "In unceasing chorus praising;",
+            "Fill the heavens with sweet accord:",
+            "\"Holy, holy, holy Lord!\"",
+            "Fill the heavens with sweet accord:",
+            "\"Holy, holy, holy Lord!\""
+          ]
+        },
+        {
+          "type": "verse 3",
+          "content": [
+            "Lo! The apostolic train join,",
+            "The sacred name to hallow;",
+            "Prophets swell the loud refrain,",
+            "And the white-robed martyrs follow;",
+            "And from morn to set of sun,",
+            "Through the Church the song goes on.",
+            "And from morn to set of sun,",
+            "Through the Church the song goes on."
+          ]
+        },
+        {
+          "type": "verse 4",
+          "content": [
+            "Holy Father, Holy Son,",
+            "Holy Spirit, Three we name Thee;",
+            "While in essence only One,",
+            "Undivided God we claim Thee;",
+            "And adoring bend the knee,",
+            "While we own the mystery.",
+            "And adoring bend the knee,",
+            "While we own the mystery."
+          ]
+        }
+      ]
+    }

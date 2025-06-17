@@ -1,18 +1,63 @@
 {
-  "title": "ENO INEMESIT",
-  "index": 158,
-  "content": {
-    "type": "hymn_with_images_and_verses",
-    "metadata": {
-      "key": "Ab 3/4 [moderato]"
+  "title": "ETO INEMESIT (EFIK HYMN NO. 14)",
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "K’ini ukpong mi etide,",
+        "Ofuri mfon Fo ete,",
+        "Idem akpa mi k’ima Fo,",
+        "Ye ami idiok owo."
+      ]
     },
-    "images": [
-      "../../../images/eno-inemesit.jpeg",
-      "../../../images/eno-inemesit(continuation).jpeg"
-    ],
-    "verses": [
-      "O Ete imono fi idem nnyin ke akwa ima fo ye nnyi\nI mono fie sit ye uwwm nnyin yaik mmo enem fie sit.",
-      "I mada uyo ye wine i sok bo mmo ke inem e -- sit\nye mme a ka m emi nnyin ibong de yak o dok edi ki do fo"
-    ]
-  }
+    {
+      "type": "verse 2",
+      "content": [
+        "Nda usem ke mmon Obong,",
+        "K’ndino Fi ekom,",
+        "Eke odude k’esit mi,",
+        "Ewak eti-eti."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Ibat nkpo inemesit,",
+        "Afo ‘konode mi,",
+        "Toto k’uyen, tutu emi,",
+        "Inyeneke utit."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "K’ini nkpid’ idem k’iduo,",
+        "K’usung uwem emi,",
+        "Afo ayanyan ubok Fo nno,",
+        "Man ami nkpadaha nda."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "K’ini ndonode eti,",
+        "Memfiokke idem mi,",
+        "Afo ono nsonidem,",
+        "Ye obufa uwem."
+      ]
+    },
+    {
+      "type": "verse 6",
+      "content": [
+        "K’ini akwa afanikong,",
+        "Mme mfukho okponsong,",
+        "Afo eyesio upon mi,",
+        "Ke nsobo ye udi.",
+        "Tosn nti eno efen,",
+        "Mbode k’ubok Fo;",
+        "Odot nte nkpokomde Fi",
+        "Obong, kpukpru ini."
+      ]
+    }
+  ]
 }

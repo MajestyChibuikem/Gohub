@@ -1,10 +1,33 @@
 {
-  "title": "VENETATION OF THE CROSS",
-  "content": {
-    "type": "verses_with_response",
-    "verses": [
-      "Ecce lignum Crucis, in quo\nSalus mundi perpendict"
-    ],
-    "response": "Venite adoramus"
-  }
+  "title": "VENERATION OF THE CROSS",
+  "sections": [
+    {
+      "type": "response",
+      "content": [
+        "Venite, adoremus."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "Ecce lignum Crucis, in quo",
+        "Salus mundi perpendit;"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Ecce lignum Crucis, in quo",
+        "Salus mundi perpendit;"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Ecce lignum Crucis, in quo",
+        "Salus mundi perpendit;"
+      ]
+    }
+
+  ]
 }

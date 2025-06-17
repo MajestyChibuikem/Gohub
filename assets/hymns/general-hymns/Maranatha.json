@@ -1,14 +1,42 @@
 {
   "title": "MARANATHA",
-  "index": 109,
-  "content": {
-    "type": "antiphon_and_verses",
-    "antiphon": "Maranatha! Come, O Christ the Lord!",
-    "verses": [
-      "I am the Root of Jesse and David's Son,\nThe radiant Star of morning and God's\nOwn light. (Antiphon)",
-      "The Spirit and the Bride say: \"Come!\"\nLet him who hears their voices say:\n\"Come!\". (Antiphon)",
-      "He who has thirst, let him come,\nand he who has desire, let him drink\nthe waters of everlasting life.",
-      "Yes, I come very soon!\nAmen!\nCome, 0 Lord Jesus!\n(Antiphon)"
-    ]
-  }
+  "sections": [
+    {
+      "type": "antiphon",
+      "content": [
+        "Maranatha! Come, O Christ the Lord!"
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "I am the Root of Jesse and David's Son,",
+        "The radiant Star of morning and God's Own light."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "The Spirit and the Bride say:",
+        "Come!",
+        "Let him who hears their voices say:", 
+        "Come!"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "He who has thirst, let him come,",
+        "and he who has desire, let him drink the waters of everlasting life."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Yes, I come very soon!",
+        "Amen!",
+        "Come, O Lord Jesus!"
+      ]
+    }
+  ]
 }

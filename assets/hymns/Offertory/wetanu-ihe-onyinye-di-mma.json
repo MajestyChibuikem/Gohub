@@ -1,17 +1,78 @@
 {
-  "title": "WETANU IHE ONYINYE DI MMA BY LUKE EKENE",
-  "index": 38,
-  "content": {
-    "type": "refrain_chorus_and_verses_with_intro",
-    "intro": "Wetanu ihe onyinye di mma k'anyi nyenu Chukwu kere anyi",
-    "refrain": "Onye n'enye Chukwu onyinye dim ma\nna-akwadoro onwe ya aku na uba n'igwe",
-    "chorus": "Bianu nye ya onyinye dinn ma bianu nye ya onyinye dim ma K'anyi nye ya onyinye dim ma nye ya n ihe omere anyi en ka.\nBia kelee ya (kelee Nna O meeka) O meeka kelee Chineke O 
-meeka\nKelee Onye kere wa O meeka kelee ya n 'Ohuru gi n 'anya",
-    "verses": [
-      "Gawanun'altar nke Chukwu klanyi nyenu ya ihe di mma\nChukwu Onye kel'uwa n'ihe di ya k'anyi nyenu ya ihe di mma",
-      "Onyinye nile si n'aka Chukwu k'anyi nyenu ya ihe di mma\nChukwu nyere anyi ndu n'ahuike k'anyi nyenu ya ihe di mma",
-      "Chukwu nyer'anyi aku n'uba nile k'anyi nyenu ya mma\nChukwu nyer'anyi kuku na mmiri k'anyi nyenu: mma",
-      "Onwa na anyanwu b'onyinye Chukwu k'anyi nye ihe di mma\nOburu n'inweghi ih'ig enye Chukwu, were onwe nye ya"
-    ]
-  }
+  "title": "WETANU IHE ONYINYE DI MMA (LET US BRING OUR GOOD GIFTS)",
+  "scripture_reference": "James 1:17, Psalm 107:1",
+  "meter": "Call-and-response (traditional Igbo liturgical meter)",
+  "author": "Luke Ekene",
+  "category": "Thanksgiving / Offertory",
+  "source": "Not listed on hymnary.org (contemporary Igbo liturgical hymn; verify with local sources)",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Wetanu ihe onyinye di mma k'anyi nyenu Chukwu kere anyi",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Onye n'enye Chukwu onyinye dim ma na-akwadoro onwe ya aku na uba n'igwe",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Bianu nye ya onyinye dinn ma bianu nye ya onyinye dim ma",
+        "K'anyi nye ya onyinye dim ma nye ya n'ihe omere anyi en ka.",
+        ""
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Bia kelee ya (kelee Nna O meeka) O meeka kelee Chineke O meeka",
+        "Kelee Onye kere wa O meeka kelee ya n'Ohuru gi n'anya"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "Gawanun'altar nke Chukwu klanyi nyenu ya ihe di mma",
+        "Chukwu Onye kel'uwa n'ihe di ya k'anyi nyenu ya ihe di mma",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 5",
+      "content": [
+        "Onyinye nile si n'aka Chukwu k'anyi nyenu ya ihe di mma",
+        "Chukwu nyere anyi ndu n'ahuike k'anyi nyenu ya ihe di mma",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 6",
+      "content": [
+        "Chukwu nyer'anyi aku n'uba nile k'anyi nyenu mma",
+        "Chukwu nyer'anyi kuku na mmiri k'anyi nye: mma",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 7",
+      "content": [
+        "Onwa na anyanwu b'onyinye Chukwu k'anyi nye ihe di mma",
+        "Oburu n'inweghi ih'ig enye Chukwu, were onwe nye ya"
+      ]
+    }
+  ]
 }

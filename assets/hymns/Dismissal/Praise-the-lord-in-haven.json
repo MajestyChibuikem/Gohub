@@ -1,13 +1,29 @@
 {
   "title": "PRAISE THE LORD IN HEAVEN",
-  "index": 92,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Praise the Lord in heaven\nPraise Him in His holy place\nPraise for His greatness\nPraise for His powerful deeds",
-      "Praise the lord with trumpets\nPraise with a thousand strings\nPraise the Lord with dancing\nPraise Him with joyful sounds",
-      "Praise the Lord with cymbal\nPraise Him with resounding brass\nPraise Him all living\nPraise the Lord forever more",
-      "Praise the Glorious Father\nPraise the Everlasting Son\nPraise the Holy Spirit\nPraise the glory, three in one"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Praise the Lord in heaven,",
+        "Let His name be lifted high;"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Angels bow before Him,",
+        "And His praises loudly cry."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "All creation honors,",
+        "The King of majesty;"
+      ]
+    }
+  ]
 }

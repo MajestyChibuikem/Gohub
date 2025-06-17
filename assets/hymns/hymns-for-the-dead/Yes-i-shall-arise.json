@@ -1,23 +1,83 @@
 {
   "title": "YES, I SHALL ARISE",
-  "index": 212,
-  "content": {
-    "type": "verses_only_with_metadata",
-    "metadata": {
-      "key": "G"
+  "key": "G",
+  "sections": [
+    {
+      "type": "intro",
+      "content": [
+        "Yes, I shall arise, And return to my Father.",
+        "m:r.m:d.d:t, m.f:s.f:m.r:m"
+      ]
     },
-    "intro": "Yes, I shall a-rise, And re turn to my Fa- ther.\nm:r.m:d.d:t, m. f: s. f: m. r: m: m",
-    "verses": [
-      "To You O Lord, I lift up my soul,\nIn You O my God, I place all my trust.",
-      "Look down on me, have mercy, O Lord;\nForgive me my sins, behold all my grief.",
-      "My heart and soul shall yearn for Your face,\nBe gracious to me and answer my plea",
-      "Do not withhold Your goodness from me;\nO Lord, may your Love be deep in my soul",
-      "To You I pray have pity on me;\nMy God, I have sinned against Your great love.",
-      "Mercy I cry, O Lord, wash me clean;\nAnd whiter than snow my spirit shall be.",
-      "Give me again the joy of your help,\nNow open my lips, Your praise I will sing.",
-      "Happy is he, forgiven by God;\nHis sins Blotted out, His guilt is no more.",
-      "You are my joy, my refuge and strength;\nLet all upright hearts give praise to the Lord.",
-      "My soul will sing; my heart will rejoice;\nThe blessings of God will, fill all my days."
-    ]
-  }
+    {
+      "type": "verse 1",
+      "content": [
+        "To You, O Lord, I lift up my soul,",
+        "In You, O my God, I place all my trust."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Look down on me, have mercy, O Lord;",
+        "Forgive me my sins, behold all my grief."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "My heart and soul shall yearn for Your face,",
+        "Be gracious to me and answer my plea."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Do not withhold Your goodness from me;",
+        "O Lord, may Your love be deep in my soul."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "To You I pray, have pity on me;",
+        "My God, I have sinned against Your great love."
+      ]
+    },
+    {
+      "type": "verse 6",
+      "content": [
+        "Mercy I cry, O Lord, wash me clean;",
+        "And whiter than snow my spirit shall be."
+      ]
+    },
+    {
+      "type": "verse 7",
+      "content": [
+        "Give me again the joy of Your help,",
+        "Now open my lips; Your praise I will sing."
+      ]
+    },
+    {
+      "type": "verse 8",
+      "content": [
+        "Happy is he, forgiven by God;",
+        "His sins blotted out, his guilt is no more."
+      ]
+    },
+    {
+      "type": "verse 9",
+      "content": [
+        "You are my joy, my refuge and strength;",
+        "Let all upright hearts give praise to the Lord."
+      ]
+    },
+    {
+      "type": "verse 10",
+      "content": [
+        "My soul will sing; my heart will rejoice;",
+        "The blessings of God will fill all my days."
+      ]
+    }
+  ]
 }

@@ -1,17 +1,35 @@
 {
-  "title": "ALL THE EARTH",
-  "index": 18,
-  "content": {
-    "type": "paragraph_and_verses",
-    "paragraph": [
-      "All the earth, proclaim the Lord",
-      "Sing your praise to God"
-    ],
-    "verses": [
-      "Serve you the Lord, heart filled with gladness\nCome into His presence singing for joy.",
-      "Know that the Lord is our creator\nYes, He is our Father, we are His Sons.",
-      "Our Lord is good, His love enduring\nHis word is abiding now with all men.",
-      "Honour and praise, be to the Father\nThe Son and the Spirit, world without end."
-    ]
-  }
+  "title": "ALL THE EARTH TO THEE, O LORD",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "All the earth to thee, O Lord,",
+        "Hath its tribute paid;",
+        "Every creature owns thy word,",
+        "Feareth and obeyed."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "All the earth to thee, O Lord,",
+        "Hath its tribute paid;",
+        "Every creature owns thy word,",
+        "Feareth and obeyed."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "The spacious firmament on high,",
+        "With all the blue ethereal sky,",
+        "And spangled heavens, a shining frame,",
+        "Their great Original proclaim."
+      ]
+    }
+  ]
 }

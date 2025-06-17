@@ -1,15 +1,35 @@
 {
-  "title": "ANYI G'EJE N'IHU JESU",
-  "index": 13,
-  "content": {
-    "type": "paragraph_and_verses",
-    "paragraph": [
-      "Key E % Arr & Harm. By Bigard Team"
-    ],
-    "verses": [
-      "Anyi geje n'ihu\nJesu Nwa\nChineke n'ekwe ukwe,\nMaka ihun'anya nb'uwerube mere\nK'obia n'uwa.",
-      "Chukwu Nna Onye kere mmadu\nNye ya uche, nye ya ako\nMesiere zitere ya Jesu\nOkwu nke n'enye ndu.",
-      "Onwere ihunanya ka nkea.\nNa Chineke biara n'uwa\nWee burn mnadu n'ihe niile\nBere so na ime njo."
-    ]
-  }
+  "title": "ANYI GA EJE NA IHU JESU",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Anyi ga eje na ihu Jesu,",
+        "Ihe oma niile dị;",
+        "Ị dịghị onye isi na-abịa,",
+        "Ọ bụrụ na Jesu bụ Eze."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Anyi ga eje na ihu Jesu,",
+        "Na-agba ọsọ dị mma;",
+        "Onye bụrụ nwata Chineke,",
+        "Ga-enye ya ike nke dị mma."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Jesu bụ nnolite anyi,",
+        "Ọ dị n'etu dị elu;",
+        "Anyi gbaghị akwụghị ego,",
+        "Ma ka anyi na-eso ya."
+      ]
+    }
+  ]
 }

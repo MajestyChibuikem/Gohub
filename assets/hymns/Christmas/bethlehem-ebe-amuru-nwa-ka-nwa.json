@@ -1,12 +1,106 @@
 {
-    "title": "BETHLEHEM EBE AMURU NWA KA NWA",
-    "index": 181,
-    "key": "B b 4/4",
-    "images": [
-      "../../../images/bethlehem-ebe-amuru-nwa-ka-nwa.jpeg",
-      "../../../images/bethlehem-ebe-amuru-nwa-ka-nwa (1).jpeg"
-    ],
-    "content": {
-      "type": "image_only"
+  "title": "Bethlehem Ebe Amuru Nwa Ka Nwa",
+  "sections": [
+    {
+      "type": "Chorus",
+      "content": [
+        "K'anyi jee na Bethlehem,",
+        "N'obodo Judea,",
+        "Ebe amuru Nwa ka Nwa.",
+        "K'anyi jee na Bethlehem,",
+        "N'obodo Judea,",
+        "Ebe amuru Nwa ka Nwa."
+      ]
+    },
+    {
+      "type": "Verse 1",
+      "content": [
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa.",
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa."
+      ]
+    },
+    {
+      "type": "Verse 2",
+      "content": [
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa.",
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa."
+      ]
+    },
+    {
+      "type": "Verse 3",
+      "content": [
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa.",
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa."
+      ]
+    },
+    {
+      "type": "Verse 4",
+      "content": [
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa.",
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa."
+      ]
+    },
+    {
+      "type": "Verse 5",
+      "content": [
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa.",
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa."
+      ]
+    },
+    {
+      "type": "Verse 6",
+      "content": [
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa.",
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa."
+      ]
+    },
+    {
+      "type": "Verse 7",
+      "content": [
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa.",
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa."
+      ]
+    },
+    {
+      "type": "Verse 8",
+      "content": [
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa.",
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa."
+      ]
+    },
+    {
+      "type": "Verse 9",
+      "content": [
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa.",
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa."
+      ]
+    },
+    {
+      "type": "Verse 10",
+      "content": [
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa.",
+        "N'ulo anu, n'ulo anu,",
+        "Ebe amuru Nwa ka Nwa."
+      ]
     }
-  }
+  ]
+}

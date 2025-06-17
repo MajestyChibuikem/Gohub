@@ -1,17 +1,95 @@
 {
-  "title": "CHUKWU NNA NARA",
-  "index": 47,
-  "content": {
-    "type": "chorus_and_verses_with_intro",
-    "intro": "Key Eb\nKoros:\nChukwu Nna nara\nNara onyinye\nNye anyiNye kwuoanyi udo.",
-    "chorus": "Chukwu Nna nara\nNara onyinye\nNye anyiNye kwuoanyi udo.",
-    "verses": [
-      "O Chukwu nara\nNara aja\nO Nna anyi Chukwu\nGozie nke anyi",
-      "Bianu ka anyi nye\nChukwu onyinye\nAchicha di ocha\nNa mmanya anyi.",
-      "Nara Obi anyi\nNara oru anyi\nNara ahuhu anyi\nN'ariro anyi.",
-      "Mbosi amuru anyi\nK'umu nke Chukwu\nAnyi kwere nkwa\nlju ekwensu,",
-      "Gosi na I bu Nna\nGosi ebube Gi\nNara umu nke Gi\nNye ha udo.",
-      "Otito diri Nna\nOtito diri Nwa\nDikwara Muo Nso\nU'watuwa Amen."
-    ]
-  }
+  "title": "CHUKWU NNA NARA (GOD THE GIVER)",
+  "scripture_reference": "Psalm 23:1, Malachi 3:10",
+  "category": "Thanksgiving / Divine Provision",
+  "meter": "Call-and-response (traditional Igbo liturgical meter)",
+  "author": "Traditional Igbo liturgical chant",
+  "source": "Not listed on hymnary.org (regional Igbo liturgical hymn; verify with local sources)",
+  "sections": [
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Chukwu Nna nara",
+        "Nara onyinye",
+        "Nye anyi Nye kwuo anyi udo.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Chukwu Nna nara",
+        "Nara onyinye",
+        "Nye anyi Nye kwuo anyi udo.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "O Chukwu nara",
+        "Nara aja",
+        "O Nna anyi Chukwu",
+        "Gozie nke anyi",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Bianu ka anyi nye",
+        "Chukwu onyinye",
+        "Achicha di ocha",
+        "Na mmanya anyi.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "Nara Obi anyi",
+        "Nara oru anyi",
+        "Nara ahuhu anyi",
+        "N'ariro anyi.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 5",
+      "content": [
+        "Mbosi amuru anyi",
+        "K'umu nke Chukwu",
+        "Anyi kwere nkwa",
+        "lju ekwensu,",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 6",
+      "content": [
+        "Gosi na I bu Nna",
+        "Gosi ebube Gi",
+        "Nara umu nke Gi",
+        "Nye ha udo.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 7",
+      "content": [
+        "Otito diri Nna",
+        "Otito diri Nwa",
+        "Dikwara Muo Nso",
+        "U'watuwa Amen."
+      ]
+    }
+  ]
 }

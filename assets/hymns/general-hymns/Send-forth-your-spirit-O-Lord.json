@@ -1,16 +1,43 @@
 {
   "title": "SEND FORTH YOUR SPIRIT, O LORD: PSALM 104",
-  "index": 124,
-  "content": {
-    "type": "refrain_and_verses",
-    "metadata": {
-      "composer": "Steven C. Warmer"
+  "sections": [
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Send forth your spirit, O Lord, and renew the face of the earth.",
+        "Send forth your spirit, O Lord, and renew the face of the earth."
+      ]
     },
-    "refrain": "Send forth your spirit, O lord, and renew the face of the earth.\nSend forth your spirit, O lord, and renew the face of the earth.",
-    "verses": [
-      "Bless the lord, O my soul,\nLord God, how great you are,\nWrapped in a garment of glory and might,\nclothed in light as in a robe.",
-      "Lord, my God, great are your works!\nIn wisdom you made them all\nRich is the earth and filled with your life.\nBless the Lord, O bless, my soul!",
-      "All of your creatures look to you,\nto give them their food in time.\nYou give with abundance, they gather it up,\nby your hands they have their fill."
-    ]
-  }
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Bless the Lord, O my soul,",
+        "Lord God, how great You are,",
+        "Wrapped in a garment of glory and might,",
+        "Clothed in light as in a robe."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Lord, my God, great are Your works!",
+        "In wisdom You made them all;",
+        "Rich is the earth and filled with Your life.",
+        "Bless the Lord, O bless, my soul!"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "All of Your creatures look to You,",
+        "To give them their food in time.",
+        "You give with abundance, they gather it up,",
+        "By Your hands they have their fill."
+      ]
+    }
+  ]
 }

@@ -1,18 +1,53 @@
 {
   "title": "THE KING OF GLORY",
-  "index": 126,
-  "content": {
-    "type": "refrain_and_verses",
-    "metadata": {
-      "composer": "Willard F. Jabusch"
+  "sections": [
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "The King of Glory comes, the nation rejoices;",
+        "Open the gates before him, lift up your voices."
+      ]
     },
-    "refrain": "The King of Glory comes, the nation rejoices;\nOpen the gates before him, lift up your voices.",
-    "verses": [
-      "Who is the King of Glory; how shall we call him?\nHe is Emmanuel, the promised of ages.",
-      "In all of Galilee, in city or village,\nHe goes among his people curing their illness.",
-      "Sing then of David's Son, our Savior and brother;\nIn all of Galilee was never another.",
-      "He gave his life for us, the Lamb of salvation,\nHe took upon himself the sins of the nation.",
-      "He conquered sin and death; he truly has risen,\nAnd he will share with us his heavenly vision."
-    ]
-  }
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Who is the King of Glory; how shall we call him?",
+        "He is Emmanuel, the promised of ages."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "In all of Galilee, in city or village,",
+        "He goes among His people curing their illness."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Sing then of David's Son, our Savior and brother;",
+        "In all of Galilee was never another."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "He gave His life for us, the Lamb of salvation,",
+        "He took upon Himself the sins of the nation."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 5",
+      "content": [
+        "He conquered sin and death; He truly has risen,",
+        "And He will share with us His heavenly vision."
+      ]
+    }
+  ]
 }

@@ -1,19 +1,93 @@
 {
   "title": "IKPE NKE CHUKWU",
-  "index": 207,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Ikpe nke Chukwu dili mmadu,\nUwa gafegolu ka nlo.",
-    "verses": [
-      "Uwa nka agafego,\nUwa nk'ozo ebidogo;\nMadu gafu mmebi\nnk' ife nine n'uwa.",
-      "Madu nine ganu\nOnu- opi nke ndi rnuo-orna\nSin'owuwa anyanwu\nWelue n'odida ya.",
-      "Sinun ini niri\nOzu nke nwugal' anwu\nKwulu n'iru Chukwu,\nGaza maka ndu - unu.",
-      "Ma ndi no n'eluigwe\nFa ncha gagbada n'uwa,\nMa ndi non'oku-muo,\nAgadoputa fa.",
-      "Onye ikpe bu jesu\nNke zoputalu madu,\nGeji otito nk ya\nWekpe fa nine -ikpe.",
-      "Gini k'unu melu\nk'unu bili n'enu-uwaa,\nKed if agwal' unu\nlji zoputa-unu?",
-      "Ndi-agozil' agozi\nNdi debel' iwum nine,\nBianu, ganat' ugwo\nBatanu n'enuigwe.",
-      "Ndi nenilim n' uwa,\nMebili iwu nkem nine\nMbosi nkem elugo,\nPuanu, ha n'oku-muo.",
-      "Ikpe nke I, jesu\nGabu -- ikpe nke kwul' oto\nSiten' onwu-I nwulu\nzoputa-anyi n'oku."
-    ]
-  }
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "Ikpe nke Chukwu dili mmadu,",
+        "Uwa gafegolu ka nlo."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "Uwa nka agafego,",
+        "Uwa nk'ozo ebidogo;",
+        "Madu gafu mmebi",
+        "Nk'ife nine n'uwa."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Madu nine ganu",
+        "Onu-opi nke ndi rnuo-orna,",
+        "Sin'owuwa anyanwu",
+        "Welue n'odida ya."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Sinun ini niri",
+        "Ozu nke nwugal' anwu,",
+        "Kwulu n'iru Chukwu,",
+        "Gaza maka ndu-unu."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Ma ndi no n'eluigwe",
+        "Fa ncha gagbada n'uwa,",
+        "Ma ndi non'oku-muo,",
+        "Agadoputa fa."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Onye ikpe bu Jesu",
+        "Nke zoputalu madu,",
+        "Geji otito nk'Ya,",
+        "Wekpe fa nine-ikpe."
+      ]
+    },
+    {
+      "type": "verse 6",
+      "content": [
+        "Gini k'unu melu",
+        "K'unu bili n'enu-uwa?",
+        "Ked'if agwal' unu",
+        "Iji zoputa-unu?"
+      ]
+    },
+    {
+      "type": "verse 7",
+      "content": [
+        "Ndi-aghozil' agozi",
+        "Ndi debel' iwum nine,",
+        "Bianu, ganat' ugwo,",
+        "Batanu n'enuigwe."
+      ]
+    },
+    {
+      "type": "verse 8",
+      "content": [
+        "Ndi nenilim n'uwa,",
+        "Mebili iwu nkem nine,",
+        "Mbosi nkem elugo,",
+        "Puanu, ha n'oku-muo."
+      ]
+    },
+    {
+      "type": "verse 9",
+      "content": [
+        "Ikpe nke I, Jesu",
+        "Gabu--ikpe nke kwul' oto,",
+        "Siten' onwu-I nwuru,",
+        "Zoputa-anyi n'oku."
+      ]
+    }
+  ]
 }

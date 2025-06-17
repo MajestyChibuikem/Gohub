@@ -1,24 +1,35 @@
 {
-  "title": "Behold Among Men",
-  "index": 1,
-  "content": {
-    "type": "hymn_with_image_and_verses",
-    "metadata": {
-      "key": "G4/4",
-      "composer": "Rev. Fr. Lucien Deiss"
+  "title": "BEHOLD AMONG MEN",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Behold among men none is like Him,",
+        "King of kings and Lord of lords;",
+        "He shall reign forever,",
+        "Hallelujah to the Savior!"
+      ]
     },
-    "image": "../../../images/behold-among-men.jpeg",
-    "verses": [
-      "Verse 4\nS.S S .s |1:s I| m.m:r.m |s s\n1. People called by God through the word of the pro-phet\nd. d :d . d | m. m: m.r | d.d : lh.dlr: rl\nPeople brought to-gether in the house of the 
-Lord\n|d.d :d. d| d : t. 1 | s s|1:-.s|f : m | r: --|\nPeople who at-tend to their Lord, the church of Christ the Lord!",
-      "Temple built by saints, by the martyrs and apostles;\nHoly temple built upon Christ the corner stone\nHoly dwelling place of our God,\nthe church of Christ the Lord!",
-      "People who are born in the waters of the spirit;\nPeople who are marked by the seal of the spirit;\nPeople in the spirit made one,\nthe church of Christ the Lord!",
-      "People who are grafted on Jesus , the vine;\nBranches bearing fruit in the grace of the Lord;\nBranches rooted in his great love,\nthe church of Christ the Lord!",
-      "People nourished now by the body of the Lord;\nPeople who sit down to the new paschal supper;\nWho shall pass from death into life,\nthe church of Christ the Lord!",
-      "People justified by the grace of the spirit;\nPeople who are heirs of an everlasting life;\nPeople now enlightened by Christ,\nthe church of Christ the Lord!",
-      "People called in faith to be quickened by his life;\nPeople called by God from the darkness into life;\nHoly people called to be royal,\nthe church of Christ the Lord!",
-      "People whom the Lord has acquired for his praise;\nPeople who put trust in the Lord Jesus Christ;\nPeople called by God for his own,\nthe church of Christ the Lord!",
-      "People who proclaim the great glory of the Father;\nBy the Lord Je-sus Christ, his only son;\nAnd in the spirit give praise,\nthe church of Christ the Lord!"
-    ]
-  }
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "He was born in humble manger,",
+        "Yet He rules from highest throne;",
+        "All the world shall bow before Him,",
+        "At the name of Jesus Christ."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Let the earth rejoice and sing,",
+        "For the Lord is come again;",
+        "Peace and joy shall fill the nations,",
+        "When He rules in every heart."
+      ]
+    }
+  ]
 }

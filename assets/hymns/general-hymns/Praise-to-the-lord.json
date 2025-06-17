@@ -1,17 +1,40 @@
 {
   "title": "PRAISE TO THE LORD",
-  "index": 145,
-  "content": {
-    "type": "verses_only",
-    "metadata": {
-      "author": "Joachim Neander, 1650-1680"
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Praise to the Lord, the Almighty, the King of creation!",
+        "O my soul, praise Him, for He is thy health and salvation!",
+        "All ye who hear, now to His temple draw near;",
+        "Praise Him in glad adoration!"
+      ]
     },
-    "verses": [
-      "Praise to the Lord, the Almighty, the King of creation;\nO my soul, praise him, for he is thy health and salvation.\nAll you who hear, Now to his altar draw near,\nJoining in glad 
-adoration.",
-      "Praise to the Lord, who doth prosper thy work and defend thee,\nSurely his goodness and mercy shall daily attend thee.\nPonder anew What the Almighty can do,\nWho with his love doth befriend 
-thee.",
-      "Praise to the Lord! O let all that is in me adore him!\nAll that has life and breath come now in praises before him!\nLet the Amen Sound from his people again:\nNow as we worship before him."
-    ]
-  }
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Praise to the Lord, Who o’er all things so wondrously reigneth,",
+        "Sheltering thee under His wings, yea, so gently sustaineth!",
+        "Hast thou not seen how thy enemies flee,",
+        "When thou dost trust in His mercy?"
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Praise to the Lord, who will prosper thy work and defend thee;",
+        "Surely His goodness and mercy shall daily attend thee.",
+        "Out of deep anguish and peril, O praise Him!",
+        "All ye who know His salvation."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": []
+    }
+  ]
 }

@@ -1,16 +1,69 @@
 {
-  "title": "BIANU NDI ENYIM NILE",
-  "index": 49,
-  "content": {
-    "type": "chorus_and_verses_with_intro",
-    "intro": "KeyA (In a Lively Style) H. Whyte\nKoros:\nN'ezie, n 'ezie, n 'ezie\nO bu Chukwu n'ezie, O bu Chukwu",
-    "chorus": "N'ezie, n 'ezie, n 'ezie\nO bu Chukwu n'ezie, O bu Chukwu",
-    "verses": [
-      "Bianu ndi enyi m niile,\nBianu umu Chineke\nBia k'anyi nile wer'otu olu di elu\nToo Chineke anyi.\nO bu ya kere madu\nMekwa anyi isi nk'okike\nYa bu k'anyi nile were obi zuroke\nToo Chukwu.",
-      "Chineke kere uwa.\nNara otito umu I:\nNke ha ji obi nk'ekele\nNa-eto n'ebe a, n'ebe niile\nO bu ya nwe otito anyi,\nNgozi Gi bu kwa nk'anyi;\nNkpa na nsogbu nile nk'obi\nGi ga egbopur' anyi 
-ha niile,\nBiko, wer' onu janu Chukwu,\nSi, Jehova bu Chukwu n'ezie",
-      "Otito na nsopuru\ndiri Ez'ayi Jisos:\nNke ji obara di ok onu\nGhaput'anyi n'ugwu Kalvari\nI bu Nwa nke Jehova,\nBurukwa nwa nke meri;\nNwa nke Chukwu, Nwa nke mmadu.\nOtito niile diri 
-Gi.\nBiko wer' onu fenu Chukwu\nFenu Chukwu, fenu Chukwu;\nBiko wer' onu fenu Chukwu,\nSi, Chineke bu Chukwu n'ezie."
-    ]
-  }
+  "title": "BIANU NDỊ ENYI M NIILE (THANK YOU, O GIVER OF ALL)",
+  "scripture_reference": "2 Corinthians 9:15, Psalm 107:1, Colossians 1:16",
+  "category": "Thanksgiving / Redemption",
+  "meter": "Call-and-response (traditional Igbo liturgical meter)",
+  "author": "H. Whyte",
+  "sections": [
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "N'ezie, n'ezie, n'ezie",
+        "O bu Chukwu n'ezie, O bu Chukwu",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Bianu ndi enyi m niile,",
+        "Bianu umu Chineke",
+        "Bia k'anyi nile wer'otu olu di elu",
+        "Too Chineke anyi.",
+        "O bu ya kere madu",
+        "Mekwa anyi isi nk'okike",
+        "Ya bu k'anyi nile were obi zuroke",
+        "Too Chukwu.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Chineke kere uwa.",
+        "Nara otito umu I:",
+        "Nke ha ji obi nk'ekele",
+        "Na-eto n'ebe a, n'ebe niile",
+        "O bu ya nwe otito anyi,",
+        "Ngozi Gi bu kwa nk'anyi;",
+        "Nkpa na nsogbu nile nk'obi",
+        "Gi ga egbopur' anyi ha niile,",
+        "Biko, wer' onu janu Chukwu,",
+        "Si, Jehova bu Chukwu n'ezie",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Otito na nsopuru",
+        "diri Ez'ayi Jisos:",
+        "Nke ji obara di ok onu",
+        "Ghaput'anyi n'ugwu Kalvari",
+        "I bu Nwa nke Jehova,",
+        "Burukwa nwa nke meri;",
+        "Nwa nke Chukwu, Nwa nke mmadu.",
+        "Otito niile diri Gi.",
+        "Biko wer' onu fenu Chukwu",
+        "Fenu Chukwu, fenu Chukwu;",
+        "Biko wer' onu fenu Chukwu,",
+        "Si, Chineke bu Chukwu n'ezie."
+      ]
+    }
+  ],
+  "source": "Not listed on hymnary.org (regional Igbo liturgical hymn; verify with local sources)"
 }

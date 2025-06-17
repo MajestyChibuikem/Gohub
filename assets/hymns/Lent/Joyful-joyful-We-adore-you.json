@@ -1,17 +1,41 @@
 {
-  "title": "JOYFUL, JOYFUL, WE ADORE YOU",
-  "index": 198,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Joyful, joyful, we adore you, God of glory, Lord of love;\nHearts unfold like flowers before you, Opening to the sun above.\nMelt the clouds of sin and sadness; Drive the dark of doubt 
-away;\nGiver of immortal gladness, Fill us with the light of day!",
-      "All your works with joy surround you, Earth and heaven reflect your rays,\nStars and angels sing around you, Center of unbroken praise;\nField and forest, vale and mountain, flowery meadow, 
-flashing sea\nChanting bird and flowing fountain, Praising you eternally!",
-      "Always giving and forgiving, Ever blessing, ever blest,\nWellspring of the joy of living, Ocean-depth of happy rest!\nLoving Father, Christ our brother, Let your light upon us shine;\nTeach 
-us how to love each other, Lift us to the joy divine.",
-      "Mortals, join the mighty chorus Which the morning stars began;\nGod's own love is reigning o'er us, Joining people hand in hand.\nEver singing, march we onward, Victors in the midst of 
-strife;\nJoyful music lifts us sunward In the triumph song of life."
-    ]
-  }
-}
+      "title": "JOYFUL, JOYFUL, WE ADORE YOU",
+      "sections": [
+        {
+          "type": "verse 1",
+          "content": [
+            "Joyful, joyful, we adore You, God of glory, Lord of love;",
+            "Hearts unfold like flowers before You, opening to the sun above;",
+            "Melt the clouds of sin and sadness; drive the dark of doubt away;",
+            "Giver of immortal gladness, fill us with the light of day!"
+          ]
+        },
+        {
+          "type": "verse 2",
+          "content": [
+            "All Your works with joy surround You, earth and heaven reflect Your rays;",
+            "Stars and angels sing around You, center of unbroken praise;",
+            "Field and forest, vale and mountain, flowery meadow, flashing sea;",
+            "Chanting bird and flowing fountain, praising You eternally!"
+          ]
+        },
+        {
+          "type": "verse 3",
+          "content": [
+            "Always giving and forgiving, ever blessing, ever blest,",
+            "Wellspring of the joy of living, ocean-depth of happy rest!",
+            "Loving Father, Christ our Brother, let Your light upon us shine;",
+            "Teach us how to love each other, lift us to the joy divine."
+          ]
+        },
+        {
+          "type": "verse 4",
+          "content": [
+            "Mortals, join the mighty chorus which the morning stars began;",
+            "God's own love is reigning o'er us, joining people hand in hand;",
+            "Ever singing, march we onward, victors in the midst of strife;",
+            "Joyful music lifts us sunward in the triumph song of life."
+          ]
+        }
+      ]
+    }

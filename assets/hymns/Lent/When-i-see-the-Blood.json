@@ -1,15 +1,50 @@
 {
   "title": "WHEN I SEE THE BLOOD",
-  "index": 187,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "When I (When I) see the blood (see the blood)\nWhen I (When I) see the blood (see the blood)\nWhen I (1When 1) see the blood (see the blood)\nwill pass will pass over you (over 
-you).",
-    "verses": [
-      "Christ our Redeemer died on the cross\nDied for the sinner, paid all his due\nAll who receive Him need never fear\nYes, He will pass, will pass over you",
-      "Chiefest of sinner, Jesus will save\nAs He has promised so He will do\nO sinner hear Him, trust in His word\nThen He will pass, will pass over you.",
-      "Judgement is coming, all will be there\nWho have rejected, who have refused\nOh sinner hasten, let Jesus in\nThe God will pass, will pass over you",
-      "Oh what compassion oh, boundless love\nJesus has power Jesus is true\nAll who believe are safe from the storm\nOh He will pass, will pass over you."
-    ]
-  }
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "When I see the blood, when I see the blood,",
+        "When I see the blood, I will pass over you;",
+        "When I see the blood, when I see the blood,",
+        "When I see the blood, I will pass over you;"
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "Christ our Redeemer died on the cross,",
+        "Died for the sinner, paid all his due.",
+        "All who receive Him need never fear,",
+        "Yes, He will pass, will pass over you."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Chiefest of sinners, Jesus will save,",
+        "As He has promised, so He will do.",
+        "O sinner, hear Him, trust in His word,",
+        "Then He will pass, will pass over you."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Judgment is coming, all will be there,",
+        "Who have rejected, who have refused.",
+        "Oh sinner, hasten, let Jesus in,",
+        "The God will pass, will pass over you."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Oh what compassion, oh, boundless love!",
+        "Jesus has power, Jesus is true.",
+        "All who believe are safe from the storm,",
+        "Oh He will pass, will pass over you."
+      ]
+    }
+  ]
 }

@@ -1,14 +1,50 @@
 {
   "title": "ASLEEP IN JESUS BLESSED SLEEP",
-  "index": 213,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Asleep in Jesus! Blessed sleep!\nFrom which none ever wake to weep\nA calm and undisturbed repose \nunbroken by the last of foes.",
-      "Asleep in Jesus! Oh, how sweet\nTo be for such a slumber meet!\nWith holy confidence to sing\nThat death hath lost its venomed sting!",
-      "Asleep in Jesus! Peaceful rest!\nWhose waking is supremely blest,\nNo fear, no woe, shall dim the hour\nThat manifest the Saviour's power.",
-      "Asleep in Jesus! Oh for me\nMay such a blissful refuge be!\nSecurely shall my ashes lie\nWaiting the summons from on high",
-      "Asleep in Jesus! Far from thee\nThy kindred and their graves may be\nBut thine is still a blessed sleep\nFrom which none ever wake to sleep"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Asleep in Jesus! Blessed sleep!",
+        "From which none ever wake to weep;",
+        "A calm and undisturbed repose,",
+        "Unbroken by the last of foes."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Asleep in Jesus! Oh, how sweet",
+        "To be for such a slumber meet!",
+        "With holy confidence to sing",
+        "That death hath lost its venomed sting!"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Asleep in Jesus! Peaceful rest!",
+        "Whose waking is supremely blest;",
+        "No fear, no woe, shall dim the hour",
+        "That manifests the Saviour's power."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Asleep in Jesus! Oh for me",
+        "May such a blissful refuge be!",
+        "Securely shall my ashes lie",
+        "Waiting the summons from on high."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Asleep in Jesus! Far from thee",
+        "Thy kindred and their graves may be;",
+        "But thine is still a blessed sleep,",
+        "From which none ever wake to weep."
+      ]
+    }
+  ]
 }

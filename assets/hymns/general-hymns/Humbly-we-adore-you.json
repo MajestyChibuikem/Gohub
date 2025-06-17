@@ -1,26 +1,80 @@
 {
-  "title": "HUMBLY WE ADORE YOU",
-  "index": 150,
-  "content": {
-    "type": "verses_only",
-    "metadata": {
-      "author": "Attributed to Thomas Aquinas, c. 1225-1274"
-    },
-    "verses": [
-      "Humbly we adore you, Christ, Redeemer, King;\nYou are Lord of heaven, you to whom we sing.\nGod, the Mighty, you have come, bearing gifts of grace;\nSon of Adam still you are, Savior to our 
-race.",
-      "Jesus, Lord, we thank you for this wondrous bread;\nIn our land now dwelling, by you we are fed.\nWe who share this mystery in you are made one;\nevery  act we offer you in your name is 
-done.",
-      "You who died to save us live now as our light;\nThough our eyes are blinded, yet our faith gives sight.\nSavior, now be merciful, Lamb for sinners slain,\nWe in grief confess our guilt; 
-cleanse our souls of stain.",
-      "Christ, our God and brother, hear our humble plea;\nBy this holy banquet grant us unity\nMake us one in loving you, one in mind and heart,\nTill in heaven we are yours, never more to part.",
-      "Hail, O Word Incarnate, born from Mary's womb\nHail, O Strength immortal, risen from the tomb.\nShare with us your victory, Savior ever blest:\nLive more fully in our hearts; be our constant 
-guest.",
-      "Faith alone reveals here bread of Paradise;\nFaith alone may witness Jesus' sacrifice\nTherefore, Lord, as once of old Thomas gained his sight,\nNow increase our feeble faith; shed your 
-healing light.",
-      "Christ, at his last supper, breaking bread, decreed:\n\"This, my body, take and eat;\" heavenly food indeed!\nThen he blessed the cup of wine; \"take and drink,\" he said:\n\"From this 
-chalice of my blood, soon for sinners shed.\"",
-      "Now with glad thanksgiving, praise Christ glorified\nHe in us is present; we in him abide.\nMembers of his body, we in him are one;\nHail this sacred anion, heaven on earth begun!"
-    ]
-  }
-}
+      "title": "HUMBLY WE ADORE YOU",
+      "sections": [
+        {
+          "type": "verse 1",
+          "content": [
+            "Humbly we adore you, Christ, Redeemer, King;",
+            "You are Lord of heaven, you to whom we sing.",
+            "God, the Mighty, you have come, bearing gifts of grace;",
+            "Son of Adam still you are, Savior to our race."
+          ]
+        },
+        {
+          "type": "verse 2",
+          "content": [
+            "Jesus, Lord, we thank you for this wondrous bread;",
+            "In our land now dwelling, by you we are fed.",
+            "We who share this mystery in you are made one;",
+            "every act we offer you in your name is done."
+          ]
+        },
+        {
+          "type": "verse 3",
+          "content": [
+            "You who died to save us live now as our light;",
+            "Though our eyes are blinded, yet our faith gives sight.",
+            "Savior, now be merciful, Lamb for sinners slain,",
+            "We in grief confess our guilt; cleanse our souls of stain."
+          ]
+        },
+        {
+          "type": "verse 4",
+          "content": [
+            "Christ, our God and brother, hear our humble plea;",
+            "By this holy banquet grant us unity",
+            "Make us one in loving you, one in mind and heart,",
+            "Till in heaven we are yours, never more to part."
+          ]
+        },
+        {
+          "type": "verse 5",
+          "content": [
+            "Hail, O Word Incarnate, born from Mary's womb",
+            "Hail, O Strength immortal, risen from the tomb.",
+            "Share with us your victory, Savior ever blest:",
+            "Live more fully in our hearts; be our constant guest."
+          ]
+        },
+        {
+          "type": "verse 6",
+          "content": [
+            "Faith alone reveals here bread of Paradise;",
+            "Faith alone may witness Jesus' sacrifice",
+            "Therefore, Lord, as once of old Thomas gained his sight,",
+            "Now increase our feeble faith; shed your healing light."
+          ]
+        },
+        {
+          "type": "verse 7",
+          "content": [
+            "Christ, at his last supper, breaking bread, decreed:",
+            "This, my body, take and eat;", 
+            "heavenly food indeed!",
+            "Then he blessed the cup of wine;", 
+            "take and drink", 
+            "he said:",
+            "From this chalice of my blood, soon for sinners shed."
+          ]
+        },
+        {
+          "type": "verse 8",
+          "content": [
+            "Now with glad thanksgiving, praise Christ glorified",
+            "He in us is present; we in him abide.",
+            "Members of his body, we in him are one;",
+            "Hail this sacred anion, heaven on earth begun!"
+          ]
+        }
+      ]
+    }

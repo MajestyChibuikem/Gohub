@@ -1,13 +1,35 @@
 {
-  "title": "COME, THOU ALMIGHTY KING",
-  "index": 1,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Help us Thy Name to sing, help us to praise!\nFather all glorious, over all victorious,\nCome and reign over us, Ancient of Days!",
-      "Come, Thou incarnate Word,\nGird on Thy mighty sword, our prayer attend!\nCome, and Thy people bless, and give Thy Word success,\nSpirit of holiness, on us descend!",
-      "Come, holy Comforter,\nThy sacred witness bear in this glad hour.\nThou Who almighty art, now rule in every heart,\nAnd ne'er from us depart, Spirit of power!",
-      "To Thee, great One in Three,\nEtermal praises be, hence, evermore.\nThy sovereign majesty may we in glory see,\nAnd to eternity love and adore!"
-    ]
-  }
+  "title": "COME THOU ALMIGHTY KING",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Come, Thou Almighty King,",
+        "Help us Thy name to sing,",
+        "Help us to praise: Father divine,",
+        "Thy every word and way."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "To Thee be endless praise,",
+        "Infinite Lord, we raise;",
+        "Thy glory sings our ransomed days,",
+        "Thy mercy crowns our way."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Holy and blest Thou art,",
+        "O'er all Thou dost preside;",
+        "None can with Thee compare in might,",
+        "Or wisdom or in guide."
+      ]
+    }
+  ]
 }

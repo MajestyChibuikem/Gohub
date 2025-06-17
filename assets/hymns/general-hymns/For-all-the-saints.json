@@ -1,20 +1,78 @@
 {
   "title": "FOR ALL THE SAINTS",
-  "index": 143,
-  "content": {
-    "type": "verses_only",
-    "metadata": {
-      "author": "William Walsham How, 1823-1897, alt."
+  "author": "William Walsham How, 1823–1897 (alt.)",
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "For all the saints who from their labors rest,",
+        "All who by faith before the world confessed,",
+        "Your name, O Jesus, be forever blest. Alleluia!",
+        "Alleluia!"
+      ]
     },
-    "verses": [
-      "For all the saints, who from their labors rest,\nAll who by faith before the world confessed,\nYour name, O Jesus, be forever blest. Alleluia! Alleluia!",
-      "You were their rock, their fortress, and their might;\nYou, Lord, their captain in the well-fought fight;\nYou, in the darkness drear, their one true light. Alleluia!\nAlleluia!",
-      "O may your soldiers, faithful, true, and bold,\nFight as the saints who nobly fought of old,\nAnd win, with them, the victor's crown of gold. Alleluia!\nAlleluia!",
-      "O blest communion, family divine!\nWe feebly struggle, they in glory shine;\nYet all are one within your great design. Alleluia! Alleluia!",
-      "And when the strife is fierce, the warfare long,\nSteals on the ear the distant triumph song\nAnd hearts are brave again, and arms are strong. Alleluia!\nAlleluia!",
-      "The golden evening brightens in the west;\nSoon, soon to faithful warriors comes their rest;\nSweet is the calm of paradise the blest. Alleluia! Alleluia!",
-      "But then there breaks a yet more glorious day\nThe saints triumphant rise in bright array;\nThe King of glory passes on his way. Alleluia! Alleluial",
-      "From earth's wide bounds, from ocean's farthest coast,\nThrough gates of pearl streams in the countless host,\nSinging to Father, Son and Holy Ghost. Alleluia! Alleluia"
-    ]
-  }
+    {
+      "type": "verse 2",
+      "content": [
+        "You were their rock, their fortress, and their might;",
+        "You, Lord, their captain in the well-fought fight;",
+        "You, in the darkness drear, their one true light. Alleluia!",
+        "Alleluia!"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "O may Your soldiers, faithful, true, and bold,",
+        "Fight as the saints who nobly fought of old,",
+        "And win, with them, the victor's crown of gold. Alleluia!",
+        "Alleluia!"
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "O blest communion, family divine!",
+        "We feebly struggle, they in glory shine;",
+        "Yet all are one within Your great design. Alleluia!",
+        "Alleluia!"
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "And when the strife is fierce, the warfare long,",
+        "Steals on the ear the distant triumph song;",
+        "And hearts are brave again, and arms are strong. Alleluia!",
+        "Alleluia!"
+      ]
+    },
+    {
+      "type": "verse 6",
+      "content": [
+        "The golden evening brightens in the west;",
+        "Soon, soon to faithful warriors comes their rest;",
+        "Sweet is the calm of paradise the blest. Alleluia!",
+        "Alleluia!"
+      ]
+    },
+    {
+      "type": "verse 7",
+      "content": [
+        "But then there breaks a yet more glorious day;",
+        "The saints triumphant rise in bright array;",
+        "The King of glory passes on His way. Alleluia!",
+        "Alleluia!"
+      ]
+    },
+    {
+      "type": "verse 8",
+      "content": [
+        "From earth's wide bounds, from ocean's farthest coast,",
+        "Through gates of pearl streams in the countless host,",
+        "Singing to Father, Son, and Holy Ghost. Alleluia!",
+        "Alleluia!"
+      ]
+    }
+  ]
 }

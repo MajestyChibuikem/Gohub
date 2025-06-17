@@ -1,17 +1,95 @@
 {
-    "title": "WE THREE KINGS OF ORIENT",
-    "index": 168,
-    "key": "A b 6/8 [moderato]",
-    "images": [
-      "../../../images/we-three-kings-of-orient.jpeg"
-    ],
-    "content": {
-      "type": "verses",
-      "verses": [
-        "Born a king on Bethlehem plain, Gold I bring to crown Him again, King forever, ceasing never, Over us all to reign",
-        "frankincense to offer have I, Incense owns a deity nigh, Prayer and praising all men raising Worship Him, God most high.",
-        "Myrrh is mine its bitter perfume, Breathes a life of gathering gloom, Sorrowing, sighing, bleeding, dying; Sealed in the stone-cold tomb.",
-        "Glorious now, behold Him Arise King and God and Sacrifice Alleluia, Alleluia Earth to the heaven replies"
+  "title": "We Three Kings of Orient Are",
+  "sections": [
+    {
+      "type": "Verse 1",
+      "content": [
+        "We three kings of Orient are",
+        "Bearing gifts we traverse afar",
+        "Field and fountain, moor and mountain",
+        "Following yonder star"
+      ]
+    },
+    {
+      "type": "Refrain",
+      "content": [
+        "O star of wonder, star of night",
+        "Star with royal beauty bright",
+        "Westward leading, still proceeding",
+        "Guide us to thy perfect light"
+      ]
+    },
+    {
+      "type": "Verse 2 – Melchior",
+      "content": [
+        "Born a King on Bethlehem's plain",
+        "Gold I bring to crown Him again",
+        "King forever, ceasing never",
+        "Over us all to reign"
+      ]
+    },
+    {
+      "type": "Refrain",
+      "content": [
+        "O star of wonder, star of night",
+        "Star with royal beauty bright",
+        "Westward leading, still proceeding",
+        "Guide us to thy perfect light"
+      ]
+    },
+    {
+      "type": "Verse 3 – Gaspar",
+      "content": [
+        "Frankincense to offer have I",
+        "Incense owns a Deity nigh",
+        "Prayer and praising, all men raising",
+        "Worship Him, God on high"
+      ]
+    },
+    {
+      "type": "Refrain",
+      "content": [
+        "O star of wonder, star of night",
+        "Star with royal beauty bright",
+        "Westward leading, still proceeding",
+        "Guide us to thy perfect light"
+      ]
+    },
+    {
+      "type": "Verse 4 – Balthazar",
+      "content": [
+        "Myrrh is mine, its bitter perfume",
+        "Breathes a life of gathering gloom",
+        "Sorrowing, sighing, bleeding, dying",
+        "Sealed in the stone-cold tomb"
+      ]
+    },
+    {
+      "type": "Refrain",
+      "content": [
+        "O star of wonder, star of night",
+        "Star with royal beauty bright",
+        "Westward leading, still proceeding",
+        "Guide us to thy perfect light"
+      ]
+    },
+    {
+      "type": "Verse 5 – All",
+      "content": [
+        "Glorious now behold Him arise",
+        "King and God and Sacrifice",
+        "Alleluia, Alleluia",
+        "Sounds through the earth and skies"
+      ]
+    },
+    {
+      "type": "Refrain",
+      "content": [
+        "O star of wonder, star of night",
+        "Star with royal beauty bright",
+        "Westward leading, still proceeding",
+        "Guide us to thy perfect light"
       ]
     }
-  }
+  ]
+}

@@ -1,18 +1,58 @@
 {
   "title": "FAITH OF OUR FATHERS",
-  "index": 137,
-  "content": {
-    "type": "refrain_and_verses",
-    "metadata": {
-      "composer": "Frederick W. Faber, 1814-1863"
+  "composer": "Frederick W. Faber, 1814-1863",
+  "sections": [
+    {
+      "type": "refrain",
+      "content": [
+        "Faith of our fathers, holy faith!",
+        "We will be true to thee till death."
+      ]
     },
-    "refrain": "Faith of our fathers, holy faith! We will be true to thee till death.",
-    "verses": [
-      "Faith of our fathers, living still, In spite of dungeon, fire, and Sword:\nO how our hearts beat high with joy, Whene'er we hear that glorious word:",
-      "Our fathers, chained in prisons dark, Were still in heart and conscience free;\nAnd truly blest would be our fate, If we, like them,, should die for thee.",
-      "Our mothers, too, oppressed and wronged, Still lived their faith with dignity;\nTheir brave example gives us strength To work for justice ceaselessly.",
-      "Faith of our fathers, faith and prayer Shall win all nations unto thee;\nAnd through the truth that comes from God, We all shall then indeed be free.",
-      "Faith of our fathers, we will love Both friend and foe in all our strife,\nAnd preach thee, too, as love knows how, By kindly deeds and virtuous life."
-    ]
-  }
+    {
+      "type": "verse 1",
+      "content": [
+        "Faith of our fathers, living still,",
+        "In spite of dungeon, fire, and sword;",
+        "O how our hearts beat high with joy,",
+        "Whene'er we hear that glorious word!"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Our fathers, chained in prisons dark,",
+        "Were still in heart and conscience free;",
+        "And truly blest would be our fate,",
+        "If we, like them, should die for thee."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Our mothers, too, oppressed and wronged,",
+        "Still lived their faith with dignity;",
+        "Their brave example gives us strength,",
+        "To work for justice ceaselessly."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Faith of our fathers, faith and prayer,",
+        "Shall win all nations unto thee;",
+        "And through the truth that comes from God,",
+        "We all shall then indeed be free."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Faith of our fathers, we will love",
+        "Both friend and foe in all our strife;",
+        "And preach thee, too, as love knows how,",
+        "By kindly deeds and virtuous life."
+      ]
+    }
+  ]
 }

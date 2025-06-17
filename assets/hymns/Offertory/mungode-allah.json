@@ -1,16 +1,81 @@
 {
-  "title": "MUNGODE ALLAH",
-  "index": 43,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Domin ka kawo mu a wa nara nayo\nDomin ka kawo mu a wa nara nayo\nMungode Allah, Mungode Allah, Mungode Allah\nMungode Allah, Allah Sarki.",
-    "verses": [
-      "Daye wa suke, abu buwa n da Kabamu\nDaye wa suke, abu buwa n da Kabamu",
-      "Daye wa suke, jin dadin da kabamu\nDaye wa suke, jin dadin da Kabamu",
-      "Daye wa suke, Al barka n da Kabamu\nDaye wa suke, Al barka n da Kabamu",
-      "Da kuma ruwansama, da Kabamu\nDa kuma ruwansama, da Kabamu",
-      "Da Ku. hassKen rana, da Kabamu\nDa kuma hasken rana, da Kabamu",
-      "Da kuma iska nda mu karbi, da Kabamu\nD kuma iska nda mu karbi, da Kabamu"
-    ]
-  }
+  "title": "MUNGODE ALLAH (MY GOD, OUR PROVIDER)",
+  "scripture_reference": "Philippians 4:19, Psalm 23:1",
+  "meter": "Call-and-response (traditional Hausa liturgical meter)",
+  "author": "Traditional Hausa liturgical chant",
+  "category": "Divine Provision / Prayer",
+  "source": "Not listed on hymnary.org (regional Hausa liturgical hymn; verify with local sources)",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Domin ka kawo mu a wa nara nayo",
+        "Domin ka kawo mu a wa nara nayo",
+        ""
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Mungode Allah, Mungode Allah, Mungode Allah",
+        "Mungode Allah, Allah Sarki.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Daye wa suke, abu buwa n da Kabamu",
+        "Daye wa suke, abu buwa n da Kabamu",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Daye wa suke, jin dadin da kabamu",
+        "Daye wa suke, jin dadin da kabamu",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "Daye wa suke, Al barka n da Kabamu",
+        "Daye wa suke, Al barka n da Kabamu",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 5",
+      "content": [
+        "Da kuma ruwansama, da Kabamu",
+        "Da kuma ruwansama, da Kabamu",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 6",
+      "content": [
+        "Da Ku. hassKen rana, da Kabamu",
+        "Da kuma hasken rana, da Kabamu",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 7",
+      "content": [
+        "Da kuma iska nda mu karbi, da Kabamu",
+        "Da kuma iska nda mu karbi, da Kabamu"
+      ]
+    }
+  ]
 }

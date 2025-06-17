@@ -1,64 +1,35 @@
 {
-  "title": "COME SOUND HIS PRAISE ABROAD!",
-  "index": 4,
-  "content": {
-    "type": "hymn_with_images",
-    "metadata": {
-      "key": "Bb 4/2",
-      "composer": "Isaac Smith"
+  "title": "COME SOUND HIS PRAISE ABOARD",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Come, sound His praise abroad,",
+        "The Savior and the Lord;",
+        "Let ev'ry tongue confess His name,",
+        "And spread His honors far."
+      ]
     },
-    "images": [
-      "../../../images/come-sound-his-praise-abroad!-isaac.jpeg",
-      "../../../images/come-sound-his-praise-abroad!-isaac-smith-chorus.jpeg"
-    ],
-    "table_data": {
-      "main_table": [
-        {
-          "columns": [
-            "d : s<sub>l</sub>.,s<sub>l</sub> /m<sub>l</sub>: s<sub>l</sub>\nd : s<sub>l</sub>.,s<sub>l</sub>/ m<sub>l</sub>: f<sub>l</sub>\ncome sound His praise a-\nHe formed the deeps un-\nCome, 
-worship at His\nTo-day at-tend\nHis\nd : s<sub>l</sub>.,s<sub>l</sub> /m<sub>l</sub> : t<sub>l</sub>\nd : s<sub>l</sub>., s<sub>l</sub>/ m<sub>l</sub>: r<sub>l</sub>",
-            "d :-/-:m\nm<sub>l</sub> :-/-:s<sub>l</sub>\nbroad, And known, He\nthrone, come\nvoice, Nor\nd:-/-:d\nd<sub>l</sub>:-/-:d<sub>l</sub>",
-            "r s<sub>l</sub>/d.l<sub>l</sub> :s<sub>l</sub>.fe,\ns<sub>l</sub> :m<sub>l</sub>/m<sub>l</sub> : r<sub>l</sub>\nhymns of glory\ngave the seas theirs\nbow before the\ndare pro--voke 
-his\nr :t<sub>l</sub>/l<sub>l</sub>.d : t<sub>l</sub>.l<sub>l</sub>\nt<sub>2</sub> : m<sub>l</sub>/d<sub>l</sub> : r<sub>l</sub>",
-            "s<sub>l</sub> : --/--\nr<sub>l</sub> : --/--\nsing!\nbound :\nLord :\nrod,\nt<sub>l</sub> : --/--\ns<sub>l</sub> : --/--"
-          ]
-        },
-        {
-          "columns": [
-            ":s<sub>l</sub>\n:<sub>l</sub>\nje-\nThe\nWe\nCome,\n:t<sub>l</sub>\n:s<sub>l</sub>",
-            ".d : m ., r / d :-. s<sub>l</sub>\ns<sub>l</sub> : s<sub>l</sub> / s<sub>l</sub> :-.m<sub>l</sub>\n-- sus is the\nwa-tery worlds are\nAre His works, and\nLike the peo-ple\nd 
-:d.,t<sub>l</sub>/d :-.d\nm<sub>l</sub> : d<sub>l</sub>.,r<sub>l</sub>/ :-,d<sub>l</sub>",
-            "l<sub>l</sub>.s<sub>l</sub> : l<sub>l</sub>.t<sub>l</sub> / d: t<sub>l</sub>.s<sub>l</sub>\nf<sub>l</sub>.s<sub>l</sub> :f<sub>l</sub>.m<sub>l</sub>/m<sub>l</sub>: 
-r<sub>l</sub>.d\nsov--reign lord, the\nall His own, And\nnot our own, He\nof His choice And\nd:f<sub>l</sub>.s<sub>l</sub> / s<sub>l</sub> 
-:-.d\nf<sub>l</sub>.m<sub>l</sub>:r<sub>l</sub>.d<sub>l</sub>/d<sub>l</sub>:s<sub>l</sub>.m<sub>l</sub>",
-            "l<sub>l</sub>.t<sub>l</sub>:d.f/m:r\nf<sub>l</sub> :s<sub>l</sub>.l<sub>l</sub>/s<sub>l</sub>:s<sub>l</sub>.f<sub>l</sub>\nu--uni-ver-sal\nall the so - lid\nformed us by His\nown your 
-gracious\nd.r:d .d/d:t<sub>l</sub>\nf<sub>l</sub>.r<sub>l</sub>:m<sub>l</sub>f<sub>l</sub>/s<sub>l</sub>:s<sub>2</sub>",
-            "D:-/-: m<sub>l</sub>:-/-:\nKing!\nground.\nWord.\nGod.\nd : -/-:\nd<sub>l</sub>:-/-:"
-          ]
-        }
-      ],
-      "chorus_table": [
-        {
-          "columns": [
-            "d : s<sub>l</sub>., f<sub>l</sub> /f<sub>l</sub> : m<sub>l</sub>\nm<sub>l</sub>:<sub>l</sub>., r<sub>l</sub>/r<sub>l</sub> : d<sub>l</sub>\nPraise ye the Lord,\ns<sub>l</sub> 
-:s<sub>l</sub>., s<sub>l</sub> /s<sub>l</sub> : -\nd<sub>l</sub> :t<sub>2</sub>.,t<sub>2</sub> / d<sub>l</sub> : -",
-            "r<sub>l</sub>.s<sub>l</sub> :m<sub>l</sub>.d<sub>l</sub>/<sub>l</sub> :r., d\nr<sub>l</sub>.s<sub>l</sub> : m<sub>l</sub>.d<sub>l</sub>/f<sub>l</sub> 
-:l<sub>l</sub>.,l<sub>l</sub>\nHallelujah, praise ye the\nr<sub>l</sub>.s<sub>l</sub> : m<sub>l</sub>.dv/d :r.,r\nr<sub>l</sub>.s<sub>l</sub> : m<sub>l</sub>.d<sub>l</sub>/f<sub>l</sub> ; 
-fe<sub>l</sub>.,fe<sub>l</sub>",
-            "d : t<sub>l</sub> / l<sub>l</sub>. r:t<sub>l</sub>.s<sub>l</sub>\ns<sub>l</sub> : -- / l<sub>l</sub>.r:t<sub>l</sub>.s<sub>l</sub>\nLord,\nHallelujah,\nr : -- /li.r : 
-t<sub>l</sub>.s<sub>l</sub>\ns<sub>l</sub> : -- /l<sub>l</sub>.r t<sub>l</sub>.s<sub>l</sub>"
-          ]
-        },
-        {
-          "columns": [
-            "m.r :m.r/d .t<sub>l</sub>:d.s<sub>l</sub>\ns<sub>l</sub>.s<sub>l</sub> :s<sub>l</sub>.s<sub>l</sub>/s<sub>l</sub>.s<sub>l</sub>:<sub>l</sub>.m<sub>l</sub>\nHallelujah, 
-Hallelujah,\nd.t<sub>l</sub>:d .t<sub>l</sub>/d .r:d.d\nd. s<sub>l</sub>:d .s<sub>l</sub>/m<sub>l</sub> .s<sub>l</sub>:m<sub>l</sub>.d<sub>l</sub>",
-            "l<sub>l</sub> .t :d . f/m : r.,d\nf<sub>l</sub>.f<sub>l</sub>:m<sub>l</sub>.l<sub>l</sub>.s<sub>l</sub> Lf<sub>l</sub>.,m<sub>l</sub>\nHallelujah, Praise ye the\nd.r:d.d/d 
-:t<sub>l</sub>., d\nf<sub>l</sub>.r<sub>l</sub>l<sub>l</sub>.f<sub>l</sub>/s<sub>l</sub>:s<sub>l</sub> ., d<sub>l</sub>",
-            "d :--/--:\nm<sub>l</sub>: --/--:\nLord.\ns<sub>l</sub> :--/--:\nd<sub>l</sub> : --/--:"
-          ]
-        }
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "He came in mortal frame,",
+        "A servant's form He took;",
+        "For us He bore the cross of shame,",
+        "And all the tempest shook."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Now seated on high throne,",
+        "He calls the world His own;",
+        "All power is given Him in heav'n,",
+        "And earth shall own His crown."
       ]
     }
-  }
+  ]
 }

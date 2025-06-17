@@ -1,19 +1,92 @@
 {
-  "title": "KA MBIRI NIME UNU",
-  "index": 53,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Onye Nwe anyi n 'akpo, unu bu\nndi enyi ya Ndi kwere n 'aya, Ndi di Ngozi (DC)\nO si unu;\nBianu, Bia nara nu m rie, Bia nara m nuo,\nka m birin 'ime unu ka unu biri n 'ime m.",
-    "verses": [
-      "Onye nwe anyi n'akpo,\nunu bu ndi enyi Ya\nndi kwere naYa,\nNdi di ngozi (Repeat)",
-      "Abu m achicha,\nNke si n'igwe bia,\nNke n'enye ndu ebebe,\nNri ndi oma.",
-      "Onye riri ahu m,\nNa etoghi eto,\nMaraonwe ya ikpe,\nNyocha obi gi.",
-      "Nri nke ndi muo-oma,\nKa O nyere madu,\nNdi bu ndi enyiYa,\nNdi di aso.",
-      "Were obi onu gawa,\nJee nara Jesu,\nNri nke n'enye ndu,\nNri mkpur'obi.",
-      "Mek'Okwukwe ms'ike,\nDika okwute, ka m kwes'ike oge nile\nndu m.",
-      "Dinwenu m ekwere m,\nEkwere ms'ike,\nNa gi bu Chukwu no, na Eucharistia.",
-      "Dinwenu me ebere,\nKa in nata gi,\nOge niile, n'oge iku ume onwu.",
-      "Kwe ka m soro ndi nso nke Gi\nN'eto Nna, nwa na Muo Nso\nNa ndu ebighebi."
-    ]
-  }
+  "title": "KA MBIRI N'IME UNU",
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "Onye Nwe anyi n'akpo, unu bu ndi enyi ya",
+        "Ndi kwere na aya, Ndi di Ngozi (D.C)",
+        "O si unu;",
+        "Bianu, Bia nara nu m rie, Bia nara m nuo,",
+        "ka m birin 'ime unu ka unu biri n 'ime m."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "Onye nwe anyi n'akpo,",
+        "unu bu ndi enyi Ya",
+        "ndi kwere na Ya,",
+        "Ndi di ngozi (Repeat)"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Abu m achicha,",
+        "Nke si n'igwe bia,",
+        "Nke n'enye ndu ebebe,",
+        "Nri ndi oma."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Onye riri ahu m,",
+        "Na etoghi eto,",
+        "Mara onwe ya ikpe,",
+        "Nyocha obi gi."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Nri nke ndi muo-oma,",
+        "Ka O nyere madu,",
+        "Ndi bu ndi enyi Ya,",
+        "Ndi di aso."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Were obi onu gawa,",
+        "Jee nara Jesu,",
+        "Nri nke n'enye ndu,",
+        "Nri mkpur'obi."
+      ]
+    },
+    {
+      "type": "verse 6",
+      "content": [
+        "Mek'Okwukwe ms'ike,",
+        "Dika okwute, ka m kwes'ike oge nile",
+        "ndu m."
+      ]
+    },
+    {
+      "type": "verse 7",
+      "content": [
+        "Dinwenu m ekwere m,",
+        "Ekwere ms'ike,",
+        "Na gi bu Chukwu no, na Eucharistia."
+      ]
+    },
+    {
+      "type": "verse 8",
+      "content": [
+        "Dinwenu me ebere,",
+        "Ka in nata gi,",
+        "Oge niile, n'oge iku ume onwu."
+      ]
+    },
+    {
+      "type": "verse 9",
+      "content": [
+        "Kwe ka m soro ndi nso nke Gi",
+        "N'eto Nna, Nwa na Muo Nso",
+        "Na ndu ebighebi."
+      ]
+    }
+  ]
 }

@@ -1,16 +1,133 @@
 {
-    "title": "OTITO DIRI CHINEKE",
-    "index": 237,
-    "content": {
-      "type": "chorus_and_verses",
-      "chorus": "Otito diri Chineken'elu kasi elu\nN'uwa udo diri mmadu ndi ihe ha na-aso Chukwu (Dc)",
-      "verses": [
-        "Refrain: Udo diri mmadu ndi ihe ha na-aso Chukwu",
-        "Anvi eto Gi anyi ekwuputa oluoma Gi (Ref)\nAnyi esekpuere Gi anyi edo Gi ebube(Ref)\nAnyi ekele Gi n'ihi nnukwu ebube Gi(Ref & Chorus)",
-        "Osebruwa Chineke, Eze nke Eluigwe (Ref)\nChukwu Nna Onye ji ike nile (Ref)\nOnyenweanyi Jesu Kristi so otu nwa Chineke muru (Ref & Chorus)",
-        "Dinwenu anyi bu Chukwu (Ref)\nNwaturu nke Chineke Nwa nke Nna (Ref)\nOnye na ekpochapu njo nke uwa meere anyi ebere (Ref & Chorus)",
-        "Onye na ekpochapu njo nke uwa nuru aririo anyi (Ref)\nOnye no n'aka nri Nna meere anyi ebere (Ref)\nN'ihi na so Gi di aso, so Gi bu Dinwenu (Ref & Chorus)",
-        "So Gi O Jesu Kristi (Ref)\nKacha di elu nyere Muo Nso (Ref)\nN'ebube Chineke Nna (Ref)\nAmen! Amen! Amen!\nAmen! Amen! Amen!"
+  "title": "237. OTITO DIRI CHINEKE",
+  "sections": [
+    {
+      "type": "Chorus",
+      "content": [
+        "Otito diri Chineke n'elu kasi elu",
+        "N'uwa udo diri mmadu ndi ihe ha na-aso Chukwu"
+      ]
+    },
+    {
+      "type": "Refrain",
+      "content": [
+        "Udo diri mmadu ndi ihe ha na-aso Chukwu"
+      ]
+    },
+    {
+      "type": "Verse 1",
+      "content": [
+        "Anvi eto Gi, anyi ekwuputa oluoma Gi",
+        "Anyi esekpuere Gi, anyi edo Gi ebube",
+        "Anyi ekele Gi n'ihi nnukwu ebube Gi"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "Udo diri mmadu ndi ihe ha na-aso Chukwu"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "Otito diri Chineke n'elu kasi elu",
+        "N'uwa udo diri mmadu ndi ihe ha na-aso Chukwu"
+      ]
+    },
+    {
+      "type": "Verse 2",
+      "content": [
+        "Osebruwa Chineke, Eze nke Eluigwe",
+        "Chukwu Nna, Onye ji ike nile",
+        "Onyenweanyi Jesu Kristi so otu nwa Chineke muru"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "Udo diri mmadu ndi ihe ha na-aso Chukwu"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "Otito diri Chineke n'elu kasi elu",
+        "N'uwa udo diri mmadu ndi ihe ha na-aso Chukwu"
+      ]
+    },
+    {
+      "type": "Verse 3",
+      "content": [
+        "Dinwenu anyi bu Chukwu",
+        "Nwaturu nke Chineke, Nwa nke Nna",
+        "Onye na ekpochapu njo nke uwa meere anyi ebere"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "Udo diri mmadu ndi ihe ha na-aso Chukwu"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "Otito diri Chineke n'elu kasi elu",
+        "N'uwa udo diri mmadu ndi ihe ha na-aso Chukwu"
+      ]
+    },
+    {
+      "type": "Verse 4",
+      "content": [
+        "Onye na ekpochapu njo nke uwa nuru aririo anyi",
+        "Onye no n'aka nri Nna meere anyi ebere",
+        "N'ihi na so Gi di aso, so Gi bu Dinwenu"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "Udo diri mmadu ndi ihe ha na-aso Chukwu"
+      ]
+    },
+    {
+      "type": "Repetition",
+      "content": [
+        "Otito diri Chineke n'elu kasi elu",
+        "N'uwa udo diri mmadu ndi ihe ha na-aso Chukwu"
+      ]
+    },
+    {
+      "type": "Verse 5",
+      "content": [
+        "So Gi O Jesu Kristi",
+        "Kacha di elu nyere Muo Nso",
+        "N'ebube Chineke Nna"
+      ]
+    },
+    {
+      "type": "Amen",
+      "content": [
+        "Amen!",
+        "Amen!",
+        "Amen!"
+      ]
+    },
+    {
+      "type": "Amen",
+      "content": [
+        "Amen!",
+        "Amen!",
+        "Amen!"
+      ]
+    },
+    {
+      "type": "Chorus",
+      "content": [
+        "Otito diri Chineke n'elu kasi elu",
+        "N'uwa udo diri mmadu ndi ihe ha na-aso Chukwu"
       ]
     }
-  }
+  ]
+}

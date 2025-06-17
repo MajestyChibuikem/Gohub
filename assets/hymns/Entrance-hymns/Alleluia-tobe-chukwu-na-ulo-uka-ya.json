@@ -1,22 +1,33 @@
 {
-  "title": "ALLELUIA; TOBE CHUKWU N'ULO UKA YA",
-  "index": 12,
-  "content": {
-    "type": "paragraph_and_verses",
-    "paragraph": [
-      "¾By Rev. Fr. S. Anih, Arr & Harm.In Bigard",
-      "Alleluia alleliua",
-      "Alleluia alleliua",
-      "Verses:"
-    ],
-    "verses": [
-      "Tobe Chukwu n'ulo uka ya.\nTo benu ya n'elu ka elu.",
-      "Tobe Ya na olu ebube Ya,\nTobe Ya bu ike kasi ike.",
-      "Gbuhenu opi wee n'eto Ya,\nKpobanu ubo kpobanu une.",
-      "Kubanu aka gbabanu egwu,\nWerenu ubo n'eto Chukwu.",
-      "Kubanu abia gbabanu egwu,\nWere ubo n'eto Chukwu.",
-      "Kubanu oku igwen'etoYa,.\nKubanu mgbiligba wee too Ya.",
-      "The niile nke n'eme ume,\nTobe ChukwuAlleluia"
-    ]
-  }
+  "title": "ALLELUIA! CHUKWU NA ULO...",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Alleluia! Chukwu na ulo,",
+        "Ogbugbu nke chineke;",
+        "Ndi mmadu ya ndi chima,",
+        "Eze mma anyi di."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Alleluia! Alleluia!",
+        "Chukwu na ulo, ogbugbu nke chineke."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Ndi mmadu ya ndi chima,",
+        "Eze mma anyi di;",
+        "Ndi mmadu ya ndi chima,",
+        "Eze mma anyi di."
+      ]
+    }
+  ]
 }

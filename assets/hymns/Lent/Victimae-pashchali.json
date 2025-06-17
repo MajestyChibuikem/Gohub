@@ -1,17 +1,62 @@
 {
   "title": "VICTIMAE PASCHALI",
-  "index": 199,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Christ the Lord is risen today;\nChristians, haste your vows to pay;\nOffer now your praises meet",
-      "At the paschal Victims feet. For the sheep the\nLamb has bled, Sinless in the sinner's stead;\nChrist the Lord is risen on high;\nNow he lives, no more to die",
-      "Christ, the Victim undefiled, God and Sinners\nreconciled; When in strange and awful strife\nMet to gathering death and life, Christians, on this\nhappy day Haste with joy your vows to 
-pay.\nChrist the Lord is risen on high;\nNow he lives, no more to die",
-      "Say, O wondering Mary, say What you saw a-\nlong your way; I beheld where Christ had lain,\nEmpty tomb and angels twain I beheld the\nglory bright Of the risen Lord of light\nChrist my hope 
-risen again\nNow he lives, and lives to reign,",
-      "Christ, who once for sinners bled, Now the first born\nfrom the dead, Throned in endless might and power.\nLives and reigns forever more. Hail, eternal\nHope on high! Hail, our King of 
-victory!\nHail, our Prince of life adored!\nHelp and save us, gracious Lord!"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Christ the Lord is risen today;",
+        "Christians, haste your vows to pay;",
+        "Offer now your praises meet."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "At the paschal Victim's feet.",
+        "For the sheep the Lamb has bled,",
+        "Sinless in the sinner's stead;",
+        "Christ the Lord is risen on high;",
+        "Now He lives, no more to die."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Christ, the Victim undefiled,",
+        "God and sinners reconciled;",
+        "When in strange and awful strife",
+        "Met the gathering death and life,",
+        "Christians, on this happy day",
+        "Haste with joy your vows to pay.",
+        "Christ the Lord is risen on high;",
+        "Now He lives, no more to die."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Say, O wondering Mary, say,",
+        "What you saw along your way;",
+        "I beheld where Christ had lain,",
+        "Empty tomb and angels twain;",
+        "I beheld the glory bright",
+        "Of the risen Lord of light;",
+        "Christ, my hope, risen again;",
+        "Now He lives, and lives to reign."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Christ, who once for sinners bled,",
+        "Now the firstborn from the dead,",
+        "Throned in endless might and power,",
+        "Lives and reigns forevermore.",
+        "Hail, eternal Hope on high!",
+        "Hail, our King of victory!",
+        "Hail, our Prince of life adored!",
+        "Help and save us, gracious Lord!"
+      ]
+    }
+  ]
 }

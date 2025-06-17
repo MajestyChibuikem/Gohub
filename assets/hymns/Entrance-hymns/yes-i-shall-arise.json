@@ -1,20 +1,93 @@
 {
   "title": "YES, I SHALL ARISE",
-  "index": 6,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Yes, I shall arise, and return to my father (2ice)",
-    "verses": [
-      "To You, O Lord, I lift up my soul,\nIn You O my God, I place all my trust.",
-      "Look down on me, have mercy, O Lord;\nForgive me my sins, behold all my grief.",
-      "My heart and soul shall yearn for your face,\nBe gracious to me and answer my plea.",
-      "Do not with hold Your goodness from me\nO Lord, may your love be deep in my soul.",
-      "To You I pray, have pity on me;\nMy God, I have sinned against You great love.",
-      "Mercy I cry, O Lord, wash me clean;\nAnd whiter than snow my spirit shall be.",
-      "Give me again the joy of Your help,\nNow open my lips, your praise I will sing.",
-      "Happy is he, forgiven by God;\nHis sins blotted out, his guilt is no more",
-      "You are my joy, my refuge and strength;\nLet all upright hearts give praise to the Lord.",
-      "My soul will sing; my heart will rejoice;\nThe blessings of God will fill all my days"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "To You, O Lord, I lift up my soul,",
+        "In You O my God, I place all my trust."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Look down on me, have mercy, O Lord;",
+        "Forgive me my sins, behold all my grief."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "My heart and soul shall yearn for your face,",
+        "Be gracious to me and answer my plea."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "Do not withhold Your goodness from me,",
+        "O Lord, may your love be deep in my soul."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 5",
+      "content": [
+        "To You I pray, have pity on me;",
+        "My God, I have sinned against Your great love."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 6",
+      "content": [
+        "Mercy I cry, O Lord, wash me clean;",
+        "And whiter than snow my spirit shall be."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 7",
+      "content": [
+        "Give me again the joy of Your help,",
+        "Now open my lips, your praise I will sing."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 8",
+      "content": [
+        "Happy is he, forgiven by God;",
+        "His sins blotted out, his guilt is no more."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 9",
+      "content": [
+        "You are my joy, my refuge and strength;",
+        "Let all upright hearts give praise to the Lord."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 10",
+      "content": [
+        "My soul will sing; my heart will rejoice;",
+        "The blessings of God will fill all my days."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Yes, I shall arise, and return to my father,",
+        "Yes, I shall arise, and return to my father."
+      ]
+    }
+  ]
 }

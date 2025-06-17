@@ -1,14 +1,29 @@
 {
   "title": "HAIL MARY, GENTLE WOMAN",
-  "index": 226,
-  "content": {
-    "type": "refrain_and_verses_with_intro",
-    "intro": "Hail Mary full of grace, the Lord is with you.\nBlessed are you among women,\nand blest is the fruit of your womb, Jesus.\nHoly Mary Mother of God,\npray for us sinners now and at the 
-hour of death, Amen.",
-    "refrain": "Gentle woman, quiet light, morning star, so strong and bright,\ngentle Mother, peaceful dove, teach us wisdom; teach us love.",
-    "verses": [
-      "You were chosen by the Father;\nYou were chosen for the Son.\nYou were chosen from all women\nand for woman, shining one.",
-      "Blessed are you among women,\nblest in tum all women, too.\nBlessed they with peaceful spirits.\nBlessed they with gentle hearts."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Hail, Mary, gentle woman,",
+        "Peaceful mother, woman strong."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "In your arms a child is sleeping,",
+        "The redemption of the nations."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Through the dark of night you whispered,",
+        "God is near us, we are one."
+      ]
+    }
+  ]
 }

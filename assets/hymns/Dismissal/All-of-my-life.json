@@ -1,20 +1,93 @@
 {
   "title": "ALL OF MY LIFE",
-  "index": 93,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "All of my life I will praise the living God\nMy heart full ofjoy I will bless His Holy Name",
-    "verses": [
-      "Bless the Lord oh my soul And never forget His gifts",
-      "Bless the Lord oh my soul He pardons all our sins",
-      "Bless the Lord oh my soul He saves us from all harm",
-      "Bless the Lord oh my soul He fills our life with good",
-      "Bless the Lord oh my soul He keeps us ever young",
-      "Bless the Lord oh my soul His mercy never ends",
-      "Bless the Lord oh my soul His kindness never ends",
-      "Bless the Lord oh my soul He is the Bread of Life",
-      "Bless the Lord oh my soul He died to bring us life",
-      "Bless the Lord my soul He keeps His promises"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Bless the Lord, oh my soul,",
+        "And never forget His gifts."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Bless the Lord, oh my soul,",
+        "He pardons all our sins."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 3",
+      "content": [
+        "Bless the Lord, oh my soul,",
+        "He saves us from all harm."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 4",
+      "content": [
+        "Bless the Lord, oh my soul,",
+        "He fills our life with good."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 5",
+      "content": [
+        "Bless the Lord, oh my soul,",
+        "He keeps us ever young."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 6",
+      "content": [
+        "Bless the Lord, oh my soul,",
+        "His mercy never ends."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 7",
+      "content": [
+        "Bless the Lord, oh my soul,",
+        "His kindness never ends."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 8",
+      "content": [
+        "Bless the Lord, oh my soul,",
+        "He is the Bread of Life."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 9",
+      "content": [
+        "Bless the Lord, oh my soul,",
+        "He died to bring us life."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 10",
+      "content": [
+        "Bless the Lord, my soul,",
+        "He keeps His promises."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "All of my life I will praise the living God,",
+        "My heart full of joy I will bless His Holy Name."
+      ]
+    }
+  ]
 }

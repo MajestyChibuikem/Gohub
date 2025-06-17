@@ -1,13 +1,35 @@
 {
   "title": "HOLY HOLY HOLY LORD GOD ALMIGHTY",
-  "index": 7,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Holy, holy, holy Lord God Almighty\nEarly in the morning our songs shall rise to thee\nHoly, holy, holy merciful and mighty\nGod in three persons Blessed Trinity",
-      "Holy, holy, holy all the saints adore thee\nCasting down their golden crowns around the glassy sea\nCherubim and seraphim falling down before thee\nWhich wert and art and evermore shall be",
-      "Holy, holy, holy though the darkness hide thee\nThough the eye of sinful man thy glory may not see\nOnly thou art holy, there is none beside thee\nPerfect in power, in love and purity",
-      "Holy, holy, holy Lord God Almighty\nAll thy works shall praise thy name in earth and sky and sea\nHoly, holy, holy merciful and mighty\nGod in three persons Blessed Trinity."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Holy, holy, holy, Lord God almighty,",
+        "Early in the morning our song shall rise to Thee;",
+        "Holy, holy, holy, merciful and mighty,",
+        "God in three Persons, blessed Trinity!"
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Holy, holy, holy! All the saints adore Thee,",
+        "Casting down their golden crowns around the glassy sea;",
+        "Cherubim and seraphim fall down before Thee,",
+        "Who was, and is, and evermore shall be."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Holy, holy, holy! Though the darkness hide Thee,",
+        "Though the eye of sinful man Thy face may not behold;",
+        "Only Thou art holy; there is none beside Thee,",
+        "Perfect in power, in love, and purity untold."
+      ]
+    }
+  ]
 }

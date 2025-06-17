@@ -1,17 +1,71 @@
 {
-    "title": "ONCE IN ROYAL DAVID'S CITY",
-    "index": 170,
-    "key": "F",
-    "images": [
-      "../../../images/once-in-royal-david's-city.jpeg"
-    ],
-    "content": {
-      "type": "verses",
-      "verses": [
-        "Ánd through all his wondrous childhood he will honour and obey, Love and watch the lowly mother, in whose gentle arms he lay. Christian children all must be mild, obedient, good as he.",
-        "for he is our childhood's patron: day by day like us he grew; He was little, weak and helpless; Tears and smile like us he know; And He feeleth for our sadness, And He shareth in our gladness.",
-        "And our eyes at last shall see Him through His own redeeming love; for that child, so dear and gentle, is our lord in heaven above; And He leads His children on to the place where He is gonne.",
-        "Not in that poor, lowly stable, with the oxen standing by, we shall see Him - but in heaven, sit at God's right hand and high, when like stars his children crowned, and in white shall wait around"
+  "title": "Once in Royal David’s City",
+  "sections": [
+    {
+      "type": "Verse 1",
+      "content": [
+        "Once in royal David’s city",
+        "Stood a lowly cattle shed,",
+        "Where a mother laid her baby",
+        "In a manger for His bed:",
+        "Mary was that mother mild,",
+        "Jesus Christ her little child."
+      ]
+    },
+    {
+      "type": "Verse 2",
+      "content": [
+        "He came down to earth from heaven,",
+        "Who is God and Lord of all,",
+        "And His shelter was a stable,",
+        "And His cradle was a stall;",
+        "With the poor, and mean, and lowly,",
+        "Lived on earth our Savior holy."
+      ]
+    },
+    {
+      "type": "Verse 3",
+      "content": [
+        "And through all His wondrous childhood",
+        "He would honor and obey,",
+        "Love and watch the lowly maiden,",
+        "In whose gentle arms He lay:",
+        "Christian children all must be",
+        "Mild, obedient, good as He."
+      ]
+    },
+    {
+      "type": "Verse 4",
+      "content": [
+        "For He is our childhood’s pattern,",
+        "Day by day, like us He grew;",
+        "He was little, weak and helpless,",
+        "Tears and smiles like us He knew;",
+        "And He feeleth for our sadness,",
+        "And He shareth in our gladness."
+      ]
+    },
+    {
+      "type": "Verse 5",
+      "content": [
+        "And our eyes at last shall see Him,",
+        "Through His own redeeming love;",
+        "For that child so dear and gentle",
+        "Is our Lord in heav’n above,",
+        "And He leads His children on",
+        "To the place where He is gone."
+      ]
+    },
+    {
+      "type": "Verse 6 (optional/final)",
+      "content": [
+        "Not in that poor lowly stable,",
+        "With the oxen standing by,",
+        "We shall see Him; but in heaven,",
+        "Set at God’s right hand on high;",
+        "Where like stars His children crowned,",
+        "All in white shall wait around."
       ]
     }
-  }
+  ]
+}

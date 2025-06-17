@@ -1,16 +1,54 @@
 {
   "title": "KA PILATE JURU",
-  "index": 191,
-  "content": {
-    "type": "refrain_and_verses",
-    "refrain": "Dinwenu Anyi Jesu n'achi ezen'eiuigwe\nEze nke uwa nile, Eze k'eze",
-    "verses": [
-      "Ka Pilate juru i-bu onye eze\nJesu zaa ya \"ee A bum Onye Eze.\"",
-      "Alaeze nke Jesu gbasara n'uwa\nN'owuwa anyanwu rute n'odida ya.",
-      "Jesu bu onye Ez, nk 'ikpe mkwumoto\nNk'ezi omume, Eze n'enye ndokwa.",
-      "Anyi g'alu agha nke Dinwenu anyi\nSite n'igbasa ochichi ya n'uwa",
-      "Ndi n'achieze n'uwa, g'asopuru Ya\nOchichi nile, si n'aka Kristi bia",
-      "Ndi nile kwenyelu, n'afa nke Jesu g'enwe\nNzoputa n'anuri ebebe"
-    ]
-  }
+  "sections": [
+    {
+      "type": "refrain",
+      "content": [
+        "Dinwenu anyi, Jesu n'achi eze n'eluigwe,",
+        "Eze nke uwa nile, Eze k'eze."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "Ka Pilate juru i-bu onye eze,",
+        "Jesu zaa Ya: \"Ee, A bum Onye Eze.\""
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Alaeze nke Jesu gbasara n'uwa,",
+        "N'owuwa anyanwu rute n'odida Ya."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Jesu bu onye Eze, nke ikpe mkuwamoto,",
+        "Nke ezi omume, Eze n'enye ndokwa."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Anyi g'alu agha nke Dinwenu anyi,",
+        "Site n'igbasa ochichi Ya n'uwa."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Ndi n'achị eze n'uwa, ga-asopuru Ya,",
+        "Ochichi nile, si n'aka Kristi bia."
+      ]
+    },
+    {
+      "type": "verse 6",
+      "content": [
+        "Ndi nile kwenyelu, n'afa nke Jesu g'enwe,",
+        "Nzoputa n'anuri ebebe."
+      ]
+    }
+  ]
 }

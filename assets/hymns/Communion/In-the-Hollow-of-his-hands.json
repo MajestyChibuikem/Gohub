@@ -1,13 +1,41 @@
 {
   "title": "IN THE HOLLOW OF HIS HANDS",
-  "index": 71,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "In the hollow (in the hollow) of His hands\nIn the hollow of His hands\nI am safe whatever may betide me\nIn the hollow of His hands",
-    "verses": [
-      "With my Saviour ever near to guide\nI am safe whatever may betide me\nFrom the storm and tempest he will guide me\nIn the hollow of His hands",
-      "His arms of love he doth enfold me\nWords of peace His voice divine hath told me\nI am safe for God Himself doth hold me\nIn the hollow of His hands",
-      "He will guard my soul and leave me never\nFrom His love no power on earth shall severs\nAnd I know he'll keep me now and ever\nIn the hollow of His hands"
-    ]
-  }
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "In the hollow (in the hollow) of His hands",
+        "In the hollow of His hands",
+        "I am safe whatever may betide me",
+        "In the hollow of His hands"
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "With my Saviour ever near to guide",
+        "I am safe whatever may betide me",
+        "From the storm and tempest He will guide me",
+        "In the hollow of His hands"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "His arms of love He doth enfold me",
+        "Words of peace His voice divine hath told me",
+        "I am safe, for God Himself doth hold me",
+        "In the hollow of His hands"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "He will guard my soul and leave me never",
+        "From His love no power on earth shall sever",
+        "And I know He'll keep me now and ever",
+        "In the hollow of His hands"
+      ]
+    }
+  ]
 }

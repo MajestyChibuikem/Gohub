@@ -1,20 +1,104 @@
 {
   "title": "JERUSALEM MY HAPPY HOME",
-  "index": 208,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Jerusalem, my happy home,\nWhen shall I come to thee?\nWhen shall my sorrows have an end?\nThy joys when shall I see?",
-      "O happy harbour of the saints!\nO sweet and pleasant soil!\nIn thee no sorrow may be found,\nNo grief no care, no toil.",
-      "In thee no sickness may be seen,\nNo hurt, no ache, no sore:\nIn thee there is no dread of death,\nBut life for evermore.",
-      "No dampish mist is seen in thee,\nNo cold nor darksome night;\nThere every soul shines as the sun;\nThere God himself gives light.",
-      "There lust and lucre cannot dwell;\nThere envy bears no sway;\nThere is no hunger, heat, nor cold.\nBut pleasure every way.",
-      "Jerusalem, Jerusalem,\nGod grant I once may see\nThy endless joys, and of the same\nPartaker aye may be!",
-      "Thy walls are made of precious stones,\nThy bulwarks diamonds square;\nThy gates are of right orient pearl;\nExceeding rich and rare;",
-      "Thy turrets and thy pinnacles\nWith carbuncles do shine;\nThy very streets are paved with gold,\nSurpassing clear and fine;",
-      "Thy houses are of ivory,\nThy windows crystal clear;\nThy titles are made of beaten gold\nO God that I were there.",
-      "Within thy gates nothing doth come\nThat is not passing clean,\nNo spider's web, no dirt, no dust,\nNo filth may there be seen.",
-      "Ah, my sweet home, Jerusalem,\nWould God I were in thee!\nWould God my woes were at an end.\nThy joys that I might see!"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Jerusalem, my happy home,",
+        "When shall I come to Thee?",
+        "When shall my sorrows have an end?",
+        "Thy joys when shall I see?"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "O happy harbour of the saints!",
+        "O sweet and pleasant soil!",
+        "In Thee no sorrow may be found,",
+        "No grief, no care, no toil."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "In Thee no sickness may be seen,",
+        "No hurt, no ache, no sore;",
+        "In Thee there is no dread of death,",
+        "But life for evermore."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "No dampish mist is seen in Thee,",
+        "No cold nor darksome night;",
+        "There every soul shines as the sun;",
+        "There God Himself gives light."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "There lust and lucre cannot dwell,",
+        "There envy bears no sway;",
+        "There is no hunger, heat, nor cold,",
+        "But pleasure every way."
+      ]
+    },
+    {
+      "type": "verse 6",
+      "content": [
+        "Jerusalem, Jerusalem,",
+        "God grant I once may see",
+        "Thy endless joys, and of the same",
+        "Partaker aye may be!"
+      ]
+    },
+    {
+      "type": "verse 7",
+      "content": [
+        "Thy walls are made of precious stones,",
+        "Thy bulwarks diamonds square;",
+        "Thy gates are of right orient pearl,",
+        "Exceeding rich and rare;"
+      ]
+    },
+    {
+      "type": "verse 8",
+      "content": [
+        "Thy turrets and thy pinnacles",
+        "With carbuncles do shine;",
+        "Thy very streets are paved with gold,",
+        "Surpassing clear and fine;"
+      ]
+    },
+    {
+      "type": "verse 9",
+      "content": [
+        "Thy houses are of ivory,",
+        "Thy windows crystal clear;",
+        "Thy turrets are made of beaten gold—",
+        "O God, that I were there!"
+      ]
+    },
+    {
+      "type": "verse 10",
+      "content": [
+        "Within thy gates nothing doth come",
+        "That is not passing clean,",
+        "No spider’s web, no dirt, no dust,",
+        "No filth may there be seen."
+      ]
+    },
+    {
+      "type": "verse 11",
+      "content": [
+        "Ah, my sweet home, Jerusalem,",
+        "Would God I were in Thee!",
+        "Would God my woes were at an end,",
+        "Thy joys that I might see!"
+      ]
+    }
+  ]
 }

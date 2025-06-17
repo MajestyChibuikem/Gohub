@@ -1,15 +1,39 @@
 {
   "title": "ON THIS DAY, O BEAUTIFUL MOTHER",
-  "index": 226,
-  "metadata": {
-    "description": "BEAUTIFUL MOTHER 77 77 with Refrain"
-  },
-  "content": {
-    "type": "refrain_and_verses",
-    "refrain": "On this day, O beautiful Mother, On this day we give thee our love.\nNear thee; Madonna, fondly we hover, Trusting thy gentle care to Prove.",
-    "verses": [
-      "On this day we ask to share, Dearest Mother, thy sweet care\nAid us ere our feet astray Wander from thy guiding way.",
-      "Queen of angels deign to hear Thy dear children's humble prayer,\nYoung hearts gain, O Virgin pure, Jesus' love for them assure."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "On this day we ask to share,",
+        "Dearest Mother, thy sweet care,",
+        "Aid us ere our feet astray,",
+        "Wander from thy guiding way.",
+        ""
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Queen of angels deign to hear,",
+        "Thy dear children's humble prayer,",
+        "Young hearts gain, O Virgin pure,",
+        "Jesus' love for them assure.",
+        ""
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "On this day, O beautiful Mother,",
+        "On this day we give thee our love.",
+        "Near thee, Madonna, fondly we hover,",
+        "Trusting thy gentle care to prove.",
+        "Near thee, Madonna, fondly we hover,",
+        "Trusting thy gentle care to prove."
+      ]
+    }
+  ]
 }

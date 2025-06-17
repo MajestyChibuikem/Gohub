@@ -1,14 +1,35 @@
 {
   "title": "INTO YOUR SANCTUARY",
-  "index": 17,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Into your sanctuary,\nWe've come to adore you Lord 2X\nIn adoration and praise\nWe glorify your Holy name oo e\nInto your sanctuary,\nWe've come to adore you Lord",
-    "verses": [
-      "We thank you Lord,\nFor the gift of life in us\nWe reverence your Holy name\nOh our God",
-      "With sweet melody of joy\nOur mouth is full of praise\nFr one day in your house\nIs better than a thousand elsewhere",
-      "Hide us under the shadows\nOf your wings\nThat we may overcome\nThe tribulations of the world",
-      "Let glory and honor\nBe ascribed to the Father\nCome the people of the choice\nAnd own your gracious God"
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Into Your sanctuary we come, O Lord,",
+        "With hearts prepared and spirits bowed;",
+        "We offer praise and thanksgiving,",
+        "For all the blessings that surround."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "You are the light that never fades,",
+        "The truth that sets the captive free;",
+        "We lay our burdens at Your feet,",
+        "And find new life through Calvary."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "We come to worship and adore,",
+        "To seek Your mercy and Your grace;",
+        "May we go forth with hearts renewed,",
+        "To serve You all our days."
+      ]
+    }
+  ]
 }

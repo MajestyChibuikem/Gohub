@@ -1,16 +1,68 @@
 {
-    "title": "SEE AMID THE WINTER SNOW",
-    "index": 179,
-    "key": "G 4/4",
-    "images": [
-      "../../../images/see-amid-the-winter-snow.jpeg"
-    ],
-    "content": {
-      "type": "verses",
-      "verses": [
-        "to,within a manger lies He who builds the starry skies He who throned in height sublime sits amid the cherubium",
-        "say, ye holy shephereds say, what your joyful news today Wherefore have ye left your sheep on the lonely mountain steep",
-        "As we watshed and dead of night, lo we saw a wonderous light, Angels singing peace on earth, told us of the saviours birth"
+  "title": "See Amid the Winter's Snow",
+  "sections": [
+    {
+      "type": "Verse 1",
+      "content": [
+        "See, amid the winter's snow,",
+        "Born for us on earth below,",
+        "See, the tender Lamb appears,",
+        "Promised from eternal years."
+      ]
+    },
+    {
+      "type": "Chorus",
+      "content": [
+        "Hail, thou ever-blessed morn!",
+        "Hail, redemption's happy dawn!",
+        "Sing through all Jerusalem:",
+        "Christ is born in Bethlehem!"
+      ]
+    },
+    {
+      "type": "Verse 2",
+      "content": [
+        "Lo, within a manger lies",
+        "He who built the starry skies;",
+        "He who, throned in height sublime,",
+        "Sits amid the cherubim."
+      ]
+    },
+    {
+      "type": "Verse 3",
+      "content": [
+        "Say, ye holy shepherds, say,",
+        "What your joyful news today;",
+        "Wherefore have ye left your sheep",
+        "On the lonely mountain steep?"
+      ]
+    },
+    {
+      "type": "Verse 4",
+      "content": [
+        "\"As we watched at dead of night,",
+        "Lo, we saw a wondrous light;",
+        "Angels singing peace on earth",
+        "Told us of the Saviour’s birth.\""
+      ]
+    },
+    {
+      "type": "Verse 5",
+      "content": [
+        "Sacred Infant, all divine,",
+        "What a tender love was Thine,",
+        "Thus to come from highest bliss",
+        "Down to such a world as this!"
+      ]
+    },
+    {
+      "type": "Verse 6 (optional/final)",
+      "content": [
+        "Teach, O teach us, Holy Child,",
+        "By Thy face so meek and mild,",
+        "Teach us to resemble Thee,",
+        "In Thy sweet humility."
       ]
     }
-  }
+  ]
+}

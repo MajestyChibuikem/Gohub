@@ -1,13 +1,37 @@
 {
-  "title": "FOR YOU ARE MY GODD",
-  "index": 50,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "For you are my God: you alone are my joy.\nDefend me. O Lord.",
-    "verses": [
-      "You give marvelous comrades to me:\nthe faithful who dwell in your land. Those\nwho choose a lien god have chosen an\nalien band.",
-      "You are my portion and cup; it is you\nthat I claim for my prize. Your heritage\nis my delight, the lot you have given to me.",
-      "Glad are my heart and my soul; securely\nmy body shall rest. For you will not leave\nme for dead, nor lead your beloved astray."
-    ]
-  }
+  "title": "FOR YOU ARE MY GOD",
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "For you are my God: you alone are my joy.",
+        "Defend me, O Lord."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "You give marvelous comrades to me:",
+        "the faithful who dwell in your land. Those",
+        "who choose a lien god have chosen an",
+        "alien band."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "You are my portion and cup; it is you",
+        "that I claim for my prize. Your heritage",
+        "is my delight, the lot you have given to me."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Glad are my heart and my soul; securely",
+        "my body shall rest. For you will not leave",
+        "me for dead, nor lead your beloved astray."
+      ]
+    }
+  ]
 }

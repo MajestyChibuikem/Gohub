@@ -1,20 +1,71 @@
 {
   "title": "ENIGWE OBODO ANYI",
-  "index": 202,
-  "content": {
-    "type": "refrain_and_verses",
-    "refrain": "Enigwe Obodo anyi, enigwe obodo anyi\nobodo ndi oma ebe ozuzu ike.",
-    "verses": [
-      "O nwannem zurike, oru uwa erika.",
-      "Ka Kristi n'onwe ya, burn ezum ike",
-      "Ka ndi oma nke Chukwu, durue gi n'eligwe",
-      "O nwanne m zuruike nwanne m biko nodi mma",
-      "Onye g'eje enigwe, onye g' eje enigwe, onye ji ezi omume",
-      "Gosina orunu, Gosinu orunu ihe imeren'uwa.",
-      "Bia k unu hu Dinwenu Bia k unu hu Dinwenu Onye na-akpo unu ncha.",
-      "Bia k'unu zur'ike, Bia k'unu zurike Oru nke unu amaka.",
-      "Bata nu n'eligwe, werenu oche eze ndi nwer'okwukwe",
-      "nwanne m zur'ike zur'ike na Dinwenu."
-    ]
-  }
+  "sections": [
+    {
+      "type": "refrain",
+      "content": [
+        "Enigwe obodo anyi, enigwe obodo anyi",
+        "Obodo ndi oma, ebe ozuzu ike."
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "O nwannem zuru Ike, oru uwa erika."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Ka Kristi n'onwe Ya, bu ezum Ike.",
+        "Ka ndi oma nke Chukwu, durue gi n'eligwe."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "O nwanne m zuru Ike, nwanne m biko nodi mma."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Onye g'eje enigwe, onye g'eje enigwe,",
+        "Onye ji ezi omume."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "Gosina orunu, gosinu orunu,",
+        "Ihe imere n'uwa."
+      ]
+    },
+    {
+      "type": "verse 6",
+      "content": [
+        "Bia k'unu hu Dinwenu, bia k'unu hu Dinwenu,",
+        "Onye na-akpo unu ncha."
+      ]
+    },
+    {
+      "type": "verse 7",
+      "content": [
+        "Bia k'unu zuru Ike, bia k'unu zuru Ike,",
+        "Oru nke unu amaka."
+      ]
+    },
+    {
+      "type": "verse 8",
+      "content": [
+        "Bata nu n'eligwe, werenu oche eze ndi nwer'okwukwe."
+      ]
+    },
+    {
+      "type": "verse 9",
+      "content": [
+        "Nwanne m zuru Ike, zuru Ike na Dinwenu."
+      ]
+    }
+  ]
 }

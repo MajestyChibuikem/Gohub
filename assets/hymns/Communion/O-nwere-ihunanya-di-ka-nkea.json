@@ -1,14 +1,50 @@
 {
   "title": "ONWERE IHUNANYA DI KA NKEA",
-  "index": 52,
-  "content": {
-    "type": "verses_only",
-    "verses": [
-      "Onweghi ihunanya dika nkea\nNa Chukwu biara n'uwa\nWee buru ihe oriri nke madu\nNdi no n'uzo nk'eligwe.",
-      "A ga me eje nata ahu Jesu\nBu mbe nke ndu ebebe ou\nOn'enye ahu madu ike\nNk'iji bilite n'onwu.",
-      "Jesu, mee ka ahu n'obara Gi\nWuchapu mmehie m nile.\nMee ka ha doo mkpur' obi m aso. ei\nBelata agu nk'ime njo.",
-      "Biko, Jesu, nye m obi nke Gi\nKa m wee hu Chukwu n'anya\nKa m hu madu ibe mnile n'anya\nSoso mak'ihi Chukwu.",
-      "K'oriri nso jikoo mu na Gi ji ike\nNa ndi otu nkc Nzuko\nOge agha nkc uwa gwusiri,\nK'anyi zuko n'eligwe."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse 1",
+      "content": [
+        "Onweghi ihunanya dika nkea",
+        "Na Chukwu biara n'uwa",
+        "Wee buru ihe oriri nke madu",
+        "Ndi no n'uzo nk'eligwe."
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "A ga me eje nata ahu Jesu",
+        "Bu mbe nke ndu ebebe ou",
+        "On'enye ahu madu ike",
+        "Nk'iji bilite n'onwu."
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Jesu, mee ka ahu n'obara Gi",
+        "Wuchapu mmehie m nile.",
+        "Mee ka ha doo mkpur' obi m aso.",
+        "Belata agu nk'ime njo."
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "Biko, Jesu, nye m obi nke Gi",
+        "Ka m wee hu Chukwu n'anya",
+        "Ka m hu madu ibe m nile n'anya",
+        "Soso mak'ihi Chukwu."
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "K'oriri nso jikoo mu na Gi ji ike",
+        "Na ndi otu nke Nzuko",
+        "Oge agha nke uwa gwusiri,",
+        "K'anyi zuko n'eligwe."
+      ]
+    }
+  ]
 }

@@ -1,15 +1,59 @@
 {
   "title": "GIFT OF FINEST WHEAT",
-  "index": 77,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "You satisfy the hungry heart\nWith gift of finest wheat\nCome give to us O saving Lord\nThe bread of life to eat",
-    "verses": [
-      "As when the shepherd calls his sheep,\nThey know and heed his voice\nSo when you call your family Lord\nWe follow and rejoice\nWith joyful lips we sing to you,",
-      "Our praise and gratitude\nThat you should count us worthy Lord,\nTo share this heavenly food",
-      "Is not the cup we bless and share,\nThe blood of Christ outpoured?\nDo not one cup one loaf declare\nOur oneness in the Lord?",
-      "The mystery of your presence Lord,\nNo mortal tongue can tell\nWhom all the world cannot contain\nComes in our hearts to dwell",
-      "You give yourself to us o Lord\nThen selfless let us be\nTo serve each other in your name\nIn truth and charity"
-    ]
-  }
+  "sections": [
+    {
+      "type": "chorus",
+      "content": [
+        "You satisfy the hungry heart",
+        "With gift of finest wheat",
+        "Come give to us O saving Lord",
+        "The bread of life to eat"
+      ]
+    },
+    {
+      "type": "verse 1",
+      "content": [
+        "As when the shepherd calls his sheep,",
+        "They know and heed his voice",
+        "So when you call your family Lord",
+        "We follow and rejoice",
+        "With joyful lips we sing to you,"
+      ]
+    },
+    {
+      "type": "verse 2",
+      "content": [
+        "Our praise and gratitude",
+        "That you should count us worthy Lord,",
+        "To share this heavenly food"
+      ]
+    },
+    {
+      "type": "verse 3",
+      "content": [
+        "Is not the cup we bless and share,",
+        "The blood of Christ outpoured?",
+        "Do not one cup one loaf declare",
+        "Our oneness in the Lord?"
+      ]
+    },
+    {
+      "type": "verse 4",
+      "content": [
+        "The mystery of your presence Lord,",
+        "No mortal tongue can tell",
+        "Whom all the world cannot contain",
+        "Comes in our hearts to dwell"
+      ]
+    },
+    {
+      "type": "verse 5",
+      "content": [
+        "You give yourself to us o Lord",
+        "Then selfless let us be",
+        "To serve each other in your name",
+        "In truth and charity"
+      ]
+    }
+  ]
 }

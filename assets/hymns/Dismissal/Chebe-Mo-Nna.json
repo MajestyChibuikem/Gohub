@@ -1,14 +1,29 @@
 {
-  "title": "CHEBE MO NNAA",
-  "index": 94,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Chebe mo, chebe nwa Gi\nChebe mo, chebe nwa Gi\nChebe mo, chebe nwa Gi\nChebe mo Nna\nMa mma ma na njo\nNna chebe nwa Gi",
-    "verses": [
-      "Mmiri nke ndu n'ezos'ike\nifufe nke ndu n'efes' ike\nEbili mmiri na aghara\nJuputara n'ebe nile n'uwa (DC)",
-      "Ekwensu dika oke odum\nNke n'agbo uja nké iwe di\nN'ejeghari na ebe dum\nNachos'ike onye o ga-arafu(DC)",
-      "Ndi isi nke uwa na ndi di Ike\nNdi di ako na ndi mara he\nNdia n'eziputa onwe ha\nN'ahu ndi onodu ha di ala",
-      "Biko k'obim di n'aka gi\nKa uzom buru nke iziri\nKam were zoro na ndo nku Gi\nEbe udon' onu zuru oke di"
-    ]
-  }
+  "title": "CHEBE MO NNA",
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Chebe mo nna dị n'elu,",
+        "Ị dị n'etiti anyi di."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Ọ bụrụ na anyi aga n'ụzọ ya,",
+        "Ga-esi anyi na ulo."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Ụmụ Chineke dị ize,",
+        "Dịghị onye isi na-abịa."
+      ]
+    }
+  ]
 }

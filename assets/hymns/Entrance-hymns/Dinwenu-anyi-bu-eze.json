@@ -1,12 +1,32 @@
 {
   "title": "DINWENU ANYI BU EZE",
-  "index": 28,
-  "content": {
-    "type": "chorus_and_verses",
-    "chorus": "Dinwenu anyi bu Eze\nEze nke di ebighi ebi\nBiko bianu, bianu sekpurunmu ya eh,\nDinwenu anyi bu eze (DC)",
-    "verses": [
-      "Unu bu umu nke Chineke,\nNdi kwere na Jesu,\nObu Eze di ebube.",
-      "The nine no n'uwa,\nIhe nine no n'igwe,\nMa ndi no n'osimiri."
-    ]
-  }
+  "sections": [
+    {
+      "type": "verse",
+      "title": "Verse 1",
+      "content": [
+        "Dinwenu anyi bu eze, dị n'etiti mmadu,",
+        "Ọ bụrụ na anyi aga n'ụzọ ya, ga-esi anyi na ulo.",
+        "Ụmụ Chineke dị ize, dịghị onye isi na-abịa."
+      ]
+    },
+    {
+      "type": "chorus",
+      "title": "Chorus",
+      "content": [
+        "Anyi bụ umu Chineke, Ọ dị n'etiti anyi;",
+        "N'ime obi dị mma, Ọ bụrụ na anyi dịghị ezi.",
+        "Ọ zaa anyi n'ụzọ dị mma, dị ka ọ dị n'akwukwo."
+      ]
+    },
+    {
+      "type": "verse",
+      "title": "Verse 2",
+      "content": [
+        "Ọ dị n'etiti anyi di, dị n'etiti anyi,",
+        "Ọ bụrụ na anyi aga n'ụzọ ya, ga-esi anyi na ulo.",
+        "Ọ dị n'etiti anyi di, dị n'etiti anyi."
+      ]
+    }
+  ]
 }
