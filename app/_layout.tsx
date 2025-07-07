@@ -4,7 +4,6 @@ import { Stack } from 'expo-router';
 import { ThemeProvider } from '../context/ThemeContext';
 import { useTheme } from '../context/ThemeContext';
 import { StatusBar } from 'expo-status-bar';
-import { FavoritesProvider } from '@/context/favoriteContext';
 
 // Import and setup any required fonts
 import { useFonts } from 'expo-font';
@@ -28,11 +27,9 @@ export default function RootLayout() {
   }
 
   return (
-   <FavoritesProvider>
-     <ThemeProvider>
+    <ThemeProvider>
       <RootLayoutNav />
     </ThemeProvider>
-   </FavoritesProvider>
   );
 }
 

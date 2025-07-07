@@ -197,24 +197,12 @@ export default function HomeScreen() {
               <ThemedText style={styles.navButtonText}>All Prayers</ThemedText>
             </Pressable>
           </Link>
-          
           <Link href="/hymns" asChild>
             <Pressable style={styles.navButton}>
               <Ionicons name="musical-notes-outline" size={20} color={theme.text} />
               <ThemedText style={styles.navButtonText}>Hymns</ThemedText>
             </Pressable>
           </Link>
-        </View>
-
-        {/* Additional Navigation Row */}
-        <View style={[styles.navButtonsContainer, { marginTop: 10 }]}>
-          <Link href="/favorites" asChild>
-            <Pressable style={styles.navButton}>
-              <Ionicons name="heart-outline" size={20} color={theme.text} />
-              <ThemedText style={styles.navButtonText}>Favorites</ThemedText>
-            </Pressable>
-          </Link>
-          
           <Link href="/settings" asChild>
             <Pressable style={styles.navButton}>
               <Ionicons name="settings-outline" size={20} color={theme.text} />

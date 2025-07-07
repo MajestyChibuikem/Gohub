@@ -1,7 +1,6 @@
 // Prayers.tsx
 import React, { useRef, useState } from 'react';
 import { Ionicons } from '@expo/vector-icons';
-import { useFavorites } from '@/context/favoriteContext';
 import { 
   Animated, 
   View, 
@@ -36,7 +35,6 @@ interface PrayerSection {
 }
 
 export default function PrayersScreen() {
-  const { toggleFavorite, isFavorite } = useFavorites();
   const { theme, getFontSize } = useTheme();
   const scrollY = useRef(new Animated.Value(0)).current;
   const [expandedSection, setExpandedSection] = useState<string>('daily');
@@ -114,7 +112,7 @@ export default function PrayersScreen() {
 
   // Find today's prayer
   const todaysPrayer = prayerSections[0].items.find(item => item.featured);
-  // const favorite = todaysPrayer ? isFavorite(todaysPrayer.title) : false;
+
   const toggleSection = (sectionId: string): void => {
     setExpandedSection(expandedSection === sectionId ? '' : sectionId);
   };
