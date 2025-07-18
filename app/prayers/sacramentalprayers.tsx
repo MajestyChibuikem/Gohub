@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useLocalSearchParams } from 'expo-router';
 import { ScrollView, View, Text } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
@@ -6,11 +6,11 @@ import { useTheme } from '../../context/ThemeContext';
 import { useLanguage } from '../../context/LanguageContext';
 
 // Import prayers
-import afterholycommuinion from '@assets/prayers/SacramentalPrayers/AfterHolyCommunion.json';
+import AfterHolyCommunion from '@assets/prayers/SacramentalPrayers/AfterHolyCommunion.json';
 import BeforeHolyCommunion from '@assets/prayers/SacramentalPrayers/BeforeHolyCommunion.json';
-import litanyofthesacredheart from '@assets/prayers/SacramentalPrayers/litanyofthesacredheart.json';
-import prayerconfession from '@assets/prayers/SacramentalPrayers/PrayerForConfession.json';
-import prayerforgrace from '@assets/prayers/SacramentalPrayers/PrayerForGraceToMakeAGoodConfession.json';
+import LitanyOfTheSacredHeart from '@assets/prayers/SacramentalPrayers/LitanyOfTheSacredHeart.json';
+import PrayerForConfession from '@assets/prayers/SacramentalPrayers/PrayerForConfession.json';
+import PrayerForGrace from '@assets/prayers/SacramentalPrayers/PrayerForGraceToMakeAGoodConfession.json';
 
 type PrayerType = {
     id: string;
@@ -22,7 +22,7 @@ const sacramentalPrayers: PrayerType[] = [
     { 
       id: 'after-the-holy-communion', 
       title: 'AFTER HOLY COMMUNION', 
-      content: afterholycommuinion 
+      content: AfterHolyCommunion 
     },
     { 
       id: 'before-holy-communion', 
@@ -32,17 +32,17 @@ const sacramentalPrayers: PrayerType[] = [
     { 
       id: 'prayer-for-confession', 
       title: 'PRAYER FOR CONFESSION', 
-      content: prayerconfession 
+      content: PrayerForConfession 
     },
     { 
       id: 'litany-of-the-sacred-heart', 
       title: 'LITANY OF THE SACRED HEART', 
-      content: litanyofthesacredheart 
+      content: LitanyOfTheSacredHeart 
     },
     { 
       id: 'prayer-for-grace', 
       title: 'PRAYER FOR GRACE', 
-      content: prayerforgrace 
+      content: PrayerForGrace 
     }
 ];
 

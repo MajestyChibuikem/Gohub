@@ -1,35 +1,57 @@
 import { Tabs } from 'expo-router';
-import { MaterialIcons } from '@expo/vector-icons';
+import { useTheme } from '../../context/ThemeContext';
+import { Ionicons } from '@expo/vector-icons';
 
 export default function TabLayout() {
+  const { theme } = useTheme();
+
   return (
-    <Tabs>
+    <Tabs
+      screenOptions={{
+        tabBarActiveTintColor: theme.accent,
+        tabBarInactiveTintColor: theme.text,
+        tabBarStyle: {
+          backgroundColor: theme.background,
+        },
+        headerStyle: {
+          backgroundColor: theme.background,
+        },
+        headerTintColor: theme.text,
+      }}>
       <Tabs.Screen
-        name="index" // This must be "index" for the home tab
+        name="index"
         options={{
           title: 'Home',
-          tabBarIcon: ({ color }) => <MaterialIcons name="home" size={24} color={color} />,
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="home" size={size} color={color} />
+          ),
         }}
       />
       <Tabs.Screen
         name="prayers"
         options={{
           title: 'Prayers',
-          tabBarIcon: ({ color }) => <MaterialIcons name="menu-book" size={24} color={color} />,
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="book" size={size} color={color} />
+          ),
         }}
       />
       <Tabs.Screen
         name="hymns"
         options={{
           title: 'Hymns',
-          tabBarIcon: ({ color }) => <MaterialIcons name="music-note" size={24} color={color} />,
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="musical-notes" size={size} color={color} />
+          ),
         }}
       />
       <Tabs.Screen
         name="settings"
         options={{
           title: 'Settings',
-          tabBarIcon: ({ color }) => <MaterialIcons name="settings" size={24} color={color} />,
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="settings" size={size} color={color} />
+          ),
         }}
       />
     </Tabs>

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useLocalSearchParams } from 'expo-router';
 import { ScrollView, View, Text } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
@@ -7,10 +7,10 @@ import { useLanguage } from '../../context/LanguageContext';
 import { createPrayerStyles } from './prayers.style';
 
 // Import prayers
-import angelus from '@assets/prayers/traditional/angelus.json';
-import reginaCaeli from '@assets/prayers/traditional/ReginaCaeli.json';
-import holyRosary from '@assets/prayers/traditional/TheHolyRosary.json';
-import orderOfTheMass from '@assets/prayers/traditional/OrderOfTheMass.json';
+import Angelus from '@assets/prayers/traditional/angelus.json';
+import ReginaCaeli from '@assets/prayers/traditional/ReginaCaeli.json';
+import TheHolyRosary from '@assets/prayers/traditional/TheHolyRosary.json';
+import OrderOfTheMass from '@assets/prayers/traditional/OrderOfTheMass.json';
 
 type PrayerSection = {
   type: string;
@@ -18,17 +18,17 @@ type PrayerSection = {
   content: Record<string, string[]>;
 };
 
-type Prayer = {
+type PrayerType = {
   id: string;
-  title: string;
+  title: Record<string, string>;
   content: any;
 };
 
-const prayers: Prayer[] = [
-  { id: 'angelus', title: 'THE ANGELUS', content: angelus },
-  { id: 'regina-caeli', title: 'Regina Caeli', content: reginaCaeli },
-  { id: 'holy-rosary', title: 'Holy Rosary', content: holyRosary },
-  { id: 'order-of-the-mass', title: 'Order of the Mass', content: orderOfTheMass },
+const traditionalPrayers: PrayerType[] = [
+  { id: 'angelus', title: { en: 'Angelus' }, content: Angelus },
+  { id: 'regina-caeli', title: { en: 'Regina Caeli' }, content: ReginaCaeli },
+  { id: 'holy-rosary', title: { en: 'The Holy Rosary' }, content: TheHolyRosary },
+  { id: 'order-of-mass', title: { en: 'Order of the Mass' }, content: OrderOfTheMass },
 ];
 
 const parseSections = (data: any): PrayerSection[] =>
@@ -45,10 +45,10 @@ export default function TraditionalPrayersScreen() {
   const styles = createPrayerStyles(theme);
 
   const [selectedPrayerId, setSelectedPrayerId] = useState<string>(
-    typeof paramPrayer === 'string' ? paramPrayer : prayers[0].id
+    typeof paramPrayer === 'string' ? paramPrayer : traditionalPrayers[0].id
   );
 
-  const selectedPrayer = prayers.find(p => p.id === selectedPrayerId);
+  const selectedPrayer = traditionalPrayers.find(p => p.id === selectedPrayerId);
   const sections = selectedPrayer ? parseSections(selectedPrayer.content) : [];
 
   return (
@@ -66,8 +66,8 @@ export default function TraditionalPrayersScreen() {
             style={styles.picker}
             itemStyle={styles.pickerItem}
           >
-            {prayers.map(p => (
-              <Picker.Item key={p.id} label={p.title} value={p.id} />
+            {traditionalPrayers.map(p => (
+              <Picker.Item key={p.id} label={p.title[language]} value={p.id} />
             ))}
           </Picker>
         </View>
@@ -76,7 +76,7 @@ export default function TraditionalPrayersScreen() {
       {/* Title */}
       {selectedPrayer && (
         <>
-          <Text style={styles.prayerTitle}>{selectedPrayer.title}</Text>
+          <Text style={styles.prayerTitle}>{selectedPrayer.title[language]}</Text>
 
           {/* Sections */}
           {sections.map((section, idx) => (

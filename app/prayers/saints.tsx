@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useLocalSearchParams } from 'expo-router';
 import { ScrollView, View, Text } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
@@ -6,10 +6,10 @@ import { useTheme } from '../../context/ThemeContext';
 import { useLanguage } from '../../context/LanguageContext';
 
 // Import JSON files
-import Catena from '@assets/prayers/SaintsAndDevotions/catena.json';
-import prayerOfSaintFrancis from '@assets/prayers/SaintsAndDevotions/prayerofsaintfrancis.json';
-import StPatricksPrayer from '@assets/prayers/SaintsAndDevotions/stpatricksprayer.json';
-import prayerToTheHolySpirit from '@assets/prayers/SaintsAndDevotions/prayertotheholyspirit.json';
+import Catena from '@assets/prayers/SaintsAndDevotions/Catena.json';
+import PrayerOfSaintFrancis from '@assets/prayers/SaintsAndDevotions/PrayerOfSaintFrancis.json';
+import StPatricksPrayer from '@assets/prayers/SaintsAndDevotions/StPatricksPrayer.json';
+import PrayerToTheHolySpirit from '@assets/prayers/SaintsAndDevotions/PrayerToTheHolySpirit.json';
 
 type PrayerType = {
   id: string;
@@ -19,9 +19,9 @@ type PrayerType = {
 
 const saintsPrayers: PrayerType[] = [
   { id: 'catena', title: { en: 'Catena' }, content: Catena },
-  { id: 'prayer-of-saint-francis', title: { en: 'Prayer of Saint Francis' }, content: prayerOfSaintFrancis },
+  { id: 'prayer-of-saint-francis', title: { en: 'Prayer of Saint Francis' }, content: PrayerOfSaintFrancis },
   { id: 'st-patricks-prayer', title: { en: "St Patrick's Prayer" }, content: StPatricksPrayer },
-  { id: 'prayer-to-the-holy-spirit', title: { en: 'Prayer to the Holy Spirit' }, content: prayerToTheHolySpirit },
+  { id: 'prayer-to-the-holy-spirit', title: { en: 'Prayer to the Holy Spirit' }, content: PrayerToTheHolySpirit },
 ];
 
 export default function SaintsPrayersScreen() {

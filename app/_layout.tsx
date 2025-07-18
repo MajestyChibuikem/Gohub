@@ -4,7 +4,6 @@ import { Stack } from 'expo-router';
 import { ThemeProvider } from '../context/ThemeContext';
 import { useTheme } from '../context/ThemeContext';
 import { StatusBar } from 'expo-status-bar';
-import { FavoritesProvider } from '@/context/favoriteContext';
 
 // Import and setup any required fonts
 import { useFonts } from 'expo-font';
@@ -28,11 +27,9 @@ export default function RootLayout() {
   }
 
   return (
-   <FavoritesProvider>
-     <ThemeProvider>
+    <ThemeProvider>
       <RootLayoutNav />
     </ThemeProvider>
-   </FavoritesProvider>
   );
 }
 
@@ -42,9 +39,9 @@ function RootLayoutNav() {
   return (
     <>
       <StatusBar style={theme.background === '#ffffff' ? 'dark' : 'light'} />
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="prayers" options={{ headerShown: false }} />
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="(tabs)" />
+        <Stack.Screen name="prayers" />
       </Stack>
     </>
   );
