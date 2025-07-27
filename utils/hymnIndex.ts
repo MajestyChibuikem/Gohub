@@ -204,7 +204,7 @@ export type HymnContent = {
   };
   key?: string;
   images?: string[];
-};
+  };
 
 type Hymns = {
   [category: string]: {

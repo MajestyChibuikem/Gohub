@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { ScrollView, View, Text } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
-import { useLanguage } from '../../context/LanguageContext';
-import { useTheme } from '../../context/ThemeContext';
-import { loadPrayer } from '../../utils/prayerMap';
+import { useLanguage } from '../../../context/LanguageContext';
+import { useTheme } from '../../../context/ThemeContext';
+import { loadPrayer } from '../../../utils/prayerMap';
 
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const periods = ['morning', 'mid-day', 'evening'] as const;
@@ -18,14 +18,21 @@ export default function PrayerScreen() {
   const { language } = useLanguage() as { language: 'en' | 'es' };
   const { theme, getFontSize } = useTheme();
 
+  console.log('📱 [day].tsx - Component loaded');
+  console.log('📅 Params received:', { day: paramDay, period: paramPeriod });
+
   const [day, setDay] = useState(paramDay || 'Monday');
   const [period, setPeriod] = useState<typeof periods[number]>(paramPeriod || 'morning');
 
   useEffect(() => {
+    console.log('🔄 [day].tsx - useEffect triggered');
+    console.log('📅 Setting params:', { day, period });
     router.setParams({ day, period });
   }, [day, period]);
 
+  console.log('📖 Loading prayer for:', { day, period });
   const prayer = loadPrayer(day, period);
+  console.log('📖 Prayer loaded:', prayer ? 'Success' : 'Failed', prayer);
 
   const renderContent = (content: string | string[]) => {
     const texts = Array.isArray(content) ? content : [content];

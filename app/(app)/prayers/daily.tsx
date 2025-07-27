@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { useLocalSearchParams } from 'expo-router';
 import { ScrollView, View, Text } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
-import { useTheme } from '../../context/ThemeContext';
-import { useLanguage } from '../../context/LanguageContext';
+import { useTheme } from '../../../context/ThemeContext';
+import { useLanguage } from '../../../context/LanguageContext';
 import { createPrayerStyles } from './prayers.style';
 
 import GraceAfterMeals from '@assets/prayers/DailyLife/GraceAfterMeals.json';

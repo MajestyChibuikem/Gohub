@@ -1,4 +1,3 @@
-// Prayers.tsx
 import React, { useRef, useState } from 'react';
 import { Ionicons } from '@expo/vector-icons';
 import { 
@@ -12,9 +11,9 @@ import {
   StatusBar,
   Pressable
 } from 'react-native';
-import { Link } from 'expo-router';
-import { useTheme } from '../../context/ThemeContext';
-import PrayerCard from '../../components/PrayerCard';
+import { useRouter } from 'expo-router';
+import { useTheme } from '../../../context/ThemeContext';
+import PrayerCard from '../../../components/PrayerCard';
 
 const { width } = Dimensions.get('window');
 const ITEM_HEIGHT = 100;
@@ -36,6 +35,7 @@ interface PrayerSection {
 
 export default function PrayersScreen() {
   const { theme, getFontSize } = useTheme();
+  const router = useRouter();
   const scrollY = useRef(new Animated.Value(0)).current;
   const [expandedSection, setExpandedSection] = useState<string>('daily');
   
@@ -47,20 +47,20 @@ export default function PrayersScreen() {
   
   const currentDay = getDayOfWeek();
   
-  // All prayer categories
+  // All prayer categories with correct routes for (app) directory
   const prayerSections: PrayerSection[] = [
     {
       id: 'daily',
       title: 'Daily Prayers',
       icon: '📆',
       items: [
-        { title: 'Monday Prayer', route: '/prayers/monday', featured: currentDay === 'Monday' },
-        { title: 'Tuesday Prayer', route: '/prayers/tuesday', featured: currentDay === 'Tuesday' },
-        { title: 'Wednesday Prayer', route: '/prayers/wednesday', featured: currentDay === 'Wednesday' },
-        { title: 'Thursday Prayer', route: '/prayers/thursday', featured: currentDay === 'Thursday' },
-        { title: 'Friday Prayer', route: '/prayers/friday', featured: currentDay === 'Friday' },
-        { title: 'Saturday Prayer', route: '/prayers/saturday', featured: currentDay === 'Saturday' },
-        { title: 'Sunday Prayer', route: '/prayers/sunday', featured: currentDay === 'Sunday' },
+        { title: 'Monday Prayer', route: '[day]?day=Monday', featured: currentDay === 'Monday' },
+        { title: 'Tuesday Prayer', route: '[day]?day=Tuesday', featured: currentDay === 'Tuesday' },
+        { title: 'Wednesday Prayer', route: '[day]?day=Wednesday', featured: currentDay === 'Wednesday' },
+        { title: 'Thursday Prayer', route: '[day]?day=Thursday', featured: currentDay === 'Thursday' },
+        { title: 'Friday Prayer', route: '[day]?day=Friday', featured: currentDay === 'Friday' },
+        { title: 'Saturday Prayer', route: '[day]?day=Saturday', featured: currentDay === 'Saturday' },
+        { title: 'Sunday Prayer', route: '[day]?day=Sunday', featured: currentDay === 'Sunday' },
       ]
     },
     {
@@ -68,10 +68,10 @@ export default function PrayersScreen() {
       title: 'Traditional Prayers',
       icon: '🙏',
       items: [
-        { title: 'THE ANGELUS', route: '/prayers/traditionalprayers?prayer=angelus', subtitle: 'Traditional Catholic devotion' },
-        { title: 'The Regina Caeli', route: '/prayers/traditionalprayers?prayer=regina-caeli', subtitle: 'Easter season prayer' },
-        { title: 'The Order of Mass', route: '/prayers/traditionalprayers?prayer=order-of-the-mass', subtitle: 'Structure of the Mass' },
-        { title: 'The Holy Rosary', route: '/prayers/traditionalprayers?prayer=holy-rosary', subtitle: 'Marian devotion' },
+        { title: 'THE ANGELUS', route: 'traditionalprayers?prayer=angelus', subtitle: 'Traditional Catholic devotion' },
+        { title: 'The Regina Caeli', route: 'traditionalprayers?prayer=regina-caeli', subtitle: 'Easter season prayer' },
+        { title: 'The Order of Mass', route: 'traditionalprayers?prayer=order-of-the-mass', subtitle: 'Structure of the Mass' },
+        { title: 'The Holy Rosary', route: 'traditionalprayers?prayer=holy-rosary', subtitle: 'Marian devotion' },
       ]
     },
     {
@@ -79,11 +79,11 @@ export default function PrayersScreen() {
       title: 'Sacramental Prayers',
       icon: '✝️',
       items: [
-        { title: 'LITANY OF THE SACRED HEART', route: '/prayers/sacramentalprayers?prayer=litany-of-the-sacred-heart' },
-        { title: 'PRAYER FOR CONFESSION', route: '/prayers/sacramentalprayers?prayer=prayer-for-confession' },
-        { title: 'Prayer for Grace To Make a Good Confession', route: '/prayers/sacramentalprayers?prayer=prayer-for-grace' },
-        { title: 'BEFORE HOLY COMMUNION', route: '/prayers/sacramentalprayers?prayer=before-holy-communion' },
-        { title: 'AFTER HOLY COMMUNION', route: '/prayers/sacramentalprayers?prayer=after-the-holy-communion' },
+        { title: 'LITANY OF THE SACRED HEART', route: 'sacramentalprayers?prayer=litany-of-the-sacred-heart' },
+        { title: 'PRAYER FOR CONFESSION', route: 'sacramentalprayers?prayer=prayer-for-confession' },
+        { title: 'Prayer for Grace To Make a Good Confession', route: 'sacramentalprayers?prayer=prayer-for-grace' },
+        { title: 'BEFORE HOLY COMMUNION', route: 'sacramentalprayers?prayer=before-holy-communion' },
+        { title: 'AFTER HOLY COMMUNION', route: 'sacramentalprayers?prayer=after-the-holy-communion' },
       ]
     },
     {
@@ -91,10 +91,10 @@ export default function PrayersScreen() {
       title: 'Saints & Devotions',
       icon: '👼',
       items: [
-        { title: 'PRAYER TO THE HOLY SPIRIT', route: '/prayers/saints?prayer=prayer-to-the-holy-spirit' },
-        { title: 'PRAYER OF SAINT FRANCIS', route: '/prayers/saints?prayer=prayer-of-saint-francis' },
-        { title: "ST PATRICK'S PRAYER", route: '/prayers/saints?prayer=st-patricks-prayer' },
-        { title: 'CATENA', route: '/prayers/saints?prayer=catena' },
+        { title: 'PRAYER TO THE HOLY SPIRIT', route: 'saints?prayer=prayer-to-the-holy-spirit' },
+        { title: 'PRAYER OF SAINT FRANCIS', route: 'saints?prayer=prayer-of-saint-francis' },
+        { title: "ST PATRICK'S PRAYER", route: 'saints?prayer=st-patricks-prayer' },
+        { title: 'CATENA', route: 'saints?prayer=catena' },
       ]
     },
     {
@@ -102,10 +102,18 @@ export default function PrayersScreen() {
       title: 'Daily Life',
       icon: '🌞',
       items: [
-        { title: 'MORNING OFFERING', route: '/prayers/daily?prayer=morning-offering' },
-        { title: 'PRAYER WHILE ABOUT TO SLEEP', route: '/prayers/daily?prayer=Sleep-prayer' },
-        { title: 'GRACE BEFORE MEALS', route: '/prayers/daily?prayer=grace-before-meals' },
-        { title: 'GRACE AFTER MEALS', route: '/prayers/daily?prayer=grace-after-meals' },
+        { title: 'MORNING OFFERING', route: 'daily?prayer=morning-offering' },
+        { title: 'PRAYER WHILE ABOUT TO SLEEP', route: 'daily?prayer=Sleep-prayer' },
+        { title: 'GRACE BEFORE MEALS', route: 'daily?prayer=grace-before-meals' },
+        { title: 'GRACE AFTER MEALS', route: 'daily?prayer=grace-after-meals' },
+      ]
+    },
+    {
+      id: 'university',
+      title: 'University Prayers',
+      icon: '🎓',
+      items: [
+        { title: 'UNIVERSITY PRAYER', route: 'universityprayers?prayer=university-prayer', subtitle: 'Prayer for academic excellence' },
       ]
     },
   ];
@@ -115,6 +123,42 @@ export default function PrayersScreen() {
 
   const toggleSection = (sectionId: string): void => {
     setExpandedSection(expandedSection === sectionId ? '' : sectionId);
+  };
+
+  // Handle navigation to prayer
+  const handlePrayerNavigation = (route: string) => {
+    console.log('🔍 Navigation attempt:', route);
+    console.log('📍 Current location: app/(app)/prayers/index.tsx');
+    console.log('🎯 Attempting to navigate to:', route);
+    
+    try {
+      if (route.includes('[day]')) {
+        // Extract day from route like "[day]?day=Monday"
+        const dayMatch = route.match(/day=([^&]+)/);
+        const day = dayMatch ? dayMatch[1] : 'Monday';
+        console.log('📅 Navigating to day:', day);
+        router.push({
+          pathname: '/(app)/prayers/[day]',
+          params: { day }
+        });
+      } else if (route.includes('?')) {
+        // Handle routes with query parameters like "traditionalprayers?prayer=angelus"
+        const [pathname, queryString] = route.split('?');
+        const params = new URLSearchParams(queryString);
+        const prayer = params.get('prayer');
+        console.log('📖 Navigating to prayer:', prayer, 'in', pathname);
+        router.push({
+          pathname: `/(app)/prayers/${pathname}`,
+          params: { prayer }
+        } as any);
+      } else {
+        // Handle simple routes
+        router.push(`/(app)/prayers/${route}` as any);
+      }
+      console.log('✅ Navigation successful');
+    } catch (error) {
+      console.error('❌ Navigation failed:', error);
+    }
   };
 
   // Animation for prayer items when scrolled
@@ -162,12 +206,11 @@ export default function PrayersScreen() {
           subtitle={item.subtitle}
           route={item.route}
           featured={item.featured}
+          onPress={handlePrayerNavigation}
         />
       </Animated.View>
     );
   };
-  
-  
 
   const renderSection = (section: PrayerSection, sectionIndex: number) => {
     const isExpanded = expandedSection === section.id;
@@ -232,7 +275,6 @@ export default function PrayersScreen() {
   };
 
   return (
-
     <View style={[styles.container, { backgroundColor: theme.background }]}>
       <StatusBar
         barStyle={theme.background === '#ffffff' ? 'dark-content' : 'light-content'}
@@ -263,15 +305,16 @@ export default function PrayersScreen() {
           }]}>
             Today's Prayer ({currentDay})
           </Text>
-          <Link 
-            href={todaysPrayer.route as any} 
-            style={[styles.todayLink, { 
+          <TouchableOpacity 
+            onPress={() => handlePrayerNavigation(todaysPrayer.route)}
+          >
+            <Text style={[styles.todayLink, { 
               color: theme.accent,
               fontSize: getFontSize(18)
-            }]}
-          >
-            {todaysPrayer.title} →
-          </Link>
+            }]}>
+              {todaysPrayer.title} →
+            </Text>
+          </TouchableOpacity>
         </View>
       )}
       
@@ -303,7 +346,6 @@ export default function PrayersScreen() {
       </Animated.ScrollView>
     </View>
   );
-  // Note: The footer text is static. You can replace it with a dynamic one if needed.
 }
 
 const styles = StyleSheet.create({
@@ -387,4 +429,4 @@ const styles = StyleSheet.create({
   footerText: {
     fontWeight: '500',
   },
-});
+}); 

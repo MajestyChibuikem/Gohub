@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { useLocalSearchParams } from 'expo-router';
 import { ScrollView, View, Text } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
-import { useTheme } from '../../context/ThemeContext';
-import { useLanguage } from '../../context/LanguageContext';
+import { useTheme } from '../../../context/ThemeContext';
+import { useLanguage } from '../../../context/LanguageContext';
 import { createPrayerStyles } from './prayers.style';
 
 // Import prayers
@@ -44,12 +44,21 @@ export default function TraditionalPrayersScreen() {
   const { language } = useLanguage();
   const styles = createPrayerStyles(theme);
 
+  console.log('📱 traditionalprayers.tsx - Component loaded');
+  console.log('🙏 Prayer param received:', paramPrayer);
+
   const [selectedPrayerId, setSelectedPrayerId] = useState<string>(
     typeof paramPrayer === 'string' ? paramPrayer : traditionalPrayers[0].id
   );
 
+  console.log('🎯 Selected prayer ID:', selectedPrayerId);
+  console.log('📚 Available prayers:', traditionalPrayers.map(p => p.id));
+
   const selectedPrayer = traditionalPrayers.find(p => p.id === selectedPrayerId);
   const sections = selectedPrayer ? parseSections(selectedPrayer.content) : [];
+
+  console.log('📖 Selected prayer found:', selectedPrayer ? 'Yes' : 'No');
+  console.log('📄 Sections parsed:', sections.length);
 
   return (
     <ScrollView

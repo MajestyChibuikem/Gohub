@@ -1,0 +1,87 @@
+{
+    "title": {
+      "en": "Prayer For Godfrey",
+      "es": "Oración por Godfrey"
+    },
+    "sections": [
+      {
+        "type": "invocation",
+        "content": {
+          "en": [
+            "God our father, all knowledge, wisdom and truth come from you",
+            "You are the Creator of the entire universe with all its beauty and richness."
+          ],
+          "es": [
+            "Dios nuestro padre, todo conocimiento, sabiduría y verdad provienen de ti",
+            "Tú eres el Creador de todo el universo con toda su belleza y riqueza."
+          ]
+        }
+      },
+      {
+        "type": "praise",
+        "content": {
+          "en": [
+            "Out of your infinite love you created human beings and endowed them with unfathomable ability to explore, discover, care for the earth, glorify your name and expand your kingdom of justice, love and peace. We your beloved children praise and thank you!"
+          ],
+          "es": [
+            "Por tu infinito amor creaste a los seres humanos y los dotaste de una capacidad insondable para explorar, descubrir, cuidar la tierra, glorificar tu nombre y expandir tu reino de justicia, amor y paz. ¡Nosotros, tus amados hijos, te alabamos y te damos gracias!"
+          ]
+        }
+      },
+      {
+        "type": "university_foundation",
+        "content": {
+          "en": [
+            "In your wisdom you established GO University to shine in the world as God's own university. It is a precious gift from you to the Church in Enugu Diocese, existing to serve humanity and the universal Church. We your beloved children praise and thank you!"
+          ],
+          "es": [
+            "En tu sabiduría estableciste la Universidad GO para brillar en el mundo como la propia universidad de Dios. Es un precioso regalo tuyo para la Iglesia en la Diócesis de Enugu, que existe para servir a la humanidad y a la Iglesia universal. ¡Nosotros, tus amados hijos, te alabamos y te damos gracias!"
+          ]
+        }
+      },
+      {
+        "type": "mission",
+        "content": {
+          "en": [
+            "Lord Jesus Christ, you called us members of the GO University Family to share and promote your mission of salvation of the world; to be a reincarnation of intellectual vitality; to champion love and friendship; to excel in intercultural thinking and remain sound in moral and religious dialogue. We your beloved children praise and thank you!"
+          ],
+          "es": [
+            "Señor Jesucristo, nos llamaste a los miembros de la Familia de la Universidad GO para compartir y promover tu misión de salvación del mundo; para ser una reencarnación de la vitalidad intelectual; para defender el amor y la amistad; para sobresalir en el pensamiento intercultural y permanecer sólidos en el diálogo moral y religioso. ¡Nosotros, tus amados hijos, te alabamos y te damos gracias!"
+          ]
+        }
+      },
+      {
+        "type": "commitment",
+        "content": {
+          "en": [
+            "Lord, lead us to remain ever committed to the unity of knowledge and always ask: Where is the evidence? You established GO University to be an institution with footprints of a great achiever, the heartbeat of excellence and lavishly endowed in Science and Arts. We your beloved children praise and thank you!"
+          ],
+          "es": [
+            "Señor, guíanos para permanecer siempre comprometidos con la unidad del conocimiento y preguntar siempre: ¿Dónde está la evidencia? Tú estableciste la Universidad GO para ser una institución con huellas de un gran logro, el latido de la excelencia y abundantemente dotada en Ciencias y Artes. ¡Nosotros, tus amados hijos, te alabamos y te damos gracias!"
+          ]
+        }
+      },
+      {
+        "type": "guidance",
+        "content": {
+          "en": [
+            "Holy Spirit, guide and direct the management and members of staff to be steadfast in the pursuit of the set goals and values of the university. Enable them, by your powerful protection, to discharge their duties with honesty, dedication and love. Instill in the students the zeal to excel in the quest for knowledge animated by truth. Holy Spirit, strengthen and establish in our university a culture of sound teaching, research, peace, service, and love. We make our prayer through Christ Our Lord. Amen!"
+          ],
+          "es": [
+            "Espíritu Santo, guía y dirige a la administración y a los miembros del personal para que sean firmes en la búsqueda de las metas y valores establecidos por la universidad. Permíteles, con tu poderosa protección, desempeñar sus deberes con honestidad, dedicación y amor. Infunde en los estudiantes el celo por sobresalir en la búsqueda del conocimiento animado por la verdad. Espíritu Santo, fortalece y establece en nuestra universidad una cultura de enseñanza sólida, investigación, paz, servicio y amor. Hacemos nuestra oración por Cristo Nuestro Señor. ¡Amén!"
+          ]
+        }
+      },
+      {
+        "type": "conclusion",
+        "content": {
+          "en": [
+            "Our Lady Seat of Wisdom, pray for us!"
+          ],
+          "es": [
+            "Nuestra Señora del Asiento de la Sabiduría, ¡ruega por nosotros!"
+          ]
+        }
+      }
+    ]
+  }

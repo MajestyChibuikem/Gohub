@@ -253,15 +253,28 @@ type PrayerContent = {
     period?: 'morning' | 'mid-day' | 'evening' 
   ): PrayerData => {
   
+    console.log('🔄 loadPrayer called with:', { dayOrPrayer, period });
+  
     // Handle daily prayers
     const dayKey = dayOrPrayer.toLowerCase();
+    console.log('🔑 Day key:', dayKey);
+    
     if (period && period in prayers) {
+      console.log('✅ Period found:', period);
       const periodPrayers = prayers[period as keyof typeof prayers];
+      console.log('📚 Available days in period:', Object.keys(periodPrayers));
+      
       if (dayKey in periodPrayers) {
+        console.log('✅ Day found in period prayers');
         return periodPrayers[dayKey as keyof typeof periodPrayers];
+      } else {
+        console.log('❌ Day not found in period prayers');
       }
+    } else {
+      console.log('❌ Period not found or invalid:', period);
     }
   
+    console.log('❌ Returning fallback prayer data');
     return {
       en: `Prayer not found for ${dayOrPrayer} ${period || ''}`,
       es: `Oración no encontrada para ${dayOrPrayer} ${period || ''}`,

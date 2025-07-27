@@ -7,13 +7,13 @@ import {
   Pressable
 } from 'react-native';
 import { useTheme } from '../context/ThemeContext';
-import { Link } from 'expo-router';
 
 type PrayerCardProps = {
   title: string;
   subtitle?: string;
   route: string;
   featured?: boolean;
+  onPress?: (route: string) => void;
 };
 
 export default function PrayerCard({
@@ -21,12 +21,18 @@ export default function PrayerCard({
   subtitle,
   route,
   featured,
+  onPress,
 }: PrayerCardProps) {
   const { theme, getFontSize } = useTheme();
 
+  const handlePress = () => {
+    if (onPress) {
+      onPress(route);
+    }
+  };
+
   return (
-    <Link href={route as any} asChild>
-      <Pressable>
+    <Pressable onPress={handlePress}>
         {({ pressed }) => (
           <View style={[
             styles.card,
@@ -89,7 +95,6 @@ export default function PrayerCard({
           </View>
         )}
       </Pressable>
-    </Link>
   );
 }
 
