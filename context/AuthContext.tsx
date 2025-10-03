@@ -55,8 +55,20 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   // Get device ID
   const getDeviceId = async (): Promise<string> => {
     try {
-      const deviceId = await Application.getAndroidId() || Application.applicationId || 'unknown-device';
-      return deviceId;
+      // For web, use a more reliable method
+      if (typeof window !== 'undefined') {
+        // Try to get or create a persistent device ID for web
+        let deviceId = localStorage.getItem('gohub_device_id');
+        if (!deviceId) {
+          deviceId = 'web_' + Math.random().toString(36).substr(2, 9) + '_' + Date.now();
+          localStorage.setItem('gohub_device_id', deviceId);
+        }
+        return deviceId;
+      } else {
+        // For mobile, use the original method
+        const deviceId = await Application.getAndroidId() || Application.applicationId || 'unknown-device';
+        return deviceId;
+      }
     } catch (error) {
       console.error('Error getting device ID:', error);
       return 'unknown-device';
@@ -67,17 +79,26 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   useEffect(() => {
     (async () => {
       try {
+        console.log('🔄 AuthContext: Starting auth initialization...');
         const deviceId = await getDeviceId();
+        console.log('📱 AuthContext: Device ID:', deviceId);
+        
         const [token, userData] = await Promise.all([
           AsyncStorage.getItem('auth_token'),
           AsyncStorage.getItem('user_data'),
         ]);
         
+        console.log('🔑 AuthContext: Token exists:', !!token);
+        console.log('👤 AuthContext: User data exists:', !!userData);
+        
         if (token && userData) {
           const user = JSON.parse(userData);
+          console.log('👤 AuthContext: Parsed user:', user);
+          console.log('🔍 AuthContext: Device ID match:', user.deviceId === deviceId);
           
           // Check if device ID matches
           if (user.deviceId === deviceId) {
+            console.log('✅ AuthContext: Device ID matches, setting authenticated state');
             setAuthState({
               user,
               token,
@@ -88,13 +109,15 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
             });
           } else {
             // Device mismatch - log out user
-            await logout();
+            console.log('❌ AuthContext: Device ID mismatch, logging out');
+            await logoutRef.current();
           }
         } else {
+          console.log('🔓 AuthContext: No stored auth data, setting unauthenticated state');
           setAuthState(prev => ({ ...prev, isLoading: false, deviceId }));
         }
       } catch (error) {
-        console.error('Error loading auth data:', error);
+        console.error('❌ AuthContext: Error loading auth data:', error);
         setAuthState(prev => ({ ...prev, isLoading: false }));
       }
     })();
@@ -231,6 +254,10 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
       });
     }
   };
+
+  // Create a stable logout function reference to prevent infinite loops
+  const logoutRef = React.useRef(logout);
+  logoutRef.current = logout;
 
   // Check activation status (call server)
   const checkActivation = async () => {
