@@ -54,8 +54,10 @@
     },
     "extra": {
       "eas": {
-        "projectId": "your-project-id-here"
-      }
-    }
+        "projectId": "aa869129-4435-4186-a693-5dd4a095a476"
+      },
+      "router": {}
+    },
+    "owner": "majestychibuikem"
   }
 }

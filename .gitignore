@@ -21,6 +21,9 @@ android/
 # Metro
 .metro-health-check*
 
+backend/venv311/
+venv311/
+
 # debug
 npm-debug.*
 yarn-debug.*
