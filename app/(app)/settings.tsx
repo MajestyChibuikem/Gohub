@@ -14,28 +14,49 @@ export default function ProfileScreen() {
   const router = useRouter();
 
   const handleLogout = () => {
-    Alert.alert(
-      'Logout',
-      'Are you sure you want to logout?',
-      [
-        {
-          text: 'Cancel',
-          style: 'cancel',
-        },
-        {
-          text: 'Logout',
-          style: 'destructive',
-          onPress: async () => {
-            try {
-              await logout();
-              router.replace('/(auth)/login');
-            } catch (error) {
-              Alert.alert('Error', 'Failed to logout. Please try again.');
-            }
-          },
-        },
-      ]
-    );
+    console.log('🔘 Logout button clicked - starting direct logout');
+    
+    // Use browser confirm for web compatibility
+    const confirmed = window.confirm('Are you sure you want to logout?');
+    
+    if (confirmed) {
+      console.log('✅ Logout confirmed by user');
+      handleDirectLogout();
+    } else {
+      console.log('❌ Logout cancelled by user');
+    }
+  };
+
+  const handleDirectLogout = async () => {
+    try {
+      console.log('🚪 Direct logout - starting logout process');
+      
+      // Call the logout function from AuthContext
+      await logout();
+      console.log('✅ Logout function completed');
+      
+      // Wait a moment for state to update
+      await new Promise(resolve => setTimeout(resolve, 100));
+      
+      // Try multiple navigation methods for web compatibility
+      try {
+        console.log('🔄 Attempting navigation to login...');
+        router.push('/(auth)/login');
+        console.log('✅ Navigation with router.push successful');
+      } catch (navError) {
+        console.warn('⚠️ router.push failed, trying router.replace:', navError);
+        try {
+          router.replace('/(auth)/login');
+          console.log('✅ Navigation with router.replace successful');
+        } catch (replaceError) {
+          console.error('❌ Both navigation methods failed:', replaceError);
+          // Force page reload as last resort
+          window.location.href = '/';
+        }
+      }
+    } catch (error) {
+      console.error('❌ Direct logout error:', error);
+    }
   };
 
   const ThemeModeSelector = () => {
@@ -438,7 +459,12 @@ export default function ProfileScreen() {
         </SettingSection>
 
         {/* Logout Button */}
-        <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>
+        <TouchableOpacity 
+          style={styles.logoutButton} 
+          onPress={handleLogout}
+          onPressIn={() => console.log('👆 Logout button pressed in')}
+          onPressOut={() => console.log('👆 Logout button pressed out')}
+        >
           <Text style={styles.logoutButtonText}>Logout</Text>
         </TouchableOpacity>
       </ScrollView>

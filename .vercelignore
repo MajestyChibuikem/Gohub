@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Development files
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Build artifacts
+build/
+*.tgz
+*.tar.gz
+
+# Temporary folders
+tmp/
+temp/
+
+# Android/iOS specific
+android/
+ios/
+*.apk
+*.ipa
+
+# Backend files (if not needed for web)
+backend/
+
+# Documentation
+*.md
+!README.md
