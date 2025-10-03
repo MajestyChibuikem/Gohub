@@ -1,12 +1,9 @@
 {
   "version": 2,
   "name": "gohub-catholic-app",
-  "builds": [
-    {
-      "src": "dist/**/*",
-      "use": "@vercel/static"
-    }
-  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
   "headers": [
     {
       "source": "/(.*)",
@@ -38,7 +35,7 @@
   "rewrites": [
     {
       "source": "/((?!_expo/static/).*)",
-      "destination": "/dist/index.html"
+      "destination": "/index.html"
     }
   ]
 }
