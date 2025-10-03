@@ -28,28 +28,26 @@ export default function AppLayout() {
           ),
         }}
       />
-      {isActivated && (
-        <Tabs.Screen
-          name="prayers"
-          options={{
-            title: 'Prayers',
-            tabBarIcon: ({ color, size }) => (
-              <Ionicons name="book" size={size} color={color} />
-            ),
-          }}
-        />
-      )}
-      {isActivated && (
-        <Tabs.Screen
-          name="hymns"
-          options={{
-            title: 'Hymns',
-            tabBarIcon: ({ color, size }) => (
-              <Ionicons name="musical-notes" size={size} color={color} />
-            ),
-          }}
-        />
-      )}
+      <Tabs.Screen
+        name="prayers"
+        options={{
+          title: 'Prayers',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="book" size={size} color={color} />
+          ),
+        }}
+        href={isActivated ? "/prayers" : null}
+      />
+      <Tabs.Screen
+        name="hymns"
+        options={{
+          title: 'Hymns',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="musical-notes" size={size} color={color} />
+          ),
+        }}
+        href={isActivated ? "/hymns" : null}
+      />
       <Tabs.Screen
         name="settings"
         options={{
