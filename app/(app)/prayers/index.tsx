@@ -322,7 +322,7 @@ export default function PrayersScreen() {
         style={{ flex: 1 }}
         contentContainerStyle={[
           styles.scrollContent,
-          { paddingBottom: Platform.OS === 'ios' ? 80 : 40 }
+          { paddingBottom: Platform.OS === 'ios' ? 80 : Platform.OS === 'web' ? 20 : 40 }
         ]}
         showsVerticalScrollIndicator={false}
         onScroll={Animated.event(
@@ -353,7 +353,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   header: {
-    paddingTop: Platform.OS === 'ios' ? 50 : 20,
+    paddingTop: Platform.OS === 'ios' ? 50 : Platform.OS === 'web' ? 20 : 20,
     paddingBottom: 10,
     borderBottomWidth: 1,
     alignItems: 'center',

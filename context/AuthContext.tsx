@@ -194,6 +194,8 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   // Logout function
   const logout = async () => {
     try {
+      console.log('🔄 Starting logout process...');
+      
       // Set loading state to force navigation update
       setAuthState(prev => ({ ...prev, isLoading: true }));
       
@@ -201,6 +203,8 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         AsyncStorage.removeItem('auth_token'),
         AsyncStorage.removeItem('user_data'),
       ]);
+      
+      console.log('🗑️ Cleared storage data');
       
       // Force immediate state update
       setAuthState({
@@ -212,8 +216,10 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         deviceId: null,
       });
       
+      console.log('✅ Logout completed successfully');
+      
     } catch (error) {
-      console.error('Error during logout:', error);
+      console.error('❌ Error during logout:', error);
       // Even if there's an error, clear the state
       setAuthState({
         user: null,

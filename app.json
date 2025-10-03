@@ -35,7 +35,15 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "name": "Gohub - Catholic Prayer & Hymn App",
+      "shortName": "Gohub",
+      "description": "A comprehensive Catholic prayer and hymn application for Godfrey Okoye University",
+      "startUrl": "/",
+      "display": "standalone",
+      "orientation": "portrait",
+      "themeColor": "#009688",
+      "backgroundColor": "#ffffff"
     },
     "plugins": [
       "expo-router",

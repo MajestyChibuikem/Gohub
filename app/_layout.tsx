@@ -41,6 +41,8 @@ function RootLayoutNav() {
   const { theme } = useTheme();
   const { isActivated, isAuthenticated, isLoading } = useAuth();
 
+  console.log('🔍 RootLayoutNav - Auth State:', { isAuthenticated, isActivated, isLoading });
+
   if (isLoading) {
     return null; // Show loading state
   }
@@ -49,7 +51,7 @@ function RootLayoutNav() {
     <>
       <StatusBar style={theme.background === '#ffffff' ? 'dark' : 'light'} />
       <Stack 
-        key={`${isAuthenticated}-${isActivated}`} // Force re-render on auth/activation change
+        key={`${isAuthenticated}-${isActivated}-${Date.now()}`} // Force re-render on auth/activation change
         screenOptions={{ headerShown: false }}
       >
         {isAuthenticated && isActivated ? (
