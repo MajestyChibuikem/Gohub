@@ -14,8 +14,8 @@ export default function RestrictedHomeScreen() {
 
   const styles = StyleSheet.create({
     scrollContent: {
-      flexGrow: 1,
-      padding: 20,
+      paddingHorizontal: 16,
+      paddingVertical: 20,
     },
     logoContainer: {
       alignItems: 'center',
@@ -122,7 +122,10 @@ export default function RestrictedHomeScreen() {
 
   return (
     <ThemedView style={{backgroundColor: theme.background}}>
-      <ScrollView contentContainerStyle={styles.scrollContent}>
+      <ScrollView 
+        style={{ flex: 1 }}
+        contentContainerStyle={styles.scrollContent}
+      >
         {/* Logo */}
         <View style={styles.logoContainer}>
           <Image
