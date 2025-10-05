@@ -121,11 +121,10 @@ export default function RestrictedHomeScreen() {
   });
 
   return (
-    <ThemedView style={{backgroundColor: theme.background}}>
-      <ScrollView 
-        style={{ flex: 1 }}
-        contentContainerStyle={styles.scrollContent}
-      >
+    <ScrollView 
+      style={{ flex: 1, backgroundColor: theme.background }}
+      contentContainerStyle={styles.scrollContent}
+    >
         {/* Logo */}
         <View style={styles.logoContainer}>
           <Image
@@ -267,7 +266,6 @@ export default function RestrictedHomeScreen() {
         }}>
           © {new Date().getFullYear()} Godfrey Okoye University - MAJESTY
         </ThemedText>
-      </ScrollView>
-    </ThemedView>
+    </ScrollView>
   );
 } 
