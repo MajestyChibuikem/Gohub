@@ -4,6 +4,7 @@ import { ScrollView, View, Text } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { useLanguage } from '../../../context/LanguageContext';
 import { useTheme } from '../../../context/ThemeContext';
+import { useAuth } from '../../../context/AuthContext';
 import { loadPrayer } from '../../../utils/prayerMap';
 
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -17,6 +18,23 @@ export default function PrayerScreen() {
   const router = useRouter();
   const { language } = useLanguage() as { language: 'en' | 'es' };
   const { theme, getFontSize } = useTheme();
+  const { isAuthenticated, isActivated } = useAuth();
+
+  // Route guard - redirect if not authenticated or not activated
+  useEffect(() => {
+    if (!isAuthenticated) {
+      console.log('🔒 PrayerScreen: User not authenticated, redirecting to login');
+      router.replace('/(auth)/login');
+    } else if (!isActivated) {
+      console.log('⏳ PrayerScreen: User not activated, redirecting to pending activation');
+      router.replace('/pending-activation');
+    }
+  }, [isAuthenticated, isActivated, router]);
+
+  // Show nothing while redirecting
+  if (!isAuthenticated || !isActivated) {
+    return null;
+  }
 
   console.log('📱 [day].tsx - Component loaded');
   console.log('📅 Params received:', { day: paramDay, period: paramPeriod });

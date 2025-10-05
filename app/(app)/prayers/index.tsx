@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { Ionicons } from '@expo/vector-icons';
 import { 
   Animated, 
@@ -13,6 +13,7 @@ import {
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useTheme } from '../../../context/ThemeContext';
+import { useAuth } from '../../../context/AuthContext';
 import PrayerCard from '../../../components/PrayerCard';
 
 const { width } = Dimensions.get('window');
@@ -35,9 +36,26 @@ interface PrayerSection {
 
 export default function PrayersScreen() {
   const { theme, getFontSize } = useTheme();
+  const { isAuthenticated, isActivated } = useAuth();
   const router = useRouter();
   const scrollY = useRef(new Animated.Value(0)).current;
   const [expandedSection, setExpandedSection] = useState<string>('daily');
+
+  // Route guard - redirect if not authenticated or not activated
+  useEffect(() => {
+    if (!isAuthenticated) {
+      console.log('🔒 PrayersScreen: User not authenticated, redirecting to login');
+      router.replace('/(auth)/login');
+    } else if (!isActivated) {
+      console.log('⏳ PrayersScreen: User not activated, redirecting to pending activation');
+      router.replace('/pending-activation');
+    }
+  }, [isAuthenticated, isActivated, router]);
+
+  // Show nothing while redirecting
+  if (!isAuthenticated || !isActivated) {
+    return null;
+  }
   
   // Get current day of week for featured prayer
   const getDayOfWeek = (): string => {

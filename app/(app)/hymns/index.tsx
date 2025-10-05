@@ -1,12 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '../../../context/ThemeContext';
+import { useAuth } from '../../../context/AuthContext';
 import { useRouter } from 'expo-router';
 
 export default function HymnsScreen() {
   const { theme, getFontSize } = useTheme();
+  const { isAuthenticated, isActivated } = useAuth();
   const router = useRouter();
+
+  // Route guard - redirect if not authenticated or not activated
+  useEffect(() => {
+    if (!isAuthenticated) {
+      console.log('🔒 HymnsScreen: User not authenticated, redirecting to login');
+      router.replace('/(auth)/login');
+    } else if (!isActivated) {
+      console.log('⏳ HymnsScreen: User not activated, redirecting to pending activation');
+      router.replace('/pending-activation');
+    }
+  }, [isAuthenticated, isActivated, router]);
+
+  // Show nothing while redirecting
+  if (!isAuthenticated || !isActivated) {
+    return null;
+  }
 
   const hymnCategories = [
     {
