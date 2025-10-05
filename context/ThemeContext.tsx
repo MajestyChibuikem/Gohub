@@ -137,7 +137,7 @@ export const ThemeProvider: React.FC<{children: React.ReactNode}> = ({children})
     getFontSize,
   }), [theme, settings]);
 
-  if (isLoading) return null;
+  // Don't block rendering, show default theme while loading
   return <ThemeContext.Provider value={ctx}>{children}</ThemeContext.Provider>;
 };
 

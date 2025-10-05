@@ -55,17 +55,15 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   // Get device ID
   const getDeviceId = async (): Promise<string> => {
     try {
-      // For web, use a more reliable method
       if (typeof window !== 'undefined') {
-        // Try to get or create a persistent device ID for web
-        let deviceId = localStorage.getItem('gohub_device_id');
+        // Use AsyncStorage instead of localStorage for web
+        let deviceId = await AsyncStorage.getItem('gohub_device_id');
         if (!deviceId) {
           deviceId = 'web_' + Math.random().toString(36).substr(2, 9) + '_' + Date.now();
-          localStorage.setItem('gohub_device_id', deviceId);
+          await AsyncStorage.setItem('gohub_device_id', deviceId);
         }
         return deviceId;
       } else {
-        // For mobile, use the original method
         const deviceId = await Application.getAndroidId() || Application.applicationId || 'unknown-device';
         return deviceId;
       }

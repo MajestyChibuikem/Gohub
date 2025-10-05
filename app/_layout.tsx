@@ -1,38 +1,46 @@
-// app/_layout.tsx
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Stack } from 'expo-router';
+import { Platform } from 'react-native';
 import { ThemeProvider } from '../context/ThemeContext';
 import { AuthProvider } from '../context/AuthContext';
+import { LanguageProvider } from '../context/LanguageContext';
 import { useTheme } from '../context/ThemeContext';
 import { useAuth } from '../context/AuthContext';
 import { StatusBar } from 'expo-status-bar';
-
-// Import and setup any required fonts
 import { useFonts } from 'expo-font';
 import { SplashScreen } from 'expo-router';
 
 export default function RootLayout() {
+  const [isWebReady, setIsWebReady] = useState(Platform.OS !== 'web');
+  
   const [fontsLoaded] = useFonts({
     'SpaceMono': require('../assets/fonts/SpaceMono-Regular.ttf'),
-    // Add other fonts here as needed
   });
 
-  // Keep the splash screen visible until fonts have loaded
   useEffect(() => {
     if (fontsLoaded) {
       SplashScreen.hideAsync();
     }
   }, [fontsLoaded]);
 
-  if (!fontsLoaded) {
+  // Handle web hydration
+  useEffect(() => {
+    if (Platform.OS === 'web') {
+      setIsWebReady(true);
+    }
+  }, []);
+
+  if (!fontsLoaded || !isWebReady) {
     return null;
   }
 
   return (
     <ThemeProvider>
-      <AuthProvider>
-        <RootLayoutNav />
-      </AuthProvider>
+      <LanguageProvider>
+        <AuthProvider>
+          <RootLayoutNav />
+        </AuthProvider>
+      </LanguageProvider>
     </ThemeProvider>
   );
 }
@@ -50,8 +58,8 @@ function RootLayoutNav() {
   return (
     <>
       <StatusBar style={theme.background === '#ffffff' ? 'dark' : 'light'} />
-      <Stack 
-        key={`${isAuthenticated}-${isActivated}-${Date.now()}`} // Force re-render on auth/activation change
+      <Stack
+        key={`${isAuthenticated}-${isActivated}`}
         screenOptions={{ headerShown: false }}
       >
         {isAuthenticated && isActivated ? (

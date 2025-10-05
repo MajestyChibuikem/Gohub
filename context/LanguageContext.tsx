@@ -20,7 +20,8 @@ interface LanguageProviderProps {
 
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
   const [language, setLanguage] = useState('en');
-  const availableLanguages = ['en', 'es', 'fr', 'de']; // Add more as needed
+  const [isHydrated, setIsHydrated] = useState(false);
+  const availableLanguages = ['en', 'es', 'fr', 'de'];
 
   useEffect(() => {
     const loadLanguage = async () => {
@@ -37,6 +38,8 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
         }
       } catch (error) {
         console.error('Failed to load language', error);
+      } finally {
+        setIsHydrated(true);
       }
     };
 
