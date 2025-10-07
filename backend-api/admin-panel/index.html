@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoHub Admin Panel</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    
+    h1 {
+      color: #667eea;
+      margin-bottom: 10px;
+      font-size: 2.5em;
+    }
+    
+    .subtitle {
+      color: #666;
+      margin-bottom: 30px;
+    }
+    
+    .section {
+      margin-bottom: 40px;
+      padding: 20px;
+      border: 2px solid #f0f0f0;
+      border-radius: 10px;
+    }
+    
+    h2 {
+      color: #764ba2;
+      margin-bottom: 20px;
+      font-size: 1.8em;
+    }
+    
+    input, button {
+      padding: 12px;
+      margin: 5px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    
+    input {
+      min-width: 250px;
+    }
+    
+    button {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+    
+    button:active {
+      transform: translateY(0);
+    }
+    
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 15px;
+      text-align: left;
+    }
+    
+    th {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    tr:nth-child(even) {
+      background: #f8f9fa;
+    }
+    
+    tr:hover {
+      background: #e9ecef;
+    }
+    
+    .allowed {
+      color: #28a745;
+      font-weight: bold;
+    }
+    
+    .not-allowed {
+      color: #dc3545;
+      font-weight: bold;
+    }
+    
+    .activated {
+      color: #17a2b8;
+      font-weight: bold;
+    }
+    
+    .btn-small {
+      padding: 8px 15px;
+      font-size: 12px;
+      margin: 2px;
+    }
+    
+    .btn-danger {
+      background: #dc3545;
+    }
+    
+    .btn-success {
+      background: #28a745;
+    }
+    
+    .btn-warning {
+      background: #ffc107;
+      color: #000;
+    }
+    
+    .stats {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .stat-card {
+      flex: 1;
+      padding: 20px;
+      border-radius: 10px;
+      color: white;
+      text-align: center;
+    }
+    
+    .stat-card h3 {
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+    
+    .stat-total { background: #667eea; }
+    .stat-allowed { background: #28a745; }
+    .stat-active { background: #17a2b8; }
+    
+    #loading {
+      text-align: center;
+      padding: 20px;
+      display: none;
+    }
+    
+    .spinner {
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #667eea;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      margin: 20px auto;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    .search-box {
+      margin-bottom: 20px;
+    }
+    
+    .filter-buttons {
+      margin-bottom: 20px;
+    }
+    
+    .filter-buttons button {
+      margin: 5px;
+    }
+    
+    .active-filter {
+      background: #28a745 !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎓 GoHub Admin Panel</h1>
+    <p class="subtitle">Manage student access to the Catholic Prayer & Hymn App</p>
+    
+    <!-- Statistics -->
+    <div class="stats">
+      <div class="stat-card stat-total">
+        <h3 id="totalStudents">0</h3>
+        <p>Total Students</p>
+      </div>
+      <div class="stat-card stat-allowed">
+        <h3 id="allowedStudents">0</h3>
+        <p>Allowed</p>
+      </div>
+      <div class="stat-card stat-active">
+        <h3 id="activatedStudents">0</h3>
+        <p>Activated</p>
+      </div>
+    </div>
+    
+    <!-- Admin Key -->
+    <div class="section">
+      <h2>🔑 Admin Authentication</h2>
+      <input type="password" id="adminKey" placeholder="Enter Admin Key">
+      <button onclick="saveAdminKey()">Save Key</button>
+      <span id="keyStatus"></span>
+    </div>
+    
+    <!-- Add Student -->
+    <div class="section">
+      <h2>➕ Add New Student</h2>
+      <input type="text" id="regNumber" placeholder="Registration Number (e.g., CS/2020/001)">
+      <input type="text" id="name" placeholder="Student Name">
+      <label>
+        <input type="checkbox" id="isAllowed"> Allow Access
+      </label>
+      <label>
+        <input type="checkbox" id="isActivated"> Activate Account
+      </label>
+      <button onclick="addStudent()">Add Student</button>
+    </div>
+    
+    <!-- Students List -->
+    <div class="section">
+      <h2>📋 Students List</h2>
+      
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search by Reg Number or Name..." onkeyup="filterStudents()">
+      </div>
+      
+      <div class="filter-buttons">
+        <button onclick="filterByStatus('all')" id="filterAll" class="active-filter">All Students</button>
+        <button onclick="filterByStatus('allowed')" id="filterAllowed">Allowed Only</button>
+        <button onclick="filterByStatus('activated')" id="filterActivated">Activated Only</button>
+        <button onclick="loadStudents()">🔄 Refresh</button>
+      </div>
+      
+      <div id="loading">
+        <div class="spinner"></div>
+        <p>Loading students...</p>
+      </div>
+      
+      <table id="studentsTable">
+        <thead>
+          <tr>
+            <th>Reg Number</th>
+            <th>Name</th>
+            <th>Allowed</th>
+            <th>Activated</th>
+            <th>Active Session</th>
+            <th>Last Login</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+  
+  <script>
+    const API_URL = window.location.origin + '/api';
+    let ADMIN_KEY = localStorage.getItem('adminKey') || '';
+    let allStudents = [];
+    let currentFilter = 'all';
+    
+    // Update key status on load
+    document.addEventListener('DOMContentLoaded', () => {
+      if (ADMIN_KEY) {
+        document.getElementById('adminKey').value = ADMIN_KEY;
+        document.getElementById('keyStatus').textContent = '✓ Key saved';
+        document.getElementById('keyStatus').style.color = 'green';
+      }
+      loadStudents();
+    });
+    
+    function saveAdminKey() {
+      ADMIN_KEY = document.getElementById('adminKey').value;
+      localStorage.setItem('adminKey', ADMIN_KEY);
+      document.getElementById('keyStatus').textContent = '✓ Key saved';
+      document.getElementById('keyStatus').style.color = 'green';
+      loadStudents();
+    }
+    
+    async function addStudent() {
+      const regNumber = document.getElementById('regNumber').value;
+      const name = document.getElementById('name').value;
+      const isAllowed = document.getElementById('isAllowed').checked;
+      const isActivated = document.getElementById('isActivated').checked;
+      
+      if (!ADMIN_KEY) {
+        alert('Please enter and save your admin key first');
+        return;
+      }
+      
+      if (!regNumber || !name) {
+        alert('Please enter registration number and name');
+        return;
+      }
+      
+      try {
+        const response = await fetch(`${API_URL}/admin/add-student`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-admin-key': ADMIN_KEY
+          },
+          body: JSON.stringify({ registrationNumber: regNumber, name, isAllowed, isActivated })
+        });
+        
+        const data = await response.json();
+        
+        if (response.ok) {
+          alert(`Student added successfully: ${data.student.registrationNumber}`);
+          document.getElementById('regNumber').value = '';
+          document.getElementById('name').value = '';
+          document.getElementById('isAllowed').checked = false;
+          document.getElementById('isActivated').checked = false;
+          loadStudents();
+        } else {
+          alert(`Error: ${data.error || data.message}`);
+        }
+      } catch (error) {
+        alert(`Failed to add student: ${error.message}`);
+      }
+    }
+    
+    async function loadStudents() {
+      if (!ADMIN_KEY) {
+        alert('Please enter your admin key first');
+        return;
+      }
+      
+      document.getElementById('loading').style.display = 'block';
+      
+      try {
+        const response = await fetch(`${API_URL}/admin/students`, {
+          headers: { 'x-admin-key': ADMIN_KEY }
+        });
+        
+        const data = await response.json();
+        
+        if (response.ok) {
+          allStudents = data.students;
+          updateStatistics(allStudents);
+          displayStudents(allStudents);
+        } else {
+          alert(`Error: ${data.error || data.message}`);
+        }
+      } catch (error) {
+        alert(`Failed to load students: ${error.message}`);
+      } finally {
+        document.getElementById('loading').style.display = 'none';
+      }
+    }
+    
+    function updateStatistics(students) {
+      document.getElementById('totalStudents').textContent = students.length;
+      document.getElementById('allowedStudents').textContent = students.filter(s => s.isAllowed).length;
+      document.getElementById('activatedStudents').textContent = students.filter(s => s.isActivated).length;
+    }
+    
+    function displayStudents(students) {
+      const tbody = document.querySelector('#studentsTable tbody');
+      tbody.innerHTML = '';
+      
+      students.forEach(student => {
+        const row = `
+          <tr>
+            <td><strong>${student.registrationNumber}</strong></td>
+            <td>${student.name}</td>
+            <td class="${student.isAllowed ? 'allowed' : 'not-allowed'}">
+              ${student.isAllowed ? '✓ Allowed' : '✗ Not Allowed'}
+            </td>
+            <td class="${student.isActivated ? 'activated' : ''}">
+              ${student.isActivated ? '✓ Activated' : '○ Not Activated'}
+            </td>
+            <td>${student.hasActiveSession ? '🟢 Active' : '○ Offline'}</td>
+            <td>${student.lastLogin ? new Date(student.lastLogin).toLocaleString() : 'Never'}</td>
+            <td>
+              <button class="btn-small ${student.isAllowed ? 'btn-warning' : 'btn-success'}" onclick="toggleAllowed('${student.registrationNumber}')">
+                ${student.isAllowed ? 'Disable' : 'Enable'}
+              </button>
+              <button class="btn-small ${student.isActivated ? 'btn-warning' : 'btn-success'}" onclick="toggleActivated('${student.registrationNumber}')">
+                ${student.isActivated ? 'Deactivate' : 'Activate'}
+              </button>
+              ${student.hasActiveSession ? `<button class="btn-small btn-danger" onclick="invalidateSession('${student.registrationNumber}')">Logout</button>` : ''}
+              <button class="btn-small btn-danger" onclick="deleteStudent('${student.registrationNumber}')">Delete</button>
+            </td>
+          </tr>
+        `;
+        tbody.innerHTML += row;
+      });
+    }
+    
+    function filterStudents() {
+      const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+      let filtered = allStudents;
+      
+      // Apply status filter
+      if (currentFilter === 'allowed') {
+        filtered = filtered.filter(s => s.isAllowed);
+      } else if (currentFilter === 'activated') {
+        filtered = filtered.filter(s => s.isActivated);
+      }
+      
+      // Apply search filter
+      if (searchTerm) {
+        filtered = filtered.filter(s => 
+          s.registrationNumber.toLowerCase().includes(searchTerm) ||
+          s.name.toLowerCase().includes(searchTerm)
+        );
+      }
+      
+      displayStudents(filtered);
+    }
+    
+    function filterByStatus(status) {
+      currentFilter = status;
+      
+      // Update active button
+      document.querySelectorAll('.filter-buttons button').forEach(btn => {
+        btn.classList.remove('active-filter');
+      });
+      document.getElementById('filter' + status.charAt(0).toUpperCase() + status.slice(1)).classList.add('active-filter');
+      
+      filterStudents();
+    }
+    
+    async function toggleAllowed(regNumber) {
+      if (!confirm(`Toggle access for ${regNumber}?`)) return;
+      
+      try {
+        const response = await fetch(`${API_URL}/admin/toggle-allowed/${regNumber}`, {
+          method: 'PUT',
+          headers: { 'x-admin-key': ADMIN_KEY }
+        });
+        
+        if (response.ok) {
+          loadStudents();
+        } else {
+          const data = await response.json();
+          alert(`Error: ${data.error}`);
+        }
+      } catch (error) {
+        alert(`Failed: ${error.message}`);
+      }
+    }
+    
+    async function toggleActivated(regNumber) {
+      if (!confirm(`Toggle activation for ${regNumber}?`)) return;
+      
+      try {
+        const response = await fetch(`${API_URL}/admin/toggle-activated/${regNumber}`, {
+          method: 'PUT',
+          headers: { 'x-admin-key': ADMIN_KEY }
+        });
+        
+        if (response.ok) {
+          loadStudents();
+        } else {
+          const data = await response.json();
+          alert(`Error: ${data.error}`);
+        }
+      } catch (error) {
+        alert(`Failed: ${error.message}`);
+      }
+    }
+    
+    async function invalidateSession(regNumber) {
+      if (!confirm(`Logout ${regNumber}?`)) return;
+      
+      try {
+        const response = await fetch(`${API_URL}/admin/invalidate-session/${regNumber}`, {
+          method: 'POST',
+          headers: { 'x-admin-key': ADMIN_KEY }
+        });
+        
+        if (response.ok) {
+          alert('Session invalidated successfully');
+          loadStudents();
+        } else {
+          const data = await response.json();
+          alert(`Error: ${data.error}`);
+        }
+      } catch (error) {
+        alert(`Failed: ${error.message}`);
+      }
+    }
+    
+    async function deleteStudent(regNumber) {
+      if (!confirm(`Are you sure you want to DELETE ${regNumber}? This cannot be undone!`)) return;
+      
+      try {
+        const response = await fetch(`${API_URL}/admin/student/${regNumber}`, {
+          method: 'DELETE',
+          headers: { 'x-admin-key': ADMIN_KEY }
+        });
+        
+        if (response.ok) {
+          alert('Student deleted successfully');
+          loadStudents();
+        } else {
+          const data = await response.json();
+          alert(`Error: ${data.error}`);
+        }
+      } catch (error) {
+        alert(`Failed: ${error.message}`);
+      }
+    }
+  </script>
+</body>
+</html>
+
