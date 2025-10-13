@@ -127,48 +127,39 @@ export default function PendingActivationScreen() {
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.header}>
           <Image source={require('../assets/images/logo.png')} style={styles.icon} />
-          <Text style={styles.title}>Account Pending Activation</Text>
+          <Text style={styles.title}>Access Pending Approval</Text>
           <Text style={styles.subtitle}>
-            Your account has been created successfully, but it needs to be activated by an administrator.
+            Your registration number has been found, but access to the app has not been granted yet. Please contact administration.
           </Text>
         </View>
 
         <View style={styles.userInfo}>
-          <Text style={styles.userInfoLabel}>Account Information</Text>
+          <Text style={styles.userInfoLabel}>Your Information</Text>
           <Text style={styles.userInfoText}>Name: {user?.name}</Text>
           <Text style={styles.userInfoText}>Registration: {user?.registrationNumber}</Text>
-          <Text style={styles.userInfoText}>Status: Pending Activation</Text>
+          <Text style={styles.userInfoText}>Status: Awaiting Approval</Text>
         </View>
 
         <View style={styles.card}>
           <Text style={styles.cardTitle}>What happens next?</Text>
           <Text style={styles.cardText}>
-            • Your account will be reviewed by the administration{'\n'}
-            • You'll receive notification once your account is activated{'\n'}
-            • Once activated, you'll have access to all app features{'\n'}
-            • This process typically takes 24-48 hours
+            • Your access request will be reviewed by administration{'\n'}
+            • Contact your administrator to request approval{'\n'}
+            • Once approved, you'll have full access to prayers and hymns{'\n'}
+            • Try logging in again after approval is granted
           </Text>
         </View>
 
         <View style={styles.card}>
           <Text style={styles.cardTitle}>Need help?</Text>
           <Text style={styles.cardText}>
-            If you have any questions about your account activation, please contact the administration or your institution's IT department.
+            Contact administration to request access approval. Provide your registration number when reaching out.
           </Text>
         </View>
 
         <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>
           <Text style={styles.logoutButtonText}>Sign Out</Text>
         </TouchableOpacity>
-
-        <View style={styles.testInfo}>
-          <Text style={styles.testInfoTitle}>Test Account</Text>
-          <Text style={styles.testInfoText}>
-            For testing purposes, you can use:{'\n'}
-            Registration Number: ABC/1233{'\n'}
-            This account is pre-activated and will give you full access.
-          </Text>
-        </View>
       </ScrollView>
     </View>
   );

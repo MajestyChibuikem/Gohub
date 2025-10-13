@@ -40,3 +40,13 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+IMPLEMENTATION_SUMMARY.md
+FIXES_APPLIED.md
+WEB_DEVELOPMENT.md
+DEVELOPMENT_STATUS.md
+deploymentkeys.md
+backendDev.md
+DEPLOYMENT_GUIDE.md
+fix2.md
+QUICK_START_GUIDE.md
+TESTING_GUIDE.md

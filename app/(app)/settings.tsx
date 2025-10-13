@@ -450,7 +450,7 @@ export default function ProfileScreen() {
           </View>
           <View style={styles.aboutSection}>
             <ThemedText style={[styles.aboutText, { fontSize: getFontSize(14) }]}>
-              MAJESTY
+              Temnix.com
             </ThemedText>
             <ThemedText style={[styles.versionText, { fontSize: getFontSize(12) }]}>
               2025

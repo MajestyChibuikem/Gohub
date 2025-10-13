@@ -10,15 +10,14 @@ import {
   KeyboardAvoidingView,
   Platform,
   ScrollView,
+  Image,
 } from 'react-native';
 import { Link, useRouter } from 'expo-router';
 import { useAuth } from '../../context/AuthContext';
 import { useTheme } from '../../context/ThemeContext';
 
 export default function LoginScreen() {
-  const [name, setName] = useState('');
   const [registrationNumber, setRegistrationNumber] = useState('');
-  const [password, setPassword] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   
   const { login } = useAuth();
@@ -26,21 +25,21 @@ export default function LoginScreen() {
   const router = useRouter();
 
   const handleLogin = async () => {
-    if (!name.trim() || !registrationNumber.trim() || !password.trim()) {
-      Alert.alert('Error', 'Please fill in all fields');
+    if (!registrationNumber.trim()) {
+      Alert.alert('Error', 'Please enter your registration number');
       return;
     }
 
-    // Validate registration number format
-    const regNumberRegex = /^[A-Z]{3}\/\d{4}$/;
-    if (!regNumberRegex.test(registrationNumber.trim())) {
-      Alert.alert('Error', 'Registration number must be in format ABC/1234');
+    // Validate registration number format: GOU/U23/CSC/1292
+    const regNumberRegex = /^[A-Z]+\/[A-Z]+\d+\/[A-Z]+\/\d+$/;
+    if (!regNumberRegex.test(registrationNumber.trim().toUpperCase())) {
+      Alert.alert('Error', 'Registration number must be in format: GOU/U23/CSC/1292');
       return;
     }
 
     setIsLoading(true);
     try {
-      const result = await login(name.trim(), registrationNumber.trim(), password);
+      const result = await login(registrationNumber.trim().toUpperCase());
       if (result.success) {
         // Navigation will be handled by the root layout
       } else {
@@ -66,6 +65,12 @@ export default function LoginScreen() {
     header: {
       alignItems: 'center',
       marginBottom: 40,
+    },
+    logo: {
+      width: 120,
+      height: 120,
+      marginBottom: 20,
+      resizeMode: 'contain',
     },
     title: {
       fontSize: getFontSize(28),
@@ -122,22 +127,30 @@ export default function LoginScreen() {
       color: theme.accent,
       fontWeight: '600',
     },
-    testCredentials: {
+    helpText: {
+      fontSize: getFontSize(12),
+      color: theme.textSecondary,
+      marginTop: 4,
+      fontStyle: 'italic',
+    },
+    infoBox: {
       backgroundColor: theme.card,
       padding: 15,
       borderRadius: 12,
       marginTop: 20,
+      borderLeftWidth: 4,
+      borderLeftColor: theme.accent,
     },
-    testCredentialsTitle: {
+    infoTitle: {
       fontSize: getFontSize(14),
       fontWeight: '600',
       color: theme.text,
       marginBottom: 8,
     },
-    testCredentialsText: {
+    infoText: {
       fontSize: getFontSize(12),
       color: theme.textSecondary,
-      lineHeight: 18,
+      lineHeight: 20,
     },
   });
 
@@ -148,45 +161,30 @@ export default function LoginScreen() {
     >
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.header}>
-          <Text style={styles.title}>Welcome Back</Text>
-          <Text style={styles.subtitle}>Sign in to access your account</Text>
+          <Image 
+            source={require('../../assets/images/logo.png')} 
+            style={styles.logo}
+          />
+          <Text style={styles.title}>GoHub Login</Text>
+          <Text style={styles.subtitle}>Enter your registration number to access prayers and hymns</Text>
         </View>
 
         <View style={styles.form}>
-          <View style={styles.inputGroup}>
-            <Text style={styles.label}>Full Name</Text>
-            <TextInput
-              style={styles.input}
-              value={name}
-              onChangeText={setName}
-              placeholder="Enter your full name"
-              placeholderTextColor={theme.textSecondary}
-              autoCapitalize="words"
-            />
-          </View>
-
           <View style={styles.inputGroup}>
             <Text style={styles.label}>Registration Number</Text>
             <TextInput
               style={styles.input}
               value={registrationNumber}
               onChangeText={setRegistrationNumber}
-              placeholder="ABC/1234"
+              placeholder="GOU/U23/CSC/1292"
               placeholderTextColor={theme.textSecondary}
               autoCapitalize="characters"
+              autoCorrect={false}
+              autoFocus
             />
-          </View>
-
-          <View style={styles.inputGroup}>
-            <Text style={styles.label}>Password</Text>
-            <TextInput
-              style={styles.input}
-              value={password}
-              onChangeText={setPassword}
-              placeholder="Enter your password"
-              placeholderTextColor={theme.textSecondary}
-              secureTextEntry
-            />
+            <Text style={styles.helpText}>
+              Format: GOU/U23/CSC/1292
+            </Text>
           </View>
 
           <TouchableOpacity
@@ -204,19 +202,21 @@ export default function LoginScreen() {
 
         <View style={styles.registerLink}>
           <Text style={styles.registerText}>
-            Don't have an account?{' '}
+            Don't have access?{' '}
             <Link href="/(auth)/register" asChild>
-              <Text style={styles.registerLinkText}>Sign Up</Text>
+              <Text style={styles.registerLinkText}>Contact Admin</Text>
             </Link>
           </Text>
         </View>
 
-        <View style={styles.testCredentials}>
-          <Text style={styles.testCredentialsTitle}>Test Account</Text>
-          <Text style={styles.testCredentialsText}>
-            For testing purposes, you can use:{'\n'}
-            Registration Number: ABC/1233{'\n'}
-            Any name and password will work
+        <View style={styles.infoBox}>
+          <Text style={styles.infoTitle}>ℹ️ How to Login</Text>
+          <Text style={styles.infoText}>
+            • Use your student registration number{'\n'}
+            • Format: GOU/U##/DEPT/#### (e.g., GOU/U23/CSC/1292){'\n'}
+            • No password required{'\n'}
+            • Access must be granted by administration{'\n'}
+            • Contact your administrator if you can't log in
           </Text>
         </View>
       </ScrollView>

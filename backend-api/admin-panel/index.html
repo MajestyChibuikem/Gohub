@@ -461,7 +461,9 @@
       if (!confirm(`Toggle access for ${regNumber}?`)) return;
       
       try {
-        const response = await fetch(`${API_URL}/admin/toggle-allowed/${regNumber}`, {
+        // Encode registration number to handle slashes in URL
+        const encodedRegNumber = encodeURIComponent(regNumber);
+        const response = await fetch(`${API_URL}/admin/toggle-allowed/${encodedRegNumber}`, {
           method: 'PUT',
           headers: { 'x-admin-key': ADMIN_KEY }
         });
@@ -481,7 +483,9 @@
       if (!confirm(`Toggle activation for ${regNumber}?`)) return;
       
       try {
-        const response = await fetch(`${API_URL}/admin/toggle-activated/${regNumber}`, {
+        // Encode registration number to handle slashes in URL
+        const encodedRegNumber = encodeURIComponent(regNumber);
+        const response = await fetch(`${API_URL}/admin/toggle-activated/${encodedRegNumber}`, {
           method: 'PUT',
           headers: { 'x-admin-key': ADMIN_KEY }
         });
@@ -501,7 +505,9 @@
       if (!confirm(`Logout ${regNumber}?`)) return;
       
       try {
-        const response = await fetch(`${API_URL}/admin/invalidate-session/${regNumber}`, {
+        // Encode registration number to handle slashes in URL
+        const encodedRegNumber = encodeURIComponent(regNumber);
+        const response = await fetch(`${API_URL}/admin/invalidate-session/${encodedRegNumber}`, {
           method: 'POST',
           headers: { 'x-admin-key': ADMIN_KEY }
         });
@@ -522,7 +528,9 @@
       if (!confirm(`Are you sure you want to DELETE ${regNumber}? This cannot be undone!`)) return;
       
       try {
-        const response = await fetch(`${API_URL}/admin/student/${regNumber}`, {
+        // Encode registration number to handle slashes in URL
+        const encodedRegNumber = encodeURIComponent(regNumber);
+        const response = await fetch(`${API_URL}/admin/student/${encodedRegNumber}`, {
           method: 'DELETE',
           headers: { 'x-admin-key': ADMIN_KEY }
         });

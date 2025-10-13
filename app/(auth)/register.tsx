@@ -1,68 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   View,
   Text,
-  TextInput,
   TouchableOpacity,
   StyleSheet,
-  Alert,
-  ActivityIndicator,
-  KeyboardAvoidingView,
-  Platform,
   ScrollView,
+  Linking,
 } from 'react-native';
 import { Link, useRouter } from 'expo-router';
-import { useAuth } from '../../context/AuthContext';
 import { useTheme } from '../../context/ThemeContext';
 
 export default function RegisterScreen() {
-  const [name, setName] = useState('');
-  const [registrationNumber, setRegistrationNumber] = useState('');
-  const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
-  
-  const { register } = useAuth();
   const { theme, getFontSize } = useTheme();
   const router = useRouter();
 
-  const handleRegister = async () => {
-    if (!name.trim() || !registrationNumber.trim() || !password.trim() || !confirmPassword.trim()) {
-      Alert.alert('Error', 'Please fill in all fields');
-      return;
-    }
-
-    if (password !== confirmPassword) {
-      Alert.alert('Error', 'Passwords do not match');
-      return;
-    }
-
-    if (password.length < 6) {
-      Alert.alert('Error', 'Password must be at least 6 characters long');
-      return;
-    }
-
-    // Validate registration number format
-    const regNumberRegex = /^[A-Z]{3}\/\d{4}$/;
-    if (!regNumberRegex.test(registrationNumber.trim())) {
-      Alert.alert('Error', 'Registration number must be in format ABC/1234');
-      return;
-    }
-
-    setIsLoading(true);
-    try {
-      const result = await register(name.trim(), registrationNumber.trim(), password);
-      if (result.success) {
-        Alert.alert('Success', result.message);
-        // Navigation will be handled by the root layout
-      } else {
-        Alert.alert('Registration Failed', result.message);
-      }
-    } catch (error) {
-      Alert.alert('Error', 'An unexpected error occurred');
-    } finally {
-      setIsLoading(false);
-    }
+  const handleContactAdmin = () => {
+    // You can customize this with actual admin contact details
+    const adminEmail = 'admin@godfrey.edu.ng';
+    Linking.openURL(`mailto:${adminEmail}?subject=GoHub Access Request`);
   };
 
   const styles = StyleSheet.create({
@@ -79,52 +34,58 @@ export default function RegisterScreen() {
       alignItems: 'center',
       marginBottom: 40,
     },
+    icon: {
+      fontSize: getFontSize(64),
+      marginBottom: 20,
+    },
     title: {
       fontSize: getFontSize(28),
       fontWeight: 'bold',
       color: theme.text,
       marginBottom: 10,
+      textAlign: 'center',
     },
     subtitle: {
       fontSize: getFontSize(16),
       color: theme.textSecondary,
       textAlign: 'center',
+      lineHeight: 24,
     },
-    form: {
-      marginBottom: 30,
-    },
-    inputGroup: {
+    infoBox: {
+      backgroundColor: theme.card,
+      padding: 20,
+      borderRadius: 12,
       marginBottom: 20,
+      borderLeftWidth: 4,
+      borderLeftColor: theme.accent,
     },
-    label: {
-      fontSize: getFontSize(16),
+    infoTitle: {
+      fontSize: getFontSize(18),
       fontWeight: '600',
       color: theme.text,
+      marginBottom: 12,
+    },
+    infoText: {
+      fontSize: getFontSize(14),
+      color: theme.textSecondary,
+      lineHeight: 22,
       marginBottom: 8,
     },
-    input: {
-      backgroundColor: theme.surface,
-      borderWidth: 1,
-      borderColor: theme.border,
-      borderRadius: 12,
-      padding: 16,
-      fontSize: getFontSize(16),
-      color: theme.text,
-    },
-    registerButton: {
+    contactButton: {
       backgroundColor: theme.accent,
       borderRadius: 12,
       padding: 16,
       alignItems: 'center',
-      marginBottom: 20,
+      marginVertical: 20,
     },
-    registerButtonText: {
+    contactButtonText: {
       color: '#fff',
       fontSize: getFontSize(18),
       fontWeight: '600',
     },
     loginLink: {
       alignItems: 'center',
+      marginTop: 20,
     },
     loginText: {
       fontSize: getFontSize(16),
@@ -134,116 +95,127 @@ export default function RegisterScreen() {
       color: theme.accent,
       fontWeight: '600',
     },
-    testCredentials: {
-      backgroundColor: theme.card,
-      padding: 15,
+    stepsBox: {
+      backgroundColor: theme.surface,
+      padding: 20,
       borderRadius: 12,
       marginTop: 20,
     },
-    testCredentialsTitle: {
+    stepItem: {
+      flexDirection: 'row',
+      marginBottom: 16,
+    },
+    stepNumber: {
+      width: 30,
+      height: 30,
+      borderRadius: 15,
+      backgroundColor: theme.accent,
+      alignItems: 'center',
+      justifyContent: 'center',
+      marginRight: 12,
+    },
+    stepNumberText: {
+      color: '#fff',
+      fontWeight: 'bold',
       fontSize: getFontSize(14),
+    },
+    stepContent: {
+      flex: 1,
+    },
+    stepTitle: {
+      fontSize: getFontSize(16),
       fontWeight: '600',
       color: theme.text,
-      marginBottom: 8,
+      marginBottom: 4,
     },
-    testCredentialsText: {
-      fontSize: getFontSize(12),
+    stepDescription: {
+      fontSize: getFontSize(14),
       color: theme.textSecondary,
-      lineHeight: 18,
+      lineHeight: 20,
     },
   });
 
   return (
-    <KeyboardAvoidingView 
-      style={styles.container} 
-      behavior={Platform.OS === 'ios' ? 'padding' : Platform.OS === 'web' ? undefined : 'height'}
-    >
+    <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.header}>
-          <Text style={styles.title}>Create Account</Text>
-          <Text style={styles.subtitle}>Sign up to get started</Text>
+          <Text style={styles.icon}>🔐</Text>
+          <Text style={styles.title}>Registration Required</Text>
+          <Text style={styles.subtitle}>
+            GoHub access is managed by administration. Self-registration is not available.
+          </Text>
         </View>
 
-        <View style={styles.form}>
-          <View style={styles.inputGroup}>
-            <Text style={styles.label}>Full Name</Text>
-            <TextInput
-              style={styles.input}
-              value={name}
-              onChangeText={setName}
-              placeholder="Enter your full name"
-              placeholderTextColor={theme.textSecondary}
-              autoCapitalize="words"
-            />
-          </View>
-
-          <View style={styles.inputGroup}>
-            <Text style={styles.label}>Registration Number</Text>
-            <TextInput
-              style={styles.input}
-              value={registrationNumber}
-              onChangeText={setRegistrationNumber}
-              placeholder="ABC/1234"
-              placeholderTextColor={theme.textSecondary}
-              autoCapitalize="characters"
-            />
-          </View>
-
-          <View style={styles.inputGroup}>
-            <Text style={styles.label}>Password</Text>
-            <TextInput
-              style={styles.input}
-              value={password}
-              onChangeText={setPassword}
-              placeholder="Enter your password"
-              placeholderTextColor={theme.textSecondary}
-              secureTextEntry
-            />
-          </View>
-
-          <View style={styles.inputGroup}>
-            <Text style={styles.label}>Confirm Password</Text>
-            <TextInput
-              style={styles.input}
-              value={confirmPassword}
-              onChangeText={setConfirmPassword}
-              placeholder="Confirm your password"
-              placeholderTextColor={theme.textSecondary}
-              secureTextEntry
-            />
-          </View>
-
-          <TouchableOpacity
-            style={styles.registerButton}
-            onPress={handleRegister}
-            disabled={isLoading}
-          >
-            {isLoading ? (
-              <ActivityIndicator color="#fff" />
-            ) : (
-              <Text style={styles.registerButtonText}>Create Account</Text>
-            )}
-          </TouchableOpacity>
+        <View style={styles.infoBox}>
+          <Text style={styles.infoTitle}>⚠️ Important Information</Text>
+          <Text style={styles.infoText}>
+            • Registration is handled exclusively by administration
+          </Text>
+          <Text style={styles.infoText}>
+            • Students cannot create their own accounts
+          </Text>
+          <Text style={styles.infoText}>
+            • Your registration number must be approved first
+          </Text>
+          <Text style={styles.infoText}>
+            • Contact administration to request access
+          </Text>
         </View>
+
+        <View style={styles.stepsBox}>
+          <View style={styles.stepItem}>
+            <View style={styles.stepNumber}>
+              <Text style={styles.stepNumberText}>1</Text>
+            </View>
+            <View style={styles.stepContent}>
+              <Text style={styles.stepTitle}>Contact Administration</Text>
+              <Text style={styles.stepDescription}>
+                Send an email to request access to GoHub
+              </Text>
+            </View>
+          </View>
+
+          <View style={styles.stepItem}>
+            <View style={styles.stepNumber}>
+              <Text style={styles.stepNumberText}>2</Text>
+            </View>
+            <View style={styles.stepContent}>
+              <Text style={styles.stepTitle}>Wait for Approval</Text>
+              <Text style={styles.stepDescription}>
+                Admin will add your registration number to the system
+              </Text>
+            </View>
+          </View>
+
+          <View style={styles.stepItem}>
+            <View style={styles.stepNumber}>
+              <Text style={styles.stepNumberText}>3</Text>
+            </View>
+            <View style={styles.stepContent}>
+              <Text style={styles.stepTitle}>Login with Reg Number</Text>
+              <Text style={styles.stepDescription}>
+                Once approved, use only your registration number to login (no password needed)
+              </Text>
+            </View>
+          </View>
+        </View>
+
+        <TouchableOpacity
+          style={styles.contactButton}
+          onPress={handleContactAdmin}
+        >
+          <Text style={styles.contactButtonText}>📧 Contact Administration</Text>
+        </TouchableOpacity>
 
         <View style={styles.loginLink}>
           <Text style={styles.loginText}>
-            Already have an account?{' '}
+            Already have access?{' '}
             <Link href="/(auth)/login" asChild>
               <Text style={styles.loginLinkText}>Sign In</Text>
             </Link>
           </Text>
         </View>
-
-        <View style={styles.testCredentials}>
-          <Text style={styles.testCredentialsTitle}>Test Account</Text>
-          <Text style={styles.testCredentialsText}>
-            For testing purposes, you can register with:{'\n'}
-            Registration Number: ABC/1233{'\n'}
-            This will create an activated account
-          </Text>
-        </View>
       </ScrollView>
-    </KeyboardAvoidingView>
+    </View>
   );
 } 
