@@ -8,7 +8,7 @@
 // For production: https://your-backend.railway.app/api
 const API_BASE_URL = __DEV__ 
   ? 'http://localhost:3001/api'  // Development (use your computer's IP for physical devices)
-  : 'https://your-backend-url.com/api'; // Production
+  : 'https://gohub-production.up.railway.app/api'; // Production
 
 /**
  * API Response Types
