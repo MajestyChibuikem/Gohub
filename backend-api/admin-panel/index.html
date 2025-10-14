@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>GoHub Admin Panel</title>
   <style>
     * {
@@ -13,7 +13,7 @@
     
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      padding: 20px;
+      padding: 10px;
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       min-height: 100vh;
     }
@@ -23,32 +23,66 @@
       margin: 0 auto;
       background: white;
       border-radius: 15px;
-      padding: 30px;
+      padding: 15px;
       box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    
+    /* Mobile-first responsive design */
+    @media (min-width: 768px) {
+      body {
+        padding: 20px;
+      }
+      .container {
+        padding: 30px;
+      }
     }
     
     h1 {
       color: #667eea;
       margin-bottom: 10px;
-      font-size: 2.5em;
+      font-size: 1.8em;
+      text-align: center;
     }
     
     .subtitle {
       color: #666;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 0.9em;
     }
     
     .section {
-      margin-bottom: 40px;
-      padding: 20px;
+      margin-bottom: 25px;
+      padding: 15px;
       border: 2px solid #f0f0f0;
       border-radius: 10px;
     }
     
     h2 {
       color: #764ba2;
-      margin-bottom: 20px;
-      font-size: 1.8em;
+      margin-bottom: 15px;
+      font-size: 1.4em;
+    }
+    
+    /* Mobile responsive typography */
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 2.5em;
+        text-align: left;
+      }
+      .subtitle {
+        text-align: left;
+        font-size: 1em;
+        margin-bottom: 30px;
+      }
+      .section {
+        margin-bottom: 40px;
+        padding: 20px;
+      }
+      h2 {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+      }
     }
     
     input, button {
@@ -56,11 +90,13 @@
       margin: 5px;
       border: 2px solid #ddd;
       border-radius: 8px;
-      font-size: 14px;
+      font-size: 16px; /* Larger for mobile touch */
+      width: 100%;
+      box-sizing: border-box;
     }
     
     input {
-      min-width: 250px;
+      min-width: 100%;
     }
     
     button {
@@ -70,6 +106,7 @@
       cursor: pointer;
       font-weight: bold;
       transition: transform 0.2s, box-shadow 0.2s;
+      min-height: 44px; /* Touch-friendly minimum size */
     }
     
     button:hover {
@@ -81,10 +118,66 @@
       transform: translateY(0);
     }
     
+    /* Mobile form layout */
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    .form-row {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .checkbox-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 10px 0;
+    }
+    
+    .checkbox-group label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    .checkbox-group input[type="checkbox"] {
+      width: auto;
+      margin: 0;
+    }
+    
+    /* Desktop form layout */
+    @media (min-width: 768px) {
+      input, button {
+        width: auto;
+        min-width: 250px;
+      }
+      
+      .form-row {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      
+      .checkbox-group {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+    }
+    
+    /* Mobile-first table design */
+    .table-container {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin-top: 20px;
+    }
+    
     table {
       border-collapse: collapse;
       width: 100%;
-      margin-top: 20px;
+      min-width: 600px; /* Minimum width for table */
       background: white;
       border-radius: 10px;
       overflow: hidden;
@@ -93,8 +186,9 @@
     
     th, td {
       border: 1px solid #ddd;
-      padding: 15px;
+      padding: 8px;
       text-align: left;
+      font-size: 14px;
     }
     
     th {
@@ -103,6 +197,7 @@
       font-weight: bold;
       text-transform: uppercase;
       letter-spacing: 1px;
+      font-size: 12px;
     }
     
     tr:nth-child(even) {
@@ -111,6 +206,86 @@
     
     tr:hover {
       background: #e9ecef;
+    }
+    
+    /* Desktop table styling */
+    @media (min-width: 768px) {
+      th, td {
+        padding: 15px;
+        font-size: 14px;
+      }
+      
+      th {
+        font-size: 14px;
+      }
+    }
+    
+    /* Mobile card layout for students */
+    .mobile-student-card {
+      display: none;
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    
+    .mobile-student-card .student-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    
+    .mobile-student-card .student-name {
+      font-weight: bold;
+      font-size: 16px;
+      color: #333;
+    }
+    
+    .mobile-student-card .student-reg {
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .mobile-student-card .student-status {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin-bottom: 15px;
+    }
+    
+    .mobile-student-card .status-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .mobile-student-card .status-label {
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .mobile-student-card .status-value {
+      font-weight: bold;
+      font-size: 14px;
+    }
+    
+    .mobile-student-card .action-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    
+    /* Show mobile cards on small screens */
+    @media (max-width: 767px) {
+      .mobile-student-card {
+        display: block;
+      }
+      
+      table {
+        display: none;
+      }
     }
     
     .allowed {
@@ -149,26 +324,43 @@
     
     .stats {
       display: flex;
-      gap: 20px;
+      flex-direction: column;
+      gap: 10px;
       margin-bottom: 20px;
     }
     
     .stat-card {
       flex: 1;
-      padding: 20px;
+      padding: 15px;
       border-radius: 10px;
       color: white;
       text-align: center;
     }
     
     .stat-card h3 {
-      font-size: 2em;
+      font-size: 1.5em;
       margin-bottom: 5px;
     }
     
     .stat-total { background: #667eea; }
     .stat-allowed { background: #28a745; }
     .stat-active { background: #17a2b8; }
+    
+    /* Desktop stats layout */
+    @media (min-width: 768px) {
+      .stats {
+        flex-direction: row;
+        gap: 20px;
+      }
+      
+      .stat-card {
+        padding: 20px;
+      }
+      
+      .stat-card h3 {
+        font-size: 2em;
+      }
+    }
     
     #loading {
       text-align: center;
@@ -240,14 +432,20 @@
     <!-- Add Student -->
     <div class="section">
       <h2>➕ Add New Student</h2>
-      <input type="text" id="regNumber" placeholder="Registration Number (e.g., CS/2020/001)">
-      <input type="text" id="name" placeholder="Student Name">
-      <label>
-        <input type="checkbox" id="isAllowed"> Allow Access
-      </label>
-      <label>
-        <input type="checkbox" id="isActivated"> Activate Account
-      </label>
+      <div class="form-group">
+        <input type="text" id="regNumber" placeholder="Registration Number (e.g., GOU/U23/CSC/1292)">
+      </div>
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Student Name">
+      </div>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="isAllowed"> Allow Access
+        </label>
+        <label>
+          <input type="checkbox" id="isActivated"> Activate Account
+        </label>
+      </div>
       <button onclick="addStudent()">Add Student</button>
     </div>
     
@@ -271,20 +469,26 @@
         <p>Loading students...</p>
       </div>
       
-      <table id="studentsTable">
-        <thead>
-          <tr>
-            <th>Reg Number</th>
-            <th>Name</th>
-            <th>Allowed</th>
-            <th>Activated</th>
-            <th>Active Session</th>
-            <th>Last Login</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+      <!-- Mobile Cards Container -->
+      <div id="mobileStudentsContainer"></div>
+      
+      <!-- Desktop Table Container -->
+      <div class="table-container">
+        <table id="studentsTable">
+          <thead>
+            <tr>
+              <th>Reg Number</th>
+              <th>Name</th>
+              <th>Allowed</th>
+              <th>Activated</th>
+              <th>Active Session</th>
+              <th>Last Login</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </div>
   </div>
   
@@ -391,6 +595,7 @@
     }
     
     function displayStudents(students) {
+      // Display desktop table
       const tbody = document.querySelector('#studentsTable tbody');
       tbody.innerHTML = '';
       
@@ -420,6 +625,62 @@
           </tr>
         `;
         tbody.innerHTML += row;
+      });
+      
+      // Display mobile cards
+      const mobileContainer = document.getElementById('mobileStudentsContainer');
+      mobileContainer.innerHTML = '';
+      
+      students.forEach(student => {
+        const card = `
+          <div class="mobile-student-card">
+            <div class="student-header">
+              <div>
+                <div class="student-name">${student.name}</div>
+                <div class="student-reg">${student.registrationNumber}</div>
+              </div>
+            </div>
+            
+            <div class="student-status">
+              <div class="status-item">
+                <span class="status-label">Allowed:</span>
+                <span class="status-value ${student.isAllowed ? 'allowed' : 'not-allowed'}">
+                  ${student.isAllowed ? '✓ Yes' : '✗ No'}
+                </span>
+              </div>
+              <div class="status-item">
+                <span class="status-label">Activated:</span>
+                <span class="status-value ${student.isActivated ? 'activated' : ''}">
+                  ${student.isActivated ? '✓ Yes' : '○ No'}
+                </span>
+              </div>
+              <div class="status-item">
+                <span class="status-label">Session:</span>
+                <span class="status-value">
+                  ${student.hasActiveSession ? '🟢 Active' : '○ Offline'}
+                </span>
+              </div>
+              <div class="status-item">
+                <span class="status-label">Last Login:</span>
+                <span class="status-value">
+                  ${student.lastLogin ? new Date(student.lastLogin).toLocaleDateString() : 'Never'}
+                </span>
+              </div>
+            </div>
+            
+            <div class="action-buttons">
+              <button class="btn-small ${student.isAllowed ? 'btn-warning' : 'btn-success'}" onclick="toggleAllowed('${student.registrationNumber}')">
+                ${student.isAllowed ? 'Disable' : 'Enable'}
+              </button>
+              <button class="btn-small ${student.isActivated ? 'btn-warning' : 'btn-success'}" onclick="toggleActivated('${student.registrationNumber}')">
+                ${student.isActivated ? 'Deactivate' : 'Activate'}
+              </button>
+              ${student.hasActiveSession ? `<button class="btn-small btn-danger" onclick="invalidateSession('${student.registrationNumber}')">Logout</button>` : ''}
+              <button class="btn-small btn-danger" onclick="deleteStudent('${student.registrationNumber}')">Delete</button>
+            </div>
+          </div>
+        `;
+        mobileContainer.innerHTML += card;
       });
     }
     
