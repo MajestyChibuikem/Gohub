@@ -59,48 +59,59 @@ export default function UniversityPrayersScreen() {
   // Custom styles for university prayer
   const customStyles = StyleSheet.create({
     universityTitle: {
-      fontSize: getFontSize(28),
+      fontSize: getFontSize(32),
       fontWeight: 'bold',
-      color: '#8B4513', // Brown color for university theme
+      color: '#1E3A8A', // Dark blue like the printed version
       textAlign: 'center',
-      marginVertical: 20,
+      marginVertical: 25,
       paddingHorizontal: 20,
     },
-    dropCapContainer: {
+    // Custom layout for the "G" interaction
+    gLayoutContainer: {
       flexDirection: 'row',
-      marginBottom: 20,
+      marginBottom: 25,
+      paddingHorizontal: 20,
     },
-    dropCap: {
-      fontSize: getFontSize(72),
+    gColumn: {
+      width: 80, // Fixed width for the "G"
+      alignItems: 'flex-start',
+      justifyContent: 'flex-start',
+    },
+    gLetter: {
+      fontSize: getFontSize(96), // Much larger - 4-5 lines tall
       fontWeight: 'bold',
-      lineHeight: getFontSize(72),
-      color: theme.accent,
-      marginRight: 8,
-      marginTop: -8,
+      color: '#DC143C', // Bright red like the image
+      lineHeight: getFontSize(96),
+      marginTop: -5,
+      marginLeft: -5,
     },
-    dropCapText: {
+    gTextColumn: {
       flex: 1,
-      fontSize: getFontSize(16),
-      lineHeight: getFontSize(24),
+      paddingLeft: 15, // Space between G and text
+    },
+    gText: {
+      fontSize: getFontSize(18), // Larger for better readability
+      lineHeight: getFontSize(28), // More generous line spacing
       color: theme.text,
-      textAlign: 'justify',
+      textAlign: 'left', // Left aligned like the printed version
     },
     paragraph: {
-      fontSize: getFontSize(16),
-      lineHeight: getFontSize(24),
+      fontSize: getFontSize(18),
+      lineHeight: getFontSize(28),
       color: theme.text,
-      marginBottom: 20,
+      marginBottom: 25, // More space between paragraphs
       paddingHorizontal: 20,
-      textAlign: 'justify',
+      textAlign: 'left', // Left aligned like the printed version
     },
     conclusion: {
-      fontSize: getFontSize(18),
+      fontSize: getFontSize(20),
       fontStyle: 'italic',
-      color: '#DC143C', // Crimson red
+      color: '#DC143C', // Bright red
       textAlign: 'center',
-      marginTop: 30,
-      marginBottom: 40,
+      marginTop: 35,
+      marginBottom: 50,
       fontWeight: '600',
+      paddingHorizontal: 20,
     },
   });
 
@@ -118,16 +129,20 @@ export default function UniversityPrayersScreen() {
       );
     }
 
-    // Render first section with drop cap
+    // Render first section with custom "G" layout
     if (section.dropCap && content[0]) {
       const firstLetter = content[0].charAt(0);
       const restOfText = content[0].substring(1);
       
       return (
-        <View key={index} style={{ paddingHorizontal: 20, marginBottom: 20 }}>
-          <View style={customStyles.dropCapContainer}>
-            <Text style={customStyles.dropCap}>{firstLetter}</Text>
-            <Text style={customStyles.dropCapText}>{restOfText}</Text>
+        <View key={index} style={customStyles.gLayoutContainer}>
+          {/* G Column - Fixed width */}
+          <View style={customStyles.gColumn}>
+            <Text style={customStyles.gLetter}>{firstLetter}</Text>
+          </View>
+          {/* Text Column - Flexible width */}
+          <View style={customStyles.gTextColumn}>
+            <Text style={customStyles.gText}>{restOfText}</Text>
           </View>
         </View>
       );
