@@ -1,30 +1,18 @@
 {
     "title": {
-      "en": "Prayer For Godfrey",
-      "es": "Oración por Godfrey"
+      "en": "Godfrey Okoye University Prayer",
+      "es": "Oración de la Universidad Godfrey Okoye"
     },
     "sections": [
       {
         "type": "invocation",
+        "dropCap": true,
         "content": {
           "en": [
-            "God our father, all knowledge, wisdom and truth come from you",
-            "You are the Creator of the entire universe with all its beauty and richness."
+            "God Our Father, all knowledge, wisdom and truth come from you. You are the Creator of the entire universe with all its beauty and richness. Out of your infinite love you created human beings and endowed them with unfathomable ability to explore, discover, care for the earth, glorify your name and expand your kingdom of justice, love and peace. We your beloved children praise and thank you!"
           ],
           "es": [
-            "Dios nuestro padre, todo conocimiento, sabiduría y verdad provienen de ti",
-            "Tú eres el Creador de todo el universo con toda su belleza y riqueza."
-          ]
-        }
-      },
-      {
-        "type": "praise",
-        "content": {
-          "en": [
-            "Out of your infinite love you created human beings and endowed them with unfathomable ability to explore, discover, care for the earth, glorify your name and expand your kingdom of justice, love and peace. We your beloved children praise and thank you!"
-          ],
-          "es": [
-            "Por tu infinito amor creaste a los seres humanos y los dotaste de una capacidad insondable para explorar, descubrir, cuidar la tierra, glorificar tu nombre y expandir tu reino de justicia, amor y paz. ¡Nosotros, tus amados hijos, te alabamos y te damos gracias!"
+            "Dios nuestro padre, todo conocimiento, sabiduría y verdad provienen de ti. Tú eres el Creador de todo el universo con toda su belleza y riqueza. Por tu infinito amor creaste a los seres humanos y los dotaste de una capacidad insondable para explorar, descubrir, cuidar la tierra, glorificar tu nombre y expandir tu reino de justicia, amor y paz. ¡Nosotros, tus amados hijos, te alabamos y te damos gracias!"
           ]
         }
       },
