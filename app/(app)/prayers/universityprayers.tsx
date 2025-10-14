@@ -40,78 +40,73 @@ export default function UniversityPrayersScreen() {
   const { language } = useLanguage();
   const styles = createPrayerStyles(theme);
 
-  console.log('📱 universityprayers.tsx - Component loaded');
-  console.log('🙏 Prayer param received:', paramPrayer);
-
   const [selectedPrayerId, setSelectedPrayerId] = useState<string>(
     typeof paramPrayer === 'string' ? paramPrayer : universityPrayers[0].id
   );
 
-  console.log('🎯 Selected prayer ID:', selectedPrayerId);
-  console.log('📚 Available prayers:', universityPrayers.map(p => p.id));
-
   const selectedPrayer = universityPrayers.find(p => p.id === selectedPrayerId);
   const sections = selectedPrayer ? parseSections(selectedPrayer.content) : [];
 
-  console.log('📖 Selected prayer found:', selectedPrayer ? 'Yes' : 'No');
-  console.log('📄 Sections parsed:', sections.length);
-
-  // Custom styles for university prayer
+  // Custom styles for university prayer - matching the printed image
   const customStyles = StyleSheet.create({
     universityTitle: {
-      fontSize: getFontSize(32),
+      fontSize: getFontSize(28),
       fontWeight: 'bold',
-      color: '#1E3A8A', // Dark blue like the printed version
+      color: '#2C3E7F', // Dark blue like the printed version
       textAlign: 'center',
-      marginVertical: 25,
+      marginVertical: 20,
       paddingHorizontal: 20,
+      fontFamily: 'Georgia', // Serif font
     },
-    // Custom layout for the "G" interaction
-    gLayoutContainer: {
+    // Container for drop cap layout
+    dropCapContainer: {
       flexDirection: 'row',
-      marginBottom: 25,
-      paddingHorizontal: 20,
-    },
-    gColumn: {
-      width: 80, // Fixed width for the "G"
+      marginBottom: 20,
+      paddingHorizontal: 15,
       alignItems: 'flex-start',
-      justifyContent: 'flex-start',
     },
-    gLetter: {
-      fontSize: getFontSize(96), // Much larger - 4-5 lines tall
+    // Drop cap letter styling
+    dropCapLetter: {
+      fontSize: getFontSize(72),
       fontWeight: 'bold',
-      color: '#DC143C', // Bright red like the image
-      lineHeight: getFontSize(96),
-      marginTop: -5,
-      marginLeft: -5,
+      color: '#C41E3A', // Crimson red like the printed version
+      lineHeight: getFontSize(72),
+      marginRight: 8,
+      marginTop: 2,
+      fontFamily: 'Georgia',
     },
-    gTextColumn: {
+    // Text wrapping around drop cap
+    dropCapText: {
       flex: 1,
-      paddingLeft: 15, // Space between G and text
-    },
-    gText: {
-      fontSize: getFontSize(18), // Larger for better readability
-      lineHeight: getFontSize(28), // More generous line spacing
+      fontSize: getFontSize(16),
+      lineHeight: getFontSize(24),
       color: theme.text,
-      textAlign: 'left', // Left aligned like the printed version
+      textAlign: 'justify',
+      fontFamily: 'Georgia',
+      letterSpacing: 0.3,
     },
+    // Regular paragraph styling
     paragraph: {
-      fontSize: getFontSize(18),
-      lineHeight: getFontSize(28),
+      fontSize: getFontSize(16),
+      lineHeight: getFontSize(24),
       color: theme.text,
-      marginBottom: 25, // More space between paragraphs
-      paddingHorizontal: 20,
-      textAlign: 'left', // Left aligned like the printed version
+      marginBottom: 18,
+      paddingHorizontal: 15,
+      textAlign: 'justify',
+      fontFamily: 'Georgia',
+      letterSpacing: 0.3,
     },
+    // Conclusion styling (red italic)
     conclusion: {
-      fontSize: getFontSize(20),
+      fontSize: getFontSize(16),
       fontStyle: 'italic',
-      color: '#DC143C', // Bright red
+      color: '#C41E3A',
       textAlign: 'center',
-      marginTop: 35,
+      marginTop: 30,
       marginBottom: 50,
       fontWeight: '600',
       paddingHorizontal: 20,
+      fontFamily: 'Georgia',
     },
   });
 
@@ -129,21 +124,15 @@ export default function UniversityPrayersScreen() {
       );
     }
 
-    // Render first section with custom "G" layout
+    // Render first section with drop cap
     if (section.dropCap && content[0]) {
       const firstLetter = content[0].charAt(0);
       const restOfText = content[0].substring(1);
       
       return (
-        <View key={index} style={customStyles.gLayoutContainer}>
-          {/* G Column - Fixed width */}
-          <View style={customStyles.gColumn}>
-            <Text style={customStyles.gLetter}>{firstLetter}</Text>
-          </View>
-          {/* Text Column - Flexible width */}
-          <View style={customStyles.gTextColumn}>
-            <Text style={customStyles.gText}>{restOfText}</Text>
-          </View>
+        <View key={index} style={customStyles.dropCapContainer}>
+          <Text style={customStyles.dropCapLetter}>{firstLetter}</Text>
+          <Text style={customStyles.dropCapText}>{restOfText}</Text>
         </View>
       );
     }
@@ -185,15 +174,13 @@ export default function UniversityPrayersScreen() {
       {/* University Prayer with Custom Styling */}
       {selectedPrayer && (
         <>
-          {/* Title - Bold, H2-like, Special Color */}
           <Text style={customStyles.universityTitle}>
             {selectedPrayer.title[language]}
           </Text>
 
-          {/* Prayer Sections with Custom Formatting */}
           {sections.map((section, idx) => renderSection(section, idx))}
         </>
       )}
     </ScrollView>
   );
-} 
+}
