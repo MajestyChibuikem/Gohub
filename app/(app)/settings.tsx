@@ -343,6 +343,49 @@ export default function ProfileScreen() {
       textAlign: 'center',
       color: theme.textSecondary,
     },
+    anthemCard: {
+      backgroundColor: theme.card,
+      borderRadius: 12,
+      padding: 20,
+      marginBottom: 10,
+    },
+    anthemTitle: {
+      fontWeight: 'bold',
+      color: theme.accent,
+      textAlign: 'center',
+      marginBottom: 20,
+      letterSpacing: 0.5,
+    },
+    anthemVerse: {
+      flexDirection: 'row',
+      marginBottom: 15,
+    },
+    anthemNumber: {
+      fontWeight: 'bold',
+      color: theme.accent,
+      width: 25,
+      marginRight: 10,
+    },
+    anthemContent: {
+      flex: 1,
+    },
+    anthemLine: {
+      color: theme.text,
+      marginBottom: 4,
+      lineHeight: 22,
+    },
+    anthemRefrain: {
+      backgroundColor: theme.surface,
+      borderRadius: 8,
+      padding: 15,
+      marginBottom: 15,
+    },
+    refrainLabel: {
+      fontWeight: 'bold',
+      color: theme.accent,
+      marginBottom: 8,
+      fontStyle: 'italic',
+    },
   });
 
   return (
@@ -434,6 +477,76 @@ export default function ProfileScreen() {
               <Text style={styles.infoValue}>
                 {user?.deviceId ? user.deviceId.substring(0, 8) + '...' : 'Unknown'}
               </Text>
+            </View>
+          </View>
+        </SettingSection>
+
+        {/* University Anthem */}
+        <SettingSection title="University Anthem">
+          <View style={styles.anthemCard}>
+            <Text style={[styles.anthemTitle, { fontSize: getFontSize(18) }]}>
+              GODFREY OKOYE UNIVERSITY ANTHEM
+            </Text>
+            
+            <View style={styles.anthemVerse}>
+              <Text style={[styles.anthemNumber, { fontSize: getFontSize(16) }]}>1.</Text>
+              <View style={styles.anthemContent}>
+                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+                  Here stands the ivory tower!
+                </Text>
+                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+                  Godfrey Okoye University
+                </Text>
+                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+                  Whose birth has signalled
+                </Text>
+                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+                  Reincarnation of intellectual vitality
+                </Text>
+              </View>
+            </View>
+
+            <View style={styles.anthemRefrain}>
+              <Text style={[styles.refrainLabel, { fontSize: getFontSize(14) }]}>Refrain:</Text>
+              <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+                Hail! God's own University
+              </Text>
+              <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+                Champion of Love and Friendship
+              </Text>
+              <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+                Rich in intercultural thinking
+              </Text>
+              <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+                Sound in moral, religious dialogue
+              </Text>
+              <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+                Committed to unity of knowledge
+              </Text>
+              <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+                Asking: Where's the evidence?
+              </Text>
+              <Text style={[styles.anthemLine, { fontSize: getFontSize(15), fontWeight: 'bold' }]}>
+                Bravo! Bravo!!
+              </Text>
+            </View>
+
+            <View style={styles.anthemVerse}>
+              <Text style={[styles.anthemNumber, { fontSize: getFontSize(16) }]}>2.</Text>
+              <View style={styles.anthemContent}>
+                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+                  Hail! GO University
+                </Text>
+                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+                  Footprints of a great achiever
+                </Text>
+                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+                  The heart of excellence
+                </Text>
+                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+                  Lavishly endowed in Science and Arts
+                </Text>
+              </View>
             </View>
           </View>
         </SettingSection>
