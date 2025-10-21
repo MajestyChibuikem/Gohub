@@ -2,9 +2,11 @@ const express = require('express');
 const router = express.Router();
 const Student = require('../models/Student');
 const adminAuth = require('../middleware/adminAuth');
+const { adminLimiter } = require('../middleware/rateLimiter');
 
-// Apply admin authentication to all routes in this router
+// Apply admin authentication and rate limiting to all routes in this router
 router.use(adminAuth);
+router.use(adminLimiter);
 
 /**
  * POST /api/admin/add-student

@@ -2,12 +2,18 @@ const express = require('express');
 const router = express.Router();
 const Student = require('../models/Student');
 const { generateSessionId, generateToken, verifyToken } = require('../utils/tokenUtils');
+const {
+  loginLimiter,
+  checkRegistrationLimiter,
+  sessionValidationLimiter,
+  logoutLimiter
+} = require('../middleware/rateLimiter');
 
 /**
  * POST /api/auth/check-registration
  * Check if registration number exists and is allowed
  */
-router.post('/check-registration', async (req, res) => {
+router.post('/check-registration', checkRegistrationLimiter, async (req, res) => {
   try {
     const { registrationNumber } = req.body;
     
@@ -55,7 +61,7 @@ router.post('/check-registration', async (req, res) => {
  * Login with registration number
  * Creates new session and invalidates any existing session
  */
-router.post('/login', async (req, res) => {
+router.post('/login', loginLimiter, async (req, res) => {
   try {
     const { registrationNumber, deviceId } = req.body;
     
@@ -124,7 +130,7 @@ router.post('/login', async (req, res) => {
  * Validate if session is still active
  * Checks if token matches the active session in database
  */
-router.post('/validate-session', async (req, res) => {
+router.post('/validate-session', sessionValidationLimiter, async (req, res) => {
   try {
     const { token, sessionId } = req.body;
     
@@ -189,7 +195,7 @@ router.post('/validate-session', async (req, res) => {
  * POST /api/auth/logout
  * Logout current session
  */
-router.post('/logout', async (req, res) => {
+router.post('/logout', logoutLimiter, async (req, res) => {
   try {
     const { token, sessionId } = req.body;
     
