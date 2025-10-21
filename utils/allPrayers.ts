@@ -76,28 +76,28 @@ export const allPrayers: UnifiedPrayer[] = [
     id: 'angelus',
     title: Angelus.title,
     category: 'Traditional',
-    route: '/(app)/prayers/traditionalprayers?prayer=angelus',
+    route: 'traditionalprayers?prayer=angelus',
     content: Angelus
   },
   {
     id: 'regina-caeli',
     title: ReginaCaeli.title,
     category: 'Traditional',
-    route: '/(app)/prayers/traditionalprayers?prayer=regina-caeli',
+    route: 'traditionalprayers?prayer=regina-caeli',
     content: ReginaCaeli
   },
   {
     id: 'holy-rosary',
     title: TheHolyRosary.title,
     category: 'Traditional',
-    route: '/(app)/prayers/traditionalprayers?prayer=holy-rosary',
+    route: 'traditionalprayers?prayer=holy-rosary',
     content: TheHolyRosary
   },
   {
     id: 'order-of-mass',
     title: OrderOfTheMass.title,
     category: 'Traditional',
-    route: '/(app)/prayers/traditionalprayers?prayer=order-of-mass',
+    route: 'traditionalprayers?prayer=order-of-mass',
     content: OrderOfTheMass
   },
 
@@ -106,35 +106,35 @@ export const allPrayers: UnifiedPrayer[] = [
     id: 'after-the-holy-communion',
     title: AfterHolyCommunion.title,
     category: 'Sacramental',
-    route: '/(app)/prayers/sacramentalprayers?prayer=after-the-holy-communion',
+    route: 'sacramentalprayers?prayer=after-the-holy-communion',
     content: AfterHolyCommunion
   },
   {
     id: 'before-holy-communion',
     title: BeforeHolyCommunion.title,
     category: 'Sacramental',
-    route: '/(app)/prayers/sacramentalprayers?prayer=before-holy-communion',
+    route: 'sacramentalprayers?prayer=before-holy-communion',
     content: BeforeHolyCommunion
   },
   {
     id: 'litany-of-the-sacred-heart',
     title: LitanyOfTheSacredHeart.title,
     category: 'Sacramental',
-    route: '/(app)/prayers/sacramentalprayers?prayer=litany-of-the-sacred-heart',
+    route: 'sacramentalprayers?prayer=litany-of-the-sacred-heart',
     content: LitanyOfTheSacredHeart
   },
   {
     id: 'prayer-for-confession',
     title: PrayerForConfession.title,
     category: 'Sacramental',
-    route: '/(app)/prayers/sacramentalprayers?prayer=prayer-for-confession',
+    route: 'sacramentalprayers?prayer=prayer-for-confession',
     content: PrayerForConfession
   },
   {
     id: 'prayer-for-grace',
     title: PrayerForGrace.title,
     category: 'Sacramental',
-    route: '/(app)/prayers/sacramentalprayers?prayer=prayer-for-grace',
+    route: 'sacramentalprayers?prayer=prayer-for-grace',
     content: PrayerForGrace
   },
 
@@ -143,28 +143,28 @@ export const allPrayers: UnifiedPrayer[] = [
     id: 'catena',
     title: Catena.title,
     category: 'Saints & Devotions',
-    route: '/(app)/prayers/saints?prayer=catena',
+    route: 'saints?prayer=catena',
     content: Catena
   },
   {
     id: 'prayer-of-saint-francis',
     title: PrayerOfSaintFrancis.title,
     category: 'Saints & Devotions',
-    route: '/(app)/prayers/saints?prayer=prayer-of-saint-francis',
+    route: 'saints?prayer=prayer-of-saint-francis',
     content: PrayerOfSaintFrancis
   },
   {
     id: 'st-patricks-prayer',
     title: StPatricksPrayer.title,
     category: 'Saints & Devotions',
-    route: '/(app)/prayers/saints?prayer=st-patricks-prayer',
+    route: 'saints?prayer=st-patricks-prayer',
     content: StPatricksPrayer
   },
   {
     id: 'prayer-to-holy-spirit',
     title: PrayerToTheHolySpirit.title,
     category: 'Saints & Devotions',
-    route: '/(app)/prayers/saints?prayer=prayer-to-holy-spirit',
+    route: 'saints?prayer=prayer-to-holy-spirit',
     content: PrayerToTheHolySpirit
   },
 
@@ -173,28 +173,28 @@ export const allPrayers: UnifiedPrayer[] = [
     id: 'grace-after-meals',
     title: GraceAfterMeals.title,
     category: 'Daily Life',
-    route: '/(app)/prayers/daily?prayer=grace-after-meals',
+    route: 'daily?prayer=grace-after-meals',
     content: GraceAfterMeals
   },
   {
     id: 'grace-before-meals',
     title: GraceBeforeMeals.title,
     category: 'Daily Life',
-    route: '/(app)/prayers/daily?prayer=grace-before-meals',
+    route: 'daily?prayer=grace-before-meals',
     content: GraceBeforeMeals
   },
   {
     id: 'morning-offering',
     title: MorningOffering.title,
     category: 'Daily Life',
-    route: '/(app)/prayers/daily?prayer=morning-offering',
+    route: 'daily?prayer=morning-offering',
     content: MorningOffering
   },
   {
     id: 'sleep-prayer',
     title: SleepPrayer.title,
     category: 'Daily Life',
-    route: '/(app)/prayers/daily?prayer=sleep-prayer',
+    route: 'daily?prayer=sleep-prayer',
     content: SleepPrayer
   },
 
@@ -203,7 +203,7 @@ export const allPrayers: UnifiedPrayer[] = [
     id: 'university-prayer',
     title: UniversityPrayer.title,
     category: 'University',
-    route: '/(app)/prayers/universityprayers?prayer=university-prayer',
+    route: 'universityprayers?prayer=university-prayer',
     content: UniversityPrayer
   },
 
@@ -212,21 +212,21 @@ export const allPrayers: UnifiedPrayer[] = [
     id: 'monday-morning',
     title: mondayMorning.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Monday&period=morning',
+    route: '[day]?day=Monday&period=morning',
     content: mondayMorning
   },
   {
     id: 'monday-midday',
     title: mondayMidDay.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Monday&period=mid-day',
+    route: '[day]?day=Monday&period=mid-day',
     content: mondayMidDay
   },
   {
     id: 'monday-evening',
     title: mondayEvening.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Monday&period=evening',
+    route: '[day]?day=Monday&period=evening',
     content: mondayEvening
   },
 
@@ -235,21 +235,21 @@ export const allPrayers: UnifiedPrayer[] = [
     id: 'tuesday-morning',
     title: tuesdayMorning.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Tuesday&period=morning',
+    route: '[day]?day=Tuesday&period=morning',
     content: tuesdayMorning
   },
   {
     id: 'tuesday-midday',
     title: tuesdayMidDay.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Tuesday&period=mid-day',
+    route: '[day]?day=Tuesday&period=mid-day',
     content: tuesdayMidDay
   },
   {
     id: 'tuesday-evening',
     title: tuesdayEvening.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Tuesday&period=evening',
+    route: '[day]?day=Tuesday&period=evening',
     content: tuesdayEvening
   },
 
@@ -258,21 +258,21 @@ export const allPrayers: UnifiedPrayer[] = [
     id: 'wednesday-morning',
     title: wednesdayMorning.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Wednesday&period=morning',
+    route: '[day]?day=Wednesday&period=morning',
     content: wednesdayMorning
   },
   {
     id: 'wednesday-midday',
     title: wednesdayMidDay.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Wednesday&period=mid-day',
+    route: '[day]?day=Wednesday&period=mid-day',
     content: wednesdayMidDay
   },
   {
     id: 'wednesday-evening',
     title: wednesdayEvening.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Wednesday&period=evening',
+    route: '[day]?day=Wednesday&period=evening',
     content: wednesdayEvening
   },
 
@@ -281,21 +281,21 @@ export const allPrayers: UnifiedPrayer[] = [
     id: 'thursday-morning',
     title: thursdayMorning.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Thursday&period=morning',
+    route: '[day]?day=Thursday&period=morning',
     content: thursdayMorning
   },
   {
     id: 'thursday-midday',
     title: thursdayMidDay.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Thursday&period=mid-day',
+    route: '[day]?day=Thursday&period=mid-day',
     content: thursdayMidDay
   },
   {
     id: 'thursday-evening',
     title: thursdayEvening.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Thursday&period=evening',
+    route: '[day]?day=Thursday&period=evening',
     content: thursdayEvening
   },
 
@@ -304,21 +304,21 @@ export const allPrayers: UnifiedPrayer[] = [
     id: 'friday-morning',
     title: fridayMorning.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Friday&period=morning',
+    route: '[day]?day=Friday&period=morning',
     content: fridayMorning
   },
   {
     id: 'friday-midday',
     title: fridayMidDay.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Friday&period=mid-day',
+    route: '[day]?day=Friday&period=mid-day',
     content: fridayMidDay
   },
   {
     id: 'friday-evening',
     title: fridayEvening.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Friday&period=evening',
+    route: '[day]?day=Friday&period=evening',
     content: fridayEvening
   },
 
@@ -327,21 +327,21 @@ export const allPrayers: UnifiedPrayer[] = [
     id: 'saturday-morning',
     title: saturdayMorning.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Saturday&period=morning',
+    route: '[day]?day=Saturday&period=morning',
     content: saturdayMorning
   },
   {
     id: 'saturday-midday',
     title: saturdayMidDay.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Saturday&period=mid-day',
+    route: '[day]?day=Saturday&period=mid-day',
     content: saturdayMidDay
   },
   {
     id: 'saturday-evening',
     title: saturdayEvening.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Saturday&period=evening',
+    route: '[day]?day=Saturday&period=evening',
     content: saturdayEvening
   },
 
@@ -350,21 +350,21 @@ export const allPrayers: UnifiedPrayer[] = [
     id: 'sunday-morning',
     title: sundayMorning.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Sunday&period=morning',
+    route: '[day]?day=Sunday&period=morning',
     content: sundayMorning
   },
   {
     id: 'sunday-midday',
     title: sundayMidDay.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Sunday&period=mid-day',
+    route: '[day]?day=Sunday&period=mid-day',
     content: sundayMidDay
   },
   {
     id: 'sunday-evening',
     title: sundayEvening.title,
     category: 'Daily Office',
-    route: '/(app)/prayers/[day]?day=Sunday&period=evening',
+    route: '[day]?day=Sunday&period=evening',
     content: sundayEvening
   }
 ];

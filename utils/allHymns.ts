@@ -48,7 +48,7 @@ export const allHymns: UnifiedHymn[] = Object.entries(hymns).flatMap(([category,
     id: `${categoryToRoute(category)}-${titleToId(title)}`,
     title,
     category,
-    route: `/(app)/hymns/${categoryToRoute(category)}?hymn=${titleToId(title)}`,
+    route: `${categoryToRoute(category)}?hymn=${titleToId(title)}`,
     content
   }))
 );

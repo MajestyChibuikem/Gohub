@@ -139,8 +139,9 @@ export default function HymnsScreen() {
   const handleSearchResultPress = (hymn: UnifiedHymn) => {
     // Clear search when navigating
     setSearchQuery('');
-    // Navigate to the hymn's route
-    router.push(hymn.route as any);
+    // Navigate to the hymn's route - add /(app)/hymns/ prefix
+    const fullRoute = `/(app)/hymns/${hymn.route}`;
+    router.push(fullRoute as any);
   };
 
   return (
