@@ -74,28 +74,28 @@ export const allPrayers: UnifiedPrayer[] = [
   // Traditional Prayers
   {
     id: 'angelus',
-    title: { en: 'Angelus', es: 'Ángelus' },
+    title: Angelus.title,
     category: 'Traditional',
     route: '/(app)/prayers/traditionalprayers?prayer=angelus',
     content: Angelus
   },
   {
     id: 'regina-caeli',
-    title: { en: 'Regina Caeli', es: 'Regina Caeli' },
+    title: ReginaCaeli.title,
     category: 'Traditional',
     route: '/(app)/prayers/traditionalprayers?prayer=regina-caeli',
     content: ReginaCaeli
   },
   {
     id: 'holy-rosary',
-    title: { en: 'The Holy Rosary', es: 'El Santo Rosario' },
+    title: TheHolyRosary.title,
     category: 'Traditional',
     route: '/(app)/prayers/traditionalprayers?prayer=holy-rosary',
     content: TheHolyRosary
   },
   {
     id: 'order-of-mass',
-    title: { en: 'Order of the Mass', es: 'Orden de la Misa' },
+    title: OrderOfTheMass.title,
     category: 'Traditional',
     route: '/(app)/prayers/traditionalprayers?prayer=order-of-mass',
     content: OrderOfTheMass
@@ -103,36 +103,36 @@ export const allPrayers: UnifiedPrayer[] = [
 
   // Sacramental Prayers
   {
-    id: 'after-holy-communion',
-    title: 'After Holy Communion',
+    id: 'after-the-holy-communion',
+    title: AfterHolyCommunion.title,
     category: 'Sacramental',
-    route: '/(app)/prayers/sacramentalprayers?prayer=after-holy-communion',
+    route: '/(app)/prayers/sacramentalprayers?prayer=after-the-holy-communion',
     content: AfterHolyCommunion
   },
   {
     id: 'before-holy-communion',
-    title: 'Before Holy Communion',
+    title: BeforeHolyCommunion.title,
     category: 'Sacramental',
     route: '/(app)/prayers/sacramentalprayers?prayer=before-holy-communion',
     content: BeforeHolyCommunion
   },
   {
-    id: 'litany-sacred-heart',
-    title: 'Litany of the Sacred Heart',
+    id: 'litany-of-the-sacred-heart',
+    title: LitanyOfTheSacredHeart.title,
     category: 'Sacramental',
-    route: '/(app)/prayers/sacramentalprayers?prayer=litany-sacred-heart',
+    route: '/(app)/prayers/sacramentalprayers?prayer=litany-of-the-sacred-heart',
     content: LitanyOfTheSacredHeart
   },
   {
     id: 'prayer-for-confession',
-    title: 'Prayer for Confession',
+    title: PrayerForConfession.title,
     category: 'Sacramental',
     route: '/(app)/prayers/sacramentalprayers?prayer=prayer-for-confession',
     content: PrayerForConfession
   },
   {
     id: 'prayer-for-grace',
-    title: 'Prayer for Grace to Make a Good Confession',
+    title: PrayerForGrace.title,
     category: 'Sacramental',
     route: '/(app)/prayers/sacramentalprayers?prayer=prayer-for-grace',
     content: PrayerForGrace
@@ -141,28 +141,28 @@ export const allPrayers: UnifiedPrayer[] = [
   // Saints & Devotions
   {
     id: 'catena',
-    title: { en: 'Catena', es: 'Catena' },
+    title: Catena.title,
     category: 'Saints & Devotions',
     route: '/(app)/prayers/saints?prayer=catena',
     content: Catena
   },
   {
     id: 'prayer-of-saint-francis',
-    title: { en: 'Prayer of Saint Francis', es: 'Oración de San Francisco' },
+    title: PrayerOfSaintFrancis.title,
     category: 'Saints & Devotions',
     route: '/(app)/prayers/saints?prayer=prayer-of-saint-francis',
     content: PrayerOfSaintFrancis
   },
   {
     id: 'st-patricks-prayer',
-    title: { en: "St Patrick's Prayer", es: 'Oración de San Patricio' },
+    title: StPatricksPrayer.title,
     category: 'Saints & Devotions',
     route: '/(app)/prayers/saints?prayer=st-patricks-prayer',
     content: StPatricksPrayer
   },
   {
     id: 'prayer-to-holy-spirit',
-    title: { en: 'Prayer to the Holy Spirit', es: 'Oración al Espíritu Santo' },
+    title: PrayerToTheHolySpirit.title,
     category: 'Saints & Devotions',
     route: '/(app)/prayers/saints?prayer=prayer-to-holy-spirit',
     content: PrayerToTheHolySpirit
@@ -171,28 +171,28 @@ export const allPrayers: UnifiedPrayer[] = [
   // Daily Life Prayers
   {
     id: 'grace-after-meals',
-    title: 'Grace After Meals',
+    title: GraceAfterMeals.title,
     category: 'Daily Life',
     route: '/(app)/prayers/daily?prayer=grace-after-meals',
     content: GraceAfterMeals
   },
   {
     id: 'grace-before-meals',
-    title: 'Grace Before Meals',
+    title: GraceBeforeMeals.title,
     category: 'Daily Life',
     route: '/(app)/prayers/daily?prayer=grace-before-meals',
     content: GraceBeforeMeals
   },
   {
     id: 'morning-offering',
-    title: 'Morning Offering',
+    title: MorningOffering.title,
     category: 'Daily Life',
     route: '/(app)/prayers/daily?prayer=morning-offering',
     content: MorningOffering
   },
   {
     id: 'sleep-prayer',
-    title: 'Prayer Before Sleep',
+    title: SleepPrayer.title,
     category: 'Daily Life',
     route: '/(app)/prayers/daily?prayer=sleep-prayer',
     content: SleepPrayer
@@ -201,7 +201,7 @@ export const allPrayers: UnifiedPrayer[] = [
   // University Prayer
   {
     id: 'university-prayer',
-    title: 'University Prayer',
+    title: UniversityPrayer.title,
     category: 'University',
     route: '/(app)/prayers/universityprayers?prayer=university-prayer',
     content: UniversityPrayer

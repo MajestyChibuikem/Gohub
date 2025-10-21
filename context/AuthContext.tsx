@@ -308,8 +308,8 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     // Validate immediately
     validateCurrentSession();
 
-    // Then validate every 5 minutes (300,000 milliseconds)
-    const interval = setInterval(validateCurrentSession, 300000);
+    // Then validate every 60 seconds (60,000 milliseconds)
+    const interval = setInterval(validateCurrentSession, 60000);
 
     return () => {
       console.log('🛑 AuthContext: Stopping session validation polling');
