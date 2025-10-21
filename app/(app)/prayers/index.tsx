@@ -1,20 +1,24 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Ionicons } from '@expo/vector-icons';
-import { 
-  Animated, 
-  View, 
-  Text, 
-  StyleSheet, 
+import {
+  Animated,
+  View,
+  Text,
+  StyleSheet,
   TouchableOpacity,
   Platform,
   Dimensions,
   StatusBar,
-  Pressable
+  Pressable,
+  TextInput
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useTheme } from '../../../context/ThemeContext';
 import { useAuth } from '../../../context/AuthContext';
+import { useLanguage } from '../../../context/LanguageContext';
 import PrayerCard from '../../../components/PrayerCard';
+import { allPrayers, getPrayerTitle, UnifiedPrayer } from '../../../utils/allPrayers';
+import { fuzzyFilter } from '../../../utils/fuzzySearch';
 
 const { width } = Dimensions.get('window');
 const ITEM_HEIGHT = 100;
@@ -37,9 +41,11 @@ interface PrayerSection {
 export default function PrayersScreen() {
   const { theme, getFontSize } = useTheme();
   const { isAuthenticated, isActivated } = useAuth();
+  const { language } = useLanguage();
   const router = useRouter();
   const scrollY = useRef(new Animated.Value(0)).current;
   const [expandedSection, setExpandedSection] = useState<string>('daily');
+  const [searchQuery, setSearchQuery] = useState<string>('');
 
   // Route guard - redirect if not authenticated or not activated
   useEffect(() => {
@@ -143,12 +149,19 @@ export default function PrayersScreen() {
     setExpandedSection(expandedSection === sectionId ? '' : sectionId);
   };
 
-  // Handle navigation to prayer
+  // Filter prayers based on search query
+  const filteredPrayers = searchQuery.trim()
+    ? fuzzyFilter(allPrayers, searchQuery, (prayer) =>
+        getPrayerTitle(prayer, language)
+      )
+    : [];
+
+  // Handle navigation to prayer (for both search results and regular navigation)
   const handlePrayerNavigation = (route: string) => {
     console.log('🔍 Navigation attempt:', route);
     console.log('📍 Current location: app/(app)/prayers/index.tsx');
     console.log('🎯 Attempting to navigate to:', route);
-    
+
     try {
       if (route.includes('[day]')) {
         // Extract day from route like "[day]?day=Monday"
@@ -177,6 +190,14 @@ export default function PrayersScreen() {
     } catch (error) {
       console.error('❌ Navigation failed:', error);
     }
+  };
+
+  // Handle navigation from search results
+  const handleSearchResultPress = (prayer: UnifiedPrayer) => {
+    // Clear search when navigating
+    setSearchQuery('');
+    // Navigate to the prayer's route
+    handlePrayerNavigation(prayer.route);
   };
 
   // Animation for prayer items when scrolled
@@ -298,70 +319,184 @@ export default function PrayersScreen() {
         barStyle={theme.background === '#ffffff' ? 'dark-content' : 'light-content'}
         backgroundColor={theme.background}
       />
-      
-      <View style={[styles.header, { 
+
+      <View style={[styles.header, {
         backgroundColor: theme.surface,
         borderBottomColor: theme.border,
         shadowColor: theme.shadowColor
       }]}>
-        <Text style={[styles.pageTitle, { 
+        <Text style={[styles.pageTitle, {
           color: theme.text,
           fontSize: getFontSize(24)
         }]}>
           Prayer Book
         </Text>
       </View>
-      
-      {todaysPrayer && (
-        <View style={[styles.todayContainer, { 
-          backgroundColor: theme.highlight, 
-          borderColor: theme.accent 
+
+      {/* Search Bar */}
+      <View style={[styles.searchContainer, {
+        backgroundColor: theme.surface,
+        borderBottomColor: theme.border
+      }]}>
+        <View style={[styles.searchInputWrapper, {
+          backgroundColor: theme.card,
+          borderColor: theme.border
         }]}>
-          <Text style={[styles.todayTitle, { 
-            color: theme.text,
-            fontSize: getFontSize(16)
-          }]}>
-            Today's Prayer ({currentDay})
-          </Text>
-          <TouchableOpacity 
-            onPress={() => handlePrayerNavigation(todaysPrayer.route)}
-          >
-            <Text style={[styles.todayLink, { 
-              color: theme.accent,
-              fontSize: getFontSize(18)
-            }]}>
-              {todaysPrayer.title} →
-            </Text>
-          </TouchableOpacity>
+          <Ionicons
+            name="search"
+            size={20}
+            color={theme.textSecondary}
+            style={styles.searchIcon}
+          />
+          <TextInput
+            style={[styles.searchInput, {
+              color: theme.text,
+              fontSize: getFontSize(16)
+            }]}
+            placeholder="Search all prayers..."
+            placeholderTextColor={theme.textSecondary}
+            value={searchQuery}
+            onChangeText={setSearchQuery}
+          />
+          {searchQuery.length > 0 && (
+            <TouchableOpacity onPress={() => setSearchQuery('')}>
+              <Ionicons
+                name="close-circle"
+                size={20}
+                color={theme.textSecondary}
+              />
+            </TouchableOpacity>
+          )}
         </View>
-      )}
+      </View>
       
-      <Animated.ScrollView
-        style={{ flex: 1 }}
-        contentContainerStyle={[
-          styles.scrollContent,
-          { paddingBottom: Platform.OS === 'ios' ? 80 : Platform.OS === 'web' ? 20 : 40 }
-        ]}
-        showsVerticalScrollIndicator={false}
-        onScroll={Animated.event(
-          [{ nativeEvent: { contentOffset: { y: scrollY } } }],
-          { useNativeDriver: true }
-        )}
-        scrollEventThrottle={16}
-      >
-        {prayerSections.map((section, index) => 
-          renderSection(section, index)
-        )}
-        
-        <View style={styles.footer}>
-          <Text style={[styles.footerText, { 
-            color: theme.text,
-            fontSize: getFontSize(14)
-          }]}>
-            GOHUB Prayer Book- MAJESTY
-          </Text>
-        </View>
-      </Animated.ScrollView>
+      {/* Search Results or Regular Content */}
+      {searchQuery.trim() ? (
+        // Show search results
+        <Animated.ScrollView
+          style={{ flex: 1 }}
+          contentContainerStyle={[
+            styles.scrollContent,
+            { paddingBottom: Platform.OS === 'ios' ? 80 : Platform.OS === 'web' ? 20 : 40 }
+          ]}
+          showsVerticalScrollIndicator={false}
+        >
+          {filteredPrayers.length > 0 ? (
+            <>
+              <Text style={[styles.searchResultsHeader, {
+                color: theme.textSecondary,
+                fontSize: getFontSize(14)
+              }]}>
+                {filteredPrayers.length} {filteredPrayers.length === 1 ? 'prayer' : 'prayers'} found
+              </Text>
+              {filteredPrayers.map((prayer) => (
+                <TouchableOpacity
+                  key={prayer.id}
+                  style={[styles.searchResultItem, {
+                    backgroundColor: theme.card,
+                    borderColor: theme.border
+                  }]}
+                  onPress={() => handleSearchResultPress(prayer)}
+                >
+                  <View style={styles.searchResultContent}>
+                    <Text style={[styles.searchResultTitle, {
+                      color: theme.text,
+                      fontSize: getFontSize(16)
+                    }]}>
+                      {getPrayerTitle(prayer, language)}
+                    </Text>
+                    <Text style={[styles.searchResultCategory, {
+                      color: theme.textSecondary,
+                      fontSize: getFontSize(12)
+                    }]}>
+                      {prayer.category}
+                    </Text>
+                  </View>
+                  <Ionicons
+                    name="chevron-forward"
+                    size={20}
+                    color={theme.textSecondary}
+                  />
+                </TouchableOpacity>
+              ))}
+            </>
+          ) : (
+            <View style={styles.noResultsContainer}>
+              <Ionicons
+                name="search-outline"
+                size={48}
+                color={theme.textSecondary}
+              />
+              <Text style={[styles.noResultsText, {
+                color: theme.textSecondary,
+                fontSize: getFontSize(16)
+              }]}>
+                No prayers found for "{searchQuery}"
+              </Text>
+              <Text style={[styles.noResultsHint, {
+                color: theme.textSecondary,
+                fontSize: getFontSize(14)
+              }]}>
+                Try a different search term
+              </Text>
+            </View>
+          )}
+        </Animated.ScrollView>
+      ) : (
+        // Show regular categorized view
+        <>
+          {todaysPrayer && (
+            <View style={[styles.todayContainer, {
+              backgroundColor: theme.highlight,
+              borderColor: theme.accent
+            }]}>
+              <Text style={[styles.todayTitle, {
+                color: theme.text,
+                fontSize: getFontSize(16)
+              }]}>
+                Today's Prayer ({currentDay})
+              </Text>
+              <TouchableOpacity
+                onPress={() => handlePrayerNavigation(todaysPrayer.route)}
+              >
+                <Text style={[styles.todayLink, {
+                  color: theme.accent,
+                  fontSize: getFontSize(18)
+                }]}>
+                  {todaysPrayer.title} →
+                </Text>
+              </TouchableOpacity>
+            </View>
+          )}
+
+          <Animated.ScrollView
+            style={{ flex: 1 }}
+            contentContainerStyle={[
+              styles.scrollContent,
+              { paddingBottom: Platform.OS === 'ios' ? 80 : Platform.OS === 'web' ? 20 : 40 }
+            ]}
+            showsVerticalScrollIndicator={false}
+            onScroll={Animated.event(
+              [{ nativeEvent: { contentOffset: { y: scrollY } } }],
+              { useNativeDriver: true }
+            )}
+            scrollEventThrottle={16}
+          >
+            {prayerSections.map((section, index) =>
+              renderSection(section, index)
+            )}
+
+            <View style={styles.footer}>
+              <Text style={[styles.footerText, {
+                color: theme.text,
+                fontSize: getFontSize(14)
+              }]}>
+                GOHUB Prayer Book- MAJESTY
+              </Text>
+            </View>
+          </Animated.ScrollView>
+        </>
+      )}
     </View>
   );
 }
@@ -446,5 +581,70 @@ const styles = StyleSheet.create({
   },
   footerText: {
     fontWeight: '500',
+  },
+  // Search styles
+  searchContainer: {
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    borderBottomWidth: 1,
+  },
+  searchInputWrapper: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+    borderRadius: 10,
+    borderWidth: 1,
+  },
+  searchIcon: {
+    marginRight: 8,
+  },
+  searchInput: {
+    flex: 1,
+    fontStyle: 'italic',
+  },
+  searchResultsHeader: {
+    marginTop: 8,
+    marginBottom: 12,
+    marginHorizontal: 16,
+    fontWeight: '600',
+  },
+  searchResultItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 16,
+    marginHorizontal: 16,
+    marginBottom: 10,
+    borderRadius: 12,
+    borderWidth: 1,
+  },
+  searchResultContent: {
+    flex: 1,
+  },
+  searchResultTitle: {
+    fontWeight: '600',
+    marginBottom: 4,
+  },
+  searchResultCategory: {
+    fontWeight: '400',
+    opacity: 0.7,
+  },
+  noResultsContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 60,
+    paddingHorizontal: 32,
+  },
+  noResultsText: {
+    marginTop: 16,
+    fontWeight: '600',
+    textAlign: 'center',
+  },
+  noResultsHint: {
+    marginTop: 8,
+    textAlign: 'center',
+    opacity: 0.7,
   },
 }); 
