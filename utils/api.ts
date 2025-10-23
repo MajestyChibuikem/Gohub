@@ -18,6 +18,8 @@ export interface CheckRegistrationResponse {
   name?: string;
   isActivated?: boolean;
   registrationNumber?: string;
+  isPasswordRequired?: boolean;
+  needsOnboarding?: boolean;
   message?: string;
 }
 
@@ -26,11 +28,14 @@ export interface LoginResponse {
   message: string;
   token?: string;
   sessionId?: string;
+  needsOnboarding?: boolean;
+  requiresPassword?: boolean;
   user?: {
     id: string;
     name: string;
     registrationNumber: string;
     isActivated: boolean;
+    isPasswordRequired?: boolean;
     deviceId: string;
     lastLogin: string;
   };
@@ -51,6 +56,18 @@ export interface ValidateSessionResponse {
 export interface LogoutResponse {
   success: boolean;
   message: string;
+}
+
+export interface SetPasswordResponse {
+  success: boolean;
+  message: string;
+  errors?: string[];
+  user?: {
+    id: string;
+    name: string;
+    registrationNumber: string;
+    isPasswordRequired: boolean;
+  };
 }
 
 /**
@@ -82,16 +99,16 @@ export const api = {
   },
 
   /**
-   * Login with registration number
+   * Login with registration number and optional password
    */
-  login: async (registrationNumber: string, deviceId: string): Promise<LoginResponse> => {
+  login: async (registrationNumber: string, deviceId: string, password?: string): Promise<LoginResponse> => {
     try {
       const response = await fetch(`${API_BASE_URL}/auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ registrationNumber, deviceId }),
+        body: JSON.stringify({ registrationNumber, deviceId, password }),
       });
 
       const data = await response.json();
@@ -149,6 +166,42 @@ export const api = {
       return {
         success: false,
         message: 'Network error during logout.',
+      };
+    }
+  },
+
+  /**
+   * Set password for first-time onboarding
+   */
+  setPassword: async (
+    registrationNumber: string,
+    password: string,
+    confirmPassword: string,
+    token?: string | null,
+    sessionId?: string | null
+  ): Promise<SetPasswordResponse> => {
+    try {
+      const response = await fetch(`${API_BASE_URL}/auth/set-password`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          registrationNumber,
+          password,
+          confirmPassword,
+          token,
+          sessionId,
+        }),
+      });
+
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error('❌ API Error (setPassword):', error);
+      return {
+        success: false,
+        message: 'Network error. Please check your connection.',
       };
     }
   },

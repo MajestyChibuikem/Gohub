@@ -15,14 +15,47 @@ import {
 import { Link, useRouter } from 'expo-router';
 import { useAuth } from '../../context/AuthContext';
 import { useTheme } from '../../context/ThemeContext';
+import { Ionicons } from '@expo/vector-icons';
+import { api } from '../../utils/api';
 
 export default function LoginScreen() {
   const [registrationNumber, setRegistrationNumber] = useState('');
+  const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  
+  const [checkingPassword, setCheckingPassword] = useState(false);
+  const [requiresPassword, setRequiresPassword] = useState(false);
+
   const { login } = useAuth();
   const { theme, getFontSize } = useTheme();
   const router = useRouter();
+
+  // Check if password is required when registration number changes
+  const handleRegistrationNumberBlur = async () => {
+    if (!registrationNumber.trim()) {
+      return;
+    }
+
+    const regNumberRegex = /^[A-Z]+\/[A-Z]+\d+\/[A-Z]+\/\d+$/;
+    if (!regNumberRegex.test(registrationNumber.trim().toUpperCase())) {
+      return;
+    }
+
+    setCheckingPassword(true);
+    try {
+      const checkResponse = await api.checkRegistration(registrationNumber.trim().toUpperCase());
+      if (checkResponse.allowed && checkResponse.isPasswordRequired) {
+        setRequiresPassword(true);
+      } else {
+        setRequiresPassword(false);
+        setPassword('');
+      }
+    } catch (error) {
+      console.error('Error checking password requirement:', error);
+    } finally {
+      setCheckingPassword(false);
+    }
+  };
 
   const handleLogin = async () => {
     if (!registrationNumber.trim()) {
@@ -37,9 +70,18 @@ export default function LoginScreen() {
       return;
     }
 
+    // Check if password is required
+    if (requiresPassword && !password.trim()) {
+      Alert.alert('Error', 'Please enter your password');
+      return;
+    }
+
     setIsLoading(true);
     try {
-      const result = await login(registrationNumber.trim().toUpperCase());
+      const result = await login(
+        registrationNumber.trim().toUpperCase(),
+        requiresPassword ? password : undefined
+      );
       if (result.success) {
         // Navigation will be handled by the root layout
       } else {
@@ -103,6 +145,17 @@ export default function LoginScreen() {
       padding: 16,
       fontSize: getFontSize(16),
       color: theme.text,
+    },
+    inputContainer: {
+      position: 'relative',
+    },
+    passwordInput: {
+      paddingRight: 50,
+    },
+    eyeIcon: {
+      position: 'absolute',
+      right: 16,
+      top: 16,
     },
     loginButton: {
       backgroundColor: theme.accent,
@@ -176,6 +229,7 @@ export default function LoginScreen() {
               style={styles.input}
               value={registrationNumber}
               onChangeText={setRegistrationNumber}
+              onBlur={handleRegistrationNumberBlur}
               placeholder="GOU/U23/CSC/1292"
               placeholderTextColor={theme.textSecondary}
               autoCapitalize="characters"
@@ -185,7 +239,40 @@ export default function LoginScreen() {
             <Text style={styles.helpText}>
               Format: GOU/U23/CSC/1292
             </Text>
+            {checkingPassword && (
+              <Text style={[styles.helpText, { color: theme.accent }]}>
+                Checking password requirement...
+              </Text>
+            )}
           </View>
+
+          {requiresPassword && (
+            <View style={styles.inputGroup}>
+              <Text style={styles.label}>Password</Text>
+              <View style={styles.inputContainer}>
+                <TextInput
+                  style={[styles.input, styles.passwordInput]}
+                  value={password}
+                  onChangeText={setPassword}
+                  placeholder="Enter your password"
+                  placeholderTextColor={theme.textSecondary}
+                  secureTextEntry={!showPassword}
+                  autoCapitalize="none"
+                  autoCorrect={false}
+                />
+                <TouchableOpacity
+                  style={styles.eyeIcon}
+                  onPress={() => setShowPassword(!showPassword)}
+                >
+                  <Ionicons
+                    name={showPassword ? 'eye-off-outline' : 'eye-outline'}
+                    size={24}
+                    color={theme.textSecondary}
+                  />
+                </TouchableOpacity>
+              </View>
+            </View>
+          )}
 
           <TouchableOpacity
             style={styles.loginButton}
@@ -214,7 +301,8 @@ export default function LoginScreen() {
           <Text style={styles.infoText}>
             • Use your student registration number{'\n'}
             • Format: GOU/U##/DEPT/#### (e.g., GOU/U23/CSC/1292){'\n'}
-            • No password required{'\n'}
+            • Password required for activated accounts{'\n'}
+            • First-time users will be prompted to create a password{'\n'}
             • Access must be granted by administration{'\n'}
             • Contact your administrator if you can't log in
           </Text>

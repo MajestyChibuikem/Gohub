@@ -21,14 +21,30 @@ const StudentSchema = new mongoose.Schema({
   },
   
   // Access Control
-  isAllowed: { 
-    type: Boolean, 
+  isAllowed: {
+    type: Boolean,
     default: false,
     index: true
   },
-  isActivated: { 
-    type: Boolean, 
-    default: false 
+  isActivated: {
+    type: Boolean,
+    default: false
+  },
+
+  // Password Authentication
+  password: {
+    type: String,
+    default: null,
+    select: false // Don't return password in queries by default
+  },
+  passwordSetAt: {
+    type: Date,
+    default: null
+  },
+  isPasswordRequired: {
+    type: Boolean,
+    default: false,
+    index: true
   },
   
   // Session Management (Single Session Enforcement)
@@ -85,6 +101,23 @@ StudentSchema.methods.invalidateSession = function() {
   this.activeSessionId = null;
   this.activeSessionToken = null;
   return this.save();
+};
+
+/**
+ * Instance method to check if password is set
+ * @returns {boolean}
+ */
+StudentSchema.methods.hasPassword = function() {
+  return !!(this.password && this.passwordSetAt);
+};
+
+/**
+ * Instance method to check if onboarding is needed
+ * Student needs onboarding if activated but no password set
+ * @returns {boolean}
+ */
+StudentSchema.methods.needsOnboarding = function() {
+  return this.isActivated && !this.hasPassword();
 };
 
 /**

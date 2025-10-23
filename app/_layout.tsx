@@ -47,9 +47,9 @@ export default function RootLayout() {
 
 function RootLayoutNav() {
   const { theme } = useTheme();
-  const { isActivated, isAuthenticated, isLoading } = useAuth();
+  const { isActivated, isAuthenticated, isLoading, needsOnboarding } = useAuth();
 
-  console.log('🔍 RootLayoutNav - Auth State:', { isAuthenticated, isActivated, isLoading });
+  console.log('🔍 RootLayoutNav - Auth State:', { isAuthenticated, isActivated, needsOnboarding, isLoading });
 
   if (isLoading) {
     return null; // Show loading state
@@ -59,16 +59,22 @@ function RootLayoutNav() {
     <>
       <StatusBar style={theme.background === '#ffffff' ? 'dark' : 'light'} />
       <Stack
-        key={`${isAuthenticated}-${isActivated}`}
+        key={`${isAuthenticated}-${isActivated}-${needsOnboarding}`}
         screenOptions={{ headerShown: false }}
       >
-        {isAuthenticated && isActivated ? (
-          // Authenticated AND activated user - show app with full access
+        {isAuthenticated && isActivated && needsOnboarding ? (
+          // Authenticated, activated, but needs to set password - show onboarding
+          <Stack.Screen
+            name="onboarding"
+            options={{ headerShown: false }}
+          />
+        ) : isAuthenticated && isActivated ? (
+          // Authenticated AND activated user with password set - show app with full access
           <Stack.Screen name="(app)" />
         ) : isAuthenticated && !isActivated ? (
           // Authenticated but NOT activated - show pending activation screen
-          <Stack.Screen 
-            name="pending-activation" 
+          <Stack.Screen
+            name="pending-activation"
             options={{ headerShown: false }}
           />
         ) : (

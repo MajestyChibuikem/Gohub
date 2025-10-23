@@ -10,6 +10,7 @@ export interface User {
   name: string;
   registrationNumber: string;
   isActivated: boolean;
+  isPasswordRequired?: boolean;
   deviceId: string;
   lastLogin: string;
 }
@@ -21,13 +22,15 @@ export interface AuthState {
   isLoading: boolean;
   isAuthenticated: boolean;
   isActivated: boolean;
+  needsOnboarding: boolean;
   deviceId: string | null;
 }
 
 interface AuthContextType extends AuthState {
-  login: (registrationNumber: string) => Promise<{ success: boolean; message: string }>;
+  login: (registrationNumber: string, password?: string) => Promise<{ success: boolean; message: string }>;
   logout: () => Promise<void>;
   checkActivation: () => Promise<void>;
+  refreshUser: () => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -52,6 +55,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     isLoading: true,
     isAuthenticated: false,
     isActivated: false,
+    needsOnboarding: false,
     deviceId: null,
   });
 
@@ -115,6 +119,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
                 isLoading: false,
                 isAuthenticated: true,
                 isActivated: user.isActivated,
+                needsOnboarding: user.isActivated && !user.isPasswordRequired,
                 deviceId,
               });
             } else {
@@ -137,30 +142,30 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     })();
   }, []);
 
-  // Login function - Registration number only (no password)
-  const login = async (registrationNumber: string) => {
+  // Login function - Registration number with optional password
+  const login = async (registrationNumber: string, password?: string) => {
     setAuthState(prev => ({ ...prev, isLoading: true }));
     try {
       const deviceId = await getDeviceId();
-      
+
       console.log('🔄 AuthContext: Starting login for:', registrationNumber);
-      
+
       // Step 1: Check if registration number is allowed
       const checkResponse = await api.checkRegistration(registrationNumber);
-      
+
       if (!checkResponse.allowed) {
         console.log('❌ AuthContext: Registration not allowed');
         setAuthState(prev => ({ ...prev, isLoading: false }));
-        return { 
-          success: false, 
-          message: checkResponse.message || 'Registration number not authorized. Contact administration.' 
+        return {
+          success: false,
+          message: checkResponse.message || 'Registration number not authorized. Contact administration.'
         };
       }
-      
+
       console.log('✅ AuthContext: Registration check passed');
-      
+
       // Step 2: Perform login
-      const loginResponse = await api.login(registrationNumber, deviceId);
+      const loginResponse = await api.login(registrationNumber, deviceId, password);
       
       if (!loginResponse.success || !loginResponse.user || !loginResponse.token || !loginResponse.sessionId) {
         console.log('❌ AuthContext: Login failed');
@@ -190,6 +195,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         isLoading: false,
         isAuthenticated: true,
         isActivated: loginResponse.user.isActivated, // Backend controls this via isAllowed/isActivated
+        needsOnboarding: loginResponse.needsOnboarding || false,
         deviceId,
       });
       
@@ -245,11 +251,12 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         isLoading: false,
         isAuthenticated: false,
         isActivated: false,
+        needsOnboarding: false,
         deviceId: null,
       });
-      
+
       console.log('✅ AuthContext: Logout completed successfully');
-      
+
     } catch (error) {
       console.error('❌ AuthContext: Error during logout:', error);
       // Even if there's an error, clear the state
@@ -260,6 +267,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         isLoading: false,
         isAuthenticated: false,
         isActivated: false,
+        needsOnboarding: false,
         deviceId: null,
       });
     }
@@ -322,7 +330,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     if (!authState.token || !authState.sessionId) {
       return;
     }
-    
+
     try {
       const validation = await api.validateSession(authState.token, authState.sessionId);
       if (validation.isValid && validation.user) {
@@ -337,11 +345,39 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     }
   };
 
+  // Refresh user data (useful after password setup)
+  const refreshUser = async () => {
+    if (!authState.token || !authState.sessionId) {
+      return;
+    }
+
+    try {
+      console.log('🔄 AuthContext: Refreshing user data...');
+      const validation = await api.validateSession(authState.token, authState.sessionId);
+      if (validation.isValid && validation.user) {
+        const userData = await AsyncStorage.getItem('user_data');
+        if (userData) {
+          const updatedUser = JSON.parse(userData);
+          setAuthState(prev => ({
+            ...prev,
+            user: updatedUser,
+            isActivated: updatedUser.isActivated,
+            needsOnboarding: updatedUser.isActivated && !updatedUser.isPasswordRequired,
+          }));
+          console.log('✅ AuthContext: User data refreshed');
+        }
+      }
+    } catch (error) {
+      console.error('❌ AuthContext: Error refreshing user:', error);
+    }
+  };
+
   const value: AuthContextType = {
     ...authState,
     login,
     logout,
     checkActivation,
+    refreshUser,
   };
 
   return (
