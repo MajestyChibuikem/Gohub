@@ -159,21 +159,21 @@ export default function OnboardingScreen() {
       console.log('📝 Onboarding: Set password result:', JSON.stringify(result, null, 2));
 
       if (result.success) {
-        Alert.alert(
-          'Success',
-          'Password created successfully! You can now use it to log in.',
-          [
-            {
-              text: 'Continue',
-              onPress: async () => {
-                // Refresh user data to update isPasswordRequired flag
-                await refreshUser();
-                // Navigate to main app
-                router.replace('/(app)');
-              },
-            },
-          ]
-        );
+        console.log('✅ Password created successfully! Navigating to app...');
+
+        // Refresh user data to update isPasswordRequired flag
+        await refreshUser();
+
+        // Navigate to main app
+        console.log('🔄 Calling router.replace...');
+        router.replace('/(app)');
+
+        // Show success message (works on web via browser alert)
+        if (Platform.OS === 'web') {
+          window.alert('Password created successfully! Welcome to GoHub.');
+        } else {
+          Alert.alert('Success', 'Password created successfully! You can now use it to log in.');
+        }
       } else {
         const errorMsg = result.message || 'Failed to set password. Please try again.';
         const errors = result.errors ? '\n\n' + result.errors.join('\n') : '';
