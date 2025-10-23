@@ -107,19 +107,26 @@ export default function OnboardingScreen() {
     console.log('🎯 handleSetPassword called!');
     console.log('📊 Button state - isLoading:', isLoading, 'passwordsMatch:', password === confirmPassword, 'strength:', passwordStrength);
 
+    console.log('✅ Check 1: Password fields filled?', password.trim().length, confirmPassword.trim().length);
     if (!password.trim() || !confirmPassword.trim()) {
+      console.log('❌ Failed: Empty fields');
       Alert.alert('Error', 'Please fill in all fields');
       return;
     }
 
+    console.log('✅ Check 2: Passwords match?', password === confirmPassword);
     if (password !== confirmPassword) {
+      console.log('❌ Failed: Passwords mismatch');
       Alert.alert('Error', 'Passwords do not match');
       return;
     }
 
     // Validate password strength
+    console.log('✅ Check 3: Validating password strength...');
     const validation = validatePassword();
+    console.log('Validation result:', validation);
     if (!validation.isValid) {
+      console.log('❌ Failed: Weak password', validation.errors);
       Alert.alert(
         'Weak Password',
         'Your password must meet the following requirements:\n\n' + validation.errors.join('\n')
@@ -127,11 +134,14 @@ export default function OnboardingScreen() {
       return;
     }
 
+    console.log('✅ Check 4: User info exists?', !!user, user?.registrationNumber);
     if (!user?.registrationNumber) {
+      console.log('❌ Failed: No user registration number');
       Alert.alert('Error', 'User information not found. Please log in again.');
       return;
     }
 
+    console.log('✅ All checks passed! Setting isLoading = true');
     setIsLoading(true);
     try {
       console.log('🔄 Onboarding: Setting password for:', user.registrationNumber);
