@@ -48,10 +48,25 @@ export default function LoginScreen() {
       if (result.success) {
         // Navigation will be handled by the root layout
       } else {
-        Alert.alert('Login Failed', result.message);
+        // Show error message (works on both web and mobile)
+        const errorMessage = result.message || 'Login failed. Please try again.';
+        console.log('❌ Login failed:', errorMessage);
+
+        if (Platform.OS === 'web') {
+          window.alert(`Login Failed\n\n${errorMessage}`);
+        } else {
+          Alert.alert('Login Failed', errorMessage);
+        }
       }
     } catch (error) {
-      Alert.alert('Error', 'An unexpected error occurred');
+      console.error('❌ Login error:', error);
+      const errorMsg = 'An unexpected error occurred. Please try again.';
+
+      if (Platform.OS === 'web') {
+        window.alert(`Error\n\n${errorMsg}`);
+      } else {
+        Alert.alert('Error', errorMsg);
+      }
     } finally {
       setIsLoading(false);
     }

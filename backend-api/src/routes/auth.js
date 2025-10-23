@@ -101,7 +101,7 @@ router.post('/login', loginLimiter, async (req, res) => {
       if (!password) {
         return res.status(400).json({
           success: false,
-          message: 'Password is required',
+          message: 'This account is protected with a password. Please enter your password to login.',
           requiresPassword: true
         });
       }
