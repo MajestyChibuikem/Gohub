@@ -30,6 +30,17 @@ export default function OnboardingScreen() {
   const { theme, getFontSize } = useTheme();
   const router = useRouter();
 
+  // Debug: Log when button disabled state changes
+  React.useEffect(() => {
+    const isDisabled = isLoading || password !== confirmPassword || passwordStrength < 2;
+    console.log('🔘 Button disabled:', isDisabled, '| Reason:', {
+      isLoading,
+      passwordsMismatch: password !== confirmPassword,
+      weakPassword: passwordStrength < 2,
+      currentStrength: passwordStrength
+    });
+  }, [isLoading, password, confirmPassword, passwordStrength]);
+
   // Calculate password strength
   const calculateStrength = (pwd: string): number => {
     let strength = 0;
@@ -38,7 +49,9 @@ export default function OnboardingScreen() {
     if (/[a-z]/.test(pwd) && /[A-Z]/.test(pwd)) strength++;
     if (/[0-9]/.test(pwd)) strength++;
     if (/[@$!%*?&#]/.test(pwd)) strength++;
-    return Math.min(strength, 4);
+    const finalStrength = Math.min(strength, 4);
+    console.log('🔐 Password strength:', finalStrength, 'for password length:', pwd.length);
+    return finalStrength;
   };
 
   // Handle password change with strength calculation
@@ -82,6 +95,9 @@ export default function OnboardingScreen() {
   };
 
   const handleSetPassword = async () => {
+    console.log('🎯 handleSetPassword called!');
+    console.log('📊 Button state - isLoading:', isLoading, 'passwordsMatch:', password === confirmPassword, 'strength:', passwordStrength);
+
     if (!password.trim() || !confirmPassword.trim()) {
       Alert.alert('Error', 'Please fill in all fields');
       return;
