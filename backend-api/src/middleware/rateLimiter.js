@@ -110,11 +110,28 @@ const logoutLimiter = rateLimit({
   handler: rateLimitHandler
 });
 
+/**
+ * Very lenient rate limiter for password setup (onboarding)
+ * This is a one-time operation per user, but allow multiple attempts for typos
+ *
+ * Limit: 30 requests per 15 minutes per IP
+ * (More lenient since backend also validates: user can only set password once)
+ */
+const setPasswordLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 30, // 30 requests per window
+  message: 'Too many password setup attempts. Please try again after 15 minutes.',
+  standardHeaders: true,
+  legacyHeaders: false,
+  handler: rateLimitHandler
+});
+
 module.exports = {
   loginLimiter,
   checkRegistrationLimiter,
   sessionValidationLimiter,
   adminLimiter,
   globalLimiter,
-  logoutLimiter
+  logoutLimiter,
+  setPasswordLimiter
 };

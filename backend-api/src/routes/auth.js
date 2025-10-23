@@ -7,7 +7,8 @@ const {
   loginLimiter,
   checkRegistrationLimiter,
   sessionValidationLimiter,
-  logoutLimiter
+  logoutLimiter,
+  setPasswordLimiter
 } = require('../middleware/rateLimiter');
 
 /**
@@ -276,9 +277,9 @@ router.post('/logout', logoutLimiter, async (req, res) => {
  * POST /api/auth/set-password
  * Set password for first-time onboarding
  * Can only be used once - when student has no password yet
- * Note: Uses checkRegistrationLimiter (20/15min) instead of loginLimiter (5/15min) for testing
+ * Note: Uses dedicated setPasswordLimiter (30/15min) for onboarding
  */
-router.post('/set-password', checkRegistrationLimiter, async (req, res) => {
+router.post('/set-password', setPasswordLimiter, async (req, res) => {
   try {
     const { registrationNumber, password, confirmPassword, token, sessionId } = req.body;
 
