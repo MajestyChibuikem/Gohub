@@ -30,6 +30,15 @@ export default function OnboardingScreen() {
   const { theme, getFontSize } = useTheme();
   const router = useRouter();
 
+  // Debug: Log auth context on mount
+  React.useEffect(() => {
+    console.log('🔍 Onboarding screen mounted');
+    console.log('👤 User:', user ? `${user.name} (${user.registrationNumber})` : 'null');
+    console.log('🔑 Token exists:', !!token);
+    console.log('🔑 SessionId exists:', !!sessionId);
+    console.log('🔄 refreshUser function exists:', typeof refreshUser === 'function');
+  }, []);
+
   // Debug: Log when button disabled state changes
   React.useEffect(() => {
     const isDisabled = isLoading || password !== confirmPassword || passwordStrength < 2;
@@ -422,7 +431,10 @@ export default function OnboardingScreen() {
                 (isLoading || password !== confirmPassword || passwordStrength < 2) &&
                   styles.createButtonDisabled,
               ]}
-              onPress={handleSetPassword}
+              onPress={() => {
+                console.log('👆 BUTTON CLICKED!');
+                handleSetPassword();
+              }}
               disabled={isLoading || password !== confirmPassword || passwordStrength < 2}
             >
               {isLoading ? (
