@@ -10,6 +10,9 @@ const { globalLimiter } = require('./middleware/rateLimiter');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Trust proxy - Required for Railway/Heroku and rate limiting to work correctly
+app.set('trust proxy', 1);
+
 // Middleware
 app.use(cors({
   origin: process.env.ALLOWED_ORIGINS?.split(',') || '*',

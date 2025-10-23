@@ -110,6 +110,9 @@ export default function OnboardingScreen() {
     setIsLoading(true);
     try {
       console.log('🔄 Onboarding: Setting password for:', user.registrationNumber);
+      console.log('🔑 Onboarding: Token exists:', !!token);
+      console.log('🔑 Onboarding: SessionId exists:', !!sessionId);
+
       const result = await api.setPassword(
         user.registrationNumber,
         password,
@@ -118,7 +121,7 @@ export default function OnboardingScreen() {
         sessionId
       );
 
-      console.log('📝 Onboarding: Set password result:', result);
+      console.log('📝 Onboarding: Set password result:', JSON.stringify(result, null, 2));
 
       if (result.success) {
         Alert.alert(
@@ -137,11 +140,15 @@ export default function OnboardingScreen() {
           ]
         );
       } else {
-        Alert.alert('Error', result.message || 'Failed to set password. Please try again.');
+        const errorMsg = result.message || 'Failed to set password. Please try again.';
+        const errors = result.errors ? '\n\n' + result.errors.join('\n') : '';
+        console.error('❌ Onboarding: Password set failed:', errorMsg, errors);
+        Alert.alert('Error', errorMsg + errors);
       }
     } catch (error) {
-      console.error('Set password error:', error);
-      Alert.alert('Error', 'An unexpected error occurred. Please try again.');
+      console.error('❌ Onboarding: Set password error:', error);
+      const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+      Alert.alert('Error', 'An unexpected error occurred. Please try again.\n\n' + errorMessage);
     } finally {
       setIsLoading(false);
     }
