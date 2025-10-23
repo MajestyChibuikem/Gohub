@@ -37,11 +37,11 @@ const loginLimiter = rateLimit({
  * Moderate rate limiter for registration checks
  * Prevents account enumeration attacks
  *
- * Limit: 10 attempts per 15 minutes per IP
+ * Limit: 20 attempts per 15 minutes per IP
  */
 const checkRegistrationLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 10, // 10 requests per window
+  max: 20, // 20 requests per window
   message: 'Too many registration checks from this IP. Please try again after 15 minutes.',
   standardHeaders: true,
   legacyHeaders: false,
