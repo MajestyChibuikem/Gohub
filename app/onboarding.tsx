@@ -109,6 +109,7 @@ export default function OnboardingScreen() {
 
     setIsLoading(true);
     try {
+      console.log('🔄 Onboarding: Setting password for:', user.registrationNumber);
       const result = await api.setPassword(
         user.registrationNumber,
         password,
@@ -116,6 +117,8 @@ export default function OnboardingScreen() {
         token,
         sessionId
       );
+
+      console.log('📝 Onboarding: Set password result:', result);
 
       if (result.success) {
         Alert.alert(
