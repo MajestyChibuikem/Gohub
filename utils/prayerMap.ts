@@ -59,78 +59,295 @@ type PrayerContent = {
   // Helper function to create prayer sections from JSON
   const createPrayerSections = (prayer: any): PrayerSection[] => {
     const sections: PrayerSection[] = [];
-    
+
     // Opening Section
     if (prayer.opening) {
+      const openingLines: string[] = [];
+
+      // Basic opening
+      if (prayer.opening.leader) openingLines.push(`Leader: ${prayer.opening.leader}`);
+      if (prayer.opening.all) openingLines.push(`All: ${prayer.opening.all}`);
+      if (prayer.opening.leader2) openingLines.push(`Leader: ${prayer.opening.leader2}`);
+      if (prayer.opening.all2) openingLines.push(`All: ${prayer.opening.all2}`);
+      if (prayer.opening.leader3) openingLines.push(`Leader: ${prayer.opening.leader3}`);
+      if (prayer.opening.all3) openingLines.push(`All: ${prayer.opening.all3}`);
+      if (prayer.opening.leader4) openingLines.push(`Leader: ${prayer.opening.leader4}`);
+      if (prayer.opening.all4) openingLines.push(`All: ${prayer.opening.all4}`);
+      if (prayer.opening.leader5) openingLines.push(`Leader: ${prayer.opening.leader5}`);
+      if (prayer.opening.all5) openingLines.push(`All: ${prayer.opening.all5}`);
+      if (prayer.opening.leader6) openingLines.push(`Leader: ${prayer.opening.leader6}`);
+      if (prayer.opening.all6) openingLines.push(`All: ${prayer.opening.all6}`);
+
+      // Confession (Evening prayers)
+      if (prayer.opening.confession) {
+        openingLines.push(`\nLeader: ${prayer.opening.confession.leader}`);
+        openingLines.push(`All: ${prayer.opening.confession.all}`);
+        openingLines.push(`${prayer.opening.confession.absolution}`);
+      }
+
       sections.push({
         type: 'opening',
         content: {
-          en: [
-            `Leader: ${prayer.opening.leader}`,
-            `All: ${prayer.opening.all}`,
-            `Leader: ${prayer.opening.leader2}`,
-            `Leader: ${prayer.opening.leader3}`,
-            `All: ${prayer.opening.all3}`,
-            `Leader: ${prayer.opening.leader4}`,
-            `All: ${prayer.opening.all4}`
-          ],
-          es: [
-            // Add Spanish translations here when available
-            `Líder: ${prayer.opening.leader}`,
-            `Todos: ${prayer.opening.all}`,
-            // ... other Spanish translations
-          ]
+          en: openingLines,
+          es: openingLines // Add Spanish translations when available
         }
       });
     }
-  
+
+    // Hymn Section
+    if (prayer.hymn) {
+      if (typeof prayer.hymn === 'string') {
+        // Simple string hymn (morning/evening)
+        sections.push({
+          type: 'hymn',
+          title: {
+            en: 'Hymn',
+            es: 'Himno'
+          },
+          content: {
+            en: [prayer.hymn],
+            es: [prayer.hymn]
+          }
+        });
+      } else if (typeof prayer.hymn === 'object' && prayer.hymn.verses) {
+        // Object hymn with title and verses (mid-day)
+        sections.push({
+          type: 'hymn',
+          title: {
+            en: prayer.hymn.title || 'Hymn',
+            es: prayer.hymn.title || 'Himno'
+          },
+          content: {
+            en: prayer.hymn.verses,
+            es: prayer.hymn.verses
+          }
+        });
+      }
+    }
+
+    // Antiphon Section
+    if (prayer.antiphon) {
+      sections.push({
+        type: 'antiphon',
+        title: {
+          en: 'Antiphon',
+          es: 'Antífona'
+        },
+        content: {
+          en: [prayer.antiphon],
+          es: [prayer.antiphon]
+        }
+      });
+    }
+
+    // Scripture Section (Saturday evening has this)
+    if (prayer.scripture) {
+      sections.push({
+        type: 'scripture',
+        title: {
+          en: prayer.scripture.title || 'Scripture',
+          es: prayer.scripture.title || 'Escritura'
+        },
+        content: {
+          en: prayer.scripture.verses || [],
+          es: prayer.scripture.verses || []
+        }
+      });
+    }
+
     // Psalms Section
     if (prayer.psalms) {
       prayer.psalms.forEach((psalm: any) => {
+        const psalmContent: string[] = [];
+
+        // Add subtitle if available
+        if (psalm.subtitle) {
+          psalmContent.push(psalm.subtitle);
+          psalmContent.push(''); // Empty line for spacing
+        }
+
+        // Add verses
+        if (psalm.verses) {
+          psalmContent.push(...psalm.verses);
+        }
+
         sections.push({
           type: 'psalm',
           title: {
             en: psalm.title,
-            es: psalm.title // Add Spanish translation if available
+            es: psalm.title
           },
           content: {
-            en: psalm.verses,
-            es: psalm.verses // Add Spanish translation if available
+            en: psalmContent,
+            es: psalmContent
           }
         });
       });
     }
-  
+
+    // Reading Section
+    if (prayer.reading) {
+      sections.push({
+        type: 'reading',
+        title: {
+          en: 'Reading',
+          es: 'Lectura'
+        },
+        content: {
+          en: [prayer.reading],
+          es: [prayer.reading]
+        }
+      });
+    }
+
+    // Lord's Prayer (Evening prayers)
+    if (prayer.lords_prayer) {
+      sections.push({
+        type: 'lords_prayer',
+        title: {
+          en: "Our Father",
+          es: "Padre Nuestro"
+        },
+        content: {
+          en: [prayer.lords_prayer],
+          es: [prayer.lords_prayer]
+        }
+      });
+    }
+
     // Intercessions Section
     if (prayer.intercessions) {
       sections.push({
         type: 'intercessions',
+        title: {
+          en: 'Intercessions',
+          es: 'Intercesiones'
+        },
         content: {
           en: prayer.intercessions.map((i: any) => `${i.text}\nResponse: ${i.response}`),
           es: prayer.intercessions.map((i: any) => `${i.text}\nRespuesta: ${i.response}`)
         }
       });
     }
-  
-    // Closing Section
-    if (prayer.closing) {
+
+    // Special Prayers (Mid-day prayers)
+    if (prayer.special_prayers && Array.isArray(prayer.special_prayers)) {
+      prayer.special_prayers.forEach((sp: any) => {
+        sections.push({
+          type: 'special_prayer',
+          title: {
+            en: sp.title,
+            es: sp.title
+          },
+          content: {
+            en: sp.content,
+            es: sp.content
+          }
+        });
+      });
+    }
+
+    // Concluding Prayer Section
+    if (prayer.concluding_prayer) {
+      const concludingLines: string[] = [];
+
+      if (typeof prayer.concluding_prayer === 'string') {
+        // Simple string (morning prayers)
+        concludingLines.push(prayer.concluding_prayer);
+      } else if (typeof prayer.concluding_prayer === 'object') {
+        // Object with nested structure (mid-day/evening)
+        if (prayer.concluding_prayer.text) {
+          concludingLines.push(prayer.concluding_prayer.text);
+        }
+
+        // Additional prayers (evening)
+        if (prayer.concluding_prayer.additional_prayers && Array.isArray(prayer.concluding_prayer.additional_prayers)) {
+          concludingLines.push(''); // Spacing
+          concludingLines.push(...prayer.concluding_prayer.additional_prayers);
+        }
+
+        // Closing dialogues (evening)
+        if (prayer.concluding_prayer.closing) {
+          concludingLines.push(''); // Spacing
+
+          if (Array.isArray(prayer.concluding_prayer.closing.leader) && Array.isArray(prayer.concluding_prayer.closing.all)) {
+            // Structured leader/all arrays
+            for (let i = 0; i < prayer.concluding_prayer.closing.leader.length; i++) {
+              if (prayer.concluding_prayer.closing.leader[i]) {
+                concludingLines.push(`Leader: ${prayer.concluding_prayer.closing.leader[i]}`);
+              }
+              if (prayer.concluding_prayer.closing.all[i]) {
+                concludingLines.push(`All: ${prayer.concluding_prayer.closing.all[i]}`);
+              }
+            }
+          } else {
+            // String-based closing (mid-day)
+            if (prayer.concluding_prayer.closing.all) concludingLines.push(`All: ${prayer.concluding_prayer.closing.all}`);
+            if (prayer.concluding_prayer.closing.all2) concludingLines.push(`All: ${prayer.concluding_prayer.closing.all2}`);
+            if (prayer.concluding_prayer.closing.all3) concludingLines.push(`All: ${prayer.concluding_prayer.closing.all3}`);
+            if (prayer.concluding_prayer.closing.final) concludingLines.push(prayer.concluding_prayer.closing.final);
+          }
+        }
+
+        // Final prayer (evening)
+        if (prayer.concluding_prayer.final_prayer) {
+          concludingLines.push('');
+          concludingLines.push(prayer.concluding_prayer.final_prayer);
+        }
+      }
+
       sections.push({
-        type: 'closing',
+        type: 'concluding_prayer',
+        title: {
+          en: 'Concluding Prayer',
+          es: 'Oración Final'
+        },
         content: {
-          en: [
-            `Leader: ${prayer.closing.leader}`,
-            `All: ${prayer.closing.all}`,
-            `Leader: ${prayer.closing.leader2}`,
-            `All: ${prayer.closing.all2}`,
-            `All: ${prayer.closing.all3}`
-          ],
-          es: [
-            // Add Spanish translations here
-          ]
+          en: concludingLines,
+          es: concludingLines
         }
       });
     }
-  
+
+    // Closing Section
+    if (prayer.closing) {
+      const closingLines: string[] = [];
+
+      // Handle different closing structures
+      if (Array.isArray(prayer.closing.all)) {
+        // Evening prayers with array format
+        closingLines.push(...prayer.closing.all);
+      } else {
+        // Morning/mid-day with leader/all pairs
+        if (prayer.closing.leader) closingLines.push(`Leader: ${prayer.closing.leader}`);
+        if (prayer.closing.all) closingLines.push(`All: ${prayer.closing.all}`);
+        if (prayer.closing.leader2) closingLines.push(`Leader: ${prayer.closing.leader2}`);
+        if (prayer.closing.all2) closingLines.push(`All: ${prayer.closing.all2}`);
+        if (prayer.closing.leader3) closingLines.push(`Leader: ${prayer.closing.leader3}`);
+        if (prayer.closing.all3) closingLines.push(`All: ${prayer.closing.all3}`);
+        if (prayer.closing.leader4) closingLines.push(`Leader: ${prayer.closing.leader4}`);
+        if (prayer.closing.all4) closingLines.push(`All: ${prayer.closing.all4}`);
+        if (prayer.closing.leader5) closingLines.push(`Leader: ${prayer.closing.leader5}`);
+        if (prayer.closing.all5) closingLines.push(`All: ${prayer.closing.all5}`);
+        if (prayer.closing.leader6) closingLines.push(`Leader: ${prayer.closing.leader6}`);
+        if (prayer.closing.all6) closingLines.push(`All: ${prayer.closing.all6}`);
+        if (prayer.closing.all7) closingLines.push(`All: ${prayer.closing.all7}`);
+        if (prayer.closing.all8) closingLines.push(`All: ${prayer.closing.all8}`);
+      }
+
+      sections.push({
+        type: 'closing',
+        title: {
+          en: 'Closing',
+          es: 'Cierre'
+        },
+        content: {
+          en: closingLines,
+          es: closingLines
+        }
+      });
+    }
+
     return sections;
   };
   
