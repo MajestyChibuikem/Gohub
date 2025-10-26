@@ -54,11 +54,45 @@ export default function PrayerScreen() {
 
   const renderContent = (content: string | string[]) => {
     const texts = Array.isArray(content) ? content : [content];
-    return texts.map((line, i) => (
-      <Text key={i} style={{ marginVertical: 5, color: theme.text, fontSize: getFontSize(16) }}>
-        {line}
-      </Text>
-    ));
+    return texts.map((line, i) => {
+      // Check if line contains "Leader:", "All:", or "Response:"
+      const leaderMatch = line.match(/^(Leader:)\s*(.*)/);
+      const allMatch = line.match(/^(All:)\s*(.*)/);
+      const responseMatch = line.match(/(.*)\n(Response:)\s*(.*)/);
+
+      if (leaderMatch) {
+        return (
+          <Text key={i} style={{ marginVertical: 5, color: theme.text, fontSize: getFontSize(16) }}>
+            <Text style={{ fontWeight: 'bold' }}>Leader:</Text> {leaderMatch[2]}
+          </Text>
+        );
+      }
+
+      if (allMatch) {
+        return (
+          <Text key={i} style={{ marginVertical: 5, color: theme.text, fontSize: getFontSize(16) }}>
+            <Text style={{ fontWeight: 'bold' }}>All:</Text> {allMatch[2]}
+          </Text>
+        );
+      }
+
+      if (responseMatch) {
+        return (
+          <Text key={i} style={{ marginVertical: 5, color: theme.text, fontSize: getFontSize(16) }}>
+            {responseMatch[1]}
+            {'\n'}
+            <Text style={{ fontWeight: 'bold' }}>Response:</Text> {responseMatch[3]}
+          </Text>
+        );
+      }
+
+      // Default rendering for lines without Leader/All/Response
+      return (
+        <Text key={i} style={{ marginVertical: 5, color: theme.text, fontSize: getFontSize(16) }}>
+          {line}
+        </Text>
+      );
+    });
   };
 
   return (
