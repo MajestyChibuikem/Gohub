@@ -1,0 +1,96 @@
+{
+  "title": {
+    "en": "Prayer for Wisdom (Wis 9: 1-6, 9-11)",
+    "es": "Oración por la Sabiduría (Sab 9: 1-6, 9-11)"
+  },
+  "sections": [
+    {
+      "type": "invocation",
+      "content": {
+        "en": [
+          "O God of my fathers and lord of mercy,",
+          "who made all things by your word,",
+          "and by your word wisdom have formed man",
+          "to have dominion over the creatures you have made,",
+          "and rule the world in holiness and righteousness,",
+          "and pronounce judgement in uprightness of soul,",
+          "give me wisdom that sits by your throne,",
+          "and do not reject me from among your servants"
+        ],
+        "es": [
+          "O Dios de mis padres y señor de misericordia,",
+          "que hiciste todas las cosas con tu palabra,",
+          "y con tu palabra sabiduría formaste al hombre",
+          "para tener dominio sobre las criaturas que has hecho,",
+          "y gobernar el mundo en santidad y justicia,",
+          "y pronunciar juicio en rectitud de alma,",
+          "dame la sabiduría que se sienta junto a tu trono,",
+          "y no me rechaces de entre tus siervos"
+        ]
+      }
+    },
+    {
+      "type": "supplication",
+      "content": {
+        "en": [
+          "For I am your slave",
+          "and the child of you maidservant,",
+          "a person who is weak and short-lived,",
+          "with little understanding of judgement and laws;",
+          "for even if one is perfect among the people",
+          "yet without wisdom that comes from you",
+          "he will disregard as nothing."
+        ],
+        "es": [
+          "Porque soy tu esclavo",
+          "y el hijo de tu sierva,",
+          "una persona débil y de corta vida,",
+          "con poca comprensión del juicio y las leyes;",
+          "porque aunque uno sea perfecto entre la gente",
+          "sin embargo sin la sabiduría que viene de ti",
+          "será considerado como nada."
+        ]
+      }
+    },
+    {
+      "type": "acknowledgment",
+      "content": {
+        "en": [
+          "With you is wisdom, who knows your works",
+          "and was present when you made the world,",
+          "and who understands what is pleasing in your sight",
+          "and what is right according to your commandments"
+        ],
+        "es": [
+          "Contigo está la sabiduría, que conoce tus obras",
+          "y estuvo presente cuando hiciste el mundo,",
+          "y quien entiende lo que es agradable a tu vista",
+          "y lo que es correcto según tus mandamientos"
+        ]
+      }
+    },
+    {
+      "type": "petition",
+      "content": {
+        "en": [
+          "Send her forth from the holy heavens,",
+          "and from your throne of glory send her,",
+          "that she may be with me and toil,",
+          "and that I may learn what is pleasing to you;",
+          "for she knows and understands all things,",
+          "and she will guide me wisely in my actions",
+          "and guard me with her glory."
+        ],
+        "es": [
+          "Envíala desde los santos cielos,",
+          "y desde tu trono de gloria envíala,",
+          "para que esté conmigo y trabaje,",
+          "y para que aprenda lo que te agrada;",
+          "porque ella conoce y comprende todas las cosas,",
+          "y me guiará sabiamente en mis acciones",
+          "y me guardará con su gloria."
+        ]
+      }
+    }
+  ]
+}

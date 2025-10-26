@@ -8,6 +8,8 @@ import { createPrayerStyles } from './prayers.style';
 
 // Import prayers
 import UniversityPrayer from '@assets/prayers/others/universityPrayer.json';
+import PrayerForWisdom from '@assets/prayers/others/prayerForWisdom.json';
+import PrayerForNigeriaInDistress from '@assets/prayers/others/prayerForNigeriaInDistress.json';
 
 type PrayerSection = {
   type: string;
@@ -22,8 +24,10 @@ type PrayerType = {
   content: any;
 };
 
-const universityPrayers: PrayerType[] = [
-  { id: 'university-prayer', title: { en: 'Godfrey Okoye University Prayer', es: 'Oración de la Universidad Godfrey Okoye' }, content: UniversityPrayer },
+const otherPrayers: PrayerType[] = [
+  { id: 'university-prayer', title: UniversityPrayer.title, content: UniversityPrayer },
+  { id: 'prayer-for-wisdom', title: PrayerForWisdom.title, content: PrayerForWisdom },
+  { id: 'prayer-for-nigeria-in-distress', title: PrayerForNigeriaInDistress.title, content: PrayerForNigeriaInDistress },
 ];
 
 const parseSections = (data: any): PrayerSection[] =>
@@ -34,22 +38,22 @@ const parseSections = (data: any): PrayerSection[] =>
     dropCap: section.dropCap,
   })) || [];
 
-export default function UniversityPrayersScreen() {
+export default function OtherPrayersScreen() {
   const { prayer: paramPrayer } = useLocalSearchParams();
   const { theme, getFontSize } = useTheme();
   const { language } = useLanguage();
   const styles = createPrayerStyles(theme);
 
   const [selectedPrayerId, setSelectedPrayerId] = useState<string>(
-    typeof paramPrayer === 'string' ? paramPrayer : universityPrayers[0].id
+    typeof paramPrayer === 'string' ? paramPrayer : otherPrayers[0].id
   );
 
-  const selectedPrayer = universityPrayers.find(p => p.id === selectedPrayerId);
+  const selectedPrayer = otherPrayers.find((p: PrayerType) => p.id === selectedPrayerId);
   const sections = selectedPrayer ? parseSections(selectedPrayer.content) : [];
 
-  // Custom styles for university prayer - matching the printed image
+  // Custom styles for prayers - matching the printed image
   const customStyles = StyleSheet.create({
-    universityTitle: {
+    prayerTitle: {
       fontSize: getFontSize(28),
       fontWeight: 'bold',
       color: '#2C3E7F', // Dark blue like the printed version
@@ -164,17 +168,17 @@ export default function UniversityPrayersScreen() {
             style={styles.picker}
             itemStyle={styles.pickerItem}
           >
-            {universityPrayers.map(p => (
+            {otherPrayers.map((p: PrayerType) => (
               <Picker.Item key={p.id} label={p.title[language]} value={p.id} />
             ))}
           </Picker>
         </View>
       </View>
 
-      {/* University Prayer with Custom Styling */}
+      {/* Other Prayers with Custom Styling */}
       {selectedPrayer && (
         <>
-          <Text style={customStyles.universityTitle}>
+          <Text style={customStyles.prayerTitle}>
             {selectedPrayer.title[language]}
           </Text>
 

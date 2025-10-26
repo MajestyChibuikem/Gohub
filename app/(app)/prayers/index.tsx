@@ -133,11 +133,13 @@ export default function PrayersScreen() {
       ]
     },
     {
-      id: 'university',
-      title: 'University Prayers',
-      icon: '🎓',
+      id: 'others',
+      title: 'Others',
+      icon: '📖',
       items: [
-        { title: 'UNIVERSITY PRAYER', route: 'universityprayers?prayer=university-prayer', subtitle: 'Prayer for academic excellence' },
+        { title: 'UNIVERSITY PRAYER', route: 'others?prayer=university-prayer', subtitle: 'Prayer for academic excellence' },
+        { title: 'PRAYER FOR WISDOM', route: 'others?prayer=prayer-for-wisdom', subtitle: 'Wisdom from the Book of Wisdom' },
+        { title: 'PRAYER FOR NIGERIA IN DISTRESS', route: 'others?prayer=prayer-for-nigeria-in-distress', subtitle: 'For peace and justice' },
       ]
     },
   ];

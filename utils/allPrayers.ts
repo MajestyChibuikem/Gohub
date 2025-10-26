@@ -29,8 +29,10 @@ import GraceBeforeMeals from '@assets/prayers/DailyLife/GraceBeforeMeals.json';
 import MorningOffering from '@assets/prayers/DailyLife/MorningOffering.json';
 import SleepPrayer from '@assets/prayers/DailyLife/SleepPrayer.json';
 
-// University Prayer
+// Others Prayers
 import UniversityPrayer from '@assets/prayers/others/universityPrayer.json';
+import PrayerForWisdom from '@assets/prayers/others/prayerForWisdom.json';
+import PrayerForNigeriaInDistress from '@assets/prayers/others/prayerForNigeriaInDistress.json';
 
 // Daily Office Prayers - Morning
 import mondayMorning from '@assets/prayers/morning/monday.json';
@@ -198,13 +200,27 @@ export const allPrayers: UnifiedPrayer[] = [
     content: SleepPrayer
   },
 
-  // University Prayer
+  // Others Prayers
   {
     id: 'university-prayer',
     title: UniversityPrayer.title,
-    category: 'University',
-    route: 'universityprayers?prayer=university-prayer',
+    category: 'Others',
+    route: 'others?prayer=university-prayer',
     content: UniversityPrayer
+  },
+  {
+    id: 'prayer-for-wisdom',
+    title: PrayerForWisdom.title,
+    category: 'Others',
+    route: 'others?prayer=prayer-for-wisdom',
+    content: PrayerForWisdom
+  },
+  {
+    id: 'prayer-for-nigeria-in-distress',
+    title: PrayerForNigeriaInDistress.title,
+    category: 'Others',
+    route: 'others?prayer=prayer-for-nigeria-in-distress',
+    content: PrayerForNigeriaInDistress
   },
 
   // Daily Office - Monday

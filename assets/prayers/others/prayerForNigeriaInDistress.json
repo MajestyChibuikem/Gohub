@@ -1,0 +1,45 @@
+{
+  "title": {
+    "en": "Prayer for Nigeria in Distress",
+    "es": "Oración por Nigeria en Angustia"
+  },
+  "sections": [
+    {
+      "type": "invocation",
+      "content": {
+        "en": [
+          "All powerful and merciful father, you are the God of Justice, love and peace.",
+          "",
+          "You rule over all the nations of the earth. Power and might are in your hands and no one can withstand you. We present our country Nigeria before you. We praise and thank you for you are the source of all we have and are. We are sorry for all the sins we have committed and for the good deeds we have failed to do. In your loving forgiveness, keep us safe from the punishment we deserve."
+        ],
+        "es": [
+          "Padre todopoderoso y misericordioso, tú eres el Dios de la justicia, el amor y la paz.",
+          "",
+          "Tú gobiernas sobre todas las naciones de la tierra. El poder y la fuerza están en tus manos y nadie puede resistirte. Presentamos nuestro país Nigeria ante ti. Te alabamos y te damos gracias porque eres la fuente de todo lo que tenemos y somos. Lamentamos todos los pecados que hemos cometido y las buenas obras que no hemos hecho. En tu amoroso perdón, manténnos a salvo del castigo que merecemos."
+        ]
+      }
+    },
+    {
+      "type": "supplication",
+      "content": {
+        "en": [
+          "Lord, we are weighed down not only by uncertainties, but also by moral, economic and political problems. Listen to the cries of your people who confidently turn to you. God of infinite goodness, our strength in adversity, our health in weakness, our comfort in sorrow, be merciful to us your people. Spare this nation Nigeria from chaos, anarchy and doom."
+        ],
+        "es": [
+          "Señor, estamos abrumados no solo por las incertidumbres, sino también por los problemas morales, económicos y políticos. Escucha los gritos de tu pueblo que confían en ti. Dios de bondad infinita, nuestra fuerza en la adversidad, nuestra salud en la debilidad, nuestro consuelo en el dolor, ten piedad de nosotros tu pueblo. Salva a esta nación Nigeria del caos, la anarquía y la perdición."
+        ]
+      }
+    },
+    {
+      "type": "conclusion",
+      "content": {
+        "en": [
+          "Bless us with your kingdom of justice, love and peace. We ask this through Jesus Christ our Lord. Amen"
+        ],
+        "es": [
+          "Bendícenos con tu reino de justicia, amor y paz. Te lo pedimos por Jesucristo nuestro Señor. Amén"
+        ]
+      }
+    }
+  ]
+}
