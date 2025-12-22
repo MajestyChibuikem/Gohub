@@ -23,6 +23,7 @@ android/
 
 backend/venv311/
 venv311/
+backend-api/
 
 # debug
 npm-debug.*
@@ -39,6 +40,7 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
+ARCHITECTURE.md
 app-example
 IMPLEMENTATION_SUMMARY.md
 FIXES_APPLIED.md

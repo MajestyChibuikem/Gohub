@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, TextInput } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '../../../context/ThemeContext';
-import { useAuth } from '../../../context/AuthContext';
 import { useLanguage } from '../../../context/LanguageContext';
 import { useRouter } from 'expo-router';
 import { allHymns, getHymnTitle, UnifiedHymn } from '../../../utils/allHymns';
@@ -10,26 +9,9 @@ import { fuzzyFilter } from '../../../utils/fuzzySearch';
 
 export default function HymnsScreen() {
   const { theme, getFontSize } = useTheme();
-  const { isAuthenticated, isActivated } = useAuth();
   const { language } = useLanguage();
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState<string>('');
-
-  // Route guard - redirect if not authenticated or not activated
-  useEffect(() => {
-    if (!isAuthenticated) {
-      console.log('🔒 HymnsScreen: User not authenticated, redirecting to login');
-      router.replace('/(auth)/login');
-    } else if (!isActivated) {
-      console.log('⏳ HymnsScreen: User not activated, redirecting to pending activation');
-      router.replace('/pending-activation');
-    }
-  }, [isAuthenticated, isActivated, router]);
-
-  // Show nothing while redirecting
-  if (!isAuthenticated || !isActivated) {
-    return null;
-  }
 
   const hymnCategories = [
     {

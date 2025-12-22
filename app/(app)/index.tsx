@@ -6,11 +6,9 @@ import { useTheme } from '../../context/ThemeContext';
 import { Ionicons } from '@expo/vector-icons';
 import ThemedText from '../../components/ThemedText';
 import { ThemedView } from '../../components/ThemedView';
-import { useAuth } from '../../context/AuthContext';
 
-export default function RestrictedHomeScreen() {
+export default function HomeScreen() {
   const { theme, getFontSize } = useTheme();
-  const { user, isActivated } = useAuth();
 
   const styles = StyleSheet.create({
     scrollContent: {
@@ -176,87 +174,73 @@ export default function RestrictedHomeScreen() {
 
         {/* Welcome Message */}
         <View style={styles.welcomeContainer}>
-          <ThemedText style={{ 
-            color: '#fff', 
-            fontSize: getFontSize(18), 
+          <ThemedText style={{
+            color: '#fff',
+            fontSize: getFontSize(18),
             fontWeight: 'bold',
             marginBottom: 5,
           }}>
-            Welcome back, {user?.name}!
+            Welcome to GoHub!
           </ThemedText>
-          <ThemedText style={{ 
-            color: '#fff', 
+          <ThemedText style={{
+            color: '#fff',
             fontSize: getFontSize(14),
             opacity: 0.9,
           }}>
-            Your account is {isActivated ? 'fully activated' : 'pending activation'}
+            Your Catholic Prayer and Hymn Companion
           </ThemedText>
         </View>
-
-        {/* Activation Notice */}
-        {!isActivated && (
-          <View style={styles.activationNotice}>
-            <Ionicons name="information-circle-outline" size={24} color="#856404" />
-            <ThemedText style={styles.activationText}>
-              Your account is pending activation. Contact the administration to activate your account and access all features.
-            </ThemedText>
-          </View>
-        )}
 
         {/* Today's Date */}
         <ThemedText type="caption" style={styles.dateText}>
           {currentDate}
         </ThemedText>
 
-        {/* Today's Prayer Link - Only show if activated */}
-        {isActivated && (
-          <View style={styles.prayerCardContainer}>
-            <Link
-              href={{
-                pathname: '/prayers/[day]',
-                params: { day: currentDay, period: currentPeriod }
-              }}
-              asChild
-            >
-              <Pressable style={styles.prayerCard}>
-                <View style={{ flex: 1 }}>
-                  <ThemedText style={{
-                    fontSize: getFontSize(18),
-                    fontWeight: '500',
-                    flex: 1,
-                  }}>
-                    Today's Prayer
-                  </ThemedText>
-                  
-                  <ThemedText type="caption" style={{ marginTop: 5 }}>
-                    <ThemedText style={styles.prayerTypeHighlight}>
-                      {currentDay}
-                    </ThemedText> • {currentPeriod}
-                  </ThemedText>
-                </View>
-                <Ionicons name="arrow-forward-circle" size={32} color={theme.accent} />
-              </Pressable>
-            </Link>
-          </View>
-        )}
+        {/* Today's Prayer Link */}
+        <View style={styles.prayerCardContainer}>
+          <Link
+            href={{
+              pathname: '/prayers/[day]',
+              params: { day: currentDay, period: currentPeriod }
+            }}
+            asChild
+          >
+            <Pressable style={styles.prayerCard}>
+              <View style={{ flex: 1 }}>
+                <ThemedText style={{
+                  fontSize: getFontSize(18),
+                  fontWeight: '500',
+                  flex: 1,
+                }}>
+                  Today's Prayer
+                </ThemedText>
 
-        {/* Navigation Shortcuts - Only show if activated */}
-        {isActivated && (
-          <View style={styles.navButtonsContainer}>
-            <Link href="/prayers" asChild>
-              <Pressable style={styles.navButton}>
-                <Ionicons name="book-outline" size={20} color={theme.text} />
-                <ThemedText style={styles.navButtonText}>All Prayers</ThemedText>
-              </Pressable>
-            </Link>
-            <Link href="/hymns" asChild>
-              <Pressable style={styles.navButton}>
-                <Ionicons name="musical-notes-outline" size={20} color={theme.text} />
-                <ThemedText style={styles.navButtonText}>Hymns</ThemedText>
-              </Pressable>
-            </Link>
-          </View>
-        )}
+                <ThemedText type="caption" style={{ marginTop: 5 }}>
+                  <ThemedText style={styles.prayerTypeHighlight}>
+                    {currentDay}
+                  </ThemedText> • {currentPeriod}
+                </ThemedText>
+              </View>
+              <Ionicons name="arrow-forward-circle" size={32} color={theme.accent} />
+            </Pressable>
+          </Link>
+        </View>
+
+        {/* Navigation Shortcuts */}
+        <View style={styles.navButtonsContainer}>
+          <Link href="/prayers" asChild>
+            <Pressable style={styles.navButton}>
+              <Ionicons name="book-outline" size={20} color={theme.text} />
+              <ThemedText style={styles.navButtonText}>All Prayers</ThemedText>
+            </Pressable>
+          </Link>
+          <Link href="/hymns" asChild>
+            <Pressable style={styles.navButton}>
+              <Ionicons name="musical-notes-outline" size={20} color={theme.text} />
+              <ThemedText style={styles.navButtonText}>Hymns</ThemedText>
+            </Pressable>
+          </Link>
+        </View>
 
         <ThemedText type="caption" style={{ 
           textAlign: 'center', 
