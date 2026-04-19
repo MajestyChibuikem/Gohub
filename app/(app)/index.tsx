@@ -337,10 +337,23 @@ export default function HomeScreen() {
         </Link>
       </View>
 
-      {/* 7. SYSTEM FOOTER */}
-      <Text style={[styles.legalFooter, { color: theme.text }]}>
-        © {new Date().getFullYear()} GOU • Tech Nxxt MAJESTY v3
-      </Text>
+    {/* 7. SYSTEM FOOTER */}
+      <View style={{ marginTop: 60, marginBottom: 40, alignItems: 'center' }}>
+        <Text style={[styles.legalFooter, { color: theme.text, marginBottom: 4, marginTop: 0 }]}>
+          © 2026 GOU • Tech Nxxt
+        </Text>
+        <Text style={[
+          styles.legalFooter, 
+          { 
+            color: theme.accent, 
+            fontSize: getFontSize(10), 
+            opacity: 0.8,
+            marginTop: 0 
+          }
+        ]}>
+          Credit: Majesty v3
+        </Text>
+      </View>
     </ScrollView>
   );
 }
