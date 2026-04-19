@@ -242,7 +242,7 @@ export default function SettingsScreen() {
 
               <View style={[styles.metricRow, { backgroundColor: theme.surface, borderColor: theme.border }]}>
                 <Text style={[styles.metricKey, { color: theme.textSecondary }]}>UI ENGINE</Text>
-                <Text style={[styles.metricValue, { color: theme.text }]}>MAJESTY v3</Text>
+                <Text style={[styles.metricValue, { color: theme.text }]}>Tech Nxxt v3</Text>
               </View>
             </View>
           </View>
