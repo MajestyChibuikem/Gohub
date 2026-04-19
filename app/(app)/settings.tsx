@@ -1,386 +1,463 @@
 import React from 'react';
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
+import { 
+  View, 
+  Text, 
+  StyleSheet, 
+  ScrollView, 
+  TouchableOpacity, 
+  Dimensions, 
+  Platform,
+  SafeAreaView 
+} from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useTheme, FontSizeOption, fontSizeValues } from '../../context/ThemeContext';
 import ThemedText from '../../components/ThemedText';
 import { ThemedView } from '../../components/ThemedView';
 import { StatusBar } from 'expo-status-bar';
 
+const { width } = Dimensions.get('window');
+
+/**
+ * SETTINGS CONTROL INTERFACE - TECH NXXT INFRASTRUCTURE
+ * OFFICIAL BUILD: MAJESTY V3 [2026]
+ * TOTAL LINE EXPANSION FOR ARCHITECTURAL CLARITY
+ */
 export default function SettingsScreen() {
   const { theme, settings, updateSettings, getFontSize } = useTheme();
 
-  const ThemeModeSelector = () => {
-    const options: { value: 'light' | 'dark' | 'system'; label: string; icon: string }[] = [
-      { value: 'light', label: 'Light', icon: 'sunny-outline' },
-      { value: 'dark', label: 'Dark', icon: 'moon-outline' },
-      { value: 'system', label: 'System', icon: 'sync-outline' },
-    ];
-
-    return (
-      <View style={styles.optionsContainer}>
-        {options.map((option) => (
-          <TouchableOpacity
-            key={option.value}
-            style={[
-              styles.themeOption,
-              {
-                backgroundColor: settings.themeMode === option.value ? theme.accent : theme.card,
-                borderColor: theme.border,
-              }
-            ]}
-            onPress={() => updateSettings({ themeMode: option.value })}
-          >
-            <Ionicons
-              name={option.icon as any}
-              size={24}
-              color={settings.themeMode === option.value ? '#ffffff' : theme.text}
-            />
-            <Text
-              style={[
-                styles.themeOptionText,
-                {
-                  color: settings.themeMode === option.value ? '#ffffff' : theme.text,
-                  fontSize: getFontSize(14),
-                }
-              ]}
-            >
-              {option.label}
-            </Text>
-          </TouchableOpacity>
-        ))}
-      </View>
-    );
+  // Explicit Update Handlers
+  const handleThemeChange = (mode: 'light' | 'dark' | 'system') => {
+    updateSettings({ themeMode: mode });
   };
 
-  const FontSizeSelector = () => {
-    const options: { value: FontSizeOption; label: string }[] = [
-      { value: 'small', label: 'Small' },
-      { value: 'medium', label: 'Medium' },
-      { value: 'large', label: 'Large' },
-      { value: 'x-large', label: 'Extra Large' },
-    ];
-
-    return (
-      <View style={styles.fontSizeContainer}>
-        {options.map((option) => (
-          <TouchableOpacity
-            key={option.value}
-            style={[
-              styles.fontSizeOption,
-              {
-                backgroundColor: settings.fontSize === option.value ? theme.accent : theme.card,
-                borderColor: theme.border,
-              }
-            ]}
-            onPress={() => updateSettings({ fontSize: option.value })}
-          >
-            <Text
-              style={[
-                styles.fontSizeText,
-                {
-                  color: settings.fontSize === option.value ? '#ffffff' : theme.text,
-                  fontSize: fontSizeValues[option.value],
-                }
-              ]}
-            >
-              Aa
-            </Text>
-            <Text
-              style={[
-                styles.fontSizeLabel,
-                {
-                  color: settings.fontSize === option.value ? '#ffffff' : theme.text,
-                  fontSize: getFontSize(12),
-                }
-              ]}
-            >
-              {option.label}
-            </Text>
-          </TouchableOpacity>
-        ))}
-      </View>
-    );
+  const handleFontSizeChange = (size: FontSizeOption) => {
+    updateSettings({ fontSize: size });
   };
-
-  const SettingSection = ({ title, children }: { title: string; children: React.ReactNode }) => (
-    <View style={styles.section}>
-      <ThemedText style={[styles.sectionTitle, { fontSize: getFontSize(18) }]}>
-        {title}
-      </ThemedText>
-      {children}
-    </View>
-  );
-
-  const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: theme.background,
-    },
-    scrollContent: {
-      padding: 20,
-      paddingBottom: 100,
-    },
-    header: {
-      alignItems: 'center',
-      marginBottom: 30,
-    },
-    headerIcon: {
-      width: 80,
-      height: 80,
-      borderRadius: 40,
-      backgroundColor: theme.accent,
-      justifyContent: 'center',
-      alignItems: 'center',
-      marginBottom: 15,
-    },
-    headerTitle: {
-      fontSize: getFontSize(24),
-      fontWeight: 'bold',
-      color: theme.text,
-      marginBottom: 5,
-    },
-    headerSubtitle: {
-      fontSize: getFontSize(14),
-      color: theme.textSecondary,
-    },
-    section: {
-      marginBottom: 25,
-    },
-    sectionTitle: {
-      fontSize: getFontSize(18),
-      fontWeight: '600',
-      color: theme.text,
-      marginBottom: 15,
-    },
-    sectionSubtitle: {
-      fontSize: getFontSize(16),
-      color: theme.text,
-      marginBottom: 8,
-    },
-    optionsContainer: {
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      marginBottom: 16,
-    },
-    themeOption: {
-      flex: 1,
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      padding: 12,
-      borderRadius: 8,
-      marginHorizontal: 4,
-      borderWidth: 1,
-    },
-    themeOptionText: {
-      marginTop: 8,
-      fontWeight: '500',
-    },
-    divider: {
-      height: 1,
-      backgroundColor: '#e0e0e0',
-      marginVertical: 16,
-    },
-    fontSizeContainer: {
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-    },
-    fontSizeOption: {
-      flex: 1,
-      alignItems: 'center',
-      justifyContent: 'center',
-      padding: 10,
-      borderRadius: 8,
-      marginHorizontal: 4,
-      borderWidth: 1,
-      height: 80,
-    },
-    fontSizeText: {
-      fontWeight: 'bold',
-      marginBottom: 4,
-    },
-    fontSizeLabel: {
-      fontWeight: '500',
-    },
-    aboutSection: {
-      padding: 16,
-      borderRadius: 8,
-      alignItems: 'center',
-      backgroundColor: theme.card,
-      marginBottom: 10,
-    },
-    aboutText: {
-      textAlign: 'center',
-      marginBottom: 4,
-      color: theme.text,
-    },
-    versionText: {
-      textAlign: 'center',
-      color: theme.textSecondary,
-    },
-    anthemCard: {
-      backgroundColor: theme.card,
-      borderRadius: 12,
-      padding: 20,
-      marginBottom: 10,
-    },
-    anthemTitle: {
-      fontWeight: 'bold',
-      color: theme.accent,
-      textAlign: 'center',
-      marginBottom: 20,
-      letterSpacing: 0.5,
-    },
-    anthemVerse: {
-      flexDirection: 'row',
-      marginBottom: 15,
-    },
-    anthemNumber: {
-      fontWeight: 'bold',
-      color: theme.accent,
-      width: 25,
-      marginRight: 10,
-    },
-    anthemContent: {
-      flex: 1,
-    },
-    anthemLine: {
-      color: theme.text,
-      marginBottom: 4,
-      lineHeight: 22,
-    },
-    anthemRefrain: {
-      backgroundColor: theme.surface,
-      borderRadius: 8,
-      padding: 15,
-      marginBottom: 15,
-    },
-    refrainLabel: {
-      fontWeight: 'bold',
-      color: theme.accent,
-      marginBottom: 8,
-      fontStyle: 'italic',
-    },
-  });
 
   return (
-    <ThemedView style={styles.container}>
+    <ThemedView style={styles.mainContainer}>
       <StatusBar style={theme.background === '#ffffff' ? 'dark' : 'light'} />
-      <ScrollView contentContainerStyle={styles.scrollContent}>
-        {/* Header */}
-        <View style={styles.header}>
-          <View style={styles.headerIcon}>
-            <Ionicons name="settings-outline" size={40} color="#fff" />
+      
+      <SafeAreaView style={styles.safeArea}>
+        <ScrollView 
+          style={styles.scrollView}
+          contentContainerStyle={styles.scrollContent}
+          showsVerticalScrollIndicator={false}
+        >
+          
+          {/* HEADER BRANDING UNIT */}
+          <View style={styles.headerBrandingUnit}>
+            <View style={styles.industrialIconFrame}>
+              <View style={styles.iconBackdrop}>
+                <Ionicons name="construct" size={34} color="#FFFFFF" />
+              </View>
+            </View>
+            <View style={styles.headerTextContainer}>
+              <Text style={[styles.headerMainTitle, { color: theme.text }]}>
+                CONTROL CENTER
+              </Text>
+              <Text style={styles.headerTechnicalSubtitle}>
+                SYSTEM CONFIGURATION v3.0
+              </Text>
+            </View>
           </View>
-          <Text style={styles.headerTitle}>Settings</Text>
-          <Text style={styles.headerSubtitle}>Customize your experience</Text>
-        </View>
 
-        {/* Appearance Settings */}
-        <SettingSection title="Appearance">
-          <ThemedText style={[styles.sectionSubtitle, { fontSize: getFontSize(16) }]}>
-            Theme Mode
-          </ThemedText>
-          <ThemeModeSelector />
+          {/* SECTION: VISUAL ARCHITECTURE */}
+          <View style={styles.configurationSection}>
+            <View style={styles.sectionHeaderRow}>
+              <Ionicons name="color-palette-sharp" size={18} color={theme.accent} />
+              <Text style={[styles.sectionTitleLabel, { color: theme.accent }]}>
+                VISUAL INTERFACE MODE
+              </Text>
+            </View>
 
-          <View style={styles.divider} />
+            <View style={styles.themeSelectorGrid}>
+              {/* LIGHT MODE OPTION */}
+              <TouchableOpacity
+                activeOpacity={0.8}
+                onPress={() => handleThemeChange('light')}
+                style={[
+                  styles.interactiveCard,
+                  {
+                    backgroundColor: settings.themeMode === 'light' ? theme.accent : theme.surface,
+                    borderColor: settings.themeMode === 'light' ? theme.accent : theme.border,
+                  }
+                ]}
+              >
+                <Ionicons 
+                  name="sunny" 
+                  size={22} 
+                  color={settings.themeMode === 'light' ? '#FFFFFF' : theme.text} 
+                />
+                <Text style={[
+                  styles.cardActionLabel,
+                  { color: settings.themeMode === 'light' ? '#FFFFFF' : theme.text }
+                ]}>LIGHT</Text>
+              </TouchableOpacity>
 
-          <ThemedText style={[styles.sectionSubtitle, { fontSize: getFontSize(16) }]}>
-            Font Size
-          </ThemedText>
-          <FontSizeSelector />
-        </SettingSection>
+              {/* DARK MODE OPTION */}
+              <TouchableOpacity
+                activeOpacity={0.8}
+                onPress={() => handleThemeChange('dark')}
+                style={[
+                  styles.interactiveCard,
+                  {
+                    backgroundColor: settings.themeMode === 'dark' ? theme.accent : theme.surface,
+                    borderColor: settings.themeMode === 'dark' ? theme.accent : theme.border,
+                  }
+                ]}
+              >
+                <Ionicons 
+                  name="moon" 
+                  size={22} 
+                  color={settings.themeMode === 'dark' ? '#FFFFFF' : theme.text} 
+                />
+                <Text style={[
+                  styles.cardActionLabel,
+                  { color: settings.themeMode === 'dark' ? '#FFFFFF' : theme.text }
+                ]}>DARK</Text>
+              </TouchableOpacity>
 
-        {/* University Anthem */}
-        <SettingSection title="University Anthem">
-          <View style={styles.anthemCard}>
-            <Text style={[styles.anthemTitle, { fontSize: getFontSize(18) }]}>
-              GODFREY OKOYE UNIVERSITY ANTHEM
-            </Text>
+              {/* SYSTEM MODE OPTION */}
+              <TouchableOpacity
+                activeOpacity={0.8}
+                onPress={() => handleThemeChange('system')}
+                style={[
+                  styles.interactiveCard,
+                  {
+                    backgroundColor: settings.themeMode === 'system' ? theme.accent : theme.surface,
+                    borderColor: settings.themeMode === 'system' ? theme.accent : theme.border,
+                  }
+                ]}
+              >
+                <Ionicons 
+                  name="settings" 
+                  size={22} 
+                  color={settings.themeMode === 'system' ? '#FFFFFF' : theme.text} 
+                />
+                <Text style={[
+                  styles.cardActionLabel,
+                  { color: settings.themeMode === 'system' ? '#FFFFFF' : theme.text }
+                ]}>SYSTEM</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
 
-            <View style={styles.anthemVerse}>
-              <Text style={[styles.anthemNumber, { fontSize: getFontSize(16) }]}>1.</Text>
-              <View style={styles.anthemContent}>
-                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
-                  Here stands the ivory tower!
-                </Text>
-                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
-                  Godfrey Okoye University
-                </Text>
-                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
-                  Whose birth has signalled
-                </Text>
-                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
+          {/* SECTION: TYPOGRAPHY ENGINE */}
+          <View style={styles.configurationSection}>
+            <View style={styles.sectionHeaderRow}>
+              <Ionicons name="text-sharp" size={18} color={theme.accent} />
+              <Text style={[styles.sectionTitleLabel, { color: theme.accent }]}>
+                TYPOGRAPHY SCALE
+              </Text>
+            </View>
+
+            <View style={styles.fontSizeGrid}>
+              {['small', 'medium', 'large', 'x-large'].map((size) => (
+                <TouchableOpacity
+                  key={size}
+                  activeOpacity={0.8}
+                  onPress={() => handleFontSizeChange(size as FontSizeOption)}
+                  style={[
+                    styles.sizeCard,
+                    {
+                      backgroundColor: settings.fontSize === size ? theme.accent : theme.surface,
+                      borderColor: settings.fontSize === size ? theme.accent : theme.border,
+                    }
+                  ]}
+                >
+                  <Text style={[
+                    styles.sizePreviewText,
+                    { 
+                      fontSize: fontSizeValues[size as FontSizeOption] * 0.7,
+                      color: settings.fontSize === size ? '#FFFFFF' : theme.text 
+                    }
+                  ]}>Aa</Text>
+                  <Text style={[
+                    styles.sizeLabel,
+                    { color: settings.fontSize === size ? '#FFFFFF' : theme.text }
+                  ]}>
+                    {size.toUpperCase()}
+                  </Text>
+                </TouchableOpacity>
+              ))}
+            </View>
+          </View>
+
+          {/* SECTION: INSTITUTIONAL ANTHEM */}
+          <View style={styles.configurationSection}>
+            <View style={styles.sectionHeaderRow}>
+              <Ionicons name="school" size={18} color={theme.accent} />
+              <Text style={[styles.sectionTitleLabel, { color: theme.accent }]}>
+                UNIVERSITY ANTHEM
+              </Text>
+            </View>
+
+            <View style={[styles.anthemContainer, { backgroundColor: theme.card, borderColor: theme.border }]}>
+              <Text style={[styles.anthemMainHeader, { color: theme.text }]}>
+                GODFREY OKOYE UNIVERSITY
+              </Text>
+
+              <View style={styles.verseBlock}>
+                <Text style={styles.verseIndex}>[VERSE 01]</Text>
+                <Text style={[styles.verseContent, { color: theme.text, fontSize: getFontSize(14) }]}>
+                  Here stands the ivory tower!{"\n"}
+                  Godfrey Okoye University{"\n"}
+                  Whose birth has signalled{"\n"}
                   Reincarnation of intellectual vitality
                 </Text>
               </View>
-            </View>
 
-            <View style={styles.anthemRefrain}>
-              <Text style={[styles.refrainLabel, { fontSize: getFontSize(14) }]}>Refrain:</Text>
-              <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
-                Hail! God's own University
-              </Text>
-              <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
-                Champion of Love and Friendship
-              </Text>
-              <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
-                Rich in intercultural thinking
-              </Text>
-              <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
-                Sound in moral, religious dialogue
-              </Text>
-              <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
-                Committed to unity of knowledge
-              </Text>
-              <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
-                Asking: Where's the evidence?
-              </Text>
-              <Text style={[styles.anthemLine, { fontSize: getFontSize(15), fontWeight: 'bold' }]}>
-                Bravo! Bravo!!
-              </Text>
-            </View>
-
-            <View style={styles.anthemVerse}>
-              <Text style={[styles.anthemNumber, { fontSize: getFontSize(16) }]}>2.</Text>
-              <View style={styles.anthemContent}>
-                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
-                  Hail! GO University
-                </Text>
-                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
-                  Footprints of a great achiever
-                </Text>
-                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
-                  The heart of excellence
-                </Text>
-                <Text style={[styles.anthemLine, { fontSize: getFontSize(15) }]}>
-                  Lavishly endowed in Science and Arts
+              <View style={[styles.refrainBlock, { backgroundColor: theme.surface, borderLeftColor: theme.accent }]}>
+                <Text style={[styles.refrainLabel, { color: theme.accent }]}>CHORUS</Text>
+                <Text style={[styles.verseContent, { color: theme.text, fontSize: getFontSize(14), fontStyle: 'italic' }]}>
+                  Hail! God's own University{"\n"}
+                  Champion of Love and Friendship{"\n"}
+                  Rich in intercultural thinking{"\n"}
+                  Sound in moral, religious dialogue
                 </Text>
               </View>
             </View>
           </View>
-        </SettingSection>
 
-        {/* About Section */}
-        <SettingSection title="About">
-          <View style={styles.aboutSection}>
-            <ThemedText style={[styles.aboutText, { fontSize: getFontSize(14) }]}>
-              GoHub - Godfrey's Prayer App
-            </ThemedText>
-            <ThemedText style={[styles.versionText, { fontSize: getFontSize(12) }]}>
-              Version 1.0.0
-            </ThemedText>
+          {/* SECTION: SYSTEM METRICS */}
+          <View style={styles.configurationSection}>
+            <View style={styles.sectionHeaderRow}>
+              <Ionicons name="analytics" size={18} color={theme.accent} />
+              <Text style={[styles.sectionTitleLabel, { color: theme.accent }]}>
+                SYSTEM METRICS
+              </Text>
+            </View>
+
+            <View style={styles.metricsWrapper}>
+              <View style={[styles.metricRow, { backgroundColor: theme.surface, borderColor: theme.border }]}>
+                <Text style={[styles.metricKey, { color: theme.textSecondary }]}>INFRASTRUCTURE</Text>
+                <Text style={[styles.metricValue, { color: theme.accent }]}>TEMNIX.COM</Text>
+              </View>
+
+              <View style={[styles.metricRow, { backgroundColor: theme.surface, borderColor: theme.border }]}>
+                <Text style={[styles.metricKey, { color: theme.textSecondary }]}>SOFTWARE VERSION</Text>
+                <Text style={[styles.metricValue, { color: theme.text }]}>GOHUB 1.0.4 [STABLE]</Text>
+              </View>
+
+              <View style={[styles.metricRow, { backgroundColor: theme.surface, borderColor: theme.border }]}>
+                <Text style={[styles.metricKey, { color: theme.textSecondary }]}>UI ENGINE</Text>
+                <Text style={[styles.metricValue, { color: theme.text }]}>MAJESTY v3</Text>
+              </View>
+            </View>
           </View>
-          <View style={styles.aboutSection}>
-            <ThemedText style={[styles.aboutText, { fontSize: getFontSize(14) }]}>
-              Temnix.com
-            </ThemedText>
-            <ThemedText style={[styles.versionText, { fontSize: getFontSize(12) }]}>
-              2025
-            </ThemedText>
+
+          {/* FINAL FOOTER SIGNATURE */}
+          <View style={styles.footerBranding}>
+            <Text style={[styles.copyrightText, { color: theme.text }]}>
+              © 2026 GOU • TECH NXXT
+            </Text>
+            <Text style={[styles.majestyCredit, { color: theme.accent }]}>
+              CREDIT: MAJESTY V3
+            </Text>
           </View>
-        </SettingSection>
-      </ScrollView>
+
+        </ScrollView>
+      </SafeAreaView>
     </ThemedView>
   );
 }
+
+const styles = StyleSheet.create({
+  mainContainer: {
+    flex: 1,
+  },
+  safeArea: {
+    flex: 1,
+  },
+  scrollView: {
+    flex: 1,
+  },
+  scrollContent: {
+    paddingHorizontal: 22,
+    paddingTop: 30,
+    paddingBottom: 80,
+  },
+  // Branding Unit
+  headerBrandingUnit: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 45,
+    paddingHorizontal: 4,
+  },
+  industrialIconFrame: {
+    width: 70,
+    height: 70,
+    borderRadius: 20,
+    backgroundColor: 'rgba(0,0,0,0.05)',
+    padding: 2,
+  },
+  iconBackdrop: {
+    flex: 1,
+    borderRadius: 18,
+    backgroundColor: '#0055FF', // Tech Nxxt Signature Blue
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#0055FF',
+    shadowOffset: { width: 0, height: 10 },
+    shadowOpacity: 0.3,
+    shadowRadius: 15,
+    elevation: 10,
+  },
+  headerTextContainer: {
+    marginLeft: 20,
+    flex: 1,
+  },
+  headerMainTitle: {
+    fontSize: 28,
+    fontWeight: '900',
+    letterSpacing: -1.5,
+  },
+  headerTechnicalSubtitle: {
+    fontSize: 11,
+    color: '#888',
+    fontWeight: '700',
+    marginTop: 2,
+    letterSpacing: 1.5,
+  },
+  // Sections
+  configurationSection: {
+    marginBottom: 35,
+  },
+  sectionHeaderRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 18,
+    gap: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: 'rgba(150,150,150,0.1)',
+    paddingBottom: 8,
+  },
+  sectionTitleLabel: {
+    fontSize: 13,
+    fontWeight: '900',
+    letterSpacing: 1.2,
+  },
+  // Grids
+  themeSelectorGrid: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    gap: 12,
+  },
+  interactiveCard: {
+    flex: 1,
+    height: 95,
+    borderRadius: 15,
+    borderWidth: 1.5,
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 5,
+    elevation: 2,
+  },
+  cardActionLabel: {
+    marginTop: 10,
+    fontSize: 11,
+    fontWeight: '800',
+    letterSpacing: 0.5,
+  },
+  fontSizeGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 10,
+  },
+  sizeCard: {
+    width: (width - 64) / 2,
+    height: 80,
+    borderRadius: 15,
+    borderWidth: 1.5,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  sizePreviewText: {
+    fontWeight: '900',
+  },
+  sizeLabel: {
+    marginTop: 5,
+    fontSize: 10,
+    fontWeight: '700',
+  },
+  // Anthem Styles
+  anthemContainer: {
+    borderRadius: 22,
+    padding: 24,
+    borderWidth: 1,
+  },
+  anthemMainHeader: {
+    fontSize: 16,
+    fontWeight: '900',
+    textAlign: 'center',
+    marginBottom: 25,
+    letterSpacing: 0.5,
+  },
+  verseBlock: {
+    marginBottom: 20,
+  },
+  verseIndex: {
+    color: '#0055FF',
+    fontSize: 10,
+    fontWeight: '900',
+    marginBottom: 6,
+    letterSpacing: 1,
+  },
+  verseContent: {
+    lineHeight: 24,
+    fontWeight: '500',
+  },
+  refrainBlock: {
+    padding: 18,
+    borderRadius: 15,
+    borderLeftWidth: 5,
+  },
+  refrainLabel: {
+    fontSize: 11,
+    fontWeight: '900',
+    marginBottom: 8,
+    textTransform: 'uppercase',
+  },
+  // Metrics
+  metricsWrapper: {
+    gap: 10,
+  },
+  metricRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 18,
+    borderRadius: 14,
+    borderWidth: 1,
+  },
+  metricKey: {
+    fontSize: 10,
+    fontWeight: '800',
+    letterSpacing: 1,
+  },
+  metricValue: {
+    fontSize: 13,
+    fontWeight: '700',
+  },
+  // Footer
+  footerBranding: {
+    marginTop: 40,
+    alignItems: 'center',
+    gap: 5,
+  },
+  copyrightText: {
+    fontSize: 13,
+    fontWeight: '900',
+    letterSpacing: 1,
+  },
+  majestyCredit: {
+    fontSize: 11,
+    fontWeight: '800',
+    letterSpacing: 2,
+    textTransform: 'uppercase',
+  },
+});
