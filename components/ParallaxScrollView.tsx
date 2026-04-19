@@ -27,6 +27,7 @@ export default function ParallaxScrollView({
   const scrollRef = useAnimatedRef<Animated.ScrollView>();
   const scrollOffset = useScrollViewOffset(scrollRef);
   const bottom = useBottomTabOverflow();
+
   const headerAnimatedStyle = useAnimatedStyle(() => {
     return {
       transform: [
@@ -38,7 +39,11 @@ export default function ParallaxScrollView({
           ),
         },
         {
-          scale: interpolate(scrollOffset.value, [-HEADER_HEIGHT, 0, HEADER_HEIGHT], [2, 1, 1]),
+          scale: interpolate(
+            scrollOffset.value, 
+            [-HEADER_HEIGHT, 0, HEADER_HEIGHT], 
+            [2, 1, 1.05] // Added a tiny scale up on scroll for depth
+          ),
         },
       ],
     };
@@ -51,6 +56,7 @@ export default function ParallaxScrollView({
         scrollEventThrottle={16}
         scrollIndicatorInsets={{ bottom }}
         contentContainerStyle={{ paddingBottom: bottom }}>
+        
         <Animated.View
           style={[
             styles.header,
@@ -59,7 +65,19 @@ export default function ParallaxScrollView({
           ]}>
           {headerImage}
         </Animated.View>
-        <ThemedView style={styles.content}>{children}</ThemedView>
+
+        <ThemedView style={[
+          styles.content, 
+          { 
+            backgroundColor: colorScheme === 'light' ? '#FFFFFF' : '#1A1A1A',
+            shadowColor: '#000',
+            shadowOffset: { width: 0, height: -10 },
+            shadowOpacity: 0.1,
+            shadowRadius: 10,
+          }
+        ]}>
+          {children}
+        </ThemedView>
       </Animated.ScrollView>
     </ThemedView>
   );
@@ -75,8 +93,12 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
-    padding: 32,
-    gap: 16,
-    overflow: 'hidden',
+    padding: 24, // Reduced from 32 for better density on smaller devices
+    gap: 20,
+    borderTopLeftRadius: 24, // Modern institutional "sheet" look
+    borderTopRightRadius: 24,
+    marginTop: -20, // Pulls the content over the header slightly
+    minHeight: 500,
+    elevation: 10,
   },
 });
