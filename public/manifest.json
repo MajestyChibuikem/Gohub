@@ -5,7 +5,7 @@
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#009688",
+  "theme_color": "#1E40AF",
   "background_color": "#ffffff",
   "icons": [
     {
@@ -19,7 +19,11 @@
       "type": "image/png"
     }
   ],
-  "categories": ["religion", "education", "lifestyle"],
+  "categories": [
+    "religion",
+    "education",
+    "lifestyle"
+  ],
   "lang": "en",
   "scope": "/"
 }
