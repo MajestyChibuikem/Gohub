@@ -100,10 +100,6 @@ export default function HymnsScreen() {
     }
   ];
 
-  console.log('🎵 HymnsScreen - Component loaded');
-  console.log('📱 Available hymn categories:', hymnCategories.length);
-  console.log('🎯 Categories:', hymnCategories.map(c => ({ id: c.id, route: c.route })));
-
   // Filter hymns based on search query
   const filteredHymns = searchQuery.trim()
     ? fuzzyFilter(allHymns, searchQuery, (hymn) =>
@@ -112,28 +108,23 @@ export default function HymnsScreen() {
     : [];
 
   const handleCategoryPress = (route: string) => {
-    console.log('🎯 handleCategoryPress called with route:', route);
-    console.log('🚀 Attempting to navigate to:', `/(app)/hymns/${route}`);
     router.push(`/(app)/hymns/${route}` as any);
   };
 
-  // Handle navigation from search results
   const handleSearchResultPress = (hymn: UnifiedHymn) => {
-    // Clear search when navigating
     setSearchQuery('');
-    // Navigate to the hymn's route - add /(app)/hymns/ prefix
     const fullRoute = `/(app)/hymns/${hymn.route}`;
     router.push(fullRoute as any);
   };
 
   return (
     <View style={[styles.container, { backgroundColor: theme.background }]}>
-      <View style={[styles.header, { backgroundColor: theme.surface }]}>
-        <Text style={[styles.title, { color: theme.text, fontSize: getFontSize(24) }]}>
-          Hymns
+      <View style={[styles.header, { backgroundColor: theme.surface, borderBottomColor: theme.border }]}>
+        <Text style={[styles.title, { color: theme.text, fontSize: getFontSize(26) }]}>
+          Hymnary
         </Text>
-        <Text style={[styles.subtitle, { color: theme.textSecondary, fontSize: getFontSize(16) }]}>
-          Sacred music and spiritual songs
+        <Text style={[styles.subtitle, { color: theme.textSecondary, fontSize: getFontSize(15) }]}>
+          Sacred music for liturgy and devotion
         </Text>
       </View>
 
@@ -148,8 +139,8 @@ export default function HymnsScreen() {
         }]}>
           <Ionicons
             name="search"
-            size={20}
-            color={theme.textSecondary}
+            size={18}
+            color={theme.accent}
             style={styles.searchIcon}
           />
           <TextInput
@@ -157,7 +148,7 @@ export default function HymnsScreen() {
               color: theme.text,
               fontSize: getFontSize(16)
             }]}
-            placeholder="Search all hymns..."
+            placeholder="Find a hymn by title or number..."
             placeholderTextColor={theme.textSecondary}
             value={searchQuery}
             onChangeText={setSearchQuery}
@@ -174,110 +165,114 @@ export default function HymnsScreen() {
         </View>
       </View>
 
-      {/* Search Results or Regular Content */}
-      {searchQuery.trim() ? (
-        // Show search results
-        <ScrollView
-          style={styles.scrollView}
-          contentContainerStyle={styles.contentContainer}
-          showsVerticalScrollIndicator={false}
-        >
-          {filteredHymns.length > 0 ? (
-            <>
-              <Text style={[styles.searchResultsHeader, {
-                color: theme.textSecondary,
-                fontSize: getFontSize(14)
-              }]}>
-                {filteredHymns.length} {filteredHymns.length === 1 ? 'hymn' : 'hymns'} found
-              </Text>
-              {filteredHymns.map((hymn) => (
-                <TouchableOpacity
-                  key={hymn.id}
-                  style={[styles.searchResultItem, {
-                    backgroundColor: theme.card,
-                    borderColor: theme.border
-                  }]}
-                  onPress={() => handleSearchResultPress(hymn)}
-                >
-                  <View style={styles.searchResultContent}>
-                    <Text style={[styles.searchResultTitle, {
-                      color: theme.text,
-                      fontSize: getFontSize(16)
-                    }]}>
-                      {getHymnTitle(hymn, language)}
+      <ScrollView
+        style={styles.scrollView}
+        contentContainerStyle={styles.contentContainer}
+        showsVerticalScrollIndicator={false}
+      >
+        {searchQuery.trim() ? (
+          // Search Results
+          <>
+            {filteredHymns.length > 0 ? (
+              <>
+                <Text style={[styles.searchResultsHeader, {
+                  color: theme.textSecondary,
+                  fontSize: getFontSize(13)
+                }]}>
+                  {filteredHymns.length} RESULTS FOUND
+                </Text>
+                {filteredHymns.map((hymn) => (
+                  <TouchableOpacity
+                    key={hymn.id}
+                    style={[styles.searchResultItem, {
+                      backgroundColor: theme.card,
+                      borderColor: theme.border
+                    }]}
+                    onPress={() => handleSearchResultPress(hymn)}
+                  >
+                    <View style={styles.searchResultContent}>
+                      <Text style={[styles.searchResultTitle, {
+                        color: theme.text,
+                        fontSize: getFontSize(16)
+                      }]}>
+                        {getHymnTitle(hymn, language)}
+                      </Text>
+                      <Text style={[styles.searchResultCategory, {
+                        color: theme.accent,
+                        fontSize: getFontSize(12)
+                      }]}>
+                        {hymn.category.toUpperCase()}
+                      </Text>
+                    </View>
+                    <Ionicons
+                      name="chevron-forward"
+                      size={20}
+                      color={theme.textSecondary}
+                    />
+                  </TouchableOpacity>
+                ))}
+              </>
+            ) : (
+              <View style={styles.noResultsContainer}>
+                <Ionicons
+                  name="musical-notes-outline"
+                  size={64}
+                  color={theme.border}
+                />
+                <Text style={[styles.noResultsText, {
+                  color: theme.text,
+                  fontSize: getFontSize(18)
+                }]}>
+                  Hymn Not Found
+                </Text>
+                <Text style={[styles.noResultsHint, {
+                  color: theme.textSecondary,
+                  fontSize: getFontSize(14)
+                }]}>
+                  Try searching by the opening line or title.
+                </Text>
+              </View>
+            )}
+          </>
+        ) : (
+          // Regular Category Grid
+          <>
+            {hymnCategories.map((category) => (
+              <TouchableOpacity
+                key={category.id}
+                style={[styles.categoryCard, { 
+                    backgroundColor: theme.card, 
+                    borderColor: theme.border,
+                    shadowColor: theme.shadowColor 
+                }]}
+                onPress={() => handleCategoryPress(category.route)}
+              >
+                <View style={styles.categoryContent}>
+                  <View style={[styles.iconContainer, { backgroundColor: theme.background }]}>
+                    <Text style={styles.categoryIcon}>{category.icon}</Text>
+                  </View>
+                  <View style={styles.categoryText}>
+                    <Text style={[styles.categoryTitle, { color: theme.text, fontSize: getFontSize(18) }]}>
+                      {category.title}
                     </Text>
-                    <Text style={[styles.searchResultCategory, {
-                      color: theme.textSecondary,
-                      fontSize: getFontSize(12)
-                    }]}>
-                      {hymn.category}
+                    <Text numberOfLines={2} style={[styles.categoryDescription, { color: theme.textSecondary, fontSize: getFontSize(13) }]}>
+                      {category.description}
                     </Text>
                   </View>
-                  <Ionicons
-                    name="chevron-forward"
-                    size={20}
-                    color={theme.textSecondary}
-                  />
-                </TouchableOpacity>
-              ))}
-            </>
-          ) : (
-            <View style={styles.noResultsContainer}>
-              <Ionicons
-                name="search-outline"
-                size={48}
-                color={theme.textSecondary}
-              />
-              <Text style={[styles.noResultsText, {
-                color: theme.textSecondary,
-                fontSize: getFontSize(16)
-              }]}>
-                No hymns found for "{searchQuery}"
-              </Text>
-              <Text style={[styles.noResultsHint, {
-                color: theme.textSecondary,
-                fontSize: getFontSize(14)
-              }]}>
-                Try a different search term
+                  <Ionicons name="chevron-forward-circle" size={24} color={theme.accent} />
+                </View>
+              </TouchableOpacity>
+            ))}
+
+            <View style={styles.footer}>
+              <View style={[styles.footerDivider, { backgroundColor: theme.border }]} />
+              <Text style={[styles.footerText, { color: theme.textSecondary, fontSize: getFontSize(12) }]}>
+                GOHUB HYMNS • MAJESTY DIGITAL
               </Text>
             </View>
-          )}
-        </ScrollView>
-      ) : (
-        // Show regular categorized view
-        <ScrollView
-          style={styles.scrollView}
-          contentContainerStyle={styles.contentContainer}
-          showsVerticalScrollIndicator={false}
-        >
-          {hymnCategories.map((category) => (
-            <TouchableOpacity
-              key={category.id}
-              style={[styles.categoryCard, { backgroundColor: theme.card, borderColor: theme.border }]}
-              onPress={() => handleCategoryPress(category.route)}
-            >
-              <View style={styles.categoryContent}>
-                <Text style={styles.categoryIcon}>{category.icon}</Text>
-                <View style={styles.categoryText}>
-                  <Text style={[styles.categoryTitle, { color: theme.text, fontSize: getFontSize(18) }]}>
-                    {category.title}
-                  </Text>
-                  <Text style={[styles.categoryDescription, { color: theme.textSecondary, fontSize: getFontSize(14) }]}>
-                    {category.description}
-                  </Text>
-                </View>
-                <Ionicons name="chevron-forward" size={24} color={theme.accent} />
-              </View>
-            </TouchableOpacity>
-          ))}
-
-          <View style={styles.footer}>
-            <Text style={[styles.footerText, { color: theme.textSecondary, fontSize: getFontSize(14) }]}>
-              GoHub Hymns - MAJESTY
-            </Text>
-          </View>
-        </ScrollView>
-      )}
+          </>
+        )}
+      </ScrollView>
     </View>
   );
 }
@@ -287,124 +282,140 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   header: {
-    paddingTop: 50,
-    paddingBottom: 20,
-    paddingHorizontal: 20,
+    paddingTop: 60,
+    paddingBottom: 25,
+    paddingHorizontal: 24,
     alignItems: 'center',
     borderBottomWidth: 1,
-    borderBottomColor: '#e0e0e0',
   },
   title: {
-    fontWeight: 'bold',
-    marginBottom: 5,
+    fontWeight: '800',
+    marginBottom: 6,
+    letterSpacing: -0.5,
   },
   subtitle: {
     textAlign: 'center',
+    opacity: 0.8,
+  },
+  searchContainer: {
+    paddingHorizontal: 20,
+    paddingVertical: 15,
+    borderBottomWidth: 1,
+  },
+  searchInputWrapper: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 15,
+    height: 50,
+    borderRadius: 12,
+    borderWidth: 1,
+  },
+  searchIcon: {
+    marginRight: 10,
+  },
+  searchInput: {
+    flex: 1,
+    fontWeight: '500',
   },
   scrollView: {
     flex: 1,
   },
   contentContainer: {
     padding: 20,
-    paddingBottom: 100,
+    paddingBottom: 60,
   },
   categoryCard: {
-    borderRadius: 12,
-    padding: 20,
+    borderRadius: 16,
+    padding: 16,
     marginBottom: 16,
     borderWidth: 1,
-    elevation: 2,
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
+    elevation: 4,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.08,
+    shadowRadius: 8,
   },
   categoryContent: {
     flexDirection: 'row',
     alignItems: 'center',
   },
-  categoryIcon: {
-    fontSize: 32,
+  iconContainer: {
+    width: 56,
+    height: 56,
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
     marginRight: 16,
+  },
+  categoryIcon: {
+    fontSize: 28,
   },
   categoryText: {
     flex: 1,
   },
   categoryTitle: {
-    fontWeight: '600',
+    fontWeight: '700',
     marginBottom: 4,
   },
   categoryDescription: {
-    lineHeight: 20,
-  },
-  footer: {
-    marginTop: 20,
-    alignItems: 'center',
-    paddingVertical: 20,
-  },
-  footerText: {
-    fontWeight: '500',
-  },
-  // Search styles
-  searchContainer: {
-    paddingHorizontal: 16,
-    paddingVertical: 12,
-    borderBottomWidth: 1,
-  },
-  searchInputWrapper: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    paddingHorizontal: 12,
-    paddingVertical: 10,
-    borderRadius: 10,
-    borderWidth: 1,
-  },
-  searchIcon: {
-    marginRight: 8,
-  },
-  searchInput: {
-    flex: 1,
-    fontStyle: 'italic',
+    lineHeight: 18,
+    opacity: 0.7,
   },
   searchResultsHeader: {
-    marginTop: 8,
-    marginBottom: 12,
-    fontWeight: '600',
+    marginTop: 5,
+    marginBottom: 15,
+    fontWeight: '800',
+    letterSpacing: 1,
   },
   searchResultItem: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    padding: 16,
-    marginBottom: 10,
-    borderRadius: 12,
+    padding: 18,
+    marginBottom: 12,
+    borderRadius: 14,
     borderWidth: 1,
   },
   searchResultContent: {
     flex: 1,
   },
   searchResultTitle: {
-    fontWeight: '600',
+    fontWeight: '700',
     marginBottom: 4,
   },
   searchResultCategory: {
-    fontWeight: '400',
-    opacity: 0.7,
+    fontWeight: '700',
+    letterSpacing: 0.5,
   },
   noResultsContainer: {
-    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 60,
-    paddingHorizontal: 32,
+    paddingVertical: 80,
+    paddingHorizontal: 40,
   },
   noResultsText: {
-    marginTop: 16,
-    fontWeight: '600',
+    marginTop: 20,
+    fontWeight: '800',
     textAlign: 'center',
   },
   noResultsHint: {
-    marginTop: 8,
+    marginTop: 10,
     textAlign: 'center',
-    opacity: 0.7,
+    lineHeight: 20,
   },
-}); 
+  footer: {
+    marginTop: 30,
+    alignItems: 'center',
+    paddingBottom: 20,
+  },
+  footerDivider: {
+    width: 40,
+    height: 2,
+    marginBottom: 15,
+    borderRadius: 1,
+    opacity: 0.3,
+  },
+  footerText: {
+    fontWeight: '700',
+    letterSpacing: 1.5,
+  },
+});
