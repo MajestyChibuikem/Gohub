@@ -1,34 +1,36 @@
 /**
- * Industrial UI Color Palette - Tech Nxxt Infrastructure
- * Optimized for high-density school and liturgical portals.
+ * Tech Nxxt Official UI Palette 
+ * High-density industrial theme dominated by Deep Navy and Electric Cyan.
  */
 
-const tintColorLight = '#0055D4'; // Refined Industrial Blue
-const tintColorDark = '#00E5FF';  // Electric Blue for Dark Mode
+const tintColorLight = '#1E40AF'; // Tech Nxxt Deep Navy
+const tintColorDark = '#38BDF8';  // Tech Nxxt Electric Cyan
 
 export const Colors = {
   light: {
-    text: '#0F172A',         // Deep Slate for better readability
-    background: '#F8FAFC',   // Off-white industrial background
+    text: '#0F172A',         // Rich Navy-Slate for text
+    background: '#F1F5F9',   // Cool industrial grey-white
     tint: tintColorLight,
-    icon: '#64748B',
+    icon: '#475569',
     tabIconDefault: '#94A3B8',
     tabIconSelected: tintColorLight,
-    // Added for tactical UI components
+    // Tactical components
     card: '#FFFFFF',
-    border: 'rgba(15, 23, 42, 0.08)',
-    accent: '#0055D4',
+    border: '#E2E8F0',
+    accent: '#2563EB',       // Primary Blue
+    surface: '#F8FAFC',
   },
   dark: {
-    text: '#F1F5F9',         // High-contrast slate
-    background: '#0B0E14',   // Deeper tactical dark
+    text: '#F8FAFC',         // Off-white for high legibility
+    background: '#020617',   // "Deep Space" Navy (Tech Nxxt Core)
     tint: tintColorDark,
-    icon: '#94A3B8',
-    tabIconDefault: '#475569',
+    icon: '#64748B',
+    tabIconDefault: '#334155',
     tabIconSelected: tintColorDark,
-    // Added for tactical UI components
-    card: '#161B22',         // Glassmorphic card base
-    border: 'rgba(255, 255, 255, 0.1)',
-    accent: '#00E5FF',
+    // Tactical components
+    card: '#0F172A',         // Navy card base
+    border: '#1E293B',       // Muted navy border
+    accent: '#38BDF8',       // Electric Cyan accent
+    surface: '#0F172A',
   },
 };
