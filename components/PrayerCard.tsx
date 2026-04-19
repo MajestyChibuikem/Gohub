@@ -40,10 +40,13 @@ export default function PrayerCard({
               borderColor: theme.border,
               backgroundColor: theme.card,
               shadowColor: theme.shadowColor,
-              opacity: pressed ? 0.8 : 1,
+              opacity: pressed ? 0.9 : 1,
               transform: [{ scale: pressed ? 0.98 : 1 }]
             },
           ]}>
+            {/* Added a structural accent bar for a more tactical UI look */}
+            <View style={[styles.accentBar, { backgroundColor: featured ? theme.accent : 'transparent' }]} />
+            
             <View style={styles.cardContent}>
               <View style={styles.textContainer}>
                 <Text
@@ -51,8 +54,8 @@ export default function PrayerCard({
                     styles.title,
                     { 
                       color: theme.text, 
-                      fontSize: getFontSize(18),
-                      lineHeight: getFontSize(24)
+                      fontSize: getFontSize(17), // Slightly tighter for density
+                      lineHeight: getFontSize(22)
                     }
                   ]}
                   numberOfLines={2}
@@ -66,8 +69,8 @@ export default function PrayerCard({
                       styles.subtitle,
                       { 
                         color: theme.textSecondary, 
-                        fontSize: getFontSize(14),
-                        lineHeight: getFontSize(20)
+                        fontSize: getFontSize(13),
+                        lineHeight: getFontSize(18)
                       }
                     ]}
                     numberOfLines={2}
@@ -77,7 +80,7 @@ export default function PrayerCard({
                 )}
               </View>
 
-              <View style={styles.arrowContainer}>
+              <View style={[styles.arrowContainer, { backgroundColor: theme.background + '50' }]}>
                 <Text style={[styles.arrow, { color: theme.accent }]}>
                   →
                 </Text>
@@ -100,57 +103,66 @@ export default function PrayerCard({
 
 const styles = StyleSheet.create({
   card: {
-    borderRadius: 12,
-    marginVertical: 8,
+    borderRadius: 14, // Slightly softer but more premium radius
+    marginVertical: 6, // Tighter vertical spacing for density
     borderWidth: 1,
+    flexDirection: 'row', // Align accent bar and content horizontally
     overflow: 'hidden',
-    elevation: 2,
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
+    elevation: 3,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.08,
+    shadowRadius: 8,
+  },
+  accentBar: {
+    width: 4,
+    height: '100%',
   },
   cardContent: {
+    flex: 1,
     padding: 16,
     flexDirection: 'row',
     alignItems: 'center',
-    minHeight: 80,
+    minHeight: 70, // Slightly reduced height for better information density
   },
   textContainer: {
     flex: 1,
     paddingRight: 12,
   },
   title: {
-    fontWeight: '600',
-    marginBottom: 4,
+    fontWeight: '700', // Increased weight for academic hierarchy
+    marginBottom: 2,
+    letterSpacing: -0.2,
   },
   subtitle: {
-    opacity: 0.8,
+    fontWeight: '500',
+    opacity: 0.7,
   },
   arrowContainer: {
-    width: 40,
-    height: 40,
+    width: 32,
+    height: 32,
+    borderRadius: 8, // Modern squared-off look
     justifyContent: 'center',
     alignItems: 'center',
   },
   arrow: {
-    fontSize: 24,
+    fontSize: 18,
     fontWeight: 'bold',
   },
   featuredBadge: {
     position: 'absolute',
     top: 0,
     right: 0,
-    paddingHorizontal: 10,
-    paddingVertical: 4,
-    borderBottomLeftRadius: 12,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderBottomLeftRadius: 10,
     alignItems: 'center',
     justifyContent: 'center',
   },
   featuredText: {
     color: '#fff',
-    fontSize: 12,
-    fontWeight: '600',
+    fontSize: 10,
+    fontWeight: '800',
     textTransform: 'uppercase',
-    letterSpacing: 0.5,
+    letterSpacing: 1,
   },
 });
